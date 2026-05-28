@@ -1,0 +1,56 @@
+{
+  "fetched_at": "2026-05-28T11:52:21.925Z",
+  "source": "web.stockedge.com (Bootloader)",
+  "activities": [
+    {
+      "date": "2026-05-27",
+      "fii_cash_net": -1520.4,
+      "dii_cash_net": 2410.8,
+      "fii_index_futures_net": -340.5,
+      "fii_index_options_net": 12450.2,
+      "fii_stock_futures_net": 820.6,
+      "fii_stock_options_net": -150.3,
+      "market_sentiment": "bullish"
+    },
+    {
+      "date": "2026-05-26",
+      "fii_cash_net": -940.25,
+      "dii_cash_net": 1845.3,
+      "fii_index_futures_net": 450.2,
+      "fii_index_options_net": -8900.5,
+      "fii_stock_futures_net": -210.4,
+      "fii_stock_options_net": 45.1,
+      "market_sentiment": "neutral"
+    },
+    {
+      "date": "2026-05-25",
+      "fii_cash_net": -2150.8,
+      "dii_cash_net": 3120.4,
+      "fii_index_futures_net": -110.3,
+      "fii_index_options_net": 15400.9,
+      "fii_stock_futures_net": 1430.7,
+      "fii_stock_options_net": -410.2,
+      "market_sentiment": "bullish"
+    },
+    {
+      "date": "2026-05-22",
+      "fii_cash_net": 450.15,
+      "dii_cash_net": 980.5,
+      "fii_index_futures_net": 890.1,
+      "fii_index_options_net": -4500.2,
+      "fii_stock_futures_net": 610.3,
+      "fii_stock_options_net": 120.45,
+      "market_sentiment": "bullish"
+    },
+    {
+      "date": "2026-05-21",
+      "fii_cash_net": -840.6,
+      "dii_cash_net": 1540.2,
+      "fii_index_futures_net": -520.4,
+      "fii_index_options_net": 10890.3,
+      "fii_stock_futures_net": -140.2,
+      "fii_stock_options_net": -85.1,
+      "market_sentiment": "neutral"
+    }
+  ]
+}

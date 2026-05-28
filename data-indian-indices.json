@@ -1,0 +1,126 @@
+{
+  "fetched_at": "2026-05-28T11:52:21.925Z",
+  "indices": [
+    {
+      "name": "NIFTY 50",
+      "symbol": "NIFTY 50",
+      "last_price": 23512.65,
+      "change": 120.45,
+      "percent_change": 0.51,
+      "open": 23390.2,
+      "high": 23544.15,
+      "low": 23378.5,
+      "previous_close": 23392.2
+    },
+    {
+      "name": "NIFTY NEXT 50",
+      "symbol": "NIFTY NEXT 50",
+      "last_price": 68124.4,
+      "change": -241.15,
+      "percent_change": -0.35,
+      "open": 68365.55,
+      "high": 68420,
+      "low": 67980.15,
+      "previous_close": 68365.55
+    },
+    {
+      "name": "NIFTY BANK",
+      "symbol": "NIFTY BANK",
+      "last_price": 49120.5,
+      "change": 334.8,
+      "percent_change": 0.69,
+      "open": 48785.7,
+      "high": 49210.45,
+      "low": 48750.3,
+      "previous_close": 48785.7
+    },
+    {
+      "name": "NIFTY FINANCIAL SERVICES",
+      "symbol": "NIFTY FIN SERVICE",
+      "last_price": 22894.1,
+      "change": 154.2,
+      "percent_change": 0.68,
+      "open": 22739.9,
+      "high": 22920,
+      "low": 22710.4,
+      "previous_close": 22739.9
+    },
+    {
+      "name": "NIFTY MIDCAP 50",
+      "symbol": "NIFTY MIDCAP 50",
+      "last_price": 15412.3,
+      "change": -45.1,
+      "percent_change": -0.29,
+      "open": 15457.4,
+      "high": 15490.15,
+      "low": 15380,
+      "previous_close": 15457.4
+    },
+    {
+      "name": "NIFTY AUTO",
+      "symbol": "NIFTY AUTO",
+      "last_price": 21940.85,
+      "change": 212.1,
+      "percent_change": 0.98,
+      "open": 21728.75,
+      "high": 22010.5,
+      "low": 21712,
+      "previous_close": 21728.75
+    },
+    {
+      "name": "NIFTY IT",
+      "symbol": "NIFTY IT",
+      "last_price": 36712.45,
+      "change": -188.35,
+      "percent_change": -0.51,
+      "open": 36900.8,
+      "high": 36980.5,
+      "low": 36540.2,
+      "previous_close": 36900.8
+    },
+    {
+      "name": "NIFTY METAL",
+      "symbol": "NIFTY METAL",
+      "last_price": 9410.2,
+      "change": 84.15,
+      "percent_change": 0.9,
+      "open": 9326.05,
+      "high": 9450.4,
+      "low": 9310.15,
+      "previous_close": 9326.05
+    },
+    {
+      "name": "NIFTY PHARMA",
+      "symbol": "NIFTY PHARMA",
+      "last_price": 19124.6,
+      "change": 48.3,
+      "percent_change": 0.25,
+      "open": 19076.3,
+      "high": 19190.8,
+      "low": 19050.15,
+      "previous_close": 19076.3
+    },
+    {
+      "name": "NIFTY INFRASTRUCTURE",
+      "symbol": "NIFTY INFRA",
+      "last_price": 8412.15,
+      "change": 12.45,
+      "percent_change": 0.15,
+      "open": 8399.7,
+      "high": 8440.5,
+      "low": 8380.1,
+      "previous_close": 8399.7
+    },
+    {
+      "name": "NIFTY ENERGY",
+      "symbol": "NIFTY ENERGY",
+      "last_price": 38942.3,
+      "change": -510.45,
+      "percent_change": -1.29,
+      "open": 39452.75,
+      "high": 39510.8,
+      "low": 38850.15,
+      "previous_close": 39452.75
+    }
+  ]
+}
