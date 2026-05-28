@@ -1,0 +1,450 @@
+{
+  "etfs": [
+    {
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "segment": "US Large Cap Equities",
+      "aum": "$502.4B",
+      "expenseRatio": "0.09%",
+      "rating": "STRONG_BUY",
+      "price": 508.35,
+      "changeToday": 0.56,
+      "rsi": 54.99,
+      "alphaScore": 82,
+      "riskAnalysis": "S&P 500 displays structural support alignment above the 50-day EMA. Volatility trends remain healthy with index whales increasing allocation flows by ~2.4% over current standard dev thresholds.",
+      "holdings": [
+        {
+          "name": "Microsoft Corp (MSFT)",
+          "weight": 7
+        },
+        {
+          "name": "Apple Inc (AAPL)",
+          "weight": 5.6
+        },
+        {
+          "name": "NVIDIA Corp (NVDA)",
+          "weight": 4.9
+        },
+        {
+          "name": "Amazon.com Inc (AMZN)",
+          "weight": 3.7
+        }
+      ]
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "segment": "Tech-Growth Index",
+      "aum": "$254.1B",
+      "expenseRatio": "0.20%",
+      "rating": "BUY",
+      "price": 437.41,
+      "changeToday": 1.79,
+      "rsi": 66.13,
+      "alphaScore": 91,
+      "riskAnalysis": "High beta tech expansion displays substantial tailwinds with massive chipmaker-led inflows. Immediate attention ranges are bullish; RSI near exhaustion but momentum profiles signal continued runs.",
+      "holdings": [
+        {
+          "name": "Microsoft Corp (MSFT)",
+          "weight": 8.8
+        },
+        {
+          "name": "Apple Inc (AAPL)",
+          "weight": 8.1
+        },
+        {
+          "name": "NVIDIA Corp (NVDA)",
+          "weight": 6.2
+        },
+        {
+          "name": "Amazon.com Inc (AMZN)",
+          "weight": 4.9
+        }
+      ]
+    },
+    {
+      "symbol": "ARKK",
+      "name": "ARK Innovation ETF",
+      "segment": "Disruptive Innovation Tech",
+      "aum": "$6.8B",
+      "expenseRatio": "0.75%",
+      "rating": "REDUCE",
+      "price": 41.36,
+      "changeToday": -2.18,
+      "rsi": 30.61,
+      "alphaScore": 37,
+      "riskAnalysis": "Disruptive technology basket experiences intensive liquidity spills amidst rising bond yields. Breached minor support levels at $44.00, placing risk metrics into a high risk zone. Caution warranted.",
+      "holdings": [
+        {
+          "name": "Coinbase Global (COIN)",
+          "weight": 10
+        },
+        {
+          "name": "Tesla Inc (TSLA)",
+          "weight": 8.4
+        },
+        {
+          "name": "Roku Inc (ROKU)",
+          "weight": 7.4
+        },
+        {
+          "name": "UiPath Inc (PATH)",
+          "weight": 6.3
+        }
+      ]
+    },
+    {
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares",
+      "segment": "Precious Metals Refuges",
+      "aum": "$58.2B",
+      "expenseRatio": "0.40%",
+      "rating": "BUY",
+      "price": 218.32,
+      "changeToday": 0.86,
+      "rsi": 56.67,
+      "alphaScore": 77,
+      "riskAnalysis": "Precious metal reserves display high active tracking indexes. Risk metrics indicate gold acts as a solid hedge for macro inflationary spikes and central bank bond tightening regimes.",
+      "holdings": [
+        {
+          "name": "Gold Bullion (Spot Cash)",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "symbol": "EEM",
+      "name": "iShares MSCI Emerging Markets ETF",
+      "segment": "Global & Emerging Markets",
+      "aum": "$25.5B",
+      "expenseRatio": "0.70%",
+      "rating": "STABLE",
+      "price": 40.64,
+      "changeToday": -0.23,
+      "rsi": 46.01,
+      "alphaScore": 64,
+      "riskAnalysis": "Emerging markets consolidate in a strict range bound setup. High relative chip exposure via regional semiconductor giants is balancing local currency risks.",
+      "holdings": [
+        {
+          "name": "TSMC (Taiwan Semi)",
+          "weight": 8.4
+        },
+        {
+          "name": "Tencent Holdings",
+          "weight": 5.4
+        },
+        {
+          "name": "Alibaba Group",
+          "weight": 4.3
+        }
+      ]
+    },
+    {
+      "symbol": "VXX",
+      "name": "Barclays iPath VIX short-term ETN",
+      "segment": "Volatility Hedging Index",
+      "aum": "$1.2B",
+      "expenseRatio": "0.89%",
+      "rating": "STABLE",
+      "price": 14.38,
+      "changeToday": -3.08,
+      "rsi": 26.9,
+      "alphaScore": 45,
+      "riskAnalysis": "Volatility index hovering near lifetime lows as index equity accruals remain robust. Great hedge entry bands established, though speculative carries should be heavily size-controlled.",
+      "holdings": [
+        {
+          "name": "S&P 500 VIX Short Futures",
+          "weight": 100
+        }
+      ]
+    }
+  ],
+  "globalFlowStatus": "REBALANCING COMPLETED",
+  "lastUpdated": "1:51:02 PM UTC",
+  "scrapedCategories": [
+    {
+      "category": "Sp 500 Etfs",
+      "url": "https://www.indmoney.com/us-stocks/etf/sp-500-etfs",
+      "fetched_at": "2026-05-26T13:51:43.108Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        { "name": "iShares Core S&P 500 ETF", "ticker": "IVV", "price": "$512.28", "change": "▲0.45%", "three_year_return": "+62.4%", "volume": "4,120,539" },
+        { "name": "S&P 500 ETF Trust ETF", "ticker": "SPY", "price": "$511.90", "change": "▲0.42%", "three_year_return": "+61.8%", "volume": "68,402,130" },
+        { "name": "Vanguard S&P 500 ETF", "ticker": "VOO", "price": "$470.15", "change": "▲0.46%", "three_year_return": "+62.5%", "volume": "3,845,910" },
+        { "name": "SPDR Portfolio S&P 500 ETF", "ticker": "SPLG", "price": "$60.25", "change": "▲0.44%", "three_year_return": "+62.1%", "volume": "2,154,800" },
+        { "name": "Invesco S&P 500 Equal Weight ETF", "ticker": "RSP", "price": "$165.40", "change": "▲0.15%", "three_year_return": "+38.4%", "volume": "1,540,200" },
+        { "name": "ProShares Ultra S&P500 2X", "ticker": "SSO", "price": "$75.12", "change": "▲0.88%", "three_year_return": "+114.2%", "volume": "2,840,100" },
+        { "name": "ProShares UltraPro S&P500 3X", "ticker": "UPRO", "price": "$68.75", "change": "▲1.31%", "three_year_return": "+148.5%", "volume": "5,110,600" }
+      ]
+    },
+    {
+      "category": "Nasdaq Etfs",
+      "url": "https://www.indmoney.com/us-stocks/etf/nasdaq-etfs",
+      "fetched_at": "2026-05-26T13:51:43.105Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        { "name": "Invesco QQQ Trust Series 1", "ticker": "QQQ", "price": "$438.56", "change": "▲1.85%", "three_year_return": "+91.2%", "volume": "44,192,530" },
+        { "name": "Invesco Nasdaq 100 ETF", "ticker": "QQQM", "price": "$180.45", "change": "▲1.87%", "three_year_return": "+91.5%", "volume": "1,582,300" },
+        { "name": "Fidelity Nasdaq Composite Index ETF", "ticker": "ONEQ", "price": "$65.12", "change": "▲1.52%", "three_year_return": "+82.1%", "volume": "340,920" },
+        { "name": "ProShares UltraPro QQQ 3X", "ticker": "TQQQ", "price": "$58.45", "change": "▲5.52%", "three_year_return": "+174.1%", "volume": "84,102,400" },
+        { "name": "ProShares UltraPro Short QQQ 3X", "ticker": "SQQQ", "price": "$11.24", "change": "▼5.48%", "three_year_return": "-88.2%", "volume": "112,450,200" },
+        { "name": "Invesco Nasdaq Future Gen 200 ETF", "ticker": "QQQS", "price": "$28.15", "change": "▲1.12%", "three_year_return": "+42.9%", "volume": "148,200" }
+      ]
+    },
+    {
+      "category": "Gold Etfs",
+      "url": "https://www.indmoney.com/us-stocks/etf/gold-etfs",
+      "fetched_at": "2026-05-26T13:51:43.102Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        { "name": "SPDR Gold Shares", "ticker": "GLD", "price": "$218.42", "change": "▲1.10%", "three_year_return": "+28.5%", "volume": "5,842,100" },
+        { "name": "iShares Gold Trust", "ticker": "IAU", "price": "$41.82", "change": "▲1.08%", "three_year_return": "+29.1%", "volume": "4,115,200" },
+        { "name": "abrdn Physical Gold Shares ETF", "ticker": "SGOL", "price": "$21.15", "change": "▲1.05%", "three_year_return": "+28.9%", "volume": "925,100" },
+        { "name": "SPDR Gold MiniShares Trust", "ticker": "GLDM", "price": "$43.52", "change": "▲1.09%", "three_year_return": "+29.4%", "volume": "1,840,400" },
+        { "name": "Franklin Templeton Physical Gold ETF", "ticker": "BAR", "price": "$21.65", "change": "▲1.04%", "three_year_return": "+28.7%", "volume": "310,200" },
+        { "name": "VanEck Merk Gold Trust", "ticker": "OUNZ", "price": "$21.48", "change": "▲1.06%", "three_year_return": "+28.8%", "volume": "185,400" }
+      ]
+    },
+    {
+      "category": "Silver Etfs",
+      "url": "https://www.indmoney.com/us-stocks/etf/silver-etfs",
+      "fetched_at": "2026-05-26T13:51:43.104Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        { "name": "iShares Silver Trust", "ticker": "SLV", "price": "$25.51", "change": "▼1.42%", "three_year_return": "+14.8%", "volume": "18,482,900" },
+        { "name": "abrdn Physical Silver Shares ETF", "ticker": "SIVR", "price": "$24.12", "change": "▼1.45%", "three_year_return": "+14.2%", "volume": "612,400" },
+        { "name": "ProShares Ultra Silver", "ticker": "AGQ", "price": "$32.85", "change": "▼2.84%", "three_year_return": "+18.1%", "volume": "1,204,500" },
+        { "name": "Sprott Physical Silver Trust", "ticker": "PSLV", "price": "$9.42", "change": "▼1.38%", "three_year_return": "+14.9%", "volume": "1,450,100" },
+        { "name": "Invesco DB Silver Fund", "ticker": "DBS", "price": "$34.12", "change": "▼1.40%", "three_year_return": "+13.1%", "volume": "85,200" },
+        { "name": "ProShares UltraShort Silver -2X", "ticker": "ZSL", "price": "$14.85", "change": "▲2.75%", "three_year_return": "-24.2%", "volume": "910,200" }
+      ]
+    },
+    {
+      "category": "Platinum Etfs",
+      "url": "https://www.indmoney.com/us-stocks/etf/platinum-etfs",
+      "fetched_at": "2026-05-26T13:51:43.197Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        { "name": "GraniteShares Platinum Trust", "ticker": "PLTM", "price": "$9.15", "change": "▲0.85%", "three_year_return": "-5.4%", "volume": "115,300" },
+        { "name": "abrdn Physical Platinum Shares ETF", "ticker": "PPLT", "price": "$88.42", "change": "▲0.82%", "three_year_return": "-6.1%", "volume": "148,900" },
+        { "name": "iPath Series B Bloomberg Platinum ETN", "ticker": "PGM", "price": "$12.45", "change": "▲0.75%", "three_year_return": "-8.4%", "volume": "55,205" },
+        { "name": "Sprott Physical Platinum Trust", "ticker": "PPT.UN", "price": "$8.90", "change": "▲0.88%", "three_year_return": "-5.8%", "volume": "82,100" }
+      ]
+    },
+    {
+      "category": "Copper Etfs",
+      "url": "https://www.indmoney.com/us-stocks/etf/copper-etfs",
+      "fetched_at": "2026-05-26T13:51:43.228Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        { "name": "United States Copper Index Fund", "ticker": "CPER", "price": "$27.15", "change": "▲2.41%", "three_year_return": "+34.5%", "volume": "248,300" },
+        { "name": "Global X Copper Miners ETF", "ticker": "COPX", "price": "$43.12", "change": "▲4.15%", "three_year_return": "+48.9%", "volume": "1,550,200" },
+        { "name": "iPath Series B Bloomberg Copper ETN", "ticker": "JJC", "price": "$58.20", "change": "▲2.35%", "three_year_return": "+32.1%", "volume": "24,500" },
+        { "name": "Sprott Energy Transition Copper Miners", "ticker": "CPNG", "price": "$21.15", "change": "▲3.95%", "three_year_return": "+41.8%", "volume": "112,400" }
+      ]
+    },
+    {
+      "category": "Lithium Etfs",
+      "url": "https://www.indmoney.com/us-stocks/etf/lithium-etfs",
+      "fetched_at": "2026-05-26T13:51:43.223Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        { "name": "Global X Lithium & Battery Tech ETF", "ticker": "LIT", "price": "$45.28", "change": "▼0.82%", "three_year_return": "-26.4%", "volume": "415,200" },
+        { "name": "Amplify Lithium & Battery Technology ETF", "ticker": "BATT", "price": "$11.18", "change": "▼1.05%", "three_year_return": "-28.2%", "volume": "110,800" },
+        { "name": "Lithium & Battery Minerals ETF", "ticker": "LILI", "price": "$18.45", "change": "▼0.92%", "three_year_return": "-21.4%", "volume": "42,100" },
+        { "name": "Sprott Lithium Miners ETF", "ticker": "LITP", "price": "$8.40", "change": "▼1.12%", "three_year_return": "-24.8%", "volume": "78,200" }
+      ]
+    },
+    {
+      "category": "Rare Earth Etfs",
+      "url": "https://www.indmoney.com/us-stocks/etf/rare-earth-etfs",
+      "fetched_at": "2026-05-26T13:51:43.226Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        { "name": "VanEck Rare Earth/Strategic Metals ETF", "ticker": "REMX", "price": "$52.41", "change": "▼1.12%", "three_year_return": "-18.5%", "volume": "172,400" },
+        { "name": "Sprott Rare Earth Metals ETF", "ticker": "REER", "price": "$14.25", "change": "▼0.95%", "three_year_return": "-14.2%", "volume": "11,200" },
+        { "name": "Strategic Critical Materials Index ETF", "ticker": "CRIT", "price": "$24.15", "change": "▼1.02%", "three_year_return": "-16.1%", "volume": "28,200" }
+      ]
+    },
+    {
+      "category": "Uranium Etfs",
+      "url": "https://www.indmoney.com/us-stocks/etf/uranium-etfs",
+      "fetched_at": "2026-05-26T13:51:43.304Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        { "name": "Global X Uranium ETF", "ticker": "URA", "price": "$29.85", "change": "▲3.12%", "three_year_return": "+85.2%", "volume": "2,410,500" },
+        { "name": "Sprott Physical Uranium Trust", "ticker": "U.UN", "price": "$18.12", "change": "▲2.85%", "three_year_return": "+142.1%", "volume": "1,150,000" },
+        { "name": "Sprott Uranium Miners ETF", "ticker": "URNM", "price": "$51.45", "change": "▲3.45%", "three_year_return": "+92.1%", "volume": "840,900" },
+        { "name": "Sprott Junior Uranium Miners ETF", "ticker": "URNJ", "price": "$24.15", "change": "▲3.62%", "three_year_return": "+95.8%", "volume": "310,400" },
+        { "name": "VanEck Uranium+Nuclear Energy ETF", "ticker": "NLR", "price": "$82.40", "change": "▲1.85%", "three_year_return": "+48.2%", "volume": "114,800" }
+      ]
+    },
+    {
+      "category": "Oil Gas Etfs",
+      "url": "https://www.indmoney.com/us-stocks/etf/oil-gas-etfs",
+      "fetched_at": "2026-05-26T13:51:43.324Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        { "name": "Energy Select Sector SPDR Fund", "ticker": "XLE", "price": "$92.15", "change": "▲1.24%", "three_year_return": "+74.2%", "volume": "14,892,100" },
+        { "name": "Vanguard Energy ETF", "ticker": "VDE", "price": "$124.85", "change": "▲1.28%", "three_year_return": "+73.9%", "volume": "1,152,400" },
+        { "name": "SPDR S&P Oil & Gas Exploration & Production ETF", "ticker": "XOP", "price": "$145.28", "change": "▲1.52%", "three_year_return": "+81.5%", "volume": "3,115,900" },
+        { "name": "VanEck Oil Services ETF", "ticker": "OIH", "price": "$324.50", "change": "▲2.15%", "three_year_return": "+65.2%", "volume": "1,840,400" },
+        { "name": "iShares U.S. Energy ETF", "ticker": "IYE", "price": "$48.20", "change": "▲1.19%", "three_year_return": "+72.8%", "volume": "854,200" },
+        { "name": "Direxion Daily Energy Bull 2X", "ticker": "ERX", "price": "$68.12", "change": "▲2.48%", "three_year_return": "+124.5%", "volume": "2,110,300" }
+      ]
+    },
+    {
+      "category": "Natural Gas Etfs",
+      "url": "https://www.indmoney.com/us-stocks/etf/natural-gas-etfs",
+      "fetched_at": "2026-05-26T13:51:43.322Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        { "name": "United States Natural Gas Fund LP", "ticker": "UNG", "price": "$15.42", "change": "▼3.12%", "three_year_return": "-72.1%", "volume": "9,845,300" },
+        { "name": "ProShares Ultra Bloomberg Natural Gas", "ticker": "BOIL", "price": "$18.15", "change": "▼6.24%", "three_year_return": "-94.1%", "volume": "5,820,100" },
+        { "name": "First Trust Natural Gas ETF", "ticker": "FCG", "price": "$28.45", "change": "▼1.42%", "three_year_return": "+28.2%", "volume": "512,100" },
+        { "name": "ProShares UltraShort Bloomberg Nat Gas -2X", "ticker": "KOLD", "price": "$51.20", "change": "▲6.15%", "three_year_return": "+84.9%", "volume": "2,410,200" }
+      ]
+    },
+    {
+      "category": "Ai Etfs",
+      "url": "https://www.indmoney.com/us-stocks/etf/ai-etfs",
+      "fetched_at": "2026-05-26T13:51:43.319Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        { "name": "Global X Artificial Intelligence & Technology ETF", "ticker": "AIQ", "price": "$32.45", "change": "▲2.15%", "three_year_return": "+94.2%", "volume": "1,248,500" },
+        { "name": "Robo Global Artificial Intelligence ETF", "ticker": "THNQ", "price": "$41.12", "change": "▲2.28%", "three_year_return": "+89.5%", "volume": "115,200" },
+        { "name": "First Trust Nasdaq Artificial Intelligence ETF", "ticker": "ROBT", "price": "$44.85", "change": "▲1.85%", "three_year_return": "+51.5%", "volume": "214,800" },
+        { "name": "iShares Future AI & Tech ETF", "ticker": "IRBO", "price": "$34.15", "change": "▲1.90%", "three_year_return": "+65.2%", "volume": "450,200" },
+        { "name": "WisdomTree Artificial Intelligence ETF", "ticker": "WTAI", "price": "$18.25", "change": "▲1.95%", "three_year_return": "+58.9%", "volume": "280,100" },
+        { "name": "Roundhill Generative AI ETF", "ticker": "CHAT", "price": "$29.40", "change": "▲2.45%", "three_year_return": "+112.4%", "volume": "440,900" }
+      ]
+    },
+    {
+      "category": "Tech Etfs",
+      "url": "https://www.indmoney.com/us-stocks/etf/tech-etfs",
+      "fetched_at": "2026-05-26T13:51:43.407Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        { "name": "Technology Select Sector SPDR Fund", "ticker": "XLK", "price": "$202.45", "change": "▲1.92%", "three_year_return": "+84.5%", "volume": "6,415,200" },
+        { "name": "Vanguard Information Technology ETF", "ticker": "VGT", "price": "$512.18", "change": "▲1.94%", "three_year_return": "+85.1%", "volume": "512,100" },
+        { "name": "iShares U.S. Technology ETF", "ticker": "IYW", "price": "$142.85", "change": "▲1.90%", "three_year_return": "+91.2%", "volume": "1,114,200" },
+        { "name": "Fidelity MSCI Information Tech Index ETF", "ticker": "FTEC", "price": "$152.12", "change": "▲1.91%", "three_year_return": "+84.8%", "volume": "1,540,100" },
+        { "name": "iShares Global Tech ETF", "ticker": "IXN", "price": "$78.45", "change": "▲1.55%", "three_year_return": "+72.4%", "volume": "310,200" },
+        { "name": "Invesco S&P 500 Equal Weight Tech ETF", "ticker": "RYT", "price": "$310.40", "change": "▲1.10%", "three_year_return": "+68.2%", "volume": "248,300" }
+      ]
+    },
+    {
+      "category": "Semiconductor Etfs",
+      "url": "https://www.indmoney.com/us-stocks/etf/semiconductor-etfs",
+      "fetched_at": "2026-05-26T13:51:43.411Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        { "name": "VanEck Semiconductor ETF", "ticker": "SMH", "price": "$224.15", "change": "▲3.85%", "three_year_return": "+148.2%", "volume": "6,924,100" },
+        { "name": "iShares Semiconductor ETF", "ticker": "SOXX", "price": "$222.85", "change": "▲3.24%", "three_year_return": "+112.1%", "volume": "1,415,900" },
+        { "name": "Direxion Daily Semiconductor Bull 3X Shares", "ticker": "SOXL", "price": "$45.28", "change": "▲9.85%", "three_year_return": "+121.5%", "volume": "44,892,100" },
+        { "name": "Direxion Daily Semiconductor Bear 3X Shares", "ticker": "SOXS", "price": "$4.12", "change": "▼9.81%", "three_year_return": "-98.4%", "volume": "24,840,200" },
+        { "name": "First Trust Nasdaq Semiconductor ETF", "ticker": "FTXL", "price": "$34.15", "change": "▲2.82%", "three_year_return": "+88.5%", "volume": "128,400" },
+        { "name": "Invesco Semiconductors ETF", "ticker": "PSI", "price": "$148.20", "change": "▲3.05%", "three_year_return": "+102.4%", "volume": "95,200" }
+      ]
+    }
+  ],
+  "lastScrapedAt": "2026-05-26T13:51:43.411Z"
+}
