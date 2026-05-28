@@ -1,47 +1,177 @@
 {
   "featured": {
-    "title": "Global Yields Surge as Central Banks Pivot Toward Aggressive Tightening",
-    "source": "BLOOMBERG TERMINAL",
-    "ago": "4m ago",
-    "topic": "MACRO ECONOMY",
-    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAjv0RmZ8XdVqNvLrvGBxwPXzCvkLosybJFmMiSKms_0vUOaKTo8nnOCd4k8s359Ks7sp0fQllPXFCHOsxTJvZAbuHlZ_el1X2AXS6eP-oOq0jXLa53KDtyeJAabHASVwD6x1IXiBYpPEd2i74YDiqGxn-IHoP4vCKyo6ybzJUGa-8X9uaU58O40qUYuHgFo3Yrye7nunxjkdBZs2k70SZkEt89JjTgGPkWSp0j8EZXy7UkJXkpU71496WU55o1PLxDttYEpy3D5Itg",
-    "content": "Bond markets are experiencing historic volatility as unprecedented data suggests a hawkish stance from major central banks. Investors are recalibrating portfolios for a high-rate environment."
+    "title": "India, Korea agree to address India’s growing bilateral trade deficit in latest round of negotiations",
+    "source": "ZERODHA PULSE",
+    "ago": "04:56 PM, 28 May 2026",
+    "topic": "INDIAN MACRO",
+    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=1000",
+    "content": "India and South Korea are currently negotiating the upgrade of the India-Korea Comprehensive Economic Partnership Agreement which came into force in 2010."
   },
   "feed": [
     {
-      "id": "news_1",
-      "topic": "EQUITIES",
-      "tagColor": "secondary",
-      "time": "12:45 UTC",
-      "title": "Tech Giants Face Regulatory Headwinds as Antitrust Laws Stiffen",
-      "summary": "New legislative proposals in the EU could fundamentally alter the data monetization models of top Silicon Valley firms...",
-      "source": "REUTERS",
-      "sourceLetter": "R"
-    },
-    {
-      "id": "news_2",
-      "topic": "CRYPTO",
+      "id": "scraped_zp_0_1779971027160",
+      "topic": "INDIAN MACRO",
       "tagColor": "white",
-      "time": "12:30 UTC",
-      "title": "Institutional Bitcoin Inflows Hit Multi-Month Highs Amid ETF Speculation",
-      "summary": "Spot ETF approval rumors drive heavy volume across major derivatives exchanges as institutional desks move billions...",
-      "source": "COINDESK",
-      "sourceLetter": "C"
+      "time": "04:56 PM, 28 May 2026",
+      "title": "India, Korea agree to address India’s growing bilateral trade deficit in latest round of negotiations",
+      "summary": "India and South Korea are currently negotiating the upgrade of the India-Korea Comprehensive Economic Partnership Agreement which came into force in 2010.",
+      "source": "ZERODHA PULSE",
+      "sourceLetter": "Z",
+      "url": "https://www.thehindu.com/business/india-korea-agree-to-address-indias-growing-bilateral-trade-deficit-in-latest-round-of-negotiations/article71033115.ece"
     },
     {
-      "id": "news_3",
-      "topic": "ENERGY",
-      "tagColor": "error",
-      "time": "12:12 UTC",
-      "title": "Oil Prices Spike as Supply Chain Disruptions Intensify",
-      "summary": "WTI Crude is trading elevated at $84.32 (+3.2%) with strong sentiment indicators suggesting structural limits.",
-      "source": "FT",
-      "sourceLetter": "F",
-      "extraMetric": {
-        "label": "WTI CRUDE",
-        "value": "$84.32 (+3.2%)",
-        "ticker": "WTI"
-      }
+      "id": "scraped_zp_1_1779971027160",
+      "topic": "INDIAN MACRO",
+      "tagColor": "white",
+      "time": "04:54 PM, 28 May 2026",
+      "title": "Mphasis unveils enterprise agency platform Mphasis Tria",
+      "summary": "The platform connects enterprise knowledge, causal reasoning, and agentic execution to deliver Agency AppliedTM, transforming enterprise intelligence into governed, accountable, and outcome-oriented actions at scale",
+      "source": "ZERODHA PULSE",
+      "sourceLetter": "Z",
+      "url": "https://www.thehindu.com/business/mphasis-unveils-enterprise-agency-platform-mphasis-tria/article71029909.ece"
+    },
+    {
+      "id": "scraped_zp_2_1779971027160",
+      "topic": "INDIAN MACRO",
+      "tagColor": "white",
+      "time": "04:53 PM, 28 May 2026",
+      "title": "Drishyam 3 Box Office Collection Day 8: Mohanlal Starrer Holds Steady Despite Weekday Drop",
+      "summary": "While collections have naturally slowed after the weekend, the thriller continues to maintain stable occupancy in Kerala centres and key cities.",
+      "source": "ZERODHA PULSE",
+      "sourceLetter": "Z",
+      "url": "https://www.ndtvprofit.com/lifestyle/drishyam-3-box-office-collection-day-8-mohanlal-starrer-holds-steady-despite-weekday-drop-check-earnings-11556154#publisher=newsstand"
+    },
+    {
+      "id": "scraped_zp_3_1779971027160",
+      "topic": "INDIAN MACRO",
+      "tagColor": "white",
+      "time": "04:53 PM, 28 May 2026",
+      "title": "Drishyam 3 Box Office Collection Day 7: Mohanlal Thriller Shows Strong Hold In Kerala, Mints This Amount",
+      "summary": "Interactive micro-indicator flow alert.",
+      "source": "ZERODHA PULSE",
+      "sourceLetter": "Z",
+      "url": "https://www.ndtvprofit.com/business/drishyam-3-box-office-collection-day-7-mohanlal-thriller-shows-strong-hold-in-kerala-mints-this-amount-11556094#publisher=newsstand"
+    },
+    {
+      "id": "scraped_zp_4_1779971027160",
+      "topic": "INDIAN MACRO",
+      "tagColor": "white",
+      "time": "04:48 PM, 28 May 2026",
+      "title": "CBSE Starts 24x7 Support System For Class 10, 12 Students, Helpline Goes Live",
+      "summary": "The board has set up multiple ways for students to get help during this important time, making sure everyone can reach out for support when needed.",
+      "source": "ZERODHA PULSE",
+      "sourceLetter": "Z",
+      "url": "https://www.ndtvprofit.com/india/cbse-starts-24x7-support-system-for-class-10-12-students-helpline-1800-11-8004-now-active-11559310#publisher=newsstand"
+    },
+    {
+      "id": "scraped_zp_5_1779971027160",
+      "topic": "INDIAN MACRO",
+      "tagColor": "white",
+      "time": "04:44 PM, 28 May 2026",
+      "title": "'High Command Asked, I Resigned': Siddaramaiah Gets Emotional, Says Never Dreamt Of Becoming CM",
+      "summary": "I got the opportunity to serve the people of Karnataka twice. I thank Sonia Gandhi, Rahul Gandhi, and Mallikarjun Kharge, said Siddaramaiah.",
+      "source": "ZERODHA PULSE",
+      "sourceLetter": "Z",
+      "url": "https://www.ndtvprofit.com/india/high-command-asked-i-resigned-siddaramaiah-gets-emotional-says-never-dreamt-of-becoming-cm-karnataka-11559421#publisher=newsstand"
+    },
+    {
+      "id": "scraped_zp_6_1779971027160",
+      "topic": "INDIAN MACRO",
+      "tagColor": "white",
+      "time": "04:30 PM, 28 May 2026",
+      "title": "Ashok Leyland Q4: Net Profit Rises 14%; Dividend Declared — Check Record Date",
+      "summary": "Consolidate revenue of Ashok Leyland advanced by 17.4% year-on-year for the three months ended March, reaching Rs 17,246 crore in comparison to Rs 14,695 crore.",
+      "source": "ZERODHA PULSE",
+      "sourceLetter": "Z",
+      "url": "https://www.ndtvprofit.com/markets/ashok-leyland-q4-net-profit-rose-14-dividend-declared-check-record-date-11559371#publisher=newsstand"
+    },
+    {
+      "id": "scraped_zp_7_1779971027160",
+      "topic": "INDIAN MACRO",
+      "tagColor": "white",
+      "time": "04:30 PM, 28 May 2026",
+      "title": "P&G Hygiene & Health Q4: Net Profit Declines 2%; Dividend Declared — Check Record Date",
+      "summary": "Interactive micro-indicator flow alert.",
+      "source": "ZERODHA PULSE",
+      "sourceLetter": "Z",
+      "url": "https://www.ndtvprofit.com/markets/p-g-hygiene-health-q4-net-profit-declines-2-dividend-declared-check-record-date-11559183#publisher=newsstand"
+    },
+    {
+      "id": "scraped_zp_8_1779971027160",
+      "topic": "INDIAN MACRO",
+      "tagColor": "white",
+      "time": "04:30 PM, 28 May 2026",
+      "title": "Alkem Labs Q4 Results: Net Profit Declines 28% As One-Time Loss Weighs; Dividend Declared — Check Record Date",
+      "summary": "Interactive micro-indicator flow alert.",
+      "source": "ZERODHA PULSE",
+      "sourceLetter": "Z",
+      "url": "https://www.ndtvprofit.com/markets/alkem-labs-q4-results-net-profit-declines-28-as-one-time-loss-weighs-dividend-declared-check-record-date-11558979#publisher=newsstand"
+    },
+    {
+      "id": "scraped_zp_9_1779971027160",
+      "topic": "INDIAN MACRO",
+      "tagColor": "white",
+      "time": "04:30 PM, 28 May 2026",
+      "title": "Gulf Oil Declares Rs 30/Share Dividend Amid Slip In Q4 Profit; Check Record Date",
+      "summary": "Interactive micro-indicator flow alert.",
+      "source": "ZERODHA PULSE",
+      "sourceLetter": "Z",
+      "url": "https://www.ndtvprofit.com/markets/gulf-oil-declares-rs-30-share-dividend-amid-slip-in-q4-profit-check-record-date-11556194#publisher=newsstand"
+    },
+    {
+      "id": "scraped_zp_10_1779971027160",
+      "topic": "INDIAN MACRO",
+      "tagColor": "white",
+      "time": "04:30 PM, 28 May 2026",
+      "title": "Bata India Q4 Results: Profit Falls 95% As One-Time Loss Weighs; Dividend Declared — Check Record Date",
+      "summary": "Interactive micro-indicator flow alert.",
+      "source": "ZERODHA PULSE",
+      "sourceLetter": "Z",
+      "url": "https://www.ndtvprofit.com/markets/bata-india-q4-results-profit-falls-95-as-one-time-loss-weighs-dividend-declared-check-record-date-11555579#publisher=newsstand"
+    },
+    {
+      "id": "scraped_zp_11_1779971027160",
+      "topic": "INDIAN MACRO",
+      "tagColor": "white",
+      "time": "04:30 PM, 28 May 2026",
+      "title": "PhysicsWallah Q4 Results: Loss Shrinks 75% As EdTech Firm Turns Ebitda Positive First Time Since Listing",
+      "summary": "Interactive micro-indicator flow alert.",
+      "source": "ZERODHA PULSE",
+      "sourceLetter": "Z",
+      "url": "https://www.ndtvprofit.com/markets/physicswallah-q4-results-loss-shrinks-75-as-edtech-firm-turns-ebitda-positive-first-time-since-listing-11555238#publisher=newsstand"
+    },
+    {
+      "id": "scraped_zp_12_1779971027160",
+      "topic": "INDIAN MACRO",
+      "tagColor": "white",
+      "time": "04:21 PM, 28 May 2026",
+      "title": "Mukesh Ambani draws no salary for sixth year in a row: RIL Annual Report",
+      "summary": "In FY26, Reliance Industries reported a consolidated net profit of ₹95,754 crore — the highest ever",
+      "source": "ZERODHA PULSE",
+      "sourceLetter": "Z",
+      "url": "https://www.thehindu.com/business/Industry/mukesh-ambani-draws-no-salary-for-sixth-year-in-a-row-ril-annual-report/article71032830.ece"
+    },
+    {
+      "id": "scraped_zp_13_1779971027160",
+      "topic": "INDIAN MACRO",
+      "tagColor": "white",
+      "time": "04:10 PM, 28 May 2026",
+      "title": "Reliance Jio IPO soon? Mukesh Ambani to provide update on $4 bn public issue at upcoming AGM, says report",
+      "summary": "Mukesh Ambani is expected to share an update on Jio Platforms’ anticipated IPO at Reliance Industries’ June 19 AGM. Reports suggest Reliance is shifting towards a fresh issue structure to protect retail investors and strengthen Jio’s long-term growth and transparency roadmap.",
+      "source": "ZERODHA PULSE",
+      "sourceLetter": "Z",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/reliance-jio-ipo-soon-mukesh-ambani-to-provide-update-on-4-bn-public-issue-at-upcoming-agm-says-report/articleshow/131368320.cms"
+    },
+    {
+      "id": "scraped_zp_14_1779971027160",
+      "topic": "INDIAN MACRO",
+      "tagColor": "white",
+      "time": "04:07 PM, 28 May 2026",
+      "title": "Mukesh Ambani-led Reliance Industries' contribution to national exchequer rises to Rs 2.16 lakh crore",
+      "summary": "Reliance Industries’ contribution to the national exchequer rose nearly 3% to Rs 2.16 lakh crore in FY26. The company said government payments formed the largest share of value created, while revenue, EBITDA and annual profit recorded strong year-on-year growth.",
+      "source": "ZERODHA PULSE",
+      "sourceLetter": "Z",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/mukesh-ambani-led-reliance-industries-contribution-to-national-exchequer-rises-to-rs-2-16-lakh-crore/articleshow/131368264.cms"
     }
   ],
   "suggested": [
@@ -65,5 +195,1502 @@
     55,
     85,
     100
-  ]
+  ],
+  "scraped": {
+    "scraped_at": "2026-05-28T12:23:47.151Z",
+    "sources": [
+      {
+        "source": "zerodha_pulse",
+        "url": "https://pulse.zerodha.com/",
+        "status": 200,
+        "fetched_at": "2026-05-28T12:23:43.495Z",
+        "page_title": "Pulse by Zerodha - Latest financial and market news from all major Indian news sources aggregated in one place - Pulse",
+        "articles": [
+          {
+            "type": "PulseCompact",
+            "title": "India, Korea agree to address India’s growing bilateral trade deficit in latest round of negotiations",
+            "url": "https://www.thehindu.com/business/india-korea-agree-to-address-indias-growing-bilateral-trade-deficit-in-latest-round-of-negotiations/article71033115.ece",
+            "summary": "India and South Korea are currently negotiating the upgrade of the India-Korea Comprehensive Economic Partnership Agreement which came into force in 2010.",
+            "published_at": "04:56 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Mphasis unveils enterprise agency platform Mphasis Tria",
+            "url": "https://www.thehindu.com/business/mphasis-unveils-enterprise-agency-platform-mphasis-tria/article71029909.ece",
+            "summary": "The platform connects enterprise knowledge, causal reasoning, and agentic execution to deliver Agency AppliedTM, transforming enterprise intelligence into governed, accountable, and outcome-oriented actions at scale",
+            "published_at": "04:54 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Drishyam 3 Box Office Collection Day 8: Mohanlal Starrer Holds Steady Despite Weekday Drop",
+            "url": "https://www.ndtvprofit.com/lifestyle/drishyam-3-box-office-collection-day-8-mohanlal-starrer-holds-steady-despite-weekday-drop-check-earnings-11556154#publisher=newsstand",
+            "summary": "While collections have naturally slowed after the weekend, the thriller continues to maintain stable occupancy in Kerala centres and key cities.",
+            "published_at": "04:53 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Drishyam 3 Box Office Collection Day 7: Mohanlal Thriller Shows Strong Hold In Kerala, Mints This Amount",
+            "url": "https://www.ndtvprofit.com/business/drishyam-3-box-office-collection-day-7-mohanlal-thriller-shows-strong-hold-in-kerala-mints-this-amount-11556094#publisher=newsstand",
+            "published_at": "04:53 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "CBSE Starts 24x7 Support System For Class 10, 12 Students, Helpline Goes Live",
+            "url": "https://www.ndtvprofit.com/india/cbse-starts-24x7-support-system-for-class-10-12-students-helpline-1800-11-8004-now-active-11559310#publisher=newsstand",
+            "summary": "The board has set up multiple ways for students to get help during this important time, making sure everyone can reach out for support when needed.",
+            "published_at": "04:48 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "'High Command Asked, I Resigned': Siddaramaiah Gets Emotional, Says Never Dreamt Of Becoming CM",
+            "url": "https://www.ndtvprofit.com/india/high-command-asked-i-resigned-siddaramaiah-gets-emotional-says-never-dreamt-of-becoming-cm-karnataka-11559421#publisher=newsstand",
+            "summary": "I got the opportunity to serve the people of Karnataka twice. I thank Sonia Gandhi, Rahul Gandhi, and Mallikarjun Kharge, said Siddaramaiah.",
+            "published_at": "04:44 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Ashok Leyland Q4: Net Profit Rises 14%; Dividend Declared — Check Record Date",
+            "url": "https://www.ndtvprofit.com/markets/ashok-leyland-q4-net-profit-rose-14-dividend-declared-check-record-date-11559371#publisher=newsstand",
+            "summary": "Consolidate revenue of Ashok Leyland advanced by 17.4% year-on-year for the three months ended March, reaching Rs 17,246 crore in comparison to Rs 14,695 crore.",
+            "published_at": "04:30 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "P&G Hygiene & Health Q4: Net Profit Declines 2%; Dividend Declared — Check Record Date",
+            "url": "https://www.ndtvprofit.com/markets/p-g-hygiene-health-q4-net-profit-declines-2-dividend-declared-check-record-date-11559183#publisher=newsstand",
+            "published_at": "04:30 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Alkem Labs Q4 Results: Net Profit Declines 28% As One-Time Loss Weighs; Dividend Declared — Check Record Date",
+            "url": "https://www.ndtvprofit.com/markets/alkem-labs-q4-results-net-profit-declines-28-as-one-time-loss-weighs-dividend-declared-check-record-date-11558979#publisher=newsstand",
+            "published_at": "04:30 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Gulf Oil Declares Rs 30/Share Dividend Amid Slip In Q4 Profit; Check Record Date",
+            "url": "https://www.ndtvprofit.com/markets/gulf-oil-declares-rs-30-share-dividend-amid-slip-in-q4-profit-check-record-date-11556194#publisher=newsstand",
+            "published_at": "04:30 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Bata India Q4 Results: Profit Falls 95% As One-Time Loss Weighs; Dividend Declared — Check Record Date",
+            "url": "https://www.ndtvprofit.com/markets/bata-india-q4-results-profit-falls-95-as-one-time-loss-weighs-dividend-declared-check-record-date-11555579#publisher=newsstand",
+            "published_at": "04:30 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "PhysicsWallah Q4 Results: Loss Shrinks 75% As EdTech Firm Turns Ebitda Positive First Time Since Listing",
+            "url": "https://www.ndtvprofit.com/markets/physicswallah-q4-results-loss-shrinks-75-as-edtech-firm-turns-ebitda-positive-first-time-since-listing-11555238#publisher=newsstand",
+            "published_at": "04:30 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Mukesh Ambani draws no salary for sixth year in a row: RIL Annual Report",
+            "url": "https://www.thehindu.com/business/Industry/mukesh-ambani-draws-no-salary-for-sixth-year-in-a-row-ril-annual-report/article71032830.ece",
+            "summary": "In FY26, Reliance Industries reported a consolidated net profit of ₹95,754 crore — the highest ever",
+            "published_at": "04:21 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Reliance Jio IPO soon? Mukesh Ambani to provide update on $4 bn public issue at upcoming AGM, says report",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/reliance-jio-ipo-soon-mukesh-ambani-to-provide-update-on-4-bn-public-issue-at-upcoming-agm-says-report/articleshow/131368320.cms",
+            "summary": "Mukesh Ambani is expected to share an update on Jio Platforms’ anticipated IPO at Reliance Industries’ June 19 AGM. Reports suggest Reliance is shifting towards a fresh issue structure to protect retail investors and strengthen Jio’s long-term growth and transparency roadmap.",
+            "published_at": "04:10 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Mukesh Ambani-led Reliance Industries' contribution to national exchequer rises to Rs 2.16 lakh crore",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/mukesh-ambani-led-reliance-industries-contribution-to-national-exchequer-rises-to-rs-2-16-lakh-crore/articleshow/131368264.cms",
+            "summary": "Reliance Industries’ contribution to the national exchequer rose nearly 3% to Rs 2.16 lakh crore in FY26. The company said government payments formed the largest share of value created, while revenue, EBITDA and annual profit recorded strong year-on-year growth.",
+            "published_at": "04:07 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Emotional Scenes As Siddaramaiah Resigns; Supporters Protest Against Congress High Command In Yadgir",
+            "url": "https://www.ndtvprofit.com/india/emotional-scenes-at-lok-bhavan-as-siddaramaiah-resigns-as-karnataka-cm-supporters-protest-against-high-command-in-yadgir-11559262#publisher=newsstand",
+            "summary": "Shivakumar, known as the party's go-to troubleshooter in Karnataka, is expected to assume charge flanked by two to three Deputy Chief Ministers.",
+            "published_at": "04:01 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Karnataka Leadership Change: Siddaramaiah To Resign? Here's What We Know So Far",
+            "url": "https://www.ndtvprofit.com/india/karnataka-leadership-change-siddaramaiah-to-resign-here-039-s-what-we-know-so-far-11557592#publisher=newsstand",
+            "published_at": "04:01 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Coal India OFS: Here's What Retail Investors Should Know",
+            "url": "https://www.ndtvprofit.com/markets/coal-india-ofs-heres-what-retail-investors-should-know-about-the-offer-for-sale-11559309#publisher=newsstand",
+            "summary": "The OFS opened for non-retail investors on May 27, with the retail portion expected to be opened tomorrow. The floor price was fixed at Rs 412 per share against the last traded price of Rs 444.85 on the BSE.",
+            "published_at": "03:57 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "US-Iran Tensions: Tehran Targets US Airbase In Retaliation; Kuwait Faces Missile, Drone Attack",
+            "url": "https://www.ndtvprofit.com/world/us-iran-tensions-tehran-targets-us-airbase-in-retaliation-kuwait-faces-missile-drone-attack-11558875#publisher=newsstand",
+            "summary": "The escalation was triggered after US forces shot down four Iranian one-way attack drones near the Strait of Hormuz and struck a drone control site in Bandar Abbas that was preparing to launch a fifth, Reuters reported.",
+            "published_at": "03:48 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Australian PM Anthony Albanese hails India’s economic growth; looks forward to hosting PM Modi again",
+            "url": "https://www.thehindu.com/news/international/australian-pm-anthony-albanese-hails-indias-economic-growth-looks-forward-to-hosting-pm-modi-again/article71032817.ece",
+            "summary": "Australian Prime Minister Anthony Albanese praised the growing India-Australia relationship and said he looked forward to welcoming Prime Minister Narendra Modi to Australia again soon",
+            "published_at": "03:47 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "ET Alpha Wealth Summit: Navigating the great wealth shift in an uncertain market cycle",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/et-alpha-wealth-summit-navigating-the-great-wealth-shift-in-an-uncertain-market-cycle/articleshow/131367793.cms",
+            "summary": "The ET Alpha Summit in Mumbai brings together leading market voices to explore how investors should navigate expensive markets amid geopolitical uncertainty, inflation and volatility. The sessions focus on Saurabh Mukherjea’s take on the disappearance of cheap stocks and the need to rethink valuation discipline, alongside Samir Arora’s view on where India’s next wave of wealth creation will emerge through structural shifts and evolving market leadership.",
+            "published_at": "03:46 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Nvidia CEO Jensen Huang Offers To Pay For Everyone's Food To Skip Long Queue In Taiwan",
+            "url": "https://www.ndtvprofit.com/trending/nvidia-ceo-jensen-huang-offers-to-pay-for-everyone-s-food-to-skip-long-queue-in-taiwan-11558691#publisher=newsstand",
+            "summary": "Nvidia CEO Jensen Huang saw the crowd and approached the owner of the grilled corn stall, asking if he could pay for the entire line.",
+            "published_at": "03:32 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Siddaramaiah Submits Resignation As Karnataka CM To Governor's Office; D K Shivakumar Set To Take Over",
+            "url": "https://www.ndtvprofit.com/india/karnataka-power-play-siddaramaiah-submits-resignation-as-cm-to-governor-039-s-office-d-k-shivakumar-set-to-take-over-11559114#publisher=newsstand",
+            "summary": "I am confident Governor would accept my resignation as per Constitutional provisions, said Siddaramaiah.",
+            "published_at": "03:31 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Mukesh Ambani draws zero salary again: India's richest man forgoes paycheck for 6th straight year",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/mukesh-ambani-draws-zero-salary-again-indias-richest-man-forgoes-paycheck-for-6th-straight-year/articleshow/131367620.cms",
+            "summary": "Reliance Industries Chairman Mukesh Ambani did not take any salary in FY26, continuing a six-year trend. Reliance reported strong annual revenue growth despite profit decline in Q4, while Ambani’s children and senior executives received commissions and remuneration.",
+            "published_at": "03:30 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Q4 Results Today Live: Ashok Leyland Profit Rises 14%; Bharat Dynamics Profit Falls 56%; Focus On Ashok Leyland",
+            "url": "https://www.ndtvprofit.com/markets/q4-results-live-today-ashok-leyland-happiest-minds-hindustan-motors-bharat-dynamics-11558287#publisher=newsstand",
+            "summary": "Ashok Leyland, Insecticides (India), Hindustan Motors and Bharat Dynamics will announce Q4FY26 results on Thursday.",
+            "published_at": "03:27 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Q4 Results Today: Ashok Leyland, Happiest Minds, Graphite India, ITI Among 475+ Firms To Report Earnings",
+            "url": "https://www.ndtvprofit.com/markets/q4-results-today-ashok-leyland-happiest-minds-graphite-india-iti-among-475-firms-to-report-earnings-11553406#publisher=newsstand",
+            "published_at": "03:27 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "IPO investors brace for 70 lock-in expiries worth $35 billion in three months. Do you own any?",
+            "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-investors-brace-for-70-lock-in-expiries-worth-35-billion-in-three-months-do-you-own-any/articleshow/131367185.cms",
+            "summary": "According to Nuvama Alternative & Quantitative Research, the Indian stock market is set to witness a significant wave of lock-in expiries between May 26 and August 31, as shares of 70 recently listed companies worth nearly $35 billion become eligible for trading.",
+            "published_at": "03:20 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Cost Of Bringing Back Bodies From Mount Everest: Why Is It So Expensive To Retrieve Them?",
+            "url": "https://www.ndtvprofit.com/world/cost-of-bringing-back-bodies-from-mount-everest-how-much-it-takes-to-retrieve-them-11558469#publisher=newsstand",
+            "summary": "The family of Arun Kumar Tiwari, a 53-year-old Hyderabad-based tech professional who died near the Hillary Step while descending Mount Everest last week, has decided not to bring back his body, citing faith, risks and expenses associated with the recovery.",
+            "published_at": "03:08 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Bharat Dynamics Q4 Results: Net Profit Drops 58% To Rs 113 Crore, Revenue Declines 73%",
+            "url": "https://www.ndtvprofit.com/markets/bharat-dynamics-q4-net-profit-drops-58-to-rs-113-crore-revenue-declines-73-11558985#publisher=newsstand",
+            "summary": "Bharat Dynamics EBITDA dipped 81.5% to Rs 55.2 crore.",
+            "published_at": "02:53 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "NEET Re-Exam Papers 'Sold' Online For Up To Rs 1 Lakh Despite CBI Probe: Report",
+            "url": "https://www.ndtvprofit.com/india/fresh-neet-controversy-as-re-exam-papers-sold-online-despite-cbi-probe-11558012#publisher=newsstand",
+            "summary": "Telegram channels are reportedly \"offering\" re-NEET papers for payments ranging from Rs 80,000 to Rs 1 lakh in instalments linked to the exam schedule. The channels may be run by scamsters taking advantage of the NEET controversy, as per a Mid-day report.",
+            "published_at": "02:46 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "GP Petroleums Q4 profit rises 8%",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/gp-petroleums-q4-profit-rises-8/articleshow/131366674.cms",
+            "summary": "GP Petroleums reported an 8% year-on-year profit increase in the fourth quarter, driven by improved operating margins despite a revenue decline due to volatile market conditions. For the full fiscal year 2025-26, the company saw a 5% revenue growth and a slight increase in profit, though a wage provision impacted the annual bottom line.",
+            "published_at": "02:29 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Vijay Kedia says long-term capital gains tax should be abolished for nation building. Here’s why",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/vijay-kedia-says-long-term-capital-gains-tax-should-be-abolished-for-nation-building-heres-why/articleshow/131366716.cms",
+            "summary": "Ace investor Vijay Kedia has urged the government to abolish long-term capital gains (LTCG) tax on listed equities, stating that long-term investors should be recognized as contributors of patient capital rather than speculators. In a post on X, he emphasized that long-term shareholders help businesses grow, generate employment, drive innovation, and support India’s economic development.",
+            "published_at": "02:27 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "NEET UG 2026 Re-exam City Intimation Slip Likely Out By May 31— Check Step-By-Step Guide To Download",
+            "url": "https://www.ndtvprofit.com/india/neet-ug-2026-re-exam-city-intimation-slip-likely-out-by-31-may-follow-this-guide-to-download-11558384#publisher=newsstand",
+            "summary": "The city intimation slip will inform students about the city where their examination centre will be located, allowing them to plan their travel and accommodation arrangements in advance.",
+            "published_at": "02:25 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "2026 Tata Tiago vs Tiago EV vs Tiago CNG: Prices, Specification, Colours And More",
+            "url": "https://www.ndtvprofit.com/lifestyle/tata-tiago-2026-vs-tata-tiago-ev-tata-tiago-cng-comparison-prices-spec-and-more-11558433#publisher=newsstand",
+            "summary": "The Tiago EV supports multiple charging solutions, including a 3.3kW home charger, a 7.2kW AC fast charger, and 30 kW DC fast-charging capability.",
+            "published_at": "02:23 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Dolly Khanna’s portfolio sees steady gains in CY26; 5 stocks rise up to 25%",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/dolly-khannas-portfolio-sees-steady-gains-in-cy26-5-stocks-rise-up-to-25/slideshow/131366536.cms",
+            "summary": "​Ace investor Dolly Khanna's portfolio, valued at Rs 481 crore as of May 2026, saw a 8% increase from December 2025. Five of her eight publicly held stocks gained between 4% and 26% in CY26, while three declined. The March 2026 quarter saw three new additions to her investments.",
+            "published_at": "02:05 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "FIFA World Cup 2026: Can Netherlands Finally End Their Wait For Glory? — Full Squad, Key Records, History And Fixtures",
+            "url": "https://www.ndtvprofit.com/sports/fifa-world-cup-2026-can-netherlands-finally-end-their-wait-for-glory-full-squad-key-records-history-and-fixtures-11558684#publisher=newsstand",
+            "summary": "The Netherlands head into the 2026 FIFA World Cup aiming to finally shed their tag as the biggest football nation to never win the tournament after Ronald Koeman announced a balanced 26-man squad featuring experienced internationals and emerging young talent.",
+            "published_at": "01:38 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Delhi University Students Observing Eid-ul-Adha Can Skip May 28 Exam, Take Later",
+            "url": "https://www.ndtvprofit.com/india/delhi-university-students-observing-eid-ul-adha-can-skip-may-28-exam-du-allows-to-retake-exam-after-july-4-11558510#publisher=newsstand",
+            "summary": "In an important update shared on its official platform, Delhi University stated that students observing the Islamic festival will be given the flexibility to sit for the examination at a later date without any penalty.",
+            "published_at": "01:35 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "'Every Customer Is Priority For Us': Vi Says Amid Airtel's 'Priority Postpaid' Plan Row",
+            "url": "https://www.ndtvprofit.com/business/vi-takes-potshot-at-airtel-039-s-039-priority-postpaid-039-plans-039-every-customer-is-priority-for-us-039-11558464#publisher=newsstand",
+            "summary": "Vi's post comes days after Airtel announced its \"Priority Postpaid\" service, which uses advanced 5G network slicing technology to offer better speed and stable connectivity even during high traffic for its subscribed customers.",
+            "published_at": "01:29 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "'Unbearable': Rising Food Prices Spark Public Anger As Iran Eases Internet Curbs",
+            "url": "https://www.ndtvprofit.com/world/039-unbearable-039-rising-food-prices-spark-public-anger-as-iran-eases-internet-curbs-11558214#publisher=newsstand",
+            "summary": "Authorities had imposed an internet blackout at the start of the conflict involving the US, Israel and Iran earlier this year.",
+            "published_at": "01:27 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Trump reiterates vision to make US the Crypto Capital of World. Here is what experts say",
+            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/trump-reiterates-vision-to-make-us-the-crypto-capital-of-world-here-is-what-experts-say/articleshow/131365749.cms",
+            "summary": "President Donald Trump is defending the cryptocurrency and prediction market industries. He is opposing state-led efforts to restrict these sectors. Federal authorities and state governments are in a dispute over regulatory control. Trump's family has financial ties to these industries. The outcome will shape the future of prediction markets across the US.",
+            "published_at": "01:22 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Akasa Air Aircraft Runs Short On Fuel, Makes Emergency Landing At Lucknow Airport",
+            "url": "https://www.ndtvprofit.com/india/akasa-air-aircraft-made-emergency-landing-yesterday-at-lucknow-international-airport-11558219#publisher=newsstand",
+            "summary": "The pilot-in-command requested priority clearance and sought a clear approach to ensure landing in a single attempt amid fuel constraints. Air Traffic Control immediately declared a full emergency and activated standard emergency response protocols,",
+            "published_at": "01:09 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "​DMart, Meesho, among 10 stocks that saw highest increase in HNI holding in Q4. Check list",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/dmart-meesho-among-10-stocks-that-saw-highest-increase-in-hni-holding-in-q4-check-list/slideshow/131365681.cms",
+            "summary": "",
+            "published_at": "01:05 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Adani Enterprises among 8 stocksthathit 52-week highs&amp;ralliedup to 30% in a month​",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/adani-enterprises-among-8-stocksthathit-52-week-highsampralliedup-to-30-in-a-month/slideshow/131351478.cms",
+            "published_at": "01:05 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Deven Choksey bets big on Coal India’s value unlock story",
+            "url": "https://economictimes.indiatimes.com/markets/expert-view/deven-choksey-bets-big-on-coal-indias-value-unlock-story/articleshow/131365482.cms",
+            "summary": "Coal India's stock is attracting institutional investors due to attractive valuations and potential value unlocking from subsidiary listings. Despite ESG concerns, the company's diversification into cleaner energy and achievable management targets are bolstering confidence in its long-term growth story.",
+            "published_at": "01:05 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Xiaomi 17T Battery, Chipset Revealed Ahead Of India Launch On June 4",
+            "url": "https://www.ndtvprofit.com/technology/xiaomi-17t-battery-chipset-revealed-ahead-of-india-launch-on-june-4-11558524#publisher=newsstand",
+            "summary": "The company already revealed a Leica-tuned triple rear camera unit, with the telephoto offering up to 5x optical zoom and up to 120x digital zoom.",
+            "published_at": "12:53 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Watch: Jofra Archer Closes In On Bhuvneshwar, Rabada In IPL 2026 Purple Cap Race",
+            "url": "https://www.ndtvprofit.com/sports/watch-jofra-archer-closes-in-on-bhuvneshwar-rabada-in-ipl-2026-purple-cap-race-11558491#publisher=newsstand",
+            "summary": "Bhuvneshwar Kumar and Kagiso Rabada lead the IPL 2026 Purple Cap race with 26 wickets each, while Jofra Archer moved up to 24 after Rajasthan Royals' Eliminator win over Sunrisers Hyderabad, setting up a three-way battle for the award.",
+            "published_at": "12:45 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Gaming Companies Weigh Review Plea, Larger Bench And Government Relief After Supreme Court GST Blow",
+            "url": "https://www.ndtvprofit.com/business/gaming-companies-weigh-review-plea-larger-bench-and-government-relief-after-supreme-court-gst-blow-11558488#publisher=newsstand",
+            "summary": "In a landmark ruling on Wednesday, the Supreme Court upheld the government's decision to levy 28% GST on the full face value of bets and deposits in online gaming, instead of platform fees or commissions.",
+            "published_at": "12:44 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "India's energy investment to hit $170 billion in 2026 on solar, grid and refining push: International Energy Agency",
+            "url": "https://www.thehindu.com/business/Industry/indias-energy-investment-to-hit-170-billion-in-2026-on-solar-grid-and-refining-push-international-energy-agency/article71032005.ece",
+            "summary": "‘Investment in solar PV grew annually by 25% in this period, and oil refining by 23%. Together, these two sectors contributed to one-fourth of India's energy investment growth,’ said the International Energy Agency",
+            "published_at": "12:39 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Midcap 100 hits record highs while Nifty stalls; Foram Chheda on 2 stocks to buy right now",
+            "url": "https://economictimes.indiatimes.com/markets/expert-view/midcap-100-hits-record-highs-while-nifty-stalls-foram-chheda-on-2-stocks-to-buy-right-now/articleshow/131364885.cms",
+            "summary": "Market rotation is unfolding as expected, with largecaps leading, midcaps now outperforming, and smallcaps catching up. ChartAnalytics founder Foram Chheda highlights key support levels and identifies two actionable trade ideas: Naukri, showing a resistance breakout with increasing volume, and Bajaj Auto, confirming a breakout from a well-defined resistance zone with an intact uptrend.",
+            "published_at": "12:38 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Massive Jams In Uttarakhand, Himachal As Tourists Escape Scorching Heat In North India | Watch Video",
+            "url": "https://www.ndtvprofit.com/india/massive-jams-in-uttarakhand-himachal-as-tourists-escape-scorching-heat-in-north-india-watch-video-11558062#publisher=newsstand",
+            "summary": "Large crowds can be seen at places like Kullu and Manali, with online visuals showing packed roads and tourist spots.",
+            "published_at": "12:05 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Nothing Short Of Spectacular': How Tendulkar, Cricket World Reacted To Vaibhav Sooryavanshi's IPL Blitz",
+            "url": "https://www.ndtvprofit.com/sports/nothing-short-of-spectacular-how-tendulkar-cricket-world-reacted-to-vaibhav-sooryavanshis-ipl-blitz-11558250#publisher=newsstand",
+            "summary": "The 15-year-old smashed 97 off just 29 balls during a record-breaking knock as Rajasthan Royals beat Sunrisers Hyderabad by 47 runs to enter IPL 2026 Qualifier 2.",
+            "published_at": "12:05 PM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Siddaramaiah Informs Ministers About His Resignation, Congress Proposes DK Shivakumar As Next K'taka CM",
+            "url": "https://www.ndtvprofit.com/india/siddaramaiah-informs-ministers-about-his-resignation-congress-proposes-dk-shivakumar-as-next-karnataka-cm-11558319#publisher=newsstand",
+            "summary": "Congress high command has proposed DK Shivakumar as the next Chief Minister",
+            "published_at": "11:58 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "​12 Midcap stocks still down up to 50% from their yearly high despite index hitting 52-week high",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/12-midcap-stocks-still-down-up-to-50-from-their-yearly-high-despite-index-hitting-52-week-high/slideshow/131364504.cms",
+            "summary": "Despite resilience in the broader market and fresh highs in the Nifty Midcap 150, several midcap stocks remain sharply corrected, trading 40–50% below peak levels amid uneven market recovery.​",
+            "published_at": "11:49 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Bitcoin trades at $73K amid US-Iran tensions; ETF outflows top $2.5 billion in 2 weeks",
+            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-trades-at-73k-amid-us-iran-tensions-etf-outflows-top-2-5-billion-in-2-weeks/articleshow/131364254.cms",
+            "summary": "Bitcoin and Ethereum experienced significant drops as rising US-Iran tensions and substantial crypto liquidations impacted investor sentiment. Over $700 million in crypto was liquidated in a single day, with Bitcoin falling near $73,000. US spot Bitcoin ETFs also saw considerable outflows, totaling over $2.5 billion in two weeks.",
+            "published_at": "11:40 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Pentagon awards Microsoft $9.7 billion deal in bid to cut costs, end license sprawl",
+            "url": "https://www.thehindu.com/sci-tech/technology/pentagon-awards-microsoft-97-billion-deal-in-bid-to-cut-costs-end-license-sprawl/article71031864.ece",
+            "summary": "The ‌deal, called the Core ​Enterprise Technology Agreement, is not new spending ⁠because baskets of Pentagon software contracts came up for ‌renewal simultaneously",
+            "published_at": "11:35 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Bullish Bets: Vinit Bolinjkar maps out India’s next big market winners",
+            "url": "https://economictimes.indiatimes.com/markets/expert-view/bullish-bets-vinit-bolinjkar-maps-out-indias-next-big-market-winners/articleshow/131364057.cms",
+            "summary": "Indian equities are seeing stock-specific action. Market expert Vinit Bolinjkar is bullish on select banking, power, defence, and industrial companies. He highlights mid-sized banks like Yes Bank, RBL Bank, and Bandhan Bank. Cummins India is seen as a long-term compounder. Coal India offers yield and growth. Adani Green and Adani Enterprises are preferred in the power theme.",
+            "published_at": "11:31 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Happy Eid al-Adha 2026: 50+ Eid Mubarak Wishes, WhatsApp Messages, Status To Share With Friends And Family",
+            "url": "https://www.ndtvprofit.com/trending/happy-eid-al-adha-2026-50-eid-mubarak-wishes-whatsapp-messages-status-to-share-with-friends-and-family-11552623#publisher=newsstand",
+            "summary": "As people prepare to commemorate Eid-ul-Adha (Bakra Eid) in 2026, here's a collection of wishes, messages, and statuses to share with your loved ones.",
+            "published_at": "11:30 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Bakra Eid 2026: Happy Eid ul-Adha Mubarak Wishes, Greetings, Quotes, Facebook And WhatsApp Status",
+            "url": "https://www.ndtvprofit.com/trending/bakra-eid-2026-happy-eid-ul-adha-mubarak-wishes-greetings-quotes-facebook-and-whatsapp-status-11547937#publisher=newsstand",
+            "published_at": "11:30 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Gold Slumps To Two-Month Low As US Strikes Damp Peace Talk Hopes",
+            "url": "https://www.ndtvprofit.com/markets/gold-slumps-to-two-month-low-as-us-strikes-damp-peace-talk-hopes-11558201#publisher=newsstand",
+            "summary": "Bullion fell as much as 2% to near $4,365 an ounce.",
+            "published_at": "11:27 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Happy Eid Ul Adha Mubarak Images, Wishes, Quotes And WhatsApp Status For Your Closed Ones On Bakrid 2026",
+            "url": "https://www.ndtvprofit.com/trending/happy-eid-ul-adha-mubarak-images-wishes-quotes-and-whatsapp-status-for-your-closed-ones-on-bakrid-2026-11558176#publisher=newsstand",
+            "summary": "This festival is called by different names such as Bakra Eid, Eid-al-Adha, Qurban Bayrami, and Eid Qurban in different parts of the world.",
+            "published_at": "11:26 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Reliance Industries, Infosys, among 10 stocks which saw highest buying by retail investors in Q4",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/reliance-industries-infosys-among-10-stocks-which-saw-highest-buying-by-retail-investors-in-q4/slideshow/131364102.cms",
+            "summary": "​Despite volatile markets, rising crude prices, rupee weakness, and geopolitical tensions, retail investors increased exposure to major Indian stocks during Q4 2026, signaling confidence in long-term value opportunities amid corrections.​",
+            "published_at": "11:23 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "​Salesforce’s AI transformation takes center stage after Q1 results​",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/salesforces-ai-transformation-takes-center-stage-after-q1-results/slideshow/131363911.cms",
+            "summary": "​Salesforce reported better-than-expected FY2027 first-quarter results, driven by strong demand for AI and cloud products. However, cautious revenue guidance and concerns over AI-driven disruption in the software industry weighed on investor sentiment. Markets are now closely watching whether Salesforce’s AI strategy and Agentforce platform can sustain long-term growth.",
+            "published_at": "11:09 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "JSW Group commences construction of mega steel project in Odisha",
+            "url": "https://www.thehindu.com/news/national/odisha/jsw-group-commences-construction-of-mega-steel-project-in-odisha/article71029733.ece",
+            "summary": "The new steel plant is coming up at the place where South Korean steel major POSCO had once proposed a mega project",
+            "published_at": "11:06 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Why India's mid & smallcaps are outrunning Nifty 50 & where to invest now? Rajesh Kothari explains",
+            "url": "https://economictimes.indiatimes.com/markets/expert-view/why-indias-mid-smallcaps-are-outrunning-nifty-50-where-to-invest-now-rajesh-kothari-explains/articleshow/131363553.cms",
+            "summary": "Indian mid and smallcap stocks are surging ahead of largecaps. This divergence is driven by robust earnings. Many mid and smallcap firms are now debt-free and profitable. AlfAccurate Advisors is betting on sectors like EMS, Capital Goods, and Auto Ancillaries. Traditional IT services face a prolonged correction. Investors should focus on identifying strong companies.",
+            "published_at": "10:58 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Air India Partners With Indian Army To Launch Employment Initiative For War Widows, Children",
+            "url": "https://www.ndtvprofit.com/india/air-india-partners-with-indian-army-to-launch-employment-initiative-for-war-widows-children-11558041#publisher=newsstand",
+            "summary": "Through the agreement, Air India plans to provide employment opportunities for Veer Naris (war widows) and their children through Air India SATS Airport Services Private Limited.",
+            "published_at": "10:54 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "PM Narendra Modi, President Droupadi Murmu Extend Eid-ul-Adha Greetings",
+            "url": "https://www.ndtvprofit.com/india/pm-narendra-modi-amp-president-droupadi-murmu-extend-eid-ul-adha-greetings-11557983#publisher=newsstand",
+            "summary": "Taking to social media platform X, Prime Minister Modi shared his wishes, highlighting the significance of the festival in strengthening social bonds and fostering unity.",
+            "published_at": "10:52 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Commodity upcycle: Why copper and aluminium could explode in coming quarters. Should Indians invest?",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/commodity-upcycle-why-copper-and-aluminium-could-explode-in-coming-quarters-should-indians-invest/articleshow/131363396.cms",
+            "summary": "As the precious metals rally matures, market attention is shifting towards industrial commodities like copper and aluminium. Analysts believe structural supply shortages, booming AI and energy-transition demand, geopolitical disruptions and low inventories could drive a multi-year commodity upcycle, with MCX metals increasingly emerging as a key opportunity for Indian investors.",
+            "published_at": "10:41 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Finance Ministry to conduct factory visits for ground-level inputs ahead of Budget planning",
+            "url": "https://www.thehindu.com/business/Economy/finance-ministry-to-conduct-factory-visits-for-ground-level-inputs-ahead-of-budget-planning/article71031978.ece",
+            "summary": "The initiative, led by the Department of Economic Affairs in the Finance Ministry, will involve senior DEA officials visiting large, medium and small manufacturing units, as well as externally aided projects, to assess operational and policy challenges across sectors",
+            "published_at": "10:40 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Donald Trump's Cabinet Meeting: From Iran Deal To Ebola Measures, 10 Key Takeaways",
+            "url": "https://www.ndtvprofit.com/world/trump-039-s-cabinet-meeting-10-key-takeaways-on-deal-with-iran-11557827#publisher=newsstand",
+            "summary": "In a session, President Trump and his Cabinet revealed significant developments on the Iran nuclear deal, border security, fraud recovery, and public health preparedness.",
+            "published_at": "10:36 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "AI boom powers Snowflake’s massive rally after strong quarterly results",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-boom-powers-snowflakes-massive-rally-after-strong-quarterly-results/slideshow/131363472.cms",
+            "summary": "Snowflake surged after strong earnings, rising AI demand, and a major AWS partnership boosted investor confidence, reinforcing its position as a leading enterprise AI infrastructure and cloud data platform company.",
+            "published_at": "10:35 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Gift Nifty tumbles nearly 2% after US-Iran exchange strikes in latest escalation",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/gift-nifty-tumbles-nearly-2-after-us-iran-exchange-strikes-in-latest-escalation/articleshow/131363265.cms",
+            "summary": "Gift Nifty 50 futures fell sharply, indicating that Indian markets are likely to open significantly lower on Friday. The decline followed fresh U.S. strikes on an Iranian military site, which intensified geopolitical tensions despite ongoing diplomatic talks between Washington and Tehran to resolve their three-month conflict.",
+            "published_at": "10:30 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Global Market Check: Foreign investors buy Japanese stocks for 8th week on AI rally",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-check-foreign-investors-buy-japanese-stocks-for-8th-week-on-ai-rally/articleshow/131363271.cms",
+            "summary": "Foreign investors continue to show strong interest in Japanese stocks, marking an eighth consecutive week of purchases. This trend is fueled by falling oil prices and a surge in AI-related shares. Investors are optimistic about the demand outlook for AI chips, with companies like Nvidia and SoftBank Group seeing significant gains.",
+            "published_at": "10:30 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "US Stock Market: Fed Vice Chair Jefferson backs current rate stance ahead of June meeting",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-fed-vice-chair-jefferson-backs-current-rate-stance-ahead-of-june-meeting/articleshow/131363141.cms",
+            "summary": "Federal Reserve Vice Chair Philip Jefferson said the current US monetary policy stance remains appropriate as policymakers assess persistent inflation risks and economic resilience. Jefferson reiterated that restoring inflation to the Fed’s 2% target remains the priority, while officials continue monitoring labour market conditions and geopolitical risks affecting the broader economy.x`",
+            "published_at": "10:28 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "CUET UG 2026 Admit Card OUT For May 31 Exams: Check Direct Link And Steps To Download",
+            "url": "https://www.ndtvprofit.com/india/cuet-ug-2026-admit-card-out-for-may-31-exams-check-direct-link-and-steps-to-download-11557585#publisher=newsstand",
+            "summary": "Candidates who are scheduled to appear on May 31 can now download their updated admit cards from the official CUET website by logging in with their application credentials.",
+            "published_at": "10:26 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "If Your Apple iPhone Is Grabbed, This Upcoming Feature Will Protect Your Precious Data",
+            "url": "https://www.ndtvprofit.com/technology/if-your-apple-iphone-is-grabbed-this-upcoming-feature-will-protect-your-precious-data-11557928#publisher=newsstand",
+            "summary": "The feature will automatically lock the iPhone if it senses it has been suddenly grabbed from the user's hand and trigger Stolen Device Protection.",
+            "published_at": "10:22 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "AI chiefs walk back job apocalypse warnings",
+            "url": "https://www.thehindu.com/sci-tech/technology/ai-chiefs-walk-back-job-apocalypse-warnings/article71031858.ece",
+            "summary": "The reversals from rivals Altman and Amodei come as their companies, OpenAI and Anthropic, are expected to embark on high-profile IPOs that will require broad buy-in from investors to succeed",
+            "published_at": "10:12 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Q4 earnings roundup: Raymond Realty, MCX among 19 companies that delivered 100%+ growth in sales and PAT",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/q4-earnings-roundup-raymond-realty-mcx-among-19-companies-that-delivered-100-growth-in-sales-and-pat/articleshow/131363051.cms",
+            "summary": "A select group of 19 large-cap BSE-listed companies achieved triple-digit growth in both profit and revenue during Q4FY26, indicating strong business momentum. Raymond Realty and 63 Moons Technologies were among the top performers, showcasing robust execution and demand. While many firms saw significant profit jumps, only a few managed to double both revenue and profit simultaneously.",
+            "published_at": "10:11 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Gold sitting idle in lockers? Why experts want Indians to monetise their yellow metal now",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-sitting-idle-in-lockers-why-experts-want-indians-to-monetise-their-yellow-metal-now/articleshow/131362967.cms",
+            "summary": "As gold prices rally and India seeks to curb imports, financial experts are urging investors to rethink how they own the precious metal. Advisors suggest monetising idle household gold and shifting towards diversified financial assets, arguing that strategic investing and balanced portfolios may deliver better long-term wealth creation than excessive gold accumulation alone.",
+            "published_at": "10:06 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "US Stocks Market: Rising treasury yields and oil prices fuel stronger dollar bets",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-market-rising-treasury-yields-and-oil-prices-fuel-stronger-dollar-bets/articleshow/131362774.cms",
+            "summary": "Amid rising geopolitical tensions and higher energy prices linked to the Iran conflict, investors are increasingly betting that the Federal Reserve will prioritize inflation control and maintain higher interest rates.",
+            "published_at": "09:44 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Viral Buffalo Nicknamed 'Donald Trump' Escapes Eid Sacrifice, Finds New Home At Bangladesh Zoo",
+            "url": "https://www.ndtvprofit.com/trending/viral-buffalo-nicknamed-donald-trump-escapes-eid-sacrifice-finds-new-home-at-bangladesh-zoo-11557736#publisher=newsstand",
+            "summary": "Social media users were fascinated by the buffalo's unusual white markings and distinctive hair pattern, which many compared to Trump's trademark hairstyle.",
+            "published_at": "09:39 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "US Stock Market: Goldman Sachs raises S&P 500 target to 8,000 on AI-driven earnings optimism",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-goldman-sachs-raises-sp-500-target-to-8000-on-ai-driven-earnings-optimism/articleshow/131362710.cms",
+            "summary": "Goldman Sachs has boosted its S&P 500 target for 2026 to 8,000. This optimistic outlook is driven by strong corporate earnings and continued investment in artificial intelligence. The firm anticipates robust profit growth, with AI-related companies expected to be major contributors. This revision reflects growing confidence in the US stock market's future performance.",
+            "published_at": "09:36 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Bitcoin falls to 5-week low amid war jitters, ETF outflows",
+            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-falls-to-5-week-low-amid-war-jitters-etf-outflows/articleshow/131362657.cms",
+            "summary": "Bitcoin has seen its sharpest fall in over five weeks. Concerns about the global economic outlook and money leaving US Bitcoin exchange-traded funds are impacting the cryptocurrency. Investors are cautious due to geopolitical tensions and rising interest rate fears. This has led to a dip in Bitcoin's price, with analysts expecting further downside risks.",
+            "published_at": "09:29 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "India Sends Emergency Medical Supplies For Ebola Outbreak Response In Congo",
+            "url": "https://www.ndtvprofit.com/world/india-sends-emergency-medical-supplies-for-ebola-outbreak-response-in-congo-11557740#publisher=newsstand",
+            "summary": "The supplies include essential diagnostics, therapeutics, infection prevention and control materials, and case management support, which will be deployed to affected communities in eastern DR Congo.",
+            "published_at": "09:17 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "US Stock Market: Mortgage rates hit 9-month high as inflation worries deepen",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-mortgage-rates-hit-9-month-high-as-inflation-worries-deepen/articleshow/131362536.cms",
+            "summary": "US mortgage rates reached a nine-month high of 6.65% last week, driven by elevated oil prices and inflation concerns. This surge, coupled with a persistent housing shortage and the \"rate lock-in\" effect, is intensifying affordability challenges for prospective buyers. Mortgage applications saw a significant decline as borrowing costs increased.",
+            "published_at": "09:16 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "US-Iran War Live News Updates: Iran Responds To US Attack Near Bandar Abbas",
+            "url": "https://www.ndtvprofit.com/world/us-iran-war-live-news-updates-us-launches-fresh-strikes-on-iran-strait-of-hormuz-trump-news-mojtaba-khamenei-oil-price-middle-east-conflict-gulf-news-11557567#publisher=newsstand",
+            "summary": "US and Iran tensions continue even as the conflict completes the three month mark with both sides remain uncertain about the way to reopen the Strait of Hormuz.",
+            "published_at": "09:11 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "US-Iran War Live News Updates: US Launches Fresh Strikes On Iran As Conflict Enters Fourth Month, Hormuz Deadlock Remains",
+            "url": "https://www.ndtvprofit.com/world/us-iran-war-live-news-updates-us-launches-fresh-strikes-on-iran-strait-of-hormuz-trump-news-mojtaba-khamenei-oil-price-middle-east-conflict-gulf-news--11557567#publisher=newsstand",
+            "published_at": "09:11 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "US Denies Iran Report On Draft Peace Deal To Reopen Hormuz",
+            "url": "https://www.ndtvprofit.com/world/us-denies-iran-report-on-draft-peace-deal-to-reopen-hormuz-11556120#publisher=newsstand",
+            "published_at": "09:11 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Copper hits one-week low as Middle East escalation clouds growth outlook",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/copper-hits-one-week-low-as-middle-east-escalation-clouds-growth-outlook/articleshow/131362437.cms",
+            "summary": "Copper prices dropped to a one-week low on Thursday as renewed Middle East tensions boosted the dollar and oil, sparking inflation and slowdown fears. U.S. strikes targeting an Iranian drone operation in the Strait of Hormuz contributed to market unease. Base metal prices are expected to trade sideways pending a resolution in the region.",
+            "published_at": "09:08 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "ETMarkets PMS Talk | A 'private equity approach' to public markets has driven our investing success for 15 years: Sameer Shah",
+            "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-pms-talk-a-private-equity-approach-to-public-markets-has-driven-our-investing-success-for-15-years-sameer-shah/articleshow/131344810.cms",
+            "summary": "ValueQuest's Sameer Shah champions a private equity approach to public markets. He focuses on deep research and conviction in identifying transformative business trends early. Shah highlights manufacturing, defence, AI, aerospace, and energy transition as key themes for the next decade. He believes these sectors offer significant alpha opportunities, often remaining under-owned and under-appreciated by the broader market.",
+            "published_at": "09:01 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Senco Gold targets 20–25% revenue growth in FY27 but cautions PAT margins will normalise to 4–4.5%",
+            "url": "https://economictimes.indiatimes.com/markets/expert-view/senco-gold-targets-2025-revenue-growth-in-fy27-but-cautions-pat-margins-will-normalise-to-44-5/articleshow/131350200.cms",
+            "summary": "Senco Gold's top executive signals a return to normal profit margins. FY26's high earnings were an exception. The company aims for 4-4.5% profit margins going forward. Demand saw a dip but is expected to recover. Senco Gold plans to open more stores and boost diamond jewellery sales. Inventory is largely protected against price swings.",
+            "published_at": "09:00 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "ETMarkets Smart Talk | Don't mistake FII outflows for a loss of confidence in India's growth story: Himanshu Srivastava",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/etmarkets-smart-talk-dont-mistake-fii-outflows-for-a-loss-of-confidence-in-indias-growth-story-himanshu-srivastava/articleshow/131349019.cms",
+            "summary": "Foreign investors withdrew almost $5 billion from India funds in March 2026. This outflow stemmed from global uncertainty and high valuations. Experts believe this is not a loss of faith in India's growth. Domestic investors showed resilience. Passive investing is growing, but active management remains key. Currency movements also influence decisions. India's long-term growth story remains strong.",
+            "published_at": "09:00 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Bharti Airtel, HAL, among 7 stocks that have upside potential of up 28%. Do you own any?",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/bharti-airtel-hal-among-7-stocks-that-have-upside-potential-of-up-28-do-you-own-any/slideshow/131362376.cms",
+            "summary": "Amid rising geopolitical tensions, surging crude oil prices and continued FII outflows, ICICI Securities has identified seven largecap stocks with strong upside potential. The brokerage believes these sector leaders, backed by robust fundamentals and long-term growth visibility, could outperform despite volatile market conditions and uncertain investor sentiment.",
+            "published_at": "08:53 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Praggnanandhaa Reacts After Defeating Magnus Carlsen At Norway Chess — Watch Final Moments Of His Victory",
+            "url": "https://www.ndtvprofit.com/sports/praggnanandhaa-reacts-after-defeating-magnus-carlsen-at-norway-chess-watch-final-moments-of-his-victory-11557633#publisher=newsstand",
+            "summary": "Praggnanandhaa secured all three points in the game.",
+            "published_at": "08:41 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Gold, silver slide up to 2% as fresh US strikes on Iran fuel inflation fears, hurt peace hopes",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-silver-slide-up-to-2-as-fresh-us-strikes-on-iran-fuel-inflation-fears-hurt-peace-hopes/articleshow/131361932.cms",
+            "summary": "Gold prices declined on Thursday as U.S. strikes on Iran boosted oil and fueled inflation concerns, impacting interest rate outlooks. Spot gold fell 0.8% to $4,419.60 per ounce. Investors await U.S. PCE data for Federal Reserve policy signals, with officials indicating rates may remain unchanged for now.",
+            "published_at": "08:12 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Oil Price Today (May 28): Crude oil jumps over 2% despite optimism around Iran war peace deal. Here’s why",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-may-28-crude-oil-jumps-over-2-despite-optimism-around-iran-war-peace-deal-heres-why/articleshow/131361633.cms",
+            "summary": "Oil prices surged approximately 2% as U.S. strikes on an Iranian military site escalated geopolitical tensions, despite ongoing talks. This rebound followed a significant drop due to expectations of a potential U.S.-Iran agreement. Analysts warn that even with a deal, normalizing shipping through the Strait of Hormuz could take months, impacting global oil markets.",
+            "published_at": "07:41 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Oil Prices On May 28: Brent Crude Rises To $96 After Fresh US Strikes On Iran",
+            "url": "https://www.ndtvprofit.com/markets/oil-prices-on-may-28-brent-crude-rises-to-96-after-fresh-us-strikes-on-iran-hormuz-uncertainty-11557526#publisher=newsstand",
+            "summary": "Brent rose above $96 a barrel, while West Texas Intermediate was near $90.",
+            "published_at": "07:41 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Dollar near one-week high as US-Iran tensions flare, yen nears intervention zone",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-near-one-week-high-as-us-iran-tensions-flare-yen-nears-intervention-zone/articleshow/131361470.cms",
+            "summary": "The dollar strengthened near a one-week peak. New U.S. strikes in Iran have complicated peace talks. Oil prices rebounded as hopes for a quick resolution faded. Investors anticipate the dollar to rise further. The yen weakened significantly, nearing a level that previously prompted central bank intervention. Markets await key U.S. inflation data.",
+            "published_at": "07:15 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Gold eases as US-Iran tensions cloud interest rate outlook",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-eases-as-us-iran-tensions-cloud-interest-rate-outlook/articleshow/131361451.cms",
+            "summary": "Gold prices dipped as escalating U.S.-Iran tensions fueled oil price surges, sparking inflation worries and casting a shadow over the Federal Reserve's interest rate decisions. Investors are now keenly awaiting crucial U.S. economic data for further policy direction. Meanwhile, other precious metals like silver, platinum, and palladium also experienced declines.",
+            "published_at": "07:12 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Has the IPL hit a speed bump?",
+            "url": "https://finshots.in/archive/has-the-ipl-hit-a-speed-bump/",
+            "summary": "Why the IPL may be entering a very different economic era.",
+            "published_at": "07:00 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Stock Market Holiday 2026: Are NSE, BSE closed today for Bakri Id? Check market closing dates list",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/stock-market-holiday-2026-are-nse-bse-closed-today-for-bakri-id-check-market-closing-dates-list/articleshow/131354344.cms",
+            "summary": "Indian stock markets will be closed on May 28 for Bakri Id, marking another trading holiday in 2026. Following this, seven more market closures are scheduled throughout the year, including Muharram, Ganesh Chaturthi, and Diwali. MCX will have a partial closure, while NCDEX will be fully shut.",
+            "published_at": "07:00 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Global Market Today: Asian stocks slip from record highs, oil gains",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-slip-from-record-oil-gains/articleshow/131361374.cms",
+            "summary": "Asian equities retreated from record highs as conflicting signals from the US and Iran on a potential peace deal emerged. Crude oil prices surged as the Strait of Hormuz remained disrupted. The dollar strengthened and Treasuries dropped as sentiment soured following US strikes and White House skepticism about negotiations.",
+            "published_at": "06:51 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Hong Kong tops Switzerland as world’s largest offshore wealth hub",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/hong-kong-tops-switzerland-as-worlds-largest-offshore-wealth-hub/articleshow/131361316.cms",
+            "summary": "Hong Kong has become the world's top wealth hub, surpassing Switzerland. Offshore assets in Hong Kong reached $2.9 trillion in 2025. Global private fortunes also saw significant growth. Emerging markets are set to add substantial wealth by 2030. Hong Kong's lead is expected to grow, driven by China's economy and its IPO market.",
+            "published_at": "06:47 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Oil rebounds after news of US strikes on Iranian military site",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-rebounds-after-news-of-us-strikes-on-iranian-military-site/articleshow/131361335.cms",
+            "summary": "Oil prices surged today following reports of new U.S. strikes on an Iranian military site. This escalation comes as Washington and Tehran are in negotiations to end their conflict. Brent crude futures and U.S. West Texas Intermediate futures saw significant gains. U.S. crude oil stockpiles also fell for the sixth consecutive week, indicating tight supply.",
+            "published_at": "06:42 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "BIS and banks build blockchain cross-border payments prototype",
+            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/bis-and-banks-build-blockchain-cross-border-payments-prototype/articleshow/131361296.cms",
+            "summary": "Global financial institutions are set to test a new digital system for cross-border payments. This project, involving major banks and central banks, aims to make international money transfers faster and cheaper. The system will use blockchain technology for quick settlements. Officials emphasize getting the technology right before a full rollout. This initiative could significantly change how global finance operates.",
+            "published_at": "06:34 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Stock Market Holiday: Are BSE, NSE Closed For Trading On May 28 For Eid al-Adha?",
+            "url": "https://www.ndtvprofit.com/markets/stock-market-holiday-are-bse-nse-closed-for-trading-on-may-28-thursday-for-eid-al-adha-eid-uz-zuha-11555270#publisher=newsstand",
+            "summary": "Eid al-Adha, also known as Eid uz-Zuha, is celebrated as the feast of sacrifice in Islam.",
+            "published_at": "06:30 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Bank Holiday Today: Are SBI, HDFC, ICICI, Others Closed On May 28 For Eid al-Adha? Check Region-Wise List",
+            "url": "https://www.ndtvprofit.com/india/bank-holiday-today-are-sbi-hdfc-icici-others-closed-on-may-28-for-eid-al-adha-eid-uz-zoha-check-region-wise-list-11555361#publisher=newsstand",
+            "summary": "As per the RBI holiday calendar, banks are likely to remain closed today in several cities and regions across the country for Bakrid celebrations.",
+            "published_at": "06:30 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "InvITs industry pushes for easier M&A rules to boost investor interest",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/invits-industry-pushes-for-easier-ma-rules-to-boost-investor-interest/articleshow/131361245.cms",
+            "summary": "India's InvITs sector, managing ₹7 lakh crore in assets, is urging regulators for simpler M&A rules. Industry leaders want change of control guidelines to match those for listed companies. This aims to attract more investors by streamlining acquisition processes. Current rules can make buyers acquire more units than intended.",
+            "published_at": "06:18 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "US, UK firms boost currency hedging as war sparks volatility",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/us-uk-firms-boost-forex-hedging-as-war-sparks-volatility/articleshow/131361203.cms",
+            "summary": "American and British companies significantly boosted currency hedging last quarter. This move came as global markets faced turbulence. Events like the war in Iran and energy price surges prompted treasurers to protect more foreign-exchange exposure. This proactive approach reflects a response to heightened market volatility. Companies cited higher import costs and earnings volatility as key impacts.",
+            "published_at": "06:11 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Quote Of The Day By Ray Dalio: 'If You're Not Failing, You're Not...'",
+            "url": "https://www.ndtvprofit.com/trending/quote-of-the-day-by-ray-dalio-if-youre-not-failing-youre-not-11553449#publisher=newsstand",
+            "summary": "Ray Dalio, the billionaire founder of Bridgewater Associates, one of the world's largest hedge funds, has built his career on unconventional wisdom and radical transparency.",
+            "published_at": "06:00 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Rupee flat on hopes West Asia truce will hold",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-flat-on-hopes-west-asia-truce-will-hold/articleshow/131361103.cms",
+            "summary": "The Indian rupee remained stable against the dollar as risk assets gained across Asia and Europe. Falling oil prices and expectations of a West Asian truce provided support, while the central bank's interventions also bolstered the local unit. Benchmark sovereign bond yields stayed below 7%.",
+            "published_at": "05:47 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Adani Power surges past Infosys in market capitalisation",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/adani-power-surges-past-infosys-in-market-capitalisation/articleshow/131361084.cms",
+            "summary": "Adani Power has surpassed Infosys in market capitalization, becoming the 11th most valuable company on Indian bourses. This shift is driven by Adani Power's 68% stock surge in 2026, while Infosys experienced a nearly 29% decline. Investors favor Adani Power due to rising energy demand, whereas concerns over AI's impact on traditional IT services have affected Infosys.",
+            "published_at": "05:44 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Nifty Midcap 100 scales fresh peak, analysts see more upside ahead",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-midcap-100-scales-fresh-peak-analysts-see-more-upside-ahead/articleshow/131361068.cms",
+            "summary": "The Nifty Midcap 100 index reached a record high for the fourth consecutive session, driven by strong corporate earnings and promising growth outlooks. Analysts anticipate this momentum to continue, with potential for 20% gains in the medium term, as midcap and smallcap stocks attract significant investor interest.",
+            "published_at": "05:34 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "States under fiscal strain amid high welfare spend: Morgan Stanley",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/states-under-fiscal-strain-amid-high-welfare-spend-morgan-stanley/articleshow/131361046.cms",
+            "summary": "States are facing fiscal pressure as revenue growth slows and welfare spending remains high, leading to elevated deficits. Morgan Stanley reports state fiscal deficits are projected to stay at 3.2% of GSDP through FY27, while the consolidated fiscal deficit is expected to rise to 7.9%.",
+            "published_at": "05:29 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "US stocks today: Dow posts closing record high, S&P 500, Nasdaq muted as AI rally pauses",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-dow-posts-closing-record-high-sp-500-nasdaq-muted-as-ai-rally-pauses/articleshow/131358814.cms",
+            "summary": "US stocks ended mixed as the Dow hit a record closing high driven by healthcare and consumer gains, while tech and chip stocks lagged. Banking shares fell after JPMorgan flagged higher expenses, and Zscaler dropped on weak guidance. Goldman Sachs raised its S&P 500 forecast to 8,000 amid strong earnings outlook.",
+            "published_at": "01:36 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Fed's Cook says she is prepared to raise rates if inflation doesn't ease",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/feds-cook-says-she-is-prepared-to-raise-rates-if-inflation-doesnt-ease/articleshow/131358805.cms",
+            "summary": "Federal Reserve Governor Lisa Cook signaled support for keeping US interest rates steady, citing mixed economic risks from tariffs, the Iran war, and rising AI investment. She warned inflation is trending higher due to energy costs and wage pressures but said the labor market remains stable with no immediate need for cuts.",
+            "published_at": "01:33 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Non-banks increase microfinance share amid muted demand",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/non-banks-increase-microfinance-share-amid-muted-demand/articleshow/131361168.cms",
+            "summary": "The overall microfinance gross loan portfolio stood at ₹3.34 lakh crore at the end of April, down from ₹3.39 lakh crore a month ago, said the credit information company.",
+            "published_at": "12:46 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "HDFC Bank denies allegations of disguising interest payout",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-denies-allegations-of-disguising-interest-payout/articleshow/131361164.cms",
+            "summary": "HDFC Bank stands resolutely against accusations of misconduct as an investigative report alleges that it masked differential interest payments to MSRDC as part of its marketing budget. The bank emphasizes its stringent internal controls and refutes any speculation of wrongdoing.",
+            "published_at": "12:38 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Avaada seeks $800 million to refinance Brookfield Asset Management debt",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/avaada-seeks-800-million-to-refinance-brookfield-asset-management-debt/articleshow/131361174.cms",
+            "summary": "Avaada Group is raising $800 million to refinance existing debt. This move aims to reduce finance costs before the group's planned public market listing. The funds will come from offshore loans and local bonds. This refinancing will replace part of the debt from Brookfield Asset Management. Avaada is expanding its renewable energy and manufacturing businesses.",
+            "published_at": "12:38 AM, 28 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "AkzoNobel rejects €12.5 billion Nippon Paint, Sherwin-Williams takeover offer",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/akzonobel-rejects-12-5-billion-nippon-paint-sherwin-williams-takeover-offer/articleshow/131361152.cms",
+            "summary": "Dulux paint maker AkzoNobel has rejected a massive takeover offer. Rivals Nippon Paint and Sherwin-Williams proposed a €12.5 billion deal. AkzoNobel stated the offer undervalued its business and lacked certainty. The company board continues to back its planned merger with Axalta. Shareholders will vote on the Axalta deal soon. This rejection sent AkzoNobel shares soaring.",
+            "published_at": "11:54 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "IPL Eliminator Highlights: Sooryavanshi, Archer Star As Rajasthan Royals Reach Qualifier 2",
+            "url": "https://www.ndtvprofit.com/sports/cricket-indian-premier-league-ipl-2026-eliminator-srh-vs-rr-live-updates-sunrisers-hyderabad-vs-rajasthan-royals-match-scorecard-vaibhav-sooryavanshi-11554772#publisher=newsstand",
+            "summary": "Rajasthan Royals will face Gujarat Titans in Qualifier 2 on Friday for a place in the IPL Final 2026 against Royal Challengers Bengaluru (RCB) at the Narendra Modi Stadium in Ahmedabad.",
+            "published_at": "11:41 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Goyal Recommends Dual Degree Programs To Canada For Furthering Cooperation On Education",
+            "url": "https://www.ndtvprofit.com/economy/goyal-recommends-dual-degree-programs-to-canada-for-furthering-cooperation-on-education-11556797#publisher=newsstand",
+            "summary": "Goyal invited young boys and girls from Canada to come to India and observe the developmental activities.",
+            "published_at": "11:37 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "IPL 2026 Orange Cap: Vaibhav Sooryavanshi Surges Ahead With Explosive 97 In RR Vs SRH Eliminator Clash",
+            "url": "https://www.ndtvprofit.com/sports/ipl-2026-orange-cap-vaibhav-sooryavanshi-surges-ahead-with-explosive-97-in-rr-vs-srh-eliminator-clash-11556748#publisher=newsstand",
+            "summary": "Vaibhav Sooryavanshi etched his name into the record books by surpassing Chris Gayle for the most sixes (65) hit in a single IPL edition.",
+            "published_at": "11:36 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "RR's Vaibhav Sooryavanshi Breaks Multiple IPL Batting Records With 29-Ball 97 Vs SRH In Eliminator",
+            "url": "https://www.ndtvprofit.com/sports/rrs-vaibhav-sooryavanshi-breaks-multiple-ipl-batting-records-with-29-ball-97-vs-srh-in-eliminator-11556295#publisher=newsstand",
+            "published_at": "11:36 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "WATCH | IPL 2026: Vaibhav Sooryavanshi Breaks Chris Gayle's Record, Hammers Most Sixes In One Season",
+            "url": "https://www.ndtvprofit.com/sports/cricket-indian-premier-league-ipl-2026-watch-vaibhav-sooryavanshi-chris-gayle-record-most-sixes-rajasthan-royals-vs-sunrisers-hyderabad-rr-vs-srh-11555873#publisher=newsstand",
+            "published_at": "11:36 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "NEET Paper Leak Case: Delhi Court Sends Paediatrician, Physicis Tutor To CBI Custody For Five Days",
+            "url": "https://www.ndtvprofit.com/india/neet-paper-leak-case-delhi-court-sends-paediatrician-physicis-tutor-to-cbi-custody-for-five-days-11556726#publisher=newsstand",
+            "summary": "The agency arrested both the accused on Wednesday for their alleged involvement in the leak and dissemination of the NEET exam.",
+            "published_at": "11:21 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "ISRO Spots Potential Surface Ice Near Lunar South Pole Using Chandrayaan-2 Data",
+            "url": "https://www.ndtvprofit.com/science/isro-spots-potential-surface-ice-on-moon-near-lunar-south-pole-using-chandrayaan-2-data-11556598#publisher=newsstand",
+            "summary": "ISRO's Chandrayaan-2 radar data suggests possible subsurface water-ice near the Moon's south pole, especially in Faustini crater. Cold, permanently shadowed regions show radar signs that may indicate ice beneath the surface.",
+            "published_at": "11:11 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "'FIIs Jump On The Bandwagon': Equity Strategist Warns Of Risks In Letting Rupee Slide Too Much",
+            "url": "https://www.ndtvprofit.com/markets/fiis-jump-on-the-bandwagon-equity-strategist-warns-of-risks-in-letting-rupee-slide-too-much-11556511#publisher=newsstand",
+            "summary": "The Indian currency's historic decline has been triggered by a combination of elevated crude, firm US yields and persistent FII outflows.",
+            "published_at": "10:54 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "US-Iran War News Updates: Trump Says No Sanctions Relief For Iran For Giving Up Uranium",
+            "url": "https://www.ndtvprofit.com/world/us-iran-war-news-live-updates-trump-truth-social-peace-proposal-netanyahu-israel-strikes-lebanon-mojtaba-khamenei-crude-prices-today-11552362#publisher=newsstand",
+            "summary": "Israel has intensified airstrikes in Lebanon, expanding military operations and planning a wider security buffer zone amid a fragile US-brokered ceasefire.",
+            "published_at": "10:54 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "'No Super-Normal Profits': Govt Sources Share OMC Earnings Math To Trash Windfall Gains Charge",
+            "url": "https://www.ndtvprofit.com/economy/no-super-normal-profits-govt-sources-share-omc-earnings-math-to-trash-windfall-gains-charge-11556528#publisher=newsstand",
+            "summary": "Officials also stressed that nearly half of OMC profits flow back to the Government of India as dividends, alongside corporate taxes, financing public infrastructure such as roads, railways and metros.",
+            "published_at": "10:43 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Twisha Sharma Case: Post-Mortem Report Suggests Injuries From 'Scuffle Or Struggle' Before Death",
+            "url": "https://www.ndtvprofit.com/india/twisha-sharma-dowry-death-case-mp-govt-alleges-pre-death-assault-in-hc-11556327#publisher=newsstand",
+            "summary": "MP government told the High Court that Twisha Sharma was allegedly tortured and suffered ante-mortem injuries from a \"scuffle\" before her death.",
+            "published_at": "10:36 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "OMCs absorbing ₹550 Crore daily losses from petrol, diesel, LPG amid conflict-led disruptions: Government",
+            "url": "https://www.thehindu.com/business/Industry/omcs-absorbing-550-crore-daily-losses-from-petrol-diesel-lpg-amid-conflict-led-disruptions-govt/article71030540.ece",
+            "summary": "According to the government, privately-owned OMCs have experienced a decline of about 38% in sales of diesel in the ongoing month.",
+            "published_at": "10:29 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Satin Creditcare Network raises $20 million from BlueOrchard",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/satin-creditcare-network-raises-20-million-from-blueorchard/articleshow/131355652.cms",
+            "summary": "Satin Creditcare Network has secured $20 million through dollar-denominated bonds from BlueOrchard Microfinance Fund. This private placement, featuring a SOFR-linked coupon, marks Satin's first overseas bond issuance this fiscal. The blended cost, influenced by hedging expenses, is slightly under 11%.",
+            "published_at": "10:23 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Timex Group India posts Rs 800 crore revenue for FY26",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/timex-group-india-posts-rs-800-crore-revenue-for-fy26/articleshow/131355360.cms",
+            "summary": "Timex Group India achieved a landmark financial year 2025-2026. Revenues surged 48% to Rs 800 crore, with profit before tax jumping 151% to Rs 107.4 crore. EBITDA also saw substantial growth. The company experienced strong performance across its brands, including Timex, Guess, and Versace. E-commerce channels recorded a 90% increase in sales.",
+            "published_at": "10:16 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Senco Gold Q4 Results: Profit skyrockets 151% to Rs 157 crore",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/senco-gold-q4-results-profit-skyrockets-151-to-rs-157-crore/articleshow/131355242.cms",
+            "summary": "Senco Gold has announced a significant profit jump of 151 percent for the fourth quarter. This surge is attributed to soaring gold prices and robust sales. The company saw its revenue climb by 45 percent. Retail sales reached an all-time high, boosted by wedding demand and an active old gold exchange program.",
+            "published_at": "10:05 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "'Avoid 100% Equity Exposure': Devina Mehra's Advice To Retail Investors Amid Global Headwinds",
+            "url": "https://www.ndtvprofit.com/markets/avoid-100-equity-exposure-devina-mehras-advice-to-retail-investors-amid-global-headwinds-11556407#publisher=newsstand",
+            "summary": "She also stressed that equity markets should not be viewed like fixed deposits, as returns are inherently unpredictable over short horizons of one to three years.",
+            "published_at": "10:02 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Govt plans up to 2% LIC stake sale, may raise Rs 10,000 crore",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/govt-plans-up-to-2-lic-stake-sale-may-raise-rs-10000-crore/articleshow/131354973.cms",
+            "summary": "The government plans to sell up to a 2% stake in LIC, potentially raising Rs 10,000 crore. This move aims to deepen public shareholding amid improving profitability. The stake sale is likely in late June or early July. Merchant bankers were appointed last year. This divestment will help meet the government's asset monetisation target.",
+            "published_at": "09:55 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "ONGC sees new-well gas potential to spur profitability: Chairman",
+            "url": "https://www.thehindu.com/business/Industry/ongc-sees-new-well-gas-potential-to-spur-profitability-chairman/article71030250.ece",
+            "summary": "Gas from new-wells contributed 17% of production volumes in the company’s nomination gas portfolio in FY 2026.",
+            "published_at": "09:54 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Q4 Result Highlights: PhysicsWallah Loss Reduces; Bata India Profit Falls 95%; Vadilal Industries Announces Dividend",
+            "url": "https://www.ndtvprofit.com/markets/q4-results-today-live-updates-physicswallah-gmr-airports-cummins-india-bata-gillette-share-price-live-blog-may-27-11553324#publisher=newsstand",
+            "summary": "Cummins India, Physicswallah, GMR Airports, Gillette India, Bata India among companies to report earnings today.",
+            "published_at": "09:42 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "SKF awards global AI-led business transformation contract to TCS",
+            "url": "https://www.thehindu.com/business/skf-awards-global-ai-led-business-transformation-contract-to-tcs/article71030079.ece",
+            "summary": "This collaboration reflects our joint commitment for making SKF an AI-native, industry-leading technology-driven industrial manufacture: K. Krithivasan, MD and CEO, Tata Consultancy Services",
+            "published_at": "09:41 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Ferrari's First-Ever EV Worth Rs 6 Crore Draws Social Media Wrath: 'Ugliest Ever', 'Designed By ChatGPT'",
+            "url": "https://www.ndtvprofit.com/business/ferraris-first-ever-ev-worth-rs-6-crore-draws-social-media-wrath-ugliest-ever-designed-by-chatgpt-11556168#publisher=newsstand",
+            "summary": "Some netizens stated that consumer electronics aesthetics do not apply well to sports car brands like Ferrari, leading to disappointing results.",
+            "published_at": "09:35 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "PepsiCo New Packaging To carry 'No Artificial Flavours Or Colours' Label",
+            "url": "https://www.ndtvprofit.com/business/pepsico-new-packaging-to-carry-no-artificial-flavours-or-colours-label-11555838#publisher=newsstand",
+            "summary": "Earlier this month, PepsiCo announced it would invest up to Rs 5,700 crore in India by 2030, one of the top 13 markets globally.",
+            "published_at": "09:29 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "$1 Trillion Mcap Club: After Micron And Samsung, This South Korean Chipmaker Hits Milestone",
+            "url": "https://www.ndtvprofit.com/markets/1-trillion-mcap-club-after-micron-and-samsung-this-south-korean-chipmaker-hits-milestone-11556107#publisher=newsstand",
+            "summary": "South Korea's SK Hynix joined the $1 trillion market-cap club after a massive AI-driven stock rally. Strong demand for Nvidia-linked HBM chips boosted shares, helping lift the KOSPI to record gains.",
+            "published_at": "09:24 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Govt Sanctions Over 60% Manpower Boost For ED",
+            "url": "https://www.ndtvprofit.com/india/govt-sanctions-over-60-manpower-boost-for-ed-11556225#publisher=newsstand",
+            "summary": "The ministry revised the ED's strength by 1,227 personnel across its six cadres, which include the executive, legal, and adjudication verticals that form the core of its investigation setup, officials said.",
+            "published_at": "09:22 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Income Tax Department enables online ITR-2 filing for AY27",
+            "url": "https://www.thehindu.com/business/income-tax-department-enables-online-itr-2-filing-for-ay27/article71030503.ece",
+            "summary": "\"Online filing and Excel utility for ITR-2 for AY 2026-27 are now enabled on the e-filing portal,\" says Income Tax Department Department",
+            "published_at": "09:17 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "LIC introduces two new plans",
+            "url": "https://www.thehindu.com/business/lic-introduces-two-new-plans/article71030268.ece",
+            "summary": "",
+            "published_at": "09:09 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Indian Banks More Exposed To West Asia Crisis Among APAC Region: Moody's",
+            "url": "https://www.ndtvprofit.com/economy/indian-banks-more-exposed-to-west-asia-crisis-among-apac-region-moodys-11556171#publisher=newsstand",
+            "summary": "Moody's said higher fuel costs will strain consumers' budgets and raise debt-servicing burdens for households and SMEs, translating into increased, though gradual, credit stress in these loan portfolios.",
+            "published_at": "09:09 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "AMCs, brokerages post robust PAT despite macro-economic headwinds",
+            "url": "https://www.thehindu.com/business/amcs-brokerages-post-robust-pat-despite-macro-economic-headwinds/article71029974.ece",
+            "summary": "",
+            "published_at": "09:02 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Spider-Noir Reviews: Nicolas Cage-Starrer Gets Strong Rotten Tomatoes Score; Impresses Critics, Audience",
+            "url": "https://www.ndtvprofit.com/lifestyle/entertainment-ott-show-web-series-spider-noir-reviews-nicolas-cage-rotten-tomatoes-score-critics-audience-amazon-mgm-sony-prime-video-marvel-superhero-11555983#publisher=newsstand",
+            "summary": "The eight-episode series is produced by Phil Lord, Christopher Miller and Amy Pascal, the team behind the Spider-Verse animated films.",
+            "published_at": "08:50 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "'I Was Thrown Out': Shashi Tharoor Slams Alleged 'Europeans-Only' Membership Rule At Breach Candy Club",
+            "url": "https://www.ndtvprofit.com/india/i-was-thrown-out-shashi-tharoor-slams-alleged-europeans-only-membership-rule-at-breach-candy-club-11555929#publisher=newsstand",
+            "summary": "Shashi Tharoor criticised Mumbai's Breach Candy Club over its alleged \"Europeans-only\" trust rule, recalling being thrown out in the 1960s, as debate over the club's discriminatory governance structure resurfaced.",
+            "published_at": "08:49 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Indian pharma set to gain from CEPA with Oman",
+            "url": "https://www.thehindu.com/business/indian-pharma-set-to-gain-from-cepa-with-oman/article71030203.ece",
+            "summary": "",
+            "published_at": "08:44 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "AI Chip Stocks Running Too Hot? Why Goldman Sachs Raised S&P 500 Year-End Target To 8,000",
+            "url": "https://www.ndtvprofit.com/markets/ai-chip-stocks-running-too-hot-why-goldman-sachs-raised-s-p-500-year-end-target-to-8-000-11556061#publisher=newsstand",
+            "summary": "The brokerage has also raised its S&P 500 earnings-per-share forecasts to $340 for 2026, indicating a 24% year-on-year jump.",
+            "published_at": "08:44 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "No Disclosure? YouTube Preps For Automatic Labelling Of AI-Generated Content",
+            "url": "https://www.ndtvprofit.com/technology/no-disclosure-youtube-preps-for-automatic-labelling-of-ai-generated-content-11555681#publisher=newsstand",
+            "summary": "YouTube will now automatically flag content it deems 'photorealistically AI-generated' irrespective of creators labelling it as such.",
+            "published_at": "08:39 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "'Arbitrage Problem, Not Supply': Govt Blames Industrial Bulk Buyers For Stress At Fuel Pumps",
+            "url": "https://www.ndtvprofit.com/india/arbitrage-problem-not-supply-govt-blames-industrial-bulk-buyers-for-stress-at-fuel-pumps-11556036#publisher=newsstand",
+            "summary": "The government asserted that India has \"more than adequate\" fuel supplies to meet both retail and industrial demand, and urged citizens not to panic or believe rumours around shortages.",
+            "published_at": "08:39 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Tata Motors Fixes Record Date For FY26 Final Dividend — Check Details",
+            "url": "https://www.ndtvprofit.com/markets/tata-motors-fixes-record-date-for-fy26-final-dividend-check-details-11555996#publisher=newsstand",
+            "summary": "The payment of Tata Motors' dividend is to take place on or before July 14, 2026.",
+            "published_at": "08:33 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Swiggy Defends Founder Board Nomination Rights After Shareholders Reject IOCC Proposal",
+            "url": "https://www.ndtvprofit.com/business/swiggy-defends-founder-board-nomination-rights-after-shareholders-reject-iocc-proposal-11555791#publisher=newsstand",
+            "summary": "Swiggy defended its proposed governance changes after shareholders rejected amendments linked to its Indian-Owned and Controlled Company ambitions.",
+            "published_at": "08:27 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Nuclear firm Newcleo to list on Nasdaq in a deal valuing it at $2.4 billion",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nuclear-firm-newcleo-to-list-on-nasdaq-in-a-deal-valuing-it-at-2-4-billion/articleshow/131353704.cms",
+            "summary": "The company aims to meet clean ‌energy needs and also reduce existing and future nuclear waste with its expertise on reprocessing waste, Buono added.",
+            "published_at": "08:21 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "ICRA upgrades Vedanta’s credit rating to AA+, the highest rating over a decade",
+            "url": "https://www.thehindu.com/business/Industry/icra-upgrades-vedantas-credit-rating-to-aa-the-highest-rating-over-a-decade/article71030136.ece",
+            "summary": "The agency also reaffirmed the Group’s short-term rating at the highest category of A1+",
+            "published_at": "08:18 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "NSE Inks MoU With Steel Users Federation For Joint Development Of Steel, Commodity Derivatives Ecosystem",
+            "url": "https://www.ndtvprofit.com/markets/nse-inks-mou-with-steel-users-federation-for-joint-development-of-steel-commodity-derivatives-ecosystem-11555907#publisher=newsstand",
+            "summary": "The partnership aims to create a transparent and efficient price-risk management framework for the Indian steel industry participants.",
+            "published_at": "08:14 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "F1 Wears Gucci: Luxury Fashion Giant Set To Enter Formula One From 2027; Partners With Alpine",
+            "url": "https://www.ndtvprofit.com/sports/racing-formula-one-f1-luxury-fashion-brand-gucci-set-to-enter-from-2027-gucci-racing-alpine-team-11555663#publisher=newsstand",
+            "summary": "In the ongoing Formula One season Alpine are placed fifth on the team's standings. France's Pierre Gasly and Argentina's Franco Colapinto are racing for Alpine this year.",
+            "published_at": "08:08 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Global Stocks: European chipmaker X-FAB shares soar on social media post",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-stocks-european-chipmaker-x-fab-shares-soar-on-social-media-post/articleshow/131353442.cms",
+            "summary": "Retail flows appeared to dominate activity, with X-FAB among the most traded stocks on Germany's Tradegate platform, ranking second behind U.S. chipmaker Micron Technology ‌and ahead of Germany’s Infineon.",
+            "published_at": "08:06 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Zydus Lifesciences hikes share buyback price to Rs 1,260 per share, lowers share count",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/zydus-lifesciences-hikes-share-buyback-price-to-rs-1260-per-share-lowers-share-count/articleshow/131353348.cms",
+            "summary": "Zydus Lifesciences increased its share buyback price to Rs 1,260 per share while reducing the repurchase size to 87.3 lakh shares. The total buyback outlay remains Rs 1,100 crore. The pharma stock has outperformed benchmark indices over the past one year with a 19% rally.",
+            "published_at": "08:01 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "India vs Jamaica Live Streaming: When, Where To Watch Unity Cup 2026 Semi-Final?",
+            "url": "https://www.ndtvprofit.com/sports/football-india-vs-jamaica-live-streaming-telecast-date-match-time-where-to-watch-unity-cup-2026-semi-final-tv-online-fancode-11554475#publisher=newsstand",
+            "summary": "The match will kick off at 12 a.m. IST on Thursday. All the games of the Unity Cup are being played at The Valley, home of Charlton Athletic FC.",
+            "published_at": "08:00 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Siddaramaiah Has Decided To Resign As Karnataka CM, Says Congress MLA RV Deshpande",
+            "url": "https://www.ndtvprofit.com/india/siddaramaiah-has-decided-to-resign-as-karnataka-cm-says-congress-mla-rv-deshpande-11555822#publisher=newsstand",
+            "summary": "Karnataka Chief Minister Siddaramaiah is likely to resign in the coming days, with reports suggesting DK Shivakumar could take over the top post.",
+            "published_at": "07:59 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Zydus Lifesciences Reduces Buyback Size — Check Revised Price",
+            "url": "https://www.ndtvprofit.com/markets/zydus-lifesciences-reduces-buyback-size-check-revised-price-11555767#publisher=newsstand",
+            "summary": "Promoters will also participate in the buyback, with May 29, 2026, fixed as the record date for determining the shareholder eligibility.",
+            "published_at": "07:49 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "US Stock Market Today: Dow Jones Jumps 300 Points As Oil Retreats, S&P 500 Flat; Micron Rockets Another 6%",
+            "url": "https://www.ndtvprofit.com/markets/us-stock-market-today-s-p-500-nasdaq-edge-higher-as-oil-retreats-micron-rockets-another-6-11555578#publisher=newsstand",
+            "summary": "Iran has reportedly committed to restore the number of ship transits through the Strait of Hormuz to pre-war levels within one month if the United States removes their naval blockade and withdraws military forces from the country's vicinity.",
+            "published_at": "07:48 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Enola Holmes 3 Trailer Out: Millie Bobby Brown Returns With New Mystery In Malta — Check Release Date",
+            "url": "https://www.ndtvprofit.com/lifestyle/entertainment-ott-enola-holmes-3-trailer-out-millie-bobby-brown-henry-cavill-check-release-date-where-to-watch-netflix-11555600#publisher=newsstand",
+            "summary": "Enola Holmes 3 will release worldwide on Netflix on July 1, 2026.",
+            "published_at": "07:44 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "8th Pay Commission Delay: Central Govt Employees Likely To Lose Out On HRA, TPTA Arrears",
+            "url": "https://www.ndtvprofit.com/personal-finance/8th-pay-commission-delay-central-govt-employees-likely-to-lose-out-on-hra-tpta-arrears-11555500#publisher=newsstand",
+            "summary": "Central government employees may get 20–24 months of arrears under the 8th Pay Commission, but HRA and TPTA arrears may not be backdated. Only DA arrears are likely, depending on implementation delays and approval timelines.",
+            "published_at": "07:25 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "ICC Rankings: Bangladesh Surge After Pakistan Whitewash, India Stay Third",
+            "url": "https://www.ndtvprofit.com/sports/icc-rankings-bangladesh-surge-after-pakistan-whitewash-india-stay-third-11555239#publisher=newsstand",
+            "summary": "ICC Test rankings saw major movement after Bangladesh's Pakistan series triumph, with India holding third place in the team standings.",
+            "published_at": "07:18 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Govt to exercise greenshoe option after Coal India OFS draws Rs 19,000 crore bids on first day",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/govt-to-exercise-greenshoe-option-after-coal-india-ofs-draws-rs-19000-crore-bids-on-first-day/articleshow/131352647.cms",
+            "summary": "Strong institutional demand prompted the government to exercise the oversubscription option in Coal India’s offer-for-sale. Investors placed bids worth around Rs 19,000 crore on the first day, while the government expanded the issue size to 2% amid continued interest in the dividend-paying PSU stock.",
+            "published_at": "07:17 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "PhysicsWallah Q4 Results: Losses narrow 74% YoY to Rs 75 crore as revenue jumps 51%",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/physicswallah-q4-results-losses-narrow-74-yoy-to-rs-75-crore-as-revenue-jumps-51/articleshow/131352587.cms",
+            "summary": "PhysicsWallah sharply reduced its quarterly and annual losses in FY26 as revenue growth accelerated through disciplined scaling and AI-led efficiency. The ed-tech company reported strong EBITDA expansion, rising paid users and wider physical presence, while strengthening its path toward sustained profitability and technology-driven growth.",
+            "published_at": "07:14 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "US stocks today: US stocks open higher on AI optimism, Mideast truce hopes",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-us-stocks-opens-higher-on-ai-optimism-mideast-truce-hopes/articleshow/131352338.cms",
+            "summary": "Wall Street opened marginally higher, supported by continued momentum in artificial intelligence and semiconductor stocks. Investor sentiment remained cautiously positive amid signs of progress in U.S.-Iran negotiations. Gains in major indexes were modest, reflecting a balance between tech-led optimism and lingering geopolitical uncertainty in global markets.",
+            "published_at": "07:05 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Cipla Share Price Live Updates: Cipla's Monthly Return Analysis",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/cipla-share-price-today-live-updates-27-may-2026/liveblog/131352336.cms",
+            "summary": "",
+            "published_at": "07:03 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Kotak Bank Share Price Live Updates: Kotak Bank's Recent Trading Volume",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/kotak-bank-share-price-live-updates-27-may-2026/liveblog/131351051.cms",
+            "published_at": "07:03 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Sun Pharma Share Price Live Updates: Sun Pharma's closing price analysis",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/sun-pharma-stock-price-live-updates-27-may-2026/liveblog/131350219.cms",
+            "published_at": "07:03 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Britannia Share Price Live Updates: Britannia experiences a decline in returns",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/britannia-share-price-live-updates-27-may-2026/liveblog/131350208.cms",
+            "published_at": "07:03 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Bajaj Finance Share Price Live Updates: Bajaj Finance Trading Insights",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-finance-stock-price-livestock-price-today-live-updates-27-may-2026/liveblog/131350209.cms",
+            "published_at": "07:03 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Eicher Motors Share Price Live Updates: Eicher Motors Market Update",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/eicher-motors-stock-price-today-live-27-may-2026/liveblog/131349958.cms",
+            "published_at": "07:03 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "YouTuber Kim Se-ui Arrested In Actor Kim Soo-hyun Scandal; Police Claim AI-Edited Evidence",
+            "url": "https://www.ndtvprofit.com/world/youtuber-kim-se-ui-arrested-in-actor-kim-soo-hyun-scandal-police-allege-ai-edited-evidence-11555261#publisher=newsstand",
+            "summary": "The issue began when allegations surfaced online claiming that Kim Soo-hyun had been in a relationship with late actress Kim Sae-ron while she was still a minor.",
+            "published_at": "07:01 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "US To Exit Persian Gulf, End Hormuz Blockade Under Draft MoU, Iran State TV Reports",
+            "url": "https://www.ndtvprofit.com/world/us-to-exit-persian-gulf-end-blockade-under-draft-mou-iran-state-tv-reports-11555218#publisher=newsstand",
+            "summary": "As per the report, Military vessels are not included in the draft agreement.",
+            "published_at": "06:55 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Brent Slumps 5%, US Crude Below $90 As Iranian Media Hints At Likely End To Hormuz Deadlock",
+            "url": "https://www.ndtvprofit.com/world/brent-slumps-below-95-as-leaked-us-iran-mou-hints-at-hormuz-traffic-returning-to-pre-war-levels-11555257#publisher=newsstand",
+            "summary": "The draft reportedly included the US withdrawing its forces from Iran in exchange for the latter restoring Strait of Hormuz transit points to their pre-war condition",
+            "published_at": "06:53 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Major Rail Disruption in June: 77 Trains Cancelled Across Multiple States",
+            "url": "https://www.ndtvprofit.com/india/major-rail-disruption-in-june-77-trains-cancelled-across-multiple-states-11555256#publisher=newsstand",
+            "summary": "The disruption will impact train operations across West Bengal, Maharashtra, Gujarat, Madhya Pradesh, Chhattisgarh, Jharkhand, and Odisha, among other regions.",
+            "published_at": "06:51 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "ONGC net profit rises 3.1% in March-end quarter amid better crude price realisations",
+            "url": "https://www.thehindu.com/business/ongc-net-profit-rises-31-in-march-end-quarter-amid-better-crude-price-realisations/article71026462.ece",
+            "summary": "ONGC also declared a dividend of ₹1 per equity share subject to shareholder approval at the annual general meeting (AGM)",
+            "published_at": "06:48 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Air India, IndiGo remove over 250 daily flights from domestic routes",
+            "url": "https://www.thehindu.com/business/Industry/air-india-indigo-remove-over-100-daily-flights-each-from-domestic-routes/article71029215.ece",
+            "summary": "Move will further raise airfares; airlines also reporting weakening travel sentiment",
+            "published_at": "06:48 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "IDFC First Bank receives Rs 514.82 crore insurance payout on microfinance defaults, expects full provision write-back",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/idfc-first-bank-receives-rs-514-82-crore-insurance-payout-on-microfinance-defaults-expects-full-provision-write-back/articleshow/131361187.cms",
+            "summary": "IDFC First Bank has successfully secured a substantial allocation of over Rs 500 crore from the Credit Guarantee Fund for Micro Units. This funding is targeted at eligible microfinance loans and is expected to enhance the bank's financial performance by allowing it to reverse previously set aside provisions for defaults.",
+            "published_at": "06:44 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Reliance Industries Announces AGM Date Amid Focus On Jio IPO; Declares Record Date For FY26 Dividend",
+            "url": "https://www.ndtvprofit.com/business/reliance-industries-announces-agm-date-amid-focus-on-jio-ipo-declares-record-date-for-fy26-dividend-11555335#publisher=newsstand",
+            "summary": "The AGM will be held through video conferencing and other audio-visual means at 2 p.m. on June 19.",
+            "published_at": "06:42 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Oil prices drop 5% on hints at Iran reopening shipping through Strait of Hormuz; Brent below $95",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-drop-5-on-hints-at-iran-reopening-shipping-through-strait-of-hormuz-brent-below-95/articleshow/131351747.cms",
+            "summary": "Oil prices plunged Wednesday on rekindled hopes for progress in US-Iran talks aimed at ending the war in the Middle East.",
+            "published_at": "06:34 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "DIIs consistently increase stake in 10 large-cap stocks for4consecutive quarters",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/diis-consistently-increase-stake-in-10-large-cap-stocks-for4consecutive-quarters/slideshow/131351864.cms",
+            "summary": "",
+            "published_at": "06:31 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "DIIs consistently increase stake in 10 large-cap stocks for 4 consecutive quarters",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/diis-consistently-increase-stake-in-10-large-cap-stocks-for-4-consecutive-quarters/slideshow/131351864.cms",
+            "published_at": "06:31 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Coal India OFS: Govt To Exercise Greenshoe Option To Sell Additional Rs 2,500-Crore Stake",
+            "url": "https://www.ndtvprofit.com/markets/coal-india-ofs-govt-to-exercise-greenshoe-option-to-sell-additional-rs-2-500-crore-stake-11555245#publisher=newsstand",
+            "summary": "The government launched the OFS with a base size of Rs 2,500 crore and a green shoe option of another Rs 2,500 crore, taking the total issue size to Rs 5,000 crore.",
+            "published_at": "06:25 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Samsung To Pay Rs 3.25 Crore Average Bonus To Chip Division Employees After Union Deal Approval",
+            "url": "https://www.ndtvprofit.com/business/samsung-to-pay-rs-3-25-crore-average-bonus-to-chip-division-employees-after-union-deal-approval-11554954#publisher=newsstand",
+            "summary": "Samsung chip division employees voted in favour of a record bonus package worth nearly $26.5 billion after strong growth in memory chip profits.",
+            "published_at": "06:15 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Karuppu Box Office Collection Day 13: Suriya-Trisha Film Maintains Steady Hold On Weekdays — Collects This Amount",
+            "url": "https://www.ndtvprofit.com/business/entertainment-cinema-karuppu-box-office-collection-day-13-suriya-trisha-film-maintains-steady-hold-on-weekdays-collects-this-amount-11554804#publisher=newsstand",
+            "summary": "The second week started with Day 8, collecting Rs 7.8 crore. The second weekend registered strong collections with Day 9 (second Saturday) bringing in Rs 12.45 crore and Day 10 (second Sunday) collecting Rs 14.75 crore.",
+            "published_at": "06:15 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "AI era: Chipmakers Micron and SK Hynix join the elite $1 trillion market cap club",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/ai-era-chipmakers-micron-and-sk-hynix-join-the-elite-1-trillion-market-cap-club/articleshow/131351347.cms",
+            "summary": "The global AI boom has transformed the semiconductor industry, pushing Micron and SK Hynix past the $1 trillion market value mark. Surging demand for AI memory chips, supply shortages and massive data centre investments have sparked strong rallies across Asian and US technology and semiconductor stocks.",
+            "published_at": "06:14 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "U.S. team to visit India on June 1-4 to ‘finalise the details’ of interim trade agreement",
+            "url": "https://www.thehindu.com/business/Economy/us-team-to-visit-india-on-june-1-4-to-finalise-the-details-of-interim-trade-agreement/article71029244.ece",
+            "summary": "Indian officials have, including Commerce Minister Piyush Goyal, have in the past said that a deal would be possible only once details are clear on the tariffs the U.S. would be levying on India’s competitors.",
+            "published_at": "06:10 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "RIL announces AGM date on June 19; updates on Jio IPO in focus",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/ril-announces-agm-date-on-june-19-updates-on-jio-ipo-in-focus/articleshow/131351227.cms",
+            "summary": "Reliance Industries Ltd will hold its 49th annual general meeting on June 19, 2026. The company reported strong revenue and growth in its consumer businesses for the fiscal year. Investors anticipate updates on Reliance Jio IPO and new energy ventures. The meeting will cover the company's future investment plans and retail expansion.",
+            "published_at": "06:09 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Vadilal Industries Declares Rs 43/Share Dividend As Q4 Profit Rockets 150%",
+            "url": "https://www.ndtvprofit.com/markets/vadilal-industries-declares-rs-43-share-dividend-as-q4-profit-rockets-150-11555016#publisher=newsstand",
+            "summary": "Vadilal Ltd.'s profit was at Rs 55 crore compared to Rs 22 crore in the year-ago period.",
+            "published_at": "06:08 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Shilpa Shetty Hosts Celebrity Moms, Kids In 'Maa Hai Na' Cooking Show; Trailer, Release Date Out",
+            "url": "https://www.ndtvprofit.com/lifestyle/entertainment-shilpa-shetty-hosts-celebrity-moms-kids-in-maa-hai-na-cooking-show-trailer-release-date-out-11554591#publisher=newsstand",
+            "summary": "Maa Hai Na is a 10-episode reality series produced by Preeti Simoes and Neeti Simoes under their banner, Lil Frodo Productions.",
+            "published_at": "06:05 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "India Needs A Stronger Bond Market to Finance Growth: NSE Chief",
+            "url": "https://www.ndtvprofit.com/markets/india-needs-a-stronger-bond-market-to-finance-growth-nse-chief-11555139#publisher=newsstand",
+            "summary": "Chauhan said India's vision of Viksit Bharat 2047 will require investments to rise from around 30% of GDP to over 35%.",
+            "published_at": "06:02 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Quote of the day by Robert Shiller: \"After a stock market decline, people may perceive more risk than before when, in fact, the decline may have taken some of the risk out of the market.\"",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/quote-of-the-day-by-robert-shiller-after-a-stock-market-decline-people-may-perceive-more-risk-than-before-when-in-fact-the-decline-may-have-taken-some-of-the-risk-out-of-the-market-/articleshow/131341824.cms",
+            "summary": "Nobel laureate Robert Shiller observed that market declines can alter investor psychology, making them perceive more risk when actual risk may have decreased. This phenomenon, rooted in behavioral finance, suggests that corrections can reduce excessive valuations, creating attractive long-term investment opportunities despite prevailing fear and uncertainty.",
+            "published_at": "06:00 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Gainers & Losers: LIC, HDFC Bank among 7 top movers on Wednesday",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/gainers-amp-losers-lic-hdfc-bank-among-7-top-movers-on-wednesday/slideshow/131350984.cms",
+            "summary": "",
+            "published_at": "05:58 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Adani companies extend rally to recoup losses sparked by Hindenburg",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/adani-companies-extend-rally-to-recoup-losses-sparked-by-hindenburg/articleshow/131350967.cms",
+            "summary": "Adani Group companies have recovered nearly $150 billion in market value lost after the 2023 Hindenburg report. Strong rallies in Adani Power, Adani Total Gas and Adani Enterprises, along with easing regulatory concerns and rising investor confidence, have driven the conglomerate’s remarkable market comeback.",
+            "published_at": "05:56 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Bakrid 2026: Goat Prices Soar Up To 40% In Mumbai, Delhi, Kolkata, Hyderabad Mandis",
+            "url": "https://www.ndtvprofit.com/business/eid-al-adha-id-ul-zuha-bakrid-2026-goat-prices-soar-up-to-40-per-cent-in-mumbai-delhi-kolkata-hyderabad-mandis-markets-11554953#publisher=newsstand",
+            "summary": "In Delhi's Jama Masjid and Ghazipur mandis, small goats are available between Rs 14,000 and Rs 22,000.",
+            "published_at": "05:55 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "SIP Effect: MF Ownership In D-Street Firms Hits Record High As FPI Share Falls To 17-Year Low",
+            "url": "https://www.ndtvprofit.com/markets/sip-effect-mf-ownership-in-d-street-firms-hits-record-high-as-fpi-share-falls-to-17-year-low-11555099#publisher=newsstand",
+            "summary": "This marks the eleventh consecutive quarter of record highs, supported by strong SIP inflows and consistent retail participation.",
+            "published_at": "05:52 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Stock markets decline for second day on selling in oil and gas, banking shares; Sensex down 142 points",
+            "url": "https://www.thehindu.com/business/markets/stock-markets-decline-for-second-day-on-selling-in-oil-and-gas-banking-shares-sensex-down-142-points/article71029174.ece",
+            "summary": "Capital Goods jumped 3.21%, followed by Utilities (2.39%), Power (3.27%), Metal (1.74%), Auto (1.33%), Telecommunication (1.02%) and Consumer Discretionary (1.01%)",
+            "published_at": "05:49 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "US Stock Market Today | Dow Jones | Nasdaq Live: US stock futures edge higher as AI rally, chip strength lift sentiment",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-live-dow-jones-sp-500-nasdaq-trump-iran-brent-crude-oil-fed-rates-tech-rally-ipo-semiconductors-ai-chip-tesla-nvidia-micron-stock-prices-today/liveblog/131350814.cms",
+            "summary": "",
+            "published_at": "05:49 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Indian Railways Approves First Hydrogen Train Pilot On Haryana's Jind-Sonipat Route",
+            "url": "https://www.ndtvprofit.com/india/indian-railways-approves-first-hydrogen-train-pilot-on-haryanas-jind-sonipat-route-11554558#publisher=newsstand",
+            "summary": "India has approved its first hydrogen-powered train on the Jind-Sonipat route in Haryana. The 10-coach train will run on fuel cells, emitting only water, as part of Indian Railways' green mobility push and net-zero goals.",
+            "published_at": "05:38 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Nasdaq, S&P Futures Hint At Record Open As AI Mania Turns Wall Street Immune To Geopolitics",
+            "url": "https://www.ndtvprofit.com/markets/nasdaq-futures-jump-s-p-500-likely-to-hit-new-record-as-ai-frenzy-turns-wall-street-immune-to-geopolitics-11555004#publisher=newsstand",
+            "summary": "Declining crude oil prices also offered some support to the wall street indices even as details on truce talk progress between the United States and Iran remained ambiguous.",
+            "published_at": "05:38 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Rupee settles on flat note, up 2 paise at 95.68 against U.S. dollar",
+            "url": "https://www.thehindu.com/business/markets/rupee-settles-on-flat-note-up-2-paise-at-9568-against-us-dollar/article71029072.ece",
+            "summary": "At the interbank foreign exchange market, the rupee opened at 95.60 against the U.S. dollar, and touched an intra-day low of 95.79 against the American currency",
+            "published_at": "05:37 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Fuel supplies in Maharashtra stable and well-managed, assures BPCL",
+            "url": "https://www.thehindu.com/business/Industry/fuel-supplies-in-maharashtra-stable-and-well-managed-assures-bpcl/article71028816.ece",
+            "summary": "The Hindu had reported on May 26 that certain districts in Maharashtra and Bengaluru were experiencing fuel supply shortages leading to disruptions in supplies to pumps",
+            "published_at": "05:33 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "'Bhooter Bhabishyot' Director Anik Dutta Dies After Fall From Kolkata Residence; Probe Underway",
+            "url": "https://www.ndtvprofit.com/india/entertainment-cinema-bhooter-bhabishyot-director-anik-dutta-dies-after-fall-from-kolkata-residence-probe-underway-11554830#publisher=newsstand",
+            "summary": "Police are examining all possible angles, including whether the fall was accidental or involved any suspicious circumstances. The area around the residence was reportedly sealed off for investigation soon after the incident.",
+            "published_at": "05:32 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "IPL 2026 Orange Cap Race: Sai Sudharsan, Shubman Gill, Virat Kohli, Klaasen Among Top Contenders",
+            "url": "https://www.ndtvprofit.com/sports/ipl-2026-orange-cap-race-sai-sudharsan-shubman-gill-virat-kohli-klaasen-among-top-contenders-11554921#publisher=newsstand",
+            "summary": "Sai Sudharsan leads the Orange Cap standings with 652 runs, however, his captain Shubman Gill, Virat Kohli and a group of SRH and RR batters remain firmly in contention for the coveted prize heading into the knockout rounds.",
+            "published_at": "05:30 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "HDFC Bank falls on report of payments to attract big deposits",
+            "url": "https://www.thehindu.com/business/Industry/hdfc-bank-falls-on-report-of-payments-to-attract-big-deposits/article71028655.ece",
+            "summary": "HDFC Bank shares dip 2.5% amid allegations of illegal payments for attracting deposits, raising governance concerns",
+            "published_at": "05:26 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Rs 12.6 Lakh Crore Wiped Out: Retail Investors Bleed In Q4 As Iran War Rattles D-Street",
+            "url": "https://www.ndtvprofit.com/markets/market-selloff-in-q4-wipes-rs-12-6-lakh-crore-from-indian-households-amid-iran-war-jitters-11554852#publisher=newsstand",
+            "summary": "At the same time, direct equity participation by individual investors fell to a five-year low of 9.1%, continuing a two-quarter decline.",
+            "published_at": "05:22 PM, 27 May 2026"
+          },
+          {
+            "type": "PulseCompact",
+            "title": "Trade Deal Push: US Team To Visit India From June 1-4 As Both Sides Aim To Lock Interim Pact",
+            "url": "https://www.ndtvprofit.com/economy/trade-deal-push-us-team-to-visit-india-from-june-1-4-as-both-sides-aim-to-lock-interim-pact-11554786#publisher=newsstand",
+            "summary": "India and the US are set to fast-track an interim trade agreement as a US delegation visits New Delhi from June 1 to 4 for final negotiations.",
+            "published_at": "05:21 PM, 27 May 2026"
+          }
+        ]
+      }
+    ],
+    "errors": [
+      {
+        "kind": "parse",
+        "url": "https://www.tickertape.in/us-stocks",
+        "message": "No news articles or asset changes matches found on the webpage html output."
+      },
+      {
+        "kind": "parse",
+        "url": "https://www.moneycontrol.com/world/",
+        "message": "No news articles or asset changes matches found on the webpage html output."
+      }
+    ]
+  }
 }
