@@ -233,7 +233,7 @@ export async function scrapeNewsSource(url: string): Promise<any> {
 
   try {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 15000);
+    const timeoutId = setTimeout(() => controller.abort(), 25000); // 25s timeout
     const res = await fetch(url, { headers, signal: controller.signal });
     clearTimeout(timeoutId);
 
@@ -291,17 +291,21 @@ export async function scrapeNewsSource(url: string): Promise<any> {
 }
 
 export async function scrapeAllSources(): Promise<any> {
-  const items = await Promise.all(NEWS_TARGET_URLS.map(url => scrapeNewsSource(url)));
-  
   const sources: any[] = [];
   const errors: any[] = [];
 
-  for (const item of items) {
+  // Process sources sequentially with delays to avoid rate limiting
+  for (const url of NEWS_TARGET_URLS) {
+    const item = await scrapeNewsSource(url);
+
     if (item.error) {
       errors.push(item.error);
     } else {
       sources.push(item);
     }
+
+    // Delay between requests to avoid rate limiting
+    await new Promise(resolve => setTimeout(resolve, 1000));
   }
 
   return {

@@ -209,7 +209,7 @@ export async function scrapeBloomberg(): Promise<BloombergData> {
 
   try {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 20000); // 20s timeout
+    const timeoutId = setTimeout(() => controller.abort(), 30000); // 30s timeout
     const res = await fetch(url, { headers, signal: controller.signal });
     clearTimeout(timeoutId);
 
@@ -355,7 +355,7 @@ export async function scrapeReuters(): Promise<ReutersData> {
 
   try {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 20000);
+    const timeoutId = setTimeout(() => controller.abort(), 30000);
     const res = await fetch(url, { headers, signal: controller.signal });
     clearTimeout(timeoutId);
 
@@ -426,27 +426,28 @@ async function scrapeFeeds(urls: string[], category: string, limitPerFeed: numbe
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
   };
 
-  const pool = urls.map(async (url) => {
+  // Process feeds sequentially with delays to avoid rate limiting
+  for (const url of urls) {
     try {
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 8000); // 8s timeout per feed
+      const timeoutId = setTimeout(() => controller.abort(), 15000); // 15s timeout per feed
       const res = await fetch(url, { headers, signal: controller.signal });
       clearTimeout(timeoutId);
 
       if (!res.ok) {
-        return [];
+        console.warn(`[WorldMonitor RSS] URL: ${url} returned status ${res.status}`);
+        continue;
       }
 
       const body = await res.text();
       const $ = cheerio.load(body, { xmlMode: true });
-      const feedItems: NewsItem[] = [];
 
       $("item, entry").slice(0, limitPerFeed).each((_, entry) => {
         const title = normalize($(entry).find("title").first().text());
         if (!title) return;
 
         // Prevent duplicates in this run
-        if (feedItems.some(item => item.title === title)) return;
+        if (items.some(item => item.title === title)) return;
 
         let link = $(entry).find("link").first().text().trim();
         if (!link) {
@@ -478,7 +479,7 @@ async function scrapeFeeds(urls: string[], category: string, limitPerFeed: numbe
           }
         }
 
-        feedItems.push({
+        items.push({
           title,
           url: link || undefined,
           source: source || undefined,
@@ -488,29 +489,17 @@ async function scrapeFeeds(urls: string[], category: string, limitPerFeed: numbe
         });
       });
 
-      return feedItems;
+      // Add delay between requests to avoid rate limiting
+      await new Promise(resolve => setTimeout(resolve, 500));
     } catch (e: any) {
       console.warn(`[WorldMonitor RSS Failed] URL: ${url} error: ${e.message}`);
-      return [];
-    }
-  });
-
-  const responses = await Promise.all(responsesSafetyMap(pool));
-  for (const list of responses) {
-    for (const item of list) {
-      if (!items.some(x => x.title === item.title)) {
-        items.push(item);
-      }
+      // Continue with next feed instead of failing all
+      continue;
     }
   }
 
   // Deduplicate and truncate to 24 items
   return items.slice(0, 24);
-}
-
-// Ensure error protection for parallel streams
-function responsesSafetyMap(promises: Promise<NewsItem[]>[]): Promise<NewsItem[]>[] {
-  return promises.map(p => p.catch(() => []));
 }
 
 export async function scrapeWorldMonitor(): Promise<WorldMonitorData> {
@@ -530,7 +519,7 @@ export async function scrapeWorldMonitor(): Promise<WorldMonitorData> {
 
   try {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 10000); // 10s limit
+    const timeoutId = setTimeout(() => controller.abort(), 20000); // 20s limit
     const res = await fetch(url, { headers, signal: controller.signal });
     clearTimeout(timeoutId);
 
@@ -579,18 +568,19 @@ export async function scrapeWorldMonitor(): Promise<WorldMonitorData> {
     console.warn(`[WorldMonitor Homepage Scraper Failed] ${err.message}. Seamlessly falling back to direct parallel RSS multi-crawlers...`);
   }
 
-  // Real fallback matching Rust flow
+  // Real fallback matching Rust flow - process sequentially to avoid rate limits
   if (data.markets.length === 0 && data.forex.length === 0 && data.commodities.length === 0) {
-    console.log(`[WorldMonitor Feed Transition] Parsing active feed arrays for Markets, Forex and Commodities...`);
-    const [marketsData, forexData, commoditiesData] = await Promise.all([
-      scrapeFeeds(MARKET_FEEDS, "Markets News"),
-      scrapeFeeds(FOREX_FEEDS, "Forex & Currencies"),
-      scrapeFeeds(COMMODITY_FEEDS, "Commodities News")
-    ]);
+    console.log(`[WorldMonitor Feed Transition] Parsing active feed arrays for Markets, Forex and Commodities sequentially...`);
 
-    data.markets = marketsData;
-    data.forex = forexData;
-    data.commodities = commoditiesData;
+    // Process each category one at a time to avoid rate limiting
+    data.markets = await scrapeFeeds(MARKET_FEEDS, "Markets News");
+    console.log(`[WorldMonitor] Loaded ${data.markets.length} market items`);
+
+    data.forex = await scrapeFeeds(FOREX_FEEDS, "Forex & Currencies");
+    console.log(`[WorldMonitor] Loaded ${data.forex.length} forex items`);
+
+    data.commodities = await scrapeFeeds(COMMODITY_FEEDS, "Commodities News");
+    console.log(`[WorldMonitor] Loaded ${data.commodities.length} commodity items`);
   }
 
   return data;
