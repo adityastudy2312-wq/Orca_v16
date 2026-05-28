@@ -2,6 +2,12 @@ import fs from "fs";
 import path from "path";
 import { NSE, BSE } from "nse-bse-api";
 
+// Ensure data directory exists
+const DATA_DIR = path.join(process.cwd(), "data");
+if (!fs.existsSync(DATA_DIR)) {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+}
+
 export interface Nse500Stock {
   symbol: string;
   name: string;
@@ -33,9 +39,9 @@ export interface Nse500Data {
   stocks: Nse500Stock[];
 }
 
-const PATH_NSE500_DB = path.join(process.cwd(), "data-nse500.json");
-const PATH_NSE500_COMPONENTS_CACHE = path.join(process.cwd(), "data-nse500-components-cache.json");
-const PATH_BSE_CODE_CACHE = path.join(process.cwd(), "data-bse-code-cache.json");
+const PATH_NSE500_DB = path.join(DATA_DIR, "data-nse500.json");
+const PATH_NSE500_COMPONENTS_CACHE = path.join(DATA_DIR, "data-nse500-components-cache.json");
+const PATH_BSE_CODE_CACHE = path.join(DATA_DIR, "data-bse-code-cache.json");
 
 // Helper: Split a CSV line respecting matching double quotes
 function splitCsvLine(line: string): string[] {

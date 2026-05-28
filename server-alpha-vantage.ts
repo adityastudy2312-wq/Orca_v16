@@ -1,6 +1,12 @@
 import fs from "fs";
 import path from "path";
 
+// Ensure data directory exists
+const DATA_DIR = path.join(process.cwd(), "data");
+if (!fs.existsSync(DATA_DIR)) {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+}
+
 // Main catalog for global indices requested by the user
 export const GLOBAL_INDICES_CATALOG: { [key: string]: string } = {
   "DJI": "Dow Jones Industrials ETF (DIA)",
@@ -31,7 +37,7 @@ export interface GlobalIndexValue {
   is_cached?: boolean;
 }
 
-const CACHE_PATH = path.join(process.cwd(), "data-alpha-vantage-cache.json");
+const CACHE_PATH = path.join(DATA_DIR, "data-alpha-vantage-cache.json");
 const CACHE_DURATION_MS = 60 * 60 * 1000; // 1 Hour cache limit for free tier standard indexes
 
 interface CacheStructure {

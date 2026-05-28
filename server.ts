@@ -16,16 +16,22 @@ const PORT = 3000;
 
 app.use(express.json());
 
+// Ensure data directory exists
+const DATA_DIR = path.join(process.cwd(), "data");
+if (!fs.existsSync(DATA_DIR)) {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+}
+
 // File paths for persistence
-const PATH_SIGNALS = path.join(process.cwd(), "data-signals.json");
-const PATH_NEWS = path.join(process.cwd(), "data-news.json");
-const PATH_MODELS = path.join(process.cwd(), "data-models.json");
-const PATH_PIPELINE = path.join(process.cwd(), "data-pipeline.json");
-const PATH_ETFS = path.join(process.cwd(), "data-etfs.json");
-const PATH_GLOBAL_MONITOR = path.join(process.cwd(), "data-global-monitor.json");
-const PATH_INDIAN_INDICES = path.join(process.cwd(), "data-indian-indices.json");
-const PATH_FII_DII = path.join(process.cwd(), "data-fii-dii.json");
-const PATH_NSE500 = path.join(process.cwd(), "data-nse500.json");
+const PATH_SIGNALS = path.join(DATA_DIR, "data-signals.json");
+const PATH_NEWS = path.join(DATA_DIR, "data-news.json");
+const PATH_MODELS = path.join(DATA_DIR, "data-models.json");
+const PATH_PIPELINE = path.join(DATA_DIR, "data-pipeline.json");
+const PATH_ETFS = path.join(DATA_DIR, "data-etfs.json");
+const PATH_GLOBAL_MONITOR = path.join(DATA_DIR, "data-global-monitor.json");
+const PATH_INDIAN_INDICES = path.join(DATA_DIR, "data-indian-indices.json");
+const PATH_FII_DII = path.join(DATA_DIR, "data-fii-dii.json");
+const PATH_NSE500 = path.join(DATA_DIR, "data-nse500.json");
 
 // Helper to write JSON safely
 function saveDB(filePath: string, data: any) {
