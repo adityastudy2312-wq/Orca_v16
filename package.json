@@ -44,5 +44,6 @@
   },
   "overrides": {
     "node-domexception": "file:./shims/node-domexception"
-  }
+  },
+  "ignore": ["data/*"]
 }
