@@ -284,48 +284,6 @@
   "worldmonitor": {
     "markets": [
       {
-        "title": "Ferrari's First-Ever EV Is Here, But RACE Stock Declines Pre-Market As Investors Question The Electric Pivot",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ferraris-first-ever-ev-race-153113912.html",
-        "source": "Benzinga",
-        "timestamp": "2026-05-27T15:31:13Z",
-        "category": "Markets News"
-      },
-      {
-        "title": "Axon Enterprise Stock: Analyst Estimates & Ratings",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/axon-enterprise-stock-analyst-estimates-153237096.html",
-        "source": "Barchart",
-        "timestamp": "2026-05-27T15:32:37Z",
-        "category": "Markets News"
-      },
-      {
-        "title": "UP refutes new AG claims, says it provided all answers in merger paperwork",
-        "url": "https://finance.yahoo.com/economy/policy/articles/refutes-ag-claims-says-provided-153331816.html",
-        "source": "FreightWaves",
-        "timestamp": "2026-05-27T15:33:31Z",
-        "category": "Markets News"
-      },
-      {
-        "title": "Tesla Has a SpaceX Stake and $890 Million in Related Revenue. The Upcoming SpaceX IPO Could Be a Major Win for TSLA Stock.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-stake-890-million-153501261.html",
-        "source": "Barchart",
-        "timestamp": "2026-05-27T15:35:01Z",
-        "category": "Markets News"
-      },
-      {
-        "title": "As Micron Heeds Trump’s Call for Domestic DRAM Manufacturing, MU Stock Is Still Undervalued",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-heeds-trump-call-domestic-153421887.html",
-        "source": "Barchart",
-        "timestamp": "2026-05-27T15:34:21Z",
-        "category": "Markets News"
-      },
-      {
-        "title": "Hims Insider Makes First Stock Purchase Since 2021 Amid Weight-Loss Drug Pivot",
-        "url": "https://www.barrons.com/articles/hims-stock-insider-weight-loss-glp1-drug-0388a2a7?siteid=yhoof2&yptr=yahoo",
-        "source": "Barrons.com",
-        "timestamp": "2026-05-27T15:32:00Z",
-        "category": "Markets News"
-      },
-      {
         "title": "Why Amazon’s AI Game Looks Completely Different Than Every Other Tech Giant",
         "url": "https://finance.yahoo.com/sectors/technology/articles/why-amazon-ai-game-looks-154143821.html",
         "source": "Barchart",
@@ -333,10 +291,52 @@
         "category": "Markets News"
       },
       {
+        "title": "Kraken Now Lets You Earn Yield on Bitcoin Holdings via Lending Vaults",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/kraken-now-lets-earn-yield-154259301.html",
+        "source": "decrypt",
+        "timestamp": "2026-05-27T15:42:59Z",
+        "category": "Markets News"
+      },
+      {
         "title": "Oil Prices Fall, Despite Iran's 14-Point 'Fabrication'; Airline Stocks Fly",
         "url": "https://www.investors.com/news/oil-prices-slide-us-iran-deal-framework-airline-stocks/?src=A00220&yptr=yahoo",
         "source": "Investor's Business Daily",
         "timestamp": "2026-05-27T15:58:09Z",
+        "category": "Markets News"
+      },
+      {
+        "title": "AppLovin Stock Surges Past Key Level As Analyst Offers Bullish View",
+        "url": "https://www.investors.com/news/technology/applovin-stock-morgan-stanley-app-news/?src=A00220&yptr=yahoo",
+        "source": "Investor's Business Daily",
+        "timestamp": "2026-05-27T15:59:28Z",
+        "category": "Markets News"
+      },
+      {
+        "title": "Corn Prices Are Still Falling, But a Floor Is Close. Try This Swing Trade for Profits Here.",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/corn-prices-still-falling-floor-155847081.html",
+        "source": "Barchart",
+        "timestamp": "2026-05-27T15:58:47Z",
+        "category": "Markets News"
+      },
+      {
+        "title": "Why the safest freight brokerages are usually the most boring",
+        "url": "https://finance.yahoo.com/markets/articles/why-safest-freight-brokerages-usually-160131125.html",
+        "source": "FreightWaves",
+        "timestamp": "2026-05-27T16:01:31Z",
+        "category": "Markets News"
+      },
+      {
+        "title": "China Wants Its Companies to Embrace AI—Without Firing Workers",
+        "url": "https://www.wsj.com/tech/ai/china-wants-its-companies-to-embrace-aiwithout-firing-workers-c8fcafa6?siteid=yhoof2&yptr=yahoo",
+        "source": "The Wall Street Journal",
+        "timestamp": "2026-05-27T15:45:00Z",
+        "category": "Markets News"
+      },
+      {
+        "title": "Spearmint Energy Secures $450 Million in Financing for Texas BESS Project",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/spearmint-energy-secures-450-million-160446435.html",
+        "source": "POWER Magazine",
+        "timestamp": "2026-05-27T16:04:46Z",
         "category": "Markets News"
       },
       {
@@ -391,7 +391,7 @@
     ],
     "forex": [],
     "commodities": [],
-    "scraped_at": "2026-05-29T03:44:48.763Z"
+    "scraped_at": "2026-05-29T03:46:01.020Z"
   },
   "global_indices": []
 }
