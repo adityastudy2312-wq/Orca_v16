@@ -1,11 +1,11 @@
 {
-  "fetched_at": "2026-05-29T10:47:02.984Z",
+  "fetched_at": "2026-05-29T11:47:29.003Z",
   "total_stocks": 500,
   "advances": 136,
   "declines": 363,
   "unchanged": 1,
   "avg_change_pct": -0.861,
-  "last_updated": "2026-05-29T10:47:02.984Z",
+  "last_updated": "2026-05-29T11:47:29.003Z",
   "stocks": [
     {
       "symbol": "HDFCBANK",
@@ -23,7 +23,7 @@
       "year_high": 1020.5,
       "year_low": 726.65,
       "market_cap_cr": 1140743,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -42,7 +42,7 @@
       "year_high": 1500,
       "year_low": 1187.6,
       "market_cap_cr": 900061,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -61,7 +61,7 @@
       "year_high": 1611.8,
       "year_low": 1290,
       "market_cap_cr": 890360,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -80,7 +80,7 @@
       "year_high": 2174.5,
       "year_low": 1740.5,
       "market_cap_cr": 559220,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -99,7 +99,7 @@
       "year_high": 4440,
       "year_low": 3288.1,
       "market_cap_cr": 478909,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -118,7 +118,7 @@
       "year_high": 1728,
       "year_low": 1089,
       "market_cap_cr": 404337,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -137,7 +137,7 @@
       "year_high": 1234.7,
       "year_low": 781.7,
       "market_cap_cr": 399452,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -156,7 +156,7 @@
       "year_high": 3970,
       "year_low": 2655.1,
       "market_cap_cr": 392265,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -175,7 +175,7 @@
       "year_high": 1418.3,
       "year_low": 1042.5,
       "market_cap_cr": 368315,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -194,7 +194,7 @@
       "year_high": 453.2,
       "year_low": 345.5,
       "market_cap_cr": 283123,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -213,7 +213,7 @@
       "year_high": 444.2,
       "year_low": 285.9,
       "market_cap_cr": 276716,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -232,7 +232,7 @@
       "year_high": 3839.9,
       "year_low": 2896,
       "market_cap_cr": 273219,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -251,7 +251,7 @@
       "year_high": 1102.5,
       "year_low": 787.9,
       "market_cap_cr": 242707,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -270,7 +270,7 @@
       "year_high": 3540,
       "year_low": 2206.4,
       "market_cap_cr": 229733,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -289,7 +289,7 @@
       "year_high": 2750,
       "year_low": 2022.5,
       "market_cap_cr": 191232,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -308,7 +308,7 @@
       "year_high": 1916.6,
       "year_low": 1548,
       "market_cap_cr": 190421,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -327,7 +327,7 @@
       "year_high": 414.4,
       "year_low": 315.55,
       "market_cap_cr": 184139,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -346,7 +346,7 @@
       "year_high": 368.45,
       "year_low": 212.6,
       "market_cap_cr": 181008,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -365,7 +365,7 @@
       "year_high": 224.4,
       "year_low": 149.8,
       "market_cap_cr": 173242,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -384,7 +384,7 @@
       "year_high": 17370,
       "year_low": 12016,
       "market_cap_cr": 172720,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -403,7 +403,7 @@
       "year_high": 4446.8,
       "year_low": 2021.5,
       "market_cap_cr": 169453,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -422,7 +422,7 @@
       "year_high": 4605,
       "year_low": 3303.1,
       "market_cap_cr": 169208,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -441,7 +441,7 @@
       "year_high": 1176,
       "year_low": 618,
       "market_cap_cr": 163422,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -460,7 +460,7 @@
       "year_high": 473.45,
       "year_low": 361.2,
       "market_cap_cr": 147278,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -479,7 +479,7 @@
       "year_high": 13110,
       "year_low": 10325,
       "market_cap_cr": 135816,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -498,7 +498,7 @@
       "year_high": 1108,
       "year_low": 566.5,
       "market_cap_cr": 133372,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -517,7 +517,7 @@
       "year_high": 1842.8,
       "year_low": 1290.5,
       "market_cap_cr": 133082,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -536,7 +536,7 @@
       "year_high": 324.95,
       "year_low": 250,
       "market_cap_cr": 129981,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -555,7 +555,7 @@
       "year_high": 1780.1,
       "year_low": 1103.4,
       "market_cap_cr": 124381,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -574,7 +574,7 @@
       "year_high": 2985.7,
       "year_low": 2115,
       "market_cap_cr": 121196,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -593,7 +593,7 @@
       "year_high": 1328,
       "year_low": 962.15,
       "market_cap_cr": 119394,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -612,7 +612,7 @@
       "year_high": 3197.5,
       "year_low": 2502.5,
       "market_cap_cr": 119309,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -631,7 +631,7 @@
       "year_high": 10834,
       "year_low": 7858.5,
       "market_cap_cr": 115788,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -650,7 +650,7 @@
       "year_high": 491.25,
       "year_low": 368.65,
       "market_cap_cr": 103761,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -669,7 +669,7 @@
       "year_high": 2195,
       "year_low": 1597,
       "market_cap_cr": 103474,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -688,7 +688,7 @@
       "year_high": 1498.1,
       "year_low": 1084.7,
       "market_cap_cr": 103171,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -707,7 +707,7 @@
       "year_high": 307.5,
       "year_low": 228.61,
       "market_cap_cr": 102962,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -726,7 +726,7 @@
       "year_high": 254.2,
       "year_low": 105.42,
       "market_cap_cr": 100631,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -745,7 +745,7 @@
       "year_high": 6232.5,
       "year_low": 3895.2,
       "market_cap_cr": 99718,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -764,7 +764,7 @@
       "year_high": 8230,
       "year_low": 5219.5,
       "market_cap_cr": 99051,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -783,7 +783,7 @@
       "year_high": 1854,
       "year_low": 1304.1,
       "market_cap_cr": 93711,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -802,7 +802,7 @@
       "year_high": 6261,
       "year_low": 3275.5,
       "market_cap_cr": 93703,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -821,7 +821,7 @@
       "year_high": 7071.5,
       "year_low": 5636.5,
       "market_cap_cr": 84677,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -840,7 +840,7 @@
       "year_high": 8443,
       "year_low": 6696.5,
       "market_cap_cr": 84343,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -859,7 +859,7 @@
       "year_high": 3027.5,
       "year_low": 1753,
       "market_cap_cr": 84016,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -878,7 +878,7 @@
       "year_high": 744,
       "year_low": 294.3,
       "market_cap_cr": 82496,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -897,7 +897,7 @@
       "year_high": 2132,
       "year_low": 1720,
       "market_cap_cr": 82376,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -916,7 +916,7 @@
       "year_high": 338.6,
       "year_low": 223.3,
       "market_cap_cr": 81619,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -935,7 +935,7 @@
       "year_high": 5147,
       "year_low": 3479.1,
       "market_cap_cr": 81484,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -954,7 +954,7 @@
       "year_high": 1379.7,
       "year_low": 1148.4,
       "market_cap_cr": 80215,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -973,7 +973,7 @@
       "year_high": 509,
       "year_low": 306.3,
       "market_cap_cr": 79612,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -992,7 +992,7 @@
       "year_high": 6100,
       "year_low": 2921.1,
       "market_cap_cr": 79474,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1011,7 +1011,7 @@
       "year_high": 1673,
       "year_low": 1165.7,
       "market_cap_cr": 78544,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1030,7 +1030,7 @@
       "year_high": 1282.7,
       "year_low": 1007.2,
       "market_cap_cr": 76190,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1049,7 +1049,7 @@
       "year_high": 3480,
       "year_low": 1278.1,
       "market_cap_cr": 74771,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -1068,7 +1068,7 @@
       "year_high": 544.4,
       "year_low": 381,
       "market_cap_cr": 72378,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1087,7 +1087,7 @@
       "year_high": 1314.3,
       "year_low": 903,
       "market_cap_cr": 71610,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1106,7 +1106,7 @@
       "year_high": 302,
       "year_low": 185.11,
       "market_cap_cr": 70788,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -1125,7 +1125,7 @@
       "year_high": 464.9,
       "year_low": 342.5,
       "market_cap_cr": 70449,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1144,7 +1144,7 @@
       "year_high": 74.3,
       "year_low": 38.19,
       "market_cap_cr": 69907,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1163,7 +1163,7 @@
       "year_high": 151.77,
       "year_low": 89.7,
       "market_cap_cr": 66646,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1182,7 +1182,7 @@
       "year_high": 1831.5,
       "year_low": 1299.4,
       "market_cap_cr": 66147,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1201,7 +1201,7 @@
       "year_high": 820.75,
       "year_low": 555.1,
       "market_cap_cr": 63971,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1220,7 +1220,7 @@
       "year_high": 6388.5,
       "year_low": 4158.1,
       "market_cap_cr": 63816,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1239,7 +1239,7 @@
       "year_high": 944.1,
       "year_low": 525.5,
       "market_cap_cr": 63023,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1258,7 +1258,7 @@
       "year_high": 486.5,
       "year_low": 329.9,
       "market_cap_cr": 62582,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1277,7 +1277,7 @@
       "year_high": 5222.1,
       "year_low": 2080,
       "market_cap_cr": 61781,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1296,7 +1296,7 @@
       "year_high": 6336,
       "year_low": 5164.5,
       "market_cap_cr": 61445,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1315,7 +1315,7 @@
       "year_high": 1994,
       "year_low": 1008.1,
       "market_cap_cr": 60588,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1334,7 +1334,7 @@
       "year_high": 424.9,
       "year_low": 205.12,
       "market_cap_cr": 60475,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1353,7 +1353,7 @@
       "year_high": 391.65,
       "year_low": 266.6,
       "market_cap_cr": 60449,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1372,7 +1372,7 @@
       "year_high": 968.85,
       "year_low": 710.6,
       "market_cap_cr": 60023,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1391,7 +1391,7 @@
       "year_high": 795,
       "year_low": 268.7,
       "market_cap_cr": 59821,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1410,7 +1410,7 @@
       "year_high": 4949.5,
       "year_low": 3529,
       "market_cap_cr": 59606,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1429,7 +1429,7 @@
       "year_high": 1978,
       "year_low": 1364,
       "market_cap_cr": 58303,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1448,7 +1448,7 @@
       "year_high": 273.1,
       "year_low": 186.5,
       "market_cap_cr": 58242,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -1467,7 +1467,7 @@
       "year_high": 811.95,
       "year_low": 565,
       "market_cap_cr": 57718,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1486,7 +1486,7 @@
       "year_high": 481.5,
       "year_low": 312.55,
       "market_cap_cr": 57270,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1505,7 +1505,7 @@
       "year_high": 6599,
       "year_low": 4449.1,
       "market_cap_cr": 56266,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1524,7 +1524,7 @@
       "year_high": 1079.55,
       "year_low": 682.15,
       "market_cap_cr": 55830,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1543,7 +1543,7 @@
       "year_high": 2494,
       "year_low": 1836.8,
       "market_cap_cr": 55044,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1562,7 +1562,7 @@
       "year_high": 2967.25,
       "year_low": 2205.6,
       "market_cap_cr": 54500,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1581,7 +1581,7 @@
       "year_high": 1393.4,
       "year_low": 593.5,
       "market_cap_cr": 53232,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1600,7 +1600,7 @@
       "year_high": 188.96,
       "year_low": 130.22,
       "market_cap_cr": 52459,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1619,7 +1619,7 @@
       "year_high": 1578.5,
       "year_low": 744.9,
       "market_cap_cr": 52410,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1638,7 +1638,7 @@
       "year_high": 2044,
       "year_low": 1100.5,
       "market_cap_cr": 51939,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1657,7 +1657,7 @@
       "year_high": 9747,
       "year_low": 5760,
       "market_cap_cr": 49943,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1676,7 +1676,7 @@
       "year_high": 325.5,
       "year_low": 230.52,
       "market_cap_cr": 49766,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1695,7 +1695,7 @@
       "year_high": 1532.5,
       "year_low": 765,
       "market_cap_cr": 49580,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1714,7 +1714,7 @@
       "year_high": 1104.3,
       "year_low": 698.7,
       "market_cap_cr": 48679,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1733,7 +1733,7 @@
       "year_high": 38645,
       "year_low": 16111,
       "market_cap_cr": 48625,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1752,7 +1752,7 @@
       "year_high": 18471,
       "year_low": 9600,
       "market_cap_cr": 47746,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1771,7 +1771,7 @@
       "year_high": 87,
       "year_low": 58.08,
       "market_cap_cr": 47072,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1790,7 +1790,7 @@
       "year_high": 1381.8,
       "year_low": 849.2,
       "market_cap_cr": 47002,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1809,7 +1809,7 @@
       "year_high": 4712.9,
       "year_low": 3102,
       "market_cap_cr": 46081,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1828,7 +1828,7 @@
       "year_high": 1574.95,
       "year_low": 1259,
       "market_cap_cr": 45773,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1847,7 +1847,7 @@
       "year_high": 1306.2,
       "year_low": 882.65,
       "market_cap_cr": 45315,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1866,7 +1866,7 @@
       "year_high": 14763,
       "year_low": 8588,
       "market_cap_cr": 45033,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1885,7 +1885,7 @@
       "year_high": 215.42,
       "year_low": 114.96,
       "market_cap_cr": 44695,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1904,7 +1904,7 @@
       "year_high": 202.79,
       "year_low": 134.36,
       "market_cap_cr": 44651,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1923,7 +1923,7 @@
       "year_high": 162.89,
       "year_low": 103.55,
       "market_cap_cr": 44295,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1942,7 +1942,7 @@
       "year_high": 18874,
       "year_low": 11646,
       "market_cap_cr": 44211,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1961,7 +1961,7 @@
       "year_high": 1892.5,
       "year_low": 1433.6,
       "market_cap_cr": 44040,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1980,7 +1980,7 @@
       "year_high": 848.8,
       "year_low": 680.3,
       "market_cap_cr": 43439,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -1999,7 +1999,7 @@
       "year_high": 2068.7,
       "year_low": 1629.5,
       "market_cap_cr": 43233,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2018,7 +2018,7 @@
       "year_high": 428.7,
       "year_low": 304.05,
       "market_cap_cr": 41999,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2037,7 +2037,7 @@
       "year_high": 1309,
       "year_low": 967.05,
       "market_cap_cr": 41237,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2056,7 +2056,7 @@
       "year_high": 24.3,
       "year_low": 17.2,
       "market_cap_cr": 40635,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2075,7 +2075,7 @@
       "year_high": 1550,
       "year_low": 1016.1,
       "market_cap_cr": 39268,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2094,7 +2094,7 @@
       "year_high": 3325,
       "year_low": 2355,
       "market_cap_cr": 39245,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2113,7 +2113,7 @@
       "year_high": 14.44,
       "year_low": 6.12,
       "market_cap_cr": 38600,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2132,7 +2132,7 @@
       "year_high": 886.8,
       "year_low": 489.4,
       "market_cap_cr": 38190,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2151,7 +2151,7 @@
       "year_high": 1550,
       "year_low": 908.3,
       "market_cap_cr": 38181,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2170,7 +2170,7 @@
       "year_high": 7822.5,
       "year_low": 4637.5,
       "market_cap_cr": 38025,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2189,7 +2189,7 @@
       "year_high": 6429.5,
       "year_low": 3901,
       "market_cap_cr": 37766,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2208,7 +2208,7 @@
       "year_high": 445.15,
       "year_low": 176.34,
       "market_cap_cr": 37746,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -2227,7 +2227,7 @@
       "year_high": 508.45,
       "year_low": 316.2,
       "market_cap_cr": 37725,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2246,7 +2246,7 @@
       "year_high": 1645,
       "year_low": 1210.8,
       "market_cap_cr": 37437,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2265,7 +2265,7 @@
       "year_high": 812.2,
       "year_low": 565.15,
       "market_cap_cr": 36568,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2284,7 +2284,7 @@
       "year_high": 135.15,
       "year_low": 98.5,
       "market_cap_cr": 36533,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2303,7 +2303,7 @@
       "year_high": 285.6,
       "year_low": 191.16,
       "market_cap_cr": 35868,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2322,7 +2322,7 @@
       "year_high": 110.36,
       "year_low": 79.92,
       "market_cap_cr": 35789,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2341,7 +2341,7 @@
       "year_high": 4149.5,
       "year_low": 2058.5,
       "market_cap_cr": 35253,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2360,7 +2360,7 @@
       "year_high": 474,
       "year_low": 247.3,
       "market_cap_cr": 35235,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2379,7 +2379,7 @@
       "year_high": 2474,
       "year_low": 1375.6,
       "market_cap_cr": 34428,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2398,7 +2398,7 @@
       "year_high": 3968,
       "year_low": 2115,
       "market_cap_cr": 33852,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2417,7 +2417,7 @@
       "year_high": 3937.3,
       "year_low": 2826,
       "market_cap_cr": 33844,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2436,7 +2436,7 @@
       "year_high": 32490,
       "year_low": 22550,
       "market_cap_cr": 33623,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2455,7 +2455,7 @@
       "year_high": 3419.9,
       "year_low": 2164.9,
       "market_cap_cr": 33616,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2474,7 +2474,7 @@
       "year_high": 617.35,
       "year_low": 427.75,
       "market_cap_cr": 33537,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2493,7 +2493,7 @@
       "year_high": 2301.4,
       "year_low": 1492,
       "market_cap_cr": 33198,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2512,7 +2512,7 @@
       "year_high": 1993,
       "year_low": 1402.5,
       "market_cap_cr": 32843,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2531,7 +2531,7 @@
       "year_high": 5476.3,
       "year_low": 3484,
       "market_cap_cr": 32524,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2550,7 +2550,7 @@
       "year_high": 205.49,
       "year_low": 124.64,
       "market_cap_cr": 32453,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2569,7 +2569,7 @@
       "year_high": 5933.5,
       "year_low": 4716.2,
       "market_cap_cr": 32297,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2588,7 +2588,7 @@
       "year_high": 41945,
       "year_low": 28610,
       "market_cap_cr": 31871,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2607,7 +2607,7 @@
       "year_high": 440.4,
       "year_low": 327.6,
       "market_cap_cr": 30735,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2626,7 +2626,7 @@
       "year_high": 94.25,
       "year_low": 66.8,
       "market_cap_cr": 30469,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2645,7 +2645,7 @@
       "year_high": 375.95,
       "year_low": 217.14,
       "market_cap_cr": 29943,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2664,7 +2664,7 @@
       "year_high": 3865,
       "year_low": 2403,
       "market_cap_cr": 29899,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2683,7 +2683,7 @@
       "year_high": 3037.2,
       "year_low": 2013,
       "market_cap_cr": 29882,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2702,7 +2702,7 @@
       "year_high": 1000.9,
       "year_low": 586.25,
       "market_cap_cr": 29849,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -2721,7 +2721,7 @@
       "year_high": 1621.1,
       "year_low": 1142.5,
       "market_cap_cr": 29830,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2740,7 +2740,7 @@
       "year_high": 209.7,
       "year_low": 118.1,
       "market_cap_cr": 29408,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2759,7 +2759,7 @@
       "year_high": 1273.8,
       "year_low": 906.05,
       "market_cap_cr": 28649,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2778,7 +2778,7 @@
       "year_high": 5642,
       "year_low": 4115,
       "market_cap_cr": 28634,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2797,7 +2797,7 @@
       "year_high": 1582.5,
       "year_low": 1186.8,
       "market_cap_cr": 28582,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2816,7 +2816,7 @@
       "year_high": 2890,
       "year_low": 1658,
       "market_cap_cr": 28182,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -2835,7 +2835,7 @@
       "year_high": 3679,
       "year_low": 2438.2,
       "market_cap_cr": 27564,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2854,7 +2854,7 @@
       "year_high": 624.95,
       "year_low": 394,
       "market_cap_cr": 27499,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2873,7 +2873,7 @@
       "year_high": 733,
       "year_low": 413.5,
       "market_cap_cr": 27408,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2892,7 +2892,7 @@
       "year_high": 2716.5,
       "year_low": 1909.7,
       "market_cap_cr": 27187,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2911,7 +2911,7 @@
       "year_high": 343.45,
       "year_low": 181.75,
       "market_cap_cr": 27160,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -2930,7 +2930,7 @@
       "year_high": 621.8,
       "year_low": 402.3,
       "market_cap_cr": 27126,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2949,7 +2949,7 @@
       "year_high": 2519,
       "year_low": 1782,
       "market_cap_cr": 27107,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2968,7 +2968,7 @@
       "year_high": 1115.5,
       "year_low": 835.5,
       "market_cap_cr": 26991,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -2987,7 +2987,7 @@
       "year_high": 1824.1,
       "year_low": 1188,
       "market_cap_cr": 26727,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3006,7 +3006,7 @@
       "year_high": 1531,
       "year_low": 650.8,
       "market_cap_cr": 26535,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3025,7 +3025,7 @@
       "year_high": 577,
       "year_low": 403.35,
       "market_cap_cr": 26496,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3044,7 +3044,7 @@
       "year_high": 531,
       "year_low": 384.6,
       "market_cap_cr": 26093,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3063,7 +3063,7 @@
       "year_high": 2506.5,
       "year_low": 1434,
       "market_cap_cr": 26034,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3082,7 +3082,7 @@
       "year_high": 7525,
       "year_low": 4225,
       "market_cap_cr": 25903,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3101,7 +3101,7 @@
       "year_high": 157.6,
       "year_low": 98.77,
       "market_cap_cr": 25890,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3120,7 +3120,7 @@
       "year_high": 490,
       "year_low": 342.85,
       "market_cap_cr": 25229,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -3139,7 +3139,7 @@
       "year_high": 163600,
       "year_low": 122000,
       "market_cap_cr": 24934,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3158,7 +3158,7 @@
       "year_high": 92.34,
       "year_low": 71.62,
       "market_cap_cr": 24764,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3177,7 +3177,7 @@
       "year_high": 329.45,
       "year_low": 169.25,
       "market_cap_cr": 24254,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3196,7 +3196,7 @@
       "year_high": 50590,
       "year_low": 29805,
       "market_cap_cr": 24030,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3215,7 +3215,7 @@
       "year_high": 10584.5,
       "year_low": 6234.5,
       "market_cap_cr": 23688,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3234,7 +3234,7 @@
       "year_high": 2073.2,
       "year_low": 1260,
       "market_cap_cr": 23222,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3253,7 +3253,7 @@
       "year_high": 1814,
       "year_low": 1090,
       "market_cap_cr": 23180,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3272,7 +3272,7 @@
       "year_high": 2049.9,
       "year_low": 1322.5,
       "market_cap_cr": 22955,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3291,7 +3291,7 @@
       "year_high": 4739,
       "year_low": 3182,
       "market_cap_cr": 22842,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3310,7 +3310,7 @@
       "year_high": 1888.6,
       "year_low": 1042.9,
       "market_cap_cr": 22739,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3329,7 +3329,7 @@
       "year_high": 4330,
       "year_low": 2700,
       "market_cap_cr": 22578,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3348,7 +3348,7 @@
       "year_high": 1828.9,
       "year_low": 1116.3,
       "market_cap_cr": 22116,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3367,7 +3367,7 @@
       "year_high": 13580,
       "year_low": 6801,
       "market_cap_cr": 21980,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3386,7 +3386,7 @@
       "year_high": 884,
       "year_low": 633.35,
       "market_cap_cr": 21936,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3405,7 +3405,7 @@
       "year_high": 351,
       "year_low": 208.63,
       "market_cap_cr": 21896,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3424,7 +3424,7 @@
       "year_high": 7565.5,
       "year_low": 4822.5,
       "market_cap_cr": 21569,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -3443,7 +3443,7 @@
       "year_high": 859.85,
       "year_low": 462.8,
       "market_cap_cr": 21483,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -3462,7 +3462,7 @@
       "year_high": 353,
       "year_low": 204.01,
       "market_cap_cr": 20898,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3481,7 +3481,7 @@
       "year_high": 2718.9,
       "year_low": 1720.2,
       "market_cap_cr": 20784,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3500,7 +3500,7 @@
       "year_high": 1678.3,
       "year_low": 1251.6,
       "market_cap_cr": 20705,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3519,7 +3519,7 @@
       "year_high": 2040,
       "year_low": 1450,
       "market_cap_cr": 20673,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3538,7 +3538,7 @@
       "year_high": 326.4,
       "year_low": 235.35,
       "market_cap_cr": 20326,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3557,7 +3557,7 @@
       "year_high": 1382,
       "year_low": 982.05,
       "market_cap_cr": 20078,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3576,7 +3576,7 @@
       "year_high": 706.8,
       "year_low": 488.6,
       "market_cap_cr": 20060,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3595,7 +3595,7 @@
       "year_high": 412.2,
       "year_low": 246.35,
       "market_cap_cr": 20024,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3614,7 +3614,7 @@
       "year_high": 2005,
       "year_low": 1391.2,
       "market_cap_cr": 19954,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3633,7 +3633,7 @@
       "year_high": 334,
       "year_low": 230.03,
       "market_cap_cr": 19795,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -3652,7 +3652,7 @@
       "year_high": 148.95,
       "year_low": 87,
       "market_cap_cr": 19597,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3671,7 +3671,7 @@
       "year_high": 1141.9,
       "year_low": 729.6,
       "market_cap_cr": 19589,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3690,7 +3690,7 @@
       "year_high": 1125,
       "year_low": 714.05,
       "market_cap_cr": 19567,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3709,7 +3709,7 @@
       "year_high": 1768.7,
       "year_low": 1263.7,
       "market_cap_cr": 19346,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3728,7 +3728,7 @@
       "year_high": 5075,
       "year_low": 2742.7,
       "market_cap_cr": 19085,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3747,7 +3747,7 @@
       "year_high": 875,
       "year_low": 611.4,
       "market_cap_cr": 18941,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3766,7 +3766,7 @@
       "year_high": 1027.25,
       "year_low": 612.1,
       "market_cap_cr": 18684,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3785,7 +3785,7 @@
       "year_high": 3775,
       "year_low": 2057.4,
       "market_cap_cr": 18637,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3804,7 +3804,7 @@
       "year_high": 212.66,
       "year_low": 134.25,
       "market_cap_cr": 18618,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3823,7 +3823,7 @@
       "year_high": 798.4,
       "year_low": 575.8,
       "market_cap_cr": 18587,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -3842,7 +3842,7 @@
       "year_high": 324.1,
       "year_low": 187.05,
       "market_cap_cr": 18431,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -3861,7 +3861,7 @@
       "year_high": 1003.9,
       "year_low": 301,
       "market_cap_cr": 18377,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3880,7 +3880,7 @@
       "year_high": 2801.3,
       "year_low": 2015.4,
       "market_cap_cr": 18304,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3899,7 +3899,7 @@
       "year_high": 776.55,
       "year_low": 519.1,
       "market_cap_cr": 18292,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -3918,7 +3918,7 @@
       "year_high": 189.08,
       "year_low": 59.82,
       "market_cap_cr": 18251,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -3937,7 +3937,7 @@
       "year_high": 490,
       "year_low": 360.75,
       "market_cap_cr": 18222,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3956,7 +3956,7 @@
       "year_high": 1394.8,
       "year_low": 710,
       "market_cap_cr": 18033,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -3975,7 +3975,7 @@
       "year_high": 362,
       "year_low": 217.4,
       "market_cap_cr": 17975,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -3994,7 +3994,7 @@
       "year_high": 2396,
       "year_low": 1513.4,
       "market_cap_cr": 17817,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4013,7 +4013,7 @@
       "year_high": 760.05,
       "year_low": 226.7,
       "market_cap_cr": 17698,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4032,7 +4032,7 @@
       "year_high": 431,
       "year_low": 287,
       "market_cap_cr": 17633,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4051,7 +4051,7 @@
       "year_high": 2285.3,
       "year_low": 1603.5,
       "market_cap_cr": 17604,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4070,7 +4070,7 @@
       "year_high": 4551.7,
       "year_low": 3001.1,
       "market_cap_cr": 17424,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4089,7 +4089,7 @@
       "year_high": 261.62,
       "year_low": 137.3,
       "market_cap_cr": 17252,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4108,7 +4108,7 @@
       "year_high": 178.36,
       "year_low": 108.81,
       "market_cap_cr": 16965,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4127,7 +4127,7 @@
       "year_high": 718.95,
       "year_low": 408.8,
       "market_cap_cr": 16793,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -4146,7 +4146,7 @@
       "year_high": 2097.4,
       "year_low": 1086.7,
       "market_cap_cr": 16681,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -4165,7 +4165,7 @@
       "year_high": 4467.7,
       "year_low": 3518.4,
       "market_cap_cr": 16630,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4184,7 +4184,7 @@
       "year_high": 8974,
       "year_low": 5400.5,
       "market_cap_cr": 16531,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4203,7 +4203,7 @@
       "year_high": 3184.9,
       "year_low": 1059,
       "market_cap_cr": 16429,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4222,7 +4222,7 @@
       "year_high": 85.9,
       "year_low": 50.55,
       "market_cap_cr": 16142,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4241,7 +4241,7 @@
       "year_high": 1943.7,
       "year_low": 825.6,
       "market_cap_cr": 15990,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4260,7 +4260,7 @@
       "year_high": 646.5,
       "year_low": 458.9,
       "market_cap_cr": 15984,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4279,7 +4279,7 @@
       "year_high": 652.04,
       "year_low": 421.45,
       "market_cap_cr": 15968,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4298,7 +4298,7 @@
       "year_high": 1184.8,
       "year_low": 707,
       "market_cap_cr": 15812,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4317,7 +4317,7 @@
       "year_high": 653.93,
       "year_low": 438,
       "market_cap_cr": 15744,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4336,7 +4336,7 @@
       "year_high": 2231.6,
       "year_low": 1305,
       "market_cap_cr": 15670,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4355,7 +4355,7 @@
       "year_high": 800,
       "year_low": 492.65,
       "market_cap_cr": 15341,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4374,7 +4374,7 @@
       "year_high": 4050,
       "year_low": 2916.6,
       "market_cap_cr": 15313,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4393,7 +4393,7 @@
       "year_high": 557.65,
       "year_low": 356.1,
       "market_cap_cr": 15293,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4412,7 +4412,7 @@
       "year_high": 8049,
       "year_low": 5673,
       "market_cap_cr": 15086,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4431,7 +4431,7 @@
       "year_high": 3735,
       "year_low": 1859.8,
       "market_cap_cr": 14878,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4450,7 +4450,7 @@
       "year_high": 6735,
       "year_low": 3945,
       "market_cap_cr": 14729,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4469,7 +4469,7 @@
       "year_high": 19747,
       "year_low": 11011,
       "market_cap_cr": 14698,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4488,7 +4488,7 @@
       "year_high": 1335.6,
       "year_low": 1007.1,
       "market_cap_cr": 14607,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4507,7 +4507,7 @@
       "year_high": 605,
       "year_low": 391.1,
       "market_cap_cr": 14256,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4526,7 +4526,7 @@
       "year_high": 442.8,
       "year_low": 243,
       "market_cap_cr": 14157,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4545,7 +4545,7 @@
       "year_high": 654.45,
       "year_low": 418.5,
       "market_cap_cr": 14093,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4564,7 +4564,7 @@
       "year_high": 1798,
       "year_low": 913.1,
       "market_cap_cr": 14083,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4583,7 +4583,7 @@
       "year_high": 37000,
       "year_low": 25150,
       "market_cap_cr": 13957,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4602,7 +4602,7 @@
       "year_high": 2496.3,
       "year_low": 1675.1,
       "market_cap_cr": 13827,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4621,7 +4621,7 @@
       "year_high": 617.7,
       "year_low": 337,
       "market_cap_cr": 13796,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -4640,7 +4640,7 @@
       "year_high": 1097.1,
       "year_low": 614.9,
       "market_cap_cr": 13669,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4659,7 +4659,7 @@
       "year_high": 570.4,
       "year_low": 361.2,
       "market_cap_cr": 13657,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4678,7 +4678,7 @@
       "year_high": 192.95,
       "year_low": 114.1,
       "market_cap_cr": 13580,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4697,7 +4697,7 @@
       "year_high": 2370.2,
       "year_low": 1589,
       "market_cap_cr": 13374,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4716,7 +4716,7 @@
       "year_high": 334.8,
       "year_low": 191.31,
       "market_cap_cr": 13343,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4735,7 +4735,7 @@
       "year_high": 1749,
       "year_low": 1304.1,
       "market_cap_cr": 13211,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4754,7 +4754,7 @@
       "year_high": 367.3,
       "year_low": 296.8,
       "market_cap_cr": 13138,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4773,7 +4773,7 @@
       "year_high": 3775,
       "year_low": 2800.5,
       "market_cap_cr": 13015,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4792,7 +4792,7 @@
       "year_high": 540.5,
       "year_low": 365.3,
       "market_cap_cr": 12676,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4811,7 +4811,7 @@
       "year_high": 1434.5,
       "year_low": 624.9,
       "market_cap_cr": 12582,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4830,7 +4830,7 @@
       "year_high": 683,
       "year_low": 400,
       "market_cap_cr": 12573,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4849,7 +4849,7 @@
       "year_high": 1770,
       "year_low": 1272.6,
       "market_cap_cr": 12415,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4868,7 +4868,7 @@
       "year_high": 2545,
       "year_low": 1187,
       "market_cap_cr": 12407,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4887,7 +4887,7 @@
       "year_high": 633.85,
       "year_low": 408.25,
       "market_cap_cr": 12364,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4906,7 +4906,7 @@
       "year_high": 586.25,
       "year_low": 412.6,
       "market_cap_cr": 12311,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4925,7 +4925,7 @@
       "year_high": 1136.4,
       "year_low": 660,
       "market_cap_cr": 12267,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -4944,7 +4944,7 @@
       "year_high": 3314.9,
       "year_low": 2329.9,
       "market_cap_cr": 12249,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4963,7 +4963,7 @@
       "year_high": 891.9,
       "year_low": 555.3,
       "market_cap_cr": 12114,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -4982,7 +4982,7 @@
       "year_high": 3611,
       "year_low": 2530,
       "market_cap_cr": 12096,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5001,7 +5001,7 @@
       "year_high": 797,
       "year_low": 507.4,
       "market_cap_cr": 12093,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5020,7 +5020,7 @@
       "year_high": 1701.7,
       "year_low": 1096.9,
       "market_cap_cr": 12004,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5039,7 +5039,7 @@
       "year_high": 4303,
       "year_low": 2131,
       "market_cap_cr": 11940,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5058,7 +5058,7 @@
       "year_high": 1026.65,
       "year_low": 580.3,
       "market_cap_cr": 11830,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5077,7 +5077,7 @@
       "year_high": 1166.4,
       "year_low": 735.2,
       "market_cap_cr": 11772,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5096,7 +5096,7 @@
       "year_high": 435.8,
       "year_low": 350.25,
       "market_cap_cr": 11717,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5115,7 +5115,7 @@
       "year_high": 204.5,
       "year_low": 138.12,
       "market_cap_cr": 11415,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5134,7 +5134,7 @@
       "year_high": 1388.5,
       "year_low": 784.95,
       "market_cap_cr": 11412,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5153,7 +5153,7 @@
       "year_high": 2128.9,
       "year_low": 1280,
       "market_cap_cr": 11408,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5172,7 +5172,7 @@
       "year_high": 387.8,
       "year_low": 220.71,
       "market_cap_cr": 11327,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5191,7 +5191,7 @@
       "year_high": 227.2,
       "year_low": 112,
       "market_cap_cr": 11286,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5210,7 +5210,7 @@
       "year_high": 804.3,
       "year_low": 432.6,
       "market_cap_cr": 11259,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5229,7 +5229,7 @@
       "year_high": 2052.9,
       "year_low": 1439.3,
       "market_cap_cr": 11246,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5248,7 +5248,7 @@
       "year_high": 2096.6,
       "year_low": 1086,
       "market_cap_cr": 11222,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5267,7 +5267,7 @@
       "year_high": 229,
       "year_low": 141.74,
       "market_cap_cr": 11206,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5286,7 +5286,7 @@
       "year_high": 9738,
       "year_low": 5100,
       "market_cap_cr": 11079,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5305,7 +5305,7 @@
       "year_high": 1214.5,
       "year_low": 860.1,
       "market_cap_cr": 11023,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5324,7 +5324,7 @@
       "year_high": 16665,
       "year_low": 12302,
       "market_cap_cr": 11011,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5343,7 +5343,7 @@
       "year_high": 675,
       "year_low": 409.1,
       "market_cap_cr": 10852,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5362,7 +5362,7 @@
       "year_high": 1094,
       "year_low": 670,
       "market_cap_cr": 10817,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5381,7 +5381,7 @@
       "year_high": 1257,
       "year_low": 796.1,
       "market_cap_cr": 10782,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5400,7 +5400,7 @@
       "year_high": 1074,
       "year_low": 688.3,
       "market_cap_cr": 10757,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5419,7 +5419,7 @@
       "year_high": 7788,
       "year_low": 5560.5,
       "market_cap_cr": 10755,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5438,7 +5438,7 @@
       "year_high": 186.58,
       "year_low": 108.65,
       "market_cap_cr": 10741,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5457,7 +5457,7 @@
       "year_high": 286,
       "year_low": 171.19,
       "market_cap_cr": 10717,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5476,7 +5476,7 @@
       "year_high": 220.85,
       "year_low": 132.3,
       "market_cap_cr": 10684,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5495,7 +5495,7 @@
       "year_high": 27.7,
       "year_low": 13.15,
       "market_cap_cr": 10574,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5514,7 +5514,7 @@
       "year_high": 130.7,
       "year_low": 77.18,
       "market_cap_cr": 10460,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5533,7 +5533,7 @@
       "year_high": 253.73,
       "year_low": 159,
       "market_cap_cr": 10234,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5552,7 +5552,7 @@
       "year_high": 215.4,
       "year_low": 114.6,
       "market_cap_cr": 10145,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5571,7 +5571,7 @@
       "year_high": 1456.5,
       "year_low": 956,
       "market_cap_cr": 10049,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5590,7 +5590,7 @@
       "year_high": 53.59,
       "year_low": 35.7,
       "market_cap_cr": 9877,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5609,7 +5609,7 @@
       "year_high": 2248,
       "year_low": 1057,
       "market_cap_cr": 9827,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5628,7 +5628,7 @@
       "year_high": 7705,
       "year_low": 2995,
       "market_cap_cr": 9801,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5647,7 +5647,7 @@
       "year_high": 523.1,
       "year_low": 338.05,
       "market_cap_cr": 9733,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5666,7 +5666,7 @@
       "year_high": 19387,
       "year_low": 13251,
       "market_cap_cr": 9709,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5685,7 +5685,7 @@
       "year_high": 1519,
       "year_low": 893.7,
       "market_cap_cr": 9609,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5704,7 +5704,7 @@
       "year_high": 6139,
       "year_low": 3686,
       "market_cap_cr": 9604,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5723,7 +5723,7 @@
       "year_high": 3079.9,
       "year_low": 2142.8,
       "market_cap_cr": 9583,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5742,7 +5742,7 @@
       "year_high": 119.95,
       "year_low": 84,
       "market_cap_cr": 9513,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5761,7 +5761,7 @@
       "year_high": 2134.7,
       "year_low": 1310,
       "market_cap_cr": 9482,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5780,7 +5780,7 @@
       "year_high": 1778.6,
       "year_low": 866.4,
       "market_cap_cr": 9454,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5799,7 +5799,7 @@
       "year_high": 4726,
       "year_low": 3010,
       "market_cap_cr": 9429,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5818,7 +5818,7 @@
       "year_high": 57.89,
       "year_low": 35.83,
       "market_cap_cr": 9391,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5837,7 +5837,7 @@
       "year_high": 26450,
       "year_low": 10618,
       "market_cap_cr": 9378,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5856,7 +5856,7 @@
       "year_high": 4180,
       "year_low": 2710.1,
       "market_cap_cr": 9366,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5875,7 +5875,7 @@
       "year_high": 128.45,
       "year_low": 72.65,
       "market_cap_cr": 9363,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5894,7 +5894,7 @@
       "year_high": 944.6,
       "year_low": 576.1,
       "market_cap_cr": 9328,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5913,7 +5913,7 @@
       "year_high": 3947,
       "year_low": 1832.1,
       "market_cap_cr": 9311,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5932,7 +5932,7 @@
       "year_high": 1122,
       "year_low": 551.6,
       "market_cap_cr": 9237,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -5951,7 +5951,7 @@
       "year_high": 2185.9,
       "year_low": 1251.3,
       "market_cap_cr": 9233,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5970,7 +5970,7 @@
       "year_high": 38030,
       "year_low": 27830,
       "market_cap_cr": 9222,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -5989,7 +5989,7 @@
       "year_high": 364,
       "year_low": 193.03,
       "market_cap_cr": 9177,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6008,7 +6008,7 @@
       "year_high": 3515.7,
       "year_low": 2194.4,
       "market_cap_cr": 9118,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6027,7 +6027,7 @@
       "year_high": 518,
       "year_low": 302.3,
       "market_cap_cr": 9065,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6046,7 +6046,7 @@
       "year_high": 1184.7,
       "year_low": 538.85,
       "market_cap_cr": 9000,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6065,7 +6065,7 @@
       "year_high": 1226.8,
       "year_low": 789,
       "market_cap_cr": 8999,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -6084,7 +6084,7 @@
       "year_high": 1332,
       "year_low": 601,
       "market_cap_cr": 8995,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6103,7 +6103,7 @@
       "year_high": 349,
       "year_low": 233.42,
       "market_cap_cr": 8972,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6122,7 +6122,7 @@
       "year_high": 199.01,
       "year_low": 75.05,
       "market_cap_cr": 8956,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -6141,7 +6141,7 @@
       "year_high": 232.43,
       "year_low": 170.1,
       "market_cap_cr": 8856,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6160,7 +6160,7 @@
       "year_high": 1321.9,
       "year_low": 869.6,
       "market_cap_cr": 8850,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6179,7 +6179,7 @@
       "year_high": 828,
       "year_low": 338.15,
       "market_cap_cr": 8613,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6198,7 +6198,7 @@
       "year_high": 1184.8,
       "year_low": 700.8,
       "market_cap_cr": 8605,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -6217,7 +6217,7 @@
       "year_high": 787.6,
       "year_low": 428.35,
       "market_cap_cr": 8498,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -6236,7 +6236,7 @@
       "year_high": 151.7,
       "year_low": 68,
       "market_cap_cr": 8469,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -6255,7 +6255,7 @@
       "year_high": 728.6,
       "year_low": 380,
       "market_cap_cr": 8364,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6274,7 +6274,7 @@
       "year_high": 27.14,
       "year_low": 19.15,
       "market_cap_cr": 8360,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6293,7 +6293,7 @@
       "year_high": 2028.8,
       "year_low": 1251.7,
       "market_cap_cr": 8360,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6312,7 +6312,7 @@
       "year_high": 1188,
       "year_low": 500,
       "market_cap_cr": 8342,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -6331,7 +6331,7 @@
       "year_high": 71.25,
       "year_low": 22.25,
       "market_cap_cr": 8264,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -6350,7 +6350,7 @@
       "year_high": 403.8,
       "year_low": 202,
       "market_cap_cr": 8237,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6369,7 +6369,7 @@
       "year_high": 739.4,
       "year_low": 451.4,
       "market_cap_cr": 8190,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6388,7 +6388,7 @@
       "year_high": 1876,
       "year_low": 1262,
       "market_cap_cr": 8150,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6407,7 +6407,7 @@
       "year_high": 1248,
       "year_low": 786.05,
       "market_cap_cr": 7971,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6426,7 +6426,7 @@
       "year_high": 76.49,
       "year_low": 20.17,
       "market_cap_cr": 7953,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -6445,7 +6445,7 @@
       "year_high": 634.2,
       "year_low": 385.5,
       "market_cap_cr": 7843,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6464,7 +6464,7 @@
       "year_high": 743.65,
       "year_low": 403,
       "market_cap_cr": 7821,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -6483,7 +6483,7 @@
       "year_high": 1246.8,
       "year_low": 742,
       "market_cap_cr": 7804,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6502,7 +6502,7 @@
       "year_high": 41450,
       "year_low": 26220,
       "market_cap_cr": 7791,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6521,7 +6521,7 @@
       "year_high": 3538.4,
       "year_low": 1963.7,
       "market_cap_cr": 7761,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -6540,7 +6540,7 @@
       "year_high": 836.45,
       "year_low": 436.55,
       "market_cap_cr": 7742,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -6559,7 +6559,7 @@
       "year_high": 4760,
       "year_low": 1700.1,
       "market_cap_cr": 7645,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.001Z",
       "is_live": true
     },
     {
@@ -6578,7 +6578,7 @@
       "year_high": 1910,
       "year_low": 1200,
       "market_cap_cr": 7637,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6597,7 +6597,7 @@
       "year_high": 1417.8,
       "year_low": 571.85,
       "market_cap_cr": 7636,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6616,7 +6616,7 @@
       "year_high": 214,
       "year_low": 150.51,
       "market_cap_cr": 7632,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6635,7 +6635,7 @@
       "year_high": 2268,
       "year_low": 1223,
       "market_cap_cr": 7618,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -6654,7 +6654,7 @@
       "year_high": 1123.5,
       "year_low": 708,
       "market_cap_cr": 7601,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6673,7 +6673,7 @@
       "year_high": 1372.4,
       "year_low": 750.3,
       "market_cap_cr": 7561,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6692,7 +6692,7 @@
       "year_high": 900,
       "year_low": 400.2,
       "market_cap_cr": 7543,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6711,7 +6711,7 @@
       "year_high": 1217.5,
       "year_low": 779.5,
       "market_cap_cr": 7531,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6730,7 +6730,7 @@
       "year_high": 381.4,
       "year_low": 300.35,
       "market_cap_cr": 7392,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6749,7 +6749,7 @@
       "year_high": 3290.5,
       "year_low": 1485,
       "market_cap_cr": 7294,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -6768,7 +6768,7 @@
       "year_high": 320,
       "year_low": 175.37,
       "market_cap_cr": 7108,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -6787,7 +6787,7 @@
       "year_high": 1121.15,
       "year_low": 266.7,
       "market_cap_cr": 6994,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6806,7 +6806,7 @@
       "year_high": 602.4,
       "year_low": 399.75,
       "market_cap_cr": 6973,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6825,7 +6825,7 @@
       "year_high": 1568,
       "year_low": 1099.7,
       "market_cap_cr": 6972,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6844,7 +6844,7 @@
       "year_high": 971.5,
       "year_low": 708.6,
       "market_cap_cr": 6960,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6863,7 +6863,7 @@
       "year_high": 5993,
       "year_low": 4460,
       "market_cap_cr": 6956,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6882,7 +6882,7 @@
       "year_high": 1388,
       "year_low": 582.2,
       "market_cap_cr": 6953,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -6901,7 +6901,7 @@
       "year_high": 1645.7,
       "year_low": 1084,
       "market_cap_cr": 6888,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6920,7 +6920,7 @@
       "year_high": 1249.7,
       "year_low": 907.4,
       "market_cap_cr": 6871,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6939,7 +6939,7 @@
       "year_high": 1001,
       "year_low": 746,
       "market_cap_cr": 6824,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -6958,7 +6958,7 @@
       "year_high": 4438,
       "year_low": 3000.5,
       "market_cap_cr": 6748,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -6977,7 +6977,7 @@
       "year_high": 2117,
       "year_low": 1165,
       "market_cap_cr": 6746,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -6996,7 +6996,7 @@
       "year_high": 973.8,
       "year_low": 568.7,
       "market_cap_cr": 6601,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -7015,7 +7015,7 @@
       "year_high": 2437.4,
       "year_low": 1355,
       "market_cap_cr": 6568,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -7034,7 +7034,7 @@
       "year_high": 2537.9,
       "year_low": 1080.1,
       "market_cap_cr": 6549,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7053,7 +7053,7 @@
       "year_high": 11500,
       "year_low": 7206,
       "market_cap_cr": 6505,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7072,7 +7072,7 @@
       "year_high": 228.8,
       "year_low": 89.15,
       "market_cap_cr": 6464,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -7091,7 +7091,7 @@
       "year_high": 947,
       "year_low": 466,
       "market_cap_cr": 6451,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7110,7 +7110,7 @@
       "year_high": 6511,
       "year_low": 4273,
       "market_cap_cr": 6448,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7129,7 +7129,7 @@
       "year_high": 1379.3,
       "year_low": 848,
       "market_cap_cr": 6403,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7148,7 +7148,7 @@
       "year_high": 267,
       "year_low": 163.55,
       "market_cap_cr": 6336,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7167,7 +7167,7 @@
       "year_high": 1732.5,
       "year_low": 1130,
       "market_cap_cr": 6307,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7186,7 +7186,7 @@
       "year_high": 2497.5,
       "year_low": 1375,
       "market_cap_cr": 6306,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7205,7 +7205,7 @@
       "year_high": 1473.8,
       "year_low": 756.85,
       "market_cap_cr": 6275,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7224,7 +7224,7 @@
       "year_high": 145,
       "year_low": 97.35,
       "market_cap_cr": 6254,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7243,7 +7243,7 @@
       "year_high": 242.15,
       "year_low": 130,
       "market_cap_cr": 6207,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7262,7 +7262,7 @@
       "year_high": 1255,
       "year_low": 595.2,
       "market_cap_cr": 6203,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7281,7 +7281,7 @@
       "year_high": 665,
       "year_low": 362.6,
       "market_cap_cr": 6143,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7300,7 +7300,7 @@
       "year_high": 1586.9,
       "year_low": 900,
       "market_cap_cr": 6142,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7319,7 +7319,7 @@
       "year_high": 2799,
       "year_low": 1911,
       "market_cap_cr": 6083,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7338,7 +7338,7 @@
       "year_high": 1089.9,
       "year_low": 503.3,
       "market_cap_cr": 5935,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -7357,7 +7357,7 @@
       "year_high": 627.8,
       "year_low": 393.55,
       "market_cap_cr": 5911,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7376,7 +7376,7 @@
       "year_high": 647,
       "year_low": 383.7,
       "market_cap_cr": 5883,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7395,7 +7395,7 @@
       "year_high": 1830,
       "year_low": 1228.9,
       "market_cap_cr": 5879,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7414,7 +7414,7 @@
       "year_high": 691.5,
       "year_low": 460.15,
       "market_cap_cr": 5796,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7433,7 +7433,7 @@
       "year_high": 434.8,
       "year_low": 271.15,
       "market_cap_cr": 5764,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7452,7 +7452,7 @@
       "year_high": 2903.5,
       "year_low": 1015,
       "market_cap_cr": 5699,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -7471,7 +7471,7 @@
       "year_high": 180.68,
       "year_low": 99.61,
       "market_cap_cr": 5667,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7490,7 +7490,7 @@
       "year_high": 526,
       "year_low": 381.1,
       "market_cap_cr": 5656,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7509,7 +7509,7 @@
       "year_high": 260.4,
       "year_low": 153,
       "market_cap_cr": 5614,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -7528,7 +7528,7 @@
       "year_high": 894,
       "year_low": 470.1,
       "market_cap_cr": 5600,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7547,7 +7547,7 @@
       "year_high": 1082,
       "year_low": 691.35,
       "market_cap_cr": 5558,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7566,7 +7566,7 @@
       "year_high": 424.9,
       "year_low": 248.4,
       "market_cap_cr": 5557,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7585,7 +7585,7 @@
       "year_high": 771.9,
       "year_low": 351.1,
       "market_cap_cr": 5504,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -7604,7 +7604,7 @@
       "year_high": 851.8,
       "year_low": 537.3,
       "market_cap_cr": 5452,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7623,7 +7623,7 @@
       "year_high": 1654,
       "year_low": 870,
       "market_cap_cr": 5451,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -7642,7 +7642,7 @@
       "year_high": 234.39,
       "year_low": 99.7,
       "market_cap_cr": 5442,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7661,7 +7661,7 @@
       "year_high": 1112,
       "year_low": 652.1,
       "market_cap_cr": 5436,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7680,7 +7680,7 @@
       "year_high": 3915.5,
       "year_low": 2658.7,
       "market_cap_cr": 5424,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -7699,7 +7699,7 @@
       "year_high": 105.85,
       "year_low": 63.02,
       "market_cap_cr": 5371,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7718,7 +7718,7 @@
       "year_high": 175,
       "year_low": 87.91,
       "market_cap_cr": 5347,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7737,7 +7737,7 @@
       "year_high": 518.55,
       "year_low": 333.15,
       "market_cap_cr": 5328,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7756,7 +7756,7 @@
       "year_high": 474,
       "year_low": 306.4,
       "market_cap_cr": 5302,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7775,7 +7775,7 @@
       "year_high": 632.9,
       "year_low": 414,
       "market_cap_cr": 5276,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7794,7 +7794,7 @@
       "year_high": 860.5,
       "year_low": 568.7,
       "market_cap_cr": 5275,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7813,7 +7813,7 @@
       "year_high": 2152.9,
       "year_low": 1060.4,
       "market_cap_cr": 5273,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7832,7 +7832,7 @@
       "year_high": 254.4,
       "year_low": 125.56,
       "market_cap_cr": 5247,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -7851,7 +7851,7 @@
       "year_high": 479.4,
       "year_low": 265.8,
       "market_cap_cr": 5233,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -7870,7 +7870,7 @@
       "year_high": 2431.6,
       "year_low": 1182,
       "market_cap_cr": 5142,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7889,7 +7889,7 @@
       "year_high": 49.65,
       "year_low": 33.01,
       "market_cap_cr": 5141,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7908,7 +7908,7 @@
       "year_high": 547.8,
       "year_low": 411.3,
       "market_cap_cr": 5116,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7927,7 +7927,7 @@
       "year_high": 94,
       "year_low": 67.5,
       "market_cap_cr": 5113,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7946,7 +7946,7 @@
       "year_high": 611.9,
       "year_low": 311,
       "market_cap_cr": 5101,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7965,7 +7965,7 @@
       "year_high": 1958.1,
       "year_low": 1266.9,
       "market_cap_cr": 5098,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -7984,7 +7984,7 @@
       "year_high": 452.8,
       "year_low": 207.15,
       "market_cap_cr": 5087,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8003,7 +8003,7 @@
       "year_high": 1330,
       "year_low": 587,
       "market_cap_cr": 5083,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -8022,7 +8022,7 @@
       "year_high": 437.3,
       "year_low": 226.5,
       "market_cap_cr": 5045,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8041,7 +8041,7 @@
       "year_high": 199.8,
       "year_low": 112,
       "market_cap_cr": 5042,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8060,7 +8060,7 @@
       "year_high": 1159.7,
       "year_low": 603.1,
       "market_cap_cr": 5031,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8079,7 +8079,7 @@
       "year_high": 438.7,
       "year_low": 207.05,
       "market_cap_cr": 4989,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8098,7 +8098,7 @@
       "year_high": 635,
       "year_low": 445.05,
       "market_cap_cr": 4977,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8117,7 +8117,7 @@
       "year_high": 161.99,
       "year_low": 77.72,
       "market_cap_cr": 4971,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -8136,7 +8136,7 @@
       "year_high": 368.75,
       "year_low": 195.55,
       "market_cap_cr": 4958,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -8155,7 +8155,7 @@
       "year_high": 660.7,
       "year_low": 480.2,
       "market_cap_cr": 4936,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8174,7 +8174,7 @@
       "year_high": 42.8,
       "year_low": 31.2,
       "market_cap_cr": 4885,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8193,7 +8193,7 @@
       "year_high": 552.4,
       "year_low": 367.55,
       "market_cap_cr": 4843,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8212,7 +8212,7 @@
       "year_high": 802.4,
       "year_low": 505.8,
       "market_cap_cr": 4833,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -8231,7 +8231,7 @@
       "year_high": 1714.2,
       "year_low": 866.6,
       "market_cap_cr": 4811,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8250,7 +8250,7 @@
       "year_high": 1390,
       "year_low": 744.2,
       "market_cap_cr": 4747,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8269,7 +8269,7 @@
       "year_high": 639.75,
       "year_low": 420.75,
       "market_cap_cr": 4721,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8288,7 +8288,7 @@
       "year_high": 690,
       "year_low": 459.8,
       "market_cap_cr": 4696,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8307,7 +8307,7 @@
       "year_high": 873.5,
       "year_low": 579.15,
       "market_cap_cr": 4678,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -8326,7 +8326,7 @@
       "year_high": 191,
       "year_low": 91.55,
       "market_cap_cr": 4630,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8345,7 +8345,7 @@
       "year_high": 526.7,
       "year_low": 295.65,
       "market_cap_cr": 4569,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8364,7 +8364,7 @@
       "year_high": 657,
       "year_low": 438.05,
       "market_cap_cr": 4524,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -8383,7 +8383,7 @@
       "year_high": 74.5,
       "year_low": 46.23,
       "market_cap_cr": 4505,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -8402,7 +8402,7 @@
       "year_high": 716.25,
       "year_low": 352,
       "market_cap_cr": 4503,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8421,7 +8421,7 @@
       "year_high": 225.52,
       "year_low": 114.5,
       "market_cap_cr": 4439,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8440,7 +8440,7 @@
       "year_high": 152.85,
       "year_low": 107.1,
       "market_cap_cr": 4404,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8459,7 +8459,7 @@
       "year_high": 368,
       "year_low": 139.91,
       "market_cap_cr": 4301,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8478,7 +8478,7 @@
       "year_high": 1294.2,
       "year_low": 605,
       "market_cap_cr": 4267,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8497,7 +8497,7 @@
       "year_high": 750,
       "year_low": 294,
       "market_cap_cr": 4266,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -8516,7 +8516,7 @@
       "year_high": 818.7,
       "year_low": 592.55,
       "market_cap_cr": 4252,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8535,7 +8535,7 @@
       "year_high": 1764.8,
       "year_low": 1004.2,
       "market_cap_cr": 4194,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8554,7 +8554,7 @@
       "year_high": 979,
       "year_low": 462.3,
       "market_cap_cr": 4169,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8573,7 +8573,7 @@
       "year_high": 118.38,
       "year_low": 61.01,
       "market_cap_cr": 4115,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -8592,7 +8592,7 @@
       "year_high": 1502.3,
       "year_low": 945.1,
       "market_cap_cr": 4082,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8611,7 +8611,7 @@
       "year_high": 201.18,
       "year_low": 100.7,
       "market_cap_cr": 4034,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8630,7 +8630,7 @@
       "year_high": 2395,
       "year_low": 1500.3,
       "market_cap_cr": 3990,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8649,7 +8649,7 @@
       "year_high": 1494.8,
       "year_low": 896.5,
       "market_cap_cr": 3939,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8668,7 +8668,7 @@
       "year_high": 2770,
       "year_low": 2023.9,
       "market_cap_cr": 3937,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8687,7 +8687,7 @@
       "year_high": 419.4,
       "year_low": 235.65,
       "market_cap_cr": 3922,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8706,7 +8706,7 @@
       "year_high": 1600,
       "year_low": 652,
       "market_cap_cr": 3868,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -8725,7 +8725,7 @@
       "year_high": 123,
       "year_low": 79.6,
       "market_cap_cr": 3827,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8744,7 +8744,7 @@
       "year_high": 442,
       "year_low": 287,
       "market_cap_cr": 3800,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8763,7 +8763,7 @@
       "year_high": 214.74,
       "year_low": 116.97,
       "market_cap_cr": 3786,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8782,7 +8782,7 @@
       "year_high": 1355.2,
       "year_low": 745.1,
       "market_cap_cr": 3644,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8801,7 +8801,7 @@
       "year_high": 1415,
       "year_low": 976,
       "market_cap_cr": 3488,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -8820,7 +8820,7 @@
       "year_high": 2150.4,
       "year_low": 987,
       "market_cap_cr": 3466,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8839,7 +8839,7 @@
       "year_high": 477.5,
       "year_low": 276.25,
       "market_cap_cr": 3436,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -8858,7 +8858,7 @@
       "year_high": 578.5,
       "year_low": 224.05,
       "market_cap_cr": 3432,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8877,7 +8877,7 @@
       "year_high": 329.95,
       "year_low": 171.51,
       "market_cap_cr": 3361,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -8896,7 +8896,7 @@
       "year_high": 1309.5,
       "year_low": 705.2,
       "market_cap_cr": 3347,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8915,7 +8915,7 @@
       "year_high": 474.4,
       "year_low": 382.5,
       "market_cap_cr": 3331,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8934,7 +8934,7 @@
       "year_high": 162.15,
       "year_low": 106.65,
       "market_cap_cr": 3287,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8953,7 +8953,7 @@
       "year_high": 422,
       "year_low": 218.9,
       "market_cap_cr": 3167,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -8972,7 +8972,7 @@
       "year_high": 94.95,
       "year_low": 53.51,
       "market_cap_cr": 3132,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -8991,7 +8991,7 @@
       "year_high": 324.3,
       "year_low": 195.9,
       "market_cap_cr": 3126,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -9010,7 +9010,7 @@
       "year_high": 603,
       "year_low": 307.05,
       "market_cap_cr": 3099,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9029,7 +9029,7 @@
       "year_high": 696.8,
       "year_low": 382.1,
       "market_cap_cr": 3026,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9048,7 +9048,7 @@
       "year_high": 41.2,
       "year_low": 30.52,
       "market_cap_cr": 2995,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9067,7 +9067,7 @@
       "year_high": 33.66,
       "year_low": 21.98,
       "market_cap_cr": 2990,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9086,7 +9086,7 @@
       "year_high": 35.08,
       "year_low": 22.22,
       "market_cap_cr": 2867,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9105,7 +9105,7 @@
       "year_high": 372.85,
       "year_low": 237,
       "market_cap_cr": 2852,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9124,7 +9124,7 @@
       "year_high": 2125,
       "year_low": 1443.1,
       "market_cap_cr": 2849,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -9143,7 +9143,7 @@
       "year_high": 159,
       "year_low": 106,
       "market_cap_cr": 2824,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9162,7 +9162,7 @@
       "year_high": 302,
       "year_low": 158,
       "market_cap_cr": 2806,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9181,7 +9181,7 @@
       "year_high": 7080,
       "year_low": 4683,
       "market_cap_cr": 2797,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9200,7 +9200,7 @@
       "year_high": 1336,
       "year_low": 401.05,
       "market_cap_cr": 2796,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9219,7 +9219,7 @@
       "year_high": 478.95,
       "year_low": 245,
       "market_cap_cr": 2754,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9238,7 +9238,7 @@
       "year_high": 316,
       "year_low": 175,
       "market_cap_cr": 2683,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9257,7 +9257,7 @@
       "year_high": 485.8,
       "year_low": 297.05,
       "market_cap_cr": 2620,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9276,7 +9276,7 @@
       "year_high": 2155,
       "year_low": 1314.6,
       "market_cap_cr": 2567,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9295,7 +9295,7 @@
       "year_high": 212.31,
       "year_low": 120.4,
       "market_cap_cr": 2553,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9314,7 +9314,7 @@
       "year_high": 284,
       "year_low": 134.73,
       "market_cap_cr": 2547,
-      "fetched_at": "2026-05-29T10:47:02.981Z",
+      "fetched_at": "2026-05-29T11:47:29.002Z",
       "is_live": true
     },
     {
@@ -9333,7 +9333,7 @@
       "year_high": 790,
       "year_low": 477,
       "market_cap_cr": 2509,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9352,7 +9352,7 @@
       "year_high": 537.7,
       "year_low": 323.05,
       "market_cap_cr": 2452,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9371,7 +9371,7 @@
       "year_high": 517.5,
       "year_low": 248,
       "market_cap_cr": 2314,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9390,7 +9390,7 @@
       "year_high": 1445,
       "year_low": 1008.5,
       "market_cap_cr": 2232,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9409,7 +9409,7 @@
       "year_high": 81.12,
       "year_low": 31.22,
       "market_cap_cr": 2145,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9428,7 +9428,7 @@
       "year_high": 948,
       "year_low": 423,
       "market_cap_cr": 2013,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9447,7 +9447,7 @@
       "year_high": 593.95,
       "year_low": 247.57,
       "market_cap_cr": 1987,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9466,7 +9466,7 @@
       "year_high": 1027.8,
       "year_low": 325,
       "market_cap_cr": 1587,
-      "fetched_at": "2026-05-29T10:47:02.982Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9485,7 +9485,7 @@
       "year_high": 1998,
       "year_low": 795,
       "market_cap_cr": 1428,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     },
     {
@@ -9504,7 +9504,7 @@
       "year_high": 88.19,
       "year_low": 50.1,
       "market_cap_cr": 977,
-      "fetched_at": "2026-05-29T10:47:02.983Z",
+      "fetched_at": "2026-05-29T11:47:29.003Z",
       "is_live": true
     }
   ]
