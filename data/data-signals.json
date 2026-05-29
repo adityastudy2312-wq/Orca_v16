@@ -1,0 +1,131 @@
+{
+  "tickers": [
+    {
+      "symbol": "AAPL",
+      "company": "Apple Inc.",
+      "sector": "Technology Sector",
+      "logo": "https://lh3.googleusercontent.com/aida-public/AB6AXuB_2nrGwFp3XTAJoT7zs8oKqMWliro6OMcFk6CivgEZ1VB1xUg7GRGLsxLPRRZJyDlWKjFjRoMKBHKWxTqHAIBC4xaFf8G6jIGSSTyBH6cz85OlgF98tXaB-oJjmvG5goVUrhGjm-aKPNZoQQ-msDDVPqjk_nTs5_SsgSGTqc1lBdp84609lkdziFmZzIcxvo9y3huTA9ikFJ2gmgx8eUrWvPzN5A8d5DD_IBX4kqPseAnUGZRIE8UWufdNF8W-PXLr9zDhYiXFSQSH",
+      "rating": "STRONG_BUY",
+      "price": 192.24,
+      "changeToday": 2.34,
+      "rsi": 60.98,
+      "ema200": "BULLISH",
+      "ema200Details": "+4.2% over avg",
+      "volFlow": "58.2M",
+      "volFlowDetails": "↑ High Demand",
+      "alphaScore": 92,
+      "sparkline": [
+        120,
+        110,
+        140,
+        100,
+        120,
+        80,
+        110,
+        60,
+        130,
+        90,
+        40,
+        10
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "company": "NVIDIA Corp.",
+      "sector": "Semiconductors",
+      "logo": "bolt",
+      "rating": "BUY",
+      "price": 886.59,
+      "changeToday": 5.21,
+      "rsi": 60.45,
+      "ema200": "BULLISH",
+      "ema200Details": "+8.5% over avg",
+      "volFlow": "75.3M",
+      "volFlowDetails": "↑ Whale Demand",
+      "alphaScore": 92,
+      "volatility": "LOW",
+      "whaleFlow": "STRONG"
+    },
+    {
+      "symbol": "TSLA",
+      "company": "Tesla Inc.",
+      "sector": "Automotive & Energy",
+      "logo": "warning",
+      "rating": "REDUCE",
+      "price": 175.82,
+      "changeToday": -1.68,
+      "rsi": 36.51,
+      "ema200": "CRITICAL",
+      "ema200Details": "Breached support",
+      "volFlow": "42.1M",
+      "volFlowDetails": "↓ High Risk Zone",
+      "alphaScore": 40,
+      "riskText": "System identified major support breach at $175.00. High-risk zone."
+    },
+    {
+      "symbol": "MSFT",
+      "company": "Microsoft Corp.",
+      "sector": "Cloud & Software",
+      "logo": "shield_with_heart",
+      "rating": "STABLE",
+      "price": 419.43,
+      "changeToday": 0.61,
+      "rsi": 50.16,
+      "ema200": "STABLE",
+      "ema200Details": "Slight Consolidation",
+      "volFlow": "28.5M",
+      "volFlowDetails": "Whale Accrual Active",
+      "alphaScore": 80,
+      "sentiment": "POSITIVE",
+      "sentimentBars": [
+        5,
+        5,
+        5,
+        2.5,
+        1
+      ]
+    }
+  ],
+  "recalibration": {
+    "filters": [
+      {
+        "id": "rsi_exhaustion",
+        "label": "RSI Exhaustion",
+        "active": true,
+        "value": "LVL_70+"
+      },
+      {
+        "id": "ma200_breakout",
+        "label": "MA_200 Breakout",
+        "active": true,
+        "value": "ACTIVE"
+      },
+      {
+        "id": "darkpool_flow",
+        "label": "Dark Pool Flow",
+        "active": false,
+        "value": "BYPASS"
+      }
+    ],
+    "confidence": 84.1
+  },
+  "exposures": [
+    {
+      "name": "S&P 500",
+      "change": 1.12
+    },
+    {
+      "name": "NASDAQ",
+      "change": 2.05
+    },
+    {
+      "name": "RUSSELL",
+      "change": -0.41
+    },
+    {
+      "name": "US10Y",
+      "change": 2.1,
+      "displayValue": "4.12%"
+    }
+  ]
+}

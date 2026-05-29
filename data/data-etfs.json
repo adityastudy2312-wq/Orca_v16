@@ -1,0 +1,1387 @@
+{
+  "etfs": [
+    {
+      "symbol": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "segment": "US Large Cap Equities",
+      "aum": "$502.4B",
+      "expenseRatio": "0.09%",
+      "rating": "STRONG_BUY",
+      "price": 512.2,
+      "changeToday": 0.45,
+      "rsi": 54.2,
+      "alphaScore": 84,
+      "riskAnalysis": "S&P 500 displays structural support alignment above the 50-day EMA. Volatility trends remain healthy with index whales increasing allocation flows by ~2.4% over current standard dev thresholds.",
+      "holdings": [
+        {
+          "name": "Microsoft Corp (MSFT)",
+          "weight": 7.1
+        },
+        {
+          "name": "Apple Inc (AAPL)",
+          "weight": 5.6
+        },
+        {
+          "name": "NVIDIA Corp (NVDA)",
+          "weight": 5
+        },
+        {
+          "name": "Amazon.com Inc (AMZN)",
+          "weight": 3.8
+        }
+      ]
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Invesco QQQ Trust",
+      "segment": "Tech-Growth Index",
+      "aum": "$254.1B",
+      "expenseRatio": "0.20%",
+      "rating": "BUY",
+      "price": 438.56,
+      "changeToday": 1.85,
+      "rsi": 64.8,
+      "alphaScore": 91,
+      "riskAnalysis": "High beta tech expansion displays substantial tailwinds with massive chipmaker-led inflows. Immediate attention ranges are bullish; RSI near exhaustion but momentum profiles signal continued runs.",
+      "holdings": [
+        {
+          "name": "Microsoft Corp (MSFT)",
+          "weight": 8.8
+        },
+        {
+          "name": "Apple Inc (AAPL)",
+          "weight": 7.9
+        },
+        {
+          "name": "NVIDIA Corp (NVDA)",
+          "weight": 6.4
+        },
+        {
+          "name": "Amazon.com Inc (AMZN)",
+          "weight": 4.9
+        }
+      ]
+    },
+    {
+      "symbol": "ARKK",
+      "name": "ARK Innovation ETF",
+      "segment": "Disruptive Innovation Tech",
+      "aum": "$6.8B",
+      "expenseRatio": "0.75%",
+      "rating": "REDUCE",
+      "price": 42.15,
+      "changeToday": -2.4,
+      "rsi": 31.5,
+      "alphaScore": 38,
+      "riskAnalysis": "Disruptive technology basket experiences intensive liquidity spills amidst rising bond yields. Breached minor support levels at $44.00, placing risk metrics into a high risk zone. Caution warranted.",
+      "holdings": [
+        {
+          "name": "Coinbase Global (COIN)",
+          "weight": 10.1
+        },
+        {
+          "name": "Tesla Inc (TSLA)",
+          "weight": 8.2
+        },
+        {
+          "name": "Roku Inc (ROKU)",
+          "weight": 7.5
+        },
+        {
+          "name": "UiPath Inc (PATH)",
+          "weight": 6.1
+        }
+      ]
+    },
+    {
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares",
+      "segment": "Precious Metals Refuges",
+      "aum": "$58.2B",
+      "expenseRatio": "0.40%",
+      "rating": "BUY",
+      "price": 218.42,
+      "changeToday": 1.1,
+      "rsi": 58.5,
+      "alphaScore": 78,
+      "riskAnalysis": "Precious metal reserves display high active tracking indexes. Risk metrics indicate gold acts as a solid hedge for macro inflationary spikes and central bank bond tightening regimes.",
+      "holdings": [
+        {
+          "name": "Gold Bullion (Spot Cash)",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "symbol": "EEM",
+      "name": "iShares MSCI Emerging Markets ETF",
+      "segment": "Global & Emerging Markets",
+      "aum": "$25.5B",
+      "expenseRatio": "0.70%",
+      "rating": "STABLE",
+      "price": 40.85,
+      "changeToday": -0.15,
+      "rsi": 46.1,
+      "alphaScore": 62,
+      "riskAnalysis": "Emerging markets consolidate in a strict range bound setup. High relative chip exposure via regional semiconductor giants is balancing local currency risks.",
+      "holdings": [
+        {
+          "name": "TSMC (Taiwan Semi)",
+          "weight": 8.2
+        },
+        {
+          "name": "Tencent Holdings",
+          "weight": 5.4
+        },
+        {
+          "name": "Alibaba Group",
+          "weight": 4.1
+        }
+      ]
+    },
+    {
+      "symbol": "VXX",
+      "name": "Barclays iPath VIX short-term ETN",
+      "segment": "Volatility Hedging Index",
+      "aum": "$1.2B",
+      "expenseRatio": "0.89%",
+      "rating": "STABLE",
+      "price": 14.28,
+      "changeToday": -3.12,
+      "rsi": 28.4,
+      "alphaScore": 45,
+      "riskAnalysis": "Volatility index hovering near lifetime lows as index equity accruals remain robust. Great hedge entry bands established, though speculative carries should be heavily size-controlled.",
+      "holdings": [
+        {
+          "name": "S&P 500 VIX Short Futures",
+          "weight": 100
+        }
+      ]
+    }
+  ],
+  "globalFlowStatus": "INSTITUTIONAL ACCRUEL ACTIVE",
+  "lastUpdated": "Just Now",
+  "scrapedCategories": [
+    {
+      "category": "S&P 500 ETFs",
+      "url": "https://www.indmoney.com/us-stocks/etfs/sp-500-etfs",
+      "fetched_at": "2026-05-28T12:44:31.004Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        {
+          "name": "iShares Core S&P 500 ETF",
+          "ticker": "IVV",
+          "price": "$754.17",
+          "change": "▲0.02%",
+          "three_year_return": "+78.73%",
+          "volume": "3,557,597",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/IVV@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/ivv"
+        },
+        {
+          "name": "Vanguard S&P 500 ETF",
+          "ticker": "VOO",
+          "price": "$689.96",
+          "change": "-▼0.01%",
+          "three_year_return": "+78.81%",
+          "volume": "4,952,506",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/VOO@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/voo"
+        },
+        {
+          "name": "SPDR S&P 500 ETF Trust",
+          "ticker": "SPY",
+          "price": "$750.46",
+          "change": "-▼0.02%",
+          "three_year_return": "+78.67%",
+          "volume": "42,830,121",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/SPY@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/spy"
+        },
+        {
+          "name": "Invesco S&P 500® Equal Weight ETF",
+          "ticker": "RSP",
+          "price": "$207.49",
+          "change": "-▼0.07%",
+          "three_year_return": "+47.06%",
+          "volume": "9,770,622",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/RSP@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/rsp"
+        },
+        {
+          "name": "ProShares UltraPro S&P500",
+          "ticker": "UPRO",
+          "price": "$145.84",
+          "change": "-▼0.01%",
+          "three_year_return": "+259.39%",
+          "volume": "1,920,820",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/UPRO@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/upro"
+        },
+        {
+          "name": "Direxion Daily S&P500® Bull 3X Shares",
+          "ticker": "SPXL",
+          "price": "$278.37",
+          "change": "-▼0.01%",
+          "three_year_return": "+261.19%",
+          "volume": "1,929,025",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/SPXL@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/spxl"
+        },
+        {
+          "name": "Direxion Daily S&P 500® Bear 3X Shares",
+          "ticker": "SPXS",
+          "price": "$26.50",
+          "change": "▲0.04%",
+          "three_year_return": "-84.07%",
+          "volume": "13,261,515",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/SPXS@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/spxs"
+        },
+        {
+          "name": "Direxion Daily S&P 500® Bear 1X Shares",
+          "ticker": "SPDN",
+          "price": "$8.69",
+          "change": "▲0.12%",
+          "three_year_return": "-43.17%",
+          "volume": "59,752,578",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/49/SPDN.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/spdn"
+        },
+        {
+          "name": "SoFi Select 500",
+          "ticker": "SFY",
+          "price": "$148.86",
+          "change": "-▼0.08%",
+          "three_year_return": "+101.30%",
+          "volume": "153,123",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/49/SFY.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/sfy"
+        }
+      ]
+    },
+    {
+      "category": "Nasdaq 100 ETFs",
+      "url": "https://www.indmoney.com/us-stocks/etfs/nasdaq-etfs",
+      "fetched_at": "2026-05-28T12:44:30.845Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        {
+          "name": "Invesco QQQ Trust",
+          "ticker": "QQQ",
+          "price": "$729.45",
+          "change": "-▼0.11%",
+          "three_year_return": "+109.37%",
+          "volume": "43,142,696",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/QQQ@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/qqq"
+        },
+        {
+          "name": "Invesco NASDAQ 100 ETF",
+          "ticker": "QQQM",
+          "price": "$300.38",
+          "change": "-▼0.10%",
+          "three_year_return": "+109.60%",
+          "volume": "3,705,113",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/QQQM@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/qqqm"
+        },
+        {
+          "name": "Fidelity® Nasdaq Composite Index® ETF",
+          "ticker": "ONEQ",
+          "price": "$105.08",
+          "change": "▲0.11%",
+          "three_year_return": "+106.24%",
+          "volume": "363,595",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/ONEQ@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/oneq"
+        },
+        {
+          "name": "ProShares UltraPro QQQ",
+          "ticker": "TQQQ",
+          "price": "$81.67",
+          "change": "-▼0.34%",
+          "three_year_return": "+366.95%",
+          "volume": "76,513,407",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/TQQQ@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/tqqq"
+        },
+        {
+          "name": "ProShares UltraPro Short QQQ",
+          "ticker": "SQQQ",
+          "price": "$39.44",
+          "change": "▲0.41%",
+          "three_year_return": "-93.11%",
+          "volume": "76,410,652",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/SQQQ@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/sqqq"
+        },
+        {
+          "name": "Direxion NASDAQ-100 Equal Weighted Index Shares",
+          "ticker": "QQQE",
+          "price": "$117.32",
+          "change": "-▼0.89%",
+          "three_year_return": "+59.73%",
+          "volume": "360,985",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/QQQE@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/qqqe"
+        }
+      ]
+    },
+    {
+      "category": "Gold ETFs (US)",
+      "url": "https://www.indmoney.com/us-stocks/etfs/gold-etfs",
+      "fetched_at": "2026-05-28T12:44:30.539Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        {
+          "name": "iShares Gold Trust",
+          "ticker": "IAU",
+          "price": "$83.73",
+          "change": "-▼1.27%",
+          "three_year_return": "+126.79%",
+          "volume": "5,679,416",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/IAU@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/iau"
+        },
+        {
+          "name": "SPDR Gold MiniShares",
+          "ticker": "GLDM",
+          "price": "$88.05",
+          "change": "-▼1.30%",
+          "three_year_return": "+127.75%",
+          "volume": "3,012,292",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/48/GLDM.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/gldm"
+        },
+        {
+          "name": "SPDR® Gold Shares",
+          "ticker": "GLD",
+          "price": "$408.49",
+          "change": "-▼1.33%",
+          "three_year_return": "+125.78%",
+          "volume": "5,433,035",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/GLD@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/gld"
+        },
+        {
+          "name": "VanEck Gold Miners ETF",
+          "ticker": "GDX",
+          "price": "$85.44",
+          "change": "-▼3.46%",
+          "three_year_return": "+180.96%",
+          "volume": "12,662,784",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/GDX@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/gdx"
+        },
+        {
+          "name": "VanEck Junior Gold Miners ETF",
+          "ticker": "GDXJ",
+          "price": "$112.56",
+          "change": "-▼3.51%",
+          "three_year_return": "+209.91%",
+          "volume": "4,417,370",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/GDXJ@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/gdxj"
+        },
+        {
+          "name": "Goldman Sachs Physical Gold ETF",
+          "ticker": "AAAU",
+          "price": "$43.88",
+          "change": "-▼1.33%",
+          "three_year_return": "+127.24%",
+          "volume": "1,988,333",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/49/AAAU.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/aaau"
+        },
+        {
+          "name": "abrdn Physical Gold Shares ETF",
+          "ticker": "SGOL",
+          "price": "$42.38",
+          "change": "-▼1.28%",
+          "three_year_return": "+127.24%",
+          "volume": "3,322,108",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/48/SGOL.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/sgol"
+        },
+        {
+          "name": "GraniteShares Gold Trust",
+          "ticker": "BAR",
+          "price": "$43.81",
+          "change": "-▼1.31%",
+          "three_year_return": "+127.35%",
+          "volume": "311,191",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/48/BAR.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/bar"
+        }
+      ]
+    },
+    {
+      "category": "Silver ETFs (US)",
+      "url": "https://www.indmoney.com/us-stocks/etfs/silver-etfs",
+      "fetched_at": "2026-05-28T12:44:30.681Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        {
+          "name": "iShares Silver Trust",
+          "ticker": "SLV",
+          "price": "$67.50",
+          "change": "-▼3.18%",
+          "three_year_return": "+215.72%",
+          "volume": "12,559,433",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/SLV@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/slv"
+        },
+        {
+          "name": "abrdn Physical Silver Shares ETF",
+          "ticker": "SIVR",
+          "price": "$70.93",
+          "change": "-▼3.13%",
+          "three_year_return": "+217.36%",
+          "volume": "878,491",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/48/SIVR.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/sivr"
+        },
+        {
+          "name": "Amplify Junior Silver Miners ETF",
+          "ticker": "SILJ",
+          "price": "$29.27",
+          "change": "-▼2.53%",
+          "three_year_return": "+206.49%",
+          "volume": "2,688,583",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/48/SILJ.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/silj"
+        }
+      ]
+    },
+    {
+      "category": "Platinum ETFs",
+      "url": "https://www.indmoney.com/us-stocks/etfs/platinum-etfs",
+      "fetched_at": "2026-05-28T12:44:32.165Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        {
+          "name": "abrdn Physical Platinum Shares ETF",
+          "ticker": "PPLT",
+          "price": "$17.43",
+          "change": "-▼1.75%",
+          "three_year_return": "+84.54%",
+          "volume": "1,215,004",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/48/PPLT.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/pplt"
+        },
+        {
+          "name": "GraniteShares Platinum Trust",
+          "ticker": "PLTM",
+          "price": "$18.44",
+          "change": "-▼1.86%",
+          "three_year_return": "+84.58%",
+          "volume": "274,097",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo2.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/pltm"
+        }
+      ]
+    },
+    {
+      "category": "Copper ETFs",
+      "url": "https://www.indmoney.com/us-stocks/etfs/copper-etfs",
+      "fetched_at": "2026-05-28T12:44:32.016Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        {
+          "name": "iShares Copper and Metals Mining ETF",
+          "ticker": "ICOP",
+          "price": "$53.95",
+          "change": "-▼0.66%",
+          "three_year_return": "0.00%",
+          "volume": "156,600",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/49/ICOP.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/icop"
+        },
+        {
+          "name": "Global X Copper Miners ETF",
+          "ticker": "COPX",
+          "price": "$86.09",
+          "change": "-▼1.62%",
+          "three_year_return": "+141.69%",
+          "volume": "1,325,415",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/COPX@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/copx"
+        },
+        {
+          "name": "United States Copper Index Fund LP",
+          "ticker": "CPER",
+          "price": "$38.48",
+          "change": "-▼1.41%",
+          "three_year_return": "+70.19%",
+          "volume": "553,968",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo3.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/cper"
+        }
+      ]
+    },
+    {
+      "category": "Lithium ETFs",
+      "url": "https://www.indmoney.com/us-stocks/etfs/lithium-etfs",
+      "fetched_at": "2026-05-28T12:44:31.860Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        {
+          "name": "Global X Lithium & Battery Tech ETF",
+          "ticker": "LIT",
+          "price": "$85.53",
+          "change": "-▼0.95%",
+          "three_year_return": "+38.17%",
+          "volume": "370,935",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/LIT@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/lit"
+        },
+        {
+          "name": "Amplify Lithium & Battery Technology ETF",
+          "ticker": "BATT",
+          "price": "$17.18",
+          "change": "-▼0.12%",
+          "three_year_return": "+41.40%",
+          "volume": "251,459",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/49/BATT.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/batt"
+        },
+        {
+          "name": "Sprott Lithium Miners ETF",
+          "ticker": "LITP",
+          "price": "$15.68",
+          "change": "-▼1.13%",
+          "three_year_return": "-11.64%",
+          "volume": "309,690",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo1.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/litp"
+        },
+        {
+          "name": "iShares Lithium Miners and Producers ETF",
+          "ticker": "ILIT",
+          "price": "$20.29",
+          "change": "-▼0.71%",
+          "three_year_return": "0.00%",
+          "volume": "276,984",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/49/ILIT.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/ilit"
+        }
+      ]
+    },
+    {
+      "category": "Rare Earth ETFs",
+      "url": "https://www.indmoney.com/us-stocks/etfs/rare-earth-etfs",
+      "fetched_at": "2026-05-28T12:44:31.720Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        {
+          "name": "VanEck Rare Earth/Strategic Metals ETF",
+          "ticker": "REMX",
+          "price": "$98.03",
+          "change": "-▼0.94%",
+          "three_year_return": "+20.76%",
+          "volume": "609,615",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/REMX@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/remx"
+        },
+        {
+          "name": "Sprott Energy Transition Materials ETF",
+          "ticker": "SETM",
+          "price": "$35.93",
+          "change": "-▼0.44%",
+          "three_year_return": "+116.58%",
+          "volume": "268,887",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/49/SETM.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/setm"
+        }
+      ]
+    },
+    {
+      "category": "Uranium ETFs",
+      "url": "https://www.indmoney.com/us-stocks/etfs/uranium-etfs",
+      "fetched_at": "2026-05-28T12:44:33.010Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        {
+          "name": "VanEck Uranium+Nuclear Energy ETF",
+          "ticker": "NLR",
+          "price": "$132.52",
+          "change": "-▼1.55%",
+          "three_year_return": "+142.09%",
+          "volume": "653,187",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo2.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/nlr"
+        },
+        {
+          "name": "Global X Uranium ETF",
+          "ticker": "URA",
+          "price": "$50.16",
+          "change": "-▼1.38%",
+          "three_year_return": "+153.97%",
+          "volume": "3,042,487",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/URA@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/ura"
+        },
+        {
+          "name": "Sprott Uranium Miners ETF",
+          "ticker": "URNM",
+          "price": "$60.48",
+          "change": "-▼0.66%",
+          "three_year_return": "+100.40%",
+          "volume": "618,959",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/49/URNM.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/urnm"
+        },
+        {
+          "name": "Sprott Junior Uranium Miners ETF",
+          "ticker": "URNJ",
+          "price": "$27.92",
+          "change": "-▼0.61%",
+          "three_year_return": "+88.27%",
+          "volume": "234,040",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/49/URNJ.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/urnj"
+        },
+        {
+          "name": "Range Nuclear Renaissance Index ETF",
+          "ticker": "NUKZ",
+          "price": "$71.83",
+          "change": "-▼1.78%",
+          "three_year_return": "0.00%",
+          "volume": "306,521",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo1.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/nukz"
+        }
+      ]
+    },
+    {
+      "category": "Oil & Gas ETFs",
+      "url": "https://www.indmoney.com/us-stocks/etfs/oil-gas-etfs",
+      "fetched_at": "2026-05-28T12:44:33.185Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        {
+          "name": "iShares U.S. Oil & Gas Exploration & Production ETF",
+          "ticker": "IEO",
+          "price": "$113.96",
+          "change": "-▼1.26%",
+          "three_year_return": "+39.13%",
+          "volume": "196,578",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/ISHARE@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/ieo"
+        },
+        {
+          "name": "Vanguard Energy Index Fund ETF Shares",
+          "ticker": "VDE",
+          "price": "$160.84",
+          "change": "-▼1.76%",
+          "three_year_return": "+47.72%",
+          "volume": "701,801",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/VDE@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/vde"
+        },
+        {
+          "name": "Energy Select Sector SPDR® Fund",
+          "ticker": "XLE",
+          "price": "$56.99",
+          "change": "-▼1.49%",
+          "three_year_return": "+44.70%",
+          "volume": "55,413,316",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/48/XLE.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/xle"
+        },
+        {
+          "name": "SPDR® S&P Oil & Gas Exploration & Production ETF",
+          "ticker": "XOP",
+          "price": "$163.36",
+          "change": "-▼1.65%",
+          "three_year_return": "+33.53%",
+          "volume": "2,284,549",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/XOP@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/xop"
+        },
+        {
+          "name": "VanEck Oil Services ETF",
+          "ticker": "OIH",
+          "price": "$425.53",
+          "change": "-▼3.98%",
+          "three_year_return": "+63.79%",
+          "volume": "422,730",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/OIH@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/oih"
+        },
+        {
+          "name": "Fidelity® MSCI Energy Index ETF",
+          "ticker": "FENY",
+          "price": "$31.64",
+          "change": "-▼1.74%",
+          "three_year_return": "+47.92%",
+          "volume": "1,162,492",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/48/FENY.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/feny"
+        },
+        {
+          "name": "MicroSectorsTM Oil & Gas Exploration & Production 3X Leveraged ETNs",
+          "ticker": "OILU",
+          "price": "$41.14",
+          "change": "-▼5.56%",
+          "three_year_return": "+26.98%",
+          "volume": "277,115",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo2.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/oilu"
+        },
+        {
+          "name": "Direxion Daily S&P Oil & Gas Exp. & Prod. Bear 2X Shares",
+          "ticker": "DRIP",
+          "price": "$4.91",
+          "change": "▲3.59%",
+          "three_year_return": "-68.26%",
+          "volume": "33,867,014",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/48/DRIP.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/drip"
+        },
+        {
+          "name": "Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares",
+          "ticker": "GUSH",
+          "price": "$34.66",
+          "change": "-▼3.13%",
+          "three_year_return": "+25.34%",
+          "volume": "964,997",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/GUSH@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/gush"
+        },
+        {
+          "name": "Global X MLP & Energy Infrastructure ETF",
+          "ticker": "MLPX",
+          "price": "$74.14",
+          "change": "-▼1.93%",
+          "three_year_return": "+91.43%",
+          "volume": "373,362",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/MLPX@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/mlpx"
+        },
+        {
+          "name": "Global X U.S. Natural Gas ETF",
+          "ticker": "LNGX",
+          "price": "$42.13",
+          "change": "-▼2.16%",
+          "three_year_return": "0.00%",
+          "volume": "89,600",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo1.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/lngx"
+        },
+        {
+          "name": "United States Oil Fund LP",
+          "ticker": "USO",
+          "price": "$131.03",
+          "change": "-▼4.36%",
+          "three_year_return": "+102.21%",
+          "volume": "7,517,650",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/USO@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/uso"
+        },
+        {
+          "name": "iShares U.S. Energy ETF",
+          "ticker": "IYE",
+          "price": "$60.43",
+          "change": "-▼1.56%",
+          "three_year_return": "+45.83%",
+          "volume": "1,489,190",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/ISHARE@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/iye"
+        },
+        {
+          "name": "ProShares Ultra Bloomberg Crude Oil",
+          "ticker": "UCO",
+          "price": "$43.55",
+          "change": "-▼3.95%",
+          "three_year_return": "+76.46%",
+          "volume": "3,430,357",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/UCO@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/uco"
+        },
+        {
+          "name": "ProShares UltraShort Bloomberg Crude Oil",
+          "ticker": "SCO",
+          "price": "$27.48",
+          "change": "▲3.31%",
+          "three_year_return": "-73.07%",
+          "volume": "69,103,446",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/PROSHARE@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/sco"
+        }
+      ]
+    },
+    {
+      "category": "Natural Gas ETFs",
+      "url": "https://www.indmoney.com/us-stocks/etfs/natural-gas-etfs",
+      "fetched_at": "2026-05-28T12:44:32.867Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        {
+          "name": "ProShares Ultra Bloomberg Natural Gas",
+          "ticker": "BOIL",
+          "price": "$26.52",
+          "change": "▲4.66%",
+          "three_year_return": "-95.46%",
+          "volume": "9,002,968",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/PROSHARE@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/boil"
+        },
+        {
+          "name": "ProShares UltraShort Bloomberg Natural Gas",
+          "ticker": "KOLD",
+          "price": "$24.72",
+          "change": "-▼4.92%",
+          "three_year_return": "-32.52%",
+          "volume": "4,185,355",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/PROSHARE@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/kold"
+        },
+        {
+          "name": "United States Natural Gas Fund LP",
+          "ticker": "UNG",
+          "price": "$11.18",
+          "change": "▲2.47%",
+          "three_year_return": "-57.91%",
+          "volume": "10,129,935",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/48/UNG.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/ung"
+        },
+        {
+          "name": "First Trust Natural Gas ETF",
+          "ticker": "FCG",
+          "price": "$28.61",
+          "change": "-▼2.09%",
+          "three_year_return": "+28.76%",
+          "volume": "482,819",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/FIRSTTRUST@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/fcg"
+        },
+        {
+          "name": "Global X U.S. Natural Gas ETF",
+          "ticker": "LNGX",
+          "price": "$42.13",
+          "change": "-▼2.16%",
+          "three_year_return": "0.00%",
+          "volume": "89,600",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo1.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/lngx"
+        }
+      ]
+    },
+    {
+      "category": "AI ETFs",
+      "url": "https://www.indmoney.com/us-stocks/etfs/ai-etfs",
+      "fetched_at": "2026-05-28T12:44:33.344Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        {
+          "name": "iShares Future AI & Tech ETF",
+          "ticker": "ARTY",
+          "price": "$71.09",
+          "change": "-▼0.85%",
+          "three_year_return": "0.00%",
+          "volume": "768,505",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo2.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/arty"
+        },
+        {
+          "name": "WisdomTree Trust - WisdomTree Artificial Intelligence and Innovation Fund",
+          "ticker": "WTAI",
+          "price": "$43.05",
+          "change": "-▼0.81%",
+          "three_year_return": "+137.85%",
+          "volume": "284,196",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo3.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/wtai"
+        },
+        {
+          "name": "Global X Artificial Intelligence & Technology ETF",
+          "ticker": "AIQ",
+          "price": "$65.10",
+          "change": "-▼0.15%",
+          "three_year_return": "+149.90%",
+          "volume": "2,114,167",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/49/AIQ.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/aiq"
+        },
+        {
+          "name": "Global X Robotics & Artificial Intelligence ETF",
+          "ticker": "BOTZ",
+          "price": "$40.07",
+          "change": "-▼2.03%",
+          "three_year_return": "+46.29%",
+          "volume": "1,308,736",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/BOTZ@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/botz"
+        },
+        {
+          "name": "ARK Autonomous Technology & Robotics ETF",
+          "ticker": "ARKQ",
+          "price": "$139.86",
+          "change": "▲0.14%",
+          "three_year_return": "+187.07%",
+          "volume": "171,335",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/ARKQ@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/arkq"
+        },
+        {
+          "name": "Roundhill Generative AI & Technology ETF",
+          "ticker": "CHAT",
+          "price": "$93.80",
+          "change": "-▼0.40%",
+          "three_year_return": "+245.11%",
+          "volume": "547,570",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/49/CHAT.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/chat"
+        },
+        {
+          "name": "Amplify AI Powered Equity ETF",
+          "ticker": "AIEQ",
+          "price": "$49.62",
+          "change": "-▼0.01%",
+          "three_year_return": "+63.94%",
+          "volume": "55,109",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/48/AIEQ.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/aieq"
+        },
+        {
+          "name": "Robo Global® Robotics and Automation Index ETF",
+          "ticker": "ROBO",
+          "price": "$88.66",
+          "change": "-▼1.48%",
+          "three_year_return": "+60.47%",
+          "volume": "551,098",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/48/ROBO.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/robo"
+        },
+        {
+          "name": "Robo Global® Artificial Intelligence ETF",
+          "ticker": "THNQ",
+          "price": "$85.79",
+          "change": "-▼1.07%",
+          "three_year_return": "+155.94%",
+          "volume": "82,748",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo7.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/thnq"
+        },
+        {
+          "name": "Dan IVES Wedbush AI Revolution ETF",
+          "ticker": "IVES",
+          "price": "$37.84",
+          "change": "-▼0.53%",
+          "three_year_return": "+14.79%",
+          "volume": "466,938",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo8.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/ives"
+        },
+        {
+          "name": "Invesco AI and Next Gen Software ETF",
+          "ticker": "IGPT",
+          "price": "$97.56",
+          "change": "-▼0.13%",
+          "three_year_return": "0.00%",
+          "volume": "277,459",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo4.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/igpt"
+        }
+      ]
+    },
+    {
+      "category": "Technology ETFs",
+      "url": "https://www.indmoney.com/us-stocks/etfs/tech-etfs",
+      "fetched_at": "2026-05-28T12:44:34.171Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        {
+          "name": "Vanguard Information Technology Index Fund ETF Shares",
+          "ticker": "VGT",
+          "price": "$117.38",
+          "change": "-▼0.57%",
+          "three_year_return": "+124.37%",
+          "volume": "4,282,644",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/VGT@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/vgt"
+        },
+        {
+          "name": "Technology Select Sector SPDR® Fund",
+          "ticker": "XLK",
+          "price": "$184.43",
+          "change": "-▼0.38%",
+          "three_year_return": "+123.85%",
+          "volume": "10,085,524",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/XLK@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/xlk"
+        },
+        {
+          "name": "ARK Innovation ETF",
+          "ticker": "ARKK",
+          "price": "$77.95",
+          "change": "▲0.93%",
+          "three_year_return": "+99.36%",
+          "volume": "4,323,680",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/ARKK@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/arkk"
+        },
+        {
+          "name": "iShares U.S. Technology ETF",
+          "ticker": "IYW",
+          "price": "$246.33",
+          "change": "-▼0.44%",
+          "three_year_return": "+138.55%",
+          "volume": "772,530",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/ISHARE@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/iyw"
+        },
+        {
+          "name": "Fidelity® MSCI Information Technology Index ETF",
+          "ticker": "FTEC",
+          "price": "$280.40",
+          "change": "-▼0.56%",
+          "three_year_return": "+126.68%",
+          "volume": "290,138",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/48/FTEC.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/ftec"
+        },
+        {
+          "name": "iShares Expanded Tech Sector ETF",
+          "ticker": "IGM",
+          "price": "$160.49",
+          "change": "-▼0.35%",
+          "three_year_return": "+157.35%",
+          "volume": "561,578",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/ISHARE@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/igm"
+        },
+        {
+          "name": "iShares Exponential Technologies ETF",
+          "ticker": "XT",
+          "price": "$82.19",
+          "change": "-▼0.64%",
+          "three_year_return": "+54.23%",
+          "volume": "635,231",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/XT@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/xt"
+        },
+        {
+          "name": "First Trust NASDAQ Technology Dividend Index Fund",
+          "ticker": "TDIV",
+          "price": "$116.99",
+          "change": "-▼0.72%",
+          "three_year_return": "+111.83%",
+          "volume": "165,897",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/TDIV@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/tdiv"
+        },
+        {
+          "name": "First Trust NASDAQ-100-Technology Sector Index Fund",
+          "ticker": "QTEC",
+          "price": "$308.50",
+          "change": "-▼1.78%",
+          "three_year_return": "+118.79%",
+          "volume": "207,822",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/QTEC@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/qtec"
+        },
+        {
+          "name": "Robo Global® Robotics and Automation Index ETF",
+          "ticker": "ROBO",
+          "price": "$88.66",
+          "change": "-▼1.48%",
+          "three_year_return": "+60.47%",
+          "volume": "551,098",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/48/ROBO.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/robo"
+        },
+        {
+          "name": "First Trust Technology AlphaDEX® Fund",
+          "ticker": "FXL",
+          "price": "$204.73",
+          "change": "-▼1.12%",
+          "three_year_return": "+89.79%",
+          "volume": "371,729",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo1.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/fxl"
+        },
+        {
+          "name": "Amplify Digital Payments ETF",
+          "ticker": "IPAY",
+          "price": "$45.29",
+          "change": "-▼0.07%",
+          "three_year_return": "+11.47%",
+          "volume": "188,120",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/48/IPAY.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/ipay"
+        },
+        {
+          "name": "Amplify Transformational Data Sharing ETF",
+          "ticker": "BLOK",
+          "price": "$66.30",
+          "change": "▲1.87%",
+          "three_year_return": "+236.72%",
+          "volume": "581,071",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo2.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/blok"
+        },
+        {
+          "name": "ProShares Ultra Technology",
+          "ticker": "ROM",
+          "price": "$148.14",
+          "change": "-▼1.06%",
+          "three_year_return": "+264.16%",
+          "volume": "103,799",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/ROM@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/rom"
+        },
+        {
+          "name": "SPDR Morgan Stanley Technology",
+          "ticker": "XNTK",
+          "price": "$359.50",
+          "change": "-▼0.29%",
+          "three_year_return": "+175.11%",
+          "volume": "61,933",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/XNTK@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/xntk"
+        }
+      ]
+    },
+    {
+      "category": "Semiconductor ETFs",
+      "url": "https://www.indmoney.com/us-stocks/etfs/semiconductor-etfs",
+      "fetched_at": "2026-05-28T12:44:34.013Z",
+      "columns": [
+        "Name",
+        "Ticker",
+        "Price",
+        "Change",
+        "3 Yr. Return",
+        "Volume"
+      ],
+      "rows": [
+        {
+          "name": "iShares Semiconductor ETF",
+          "ticker": "SOXX",
+          "price": "$563.98",
+          "change": "-▼1.07%",
+          "three_year_return": "+245.53%",
+          "volume": "12,724,394",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/SOXX@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/soxx"
+        },
+        {
+          "name": "Invesco PHLX Semiconductor ETF",
+          "ticker": "SOXQ",
+          "price": "$100.01",
+          "change": "-▼1.30%",
+          "three_year_return": "+257.69%",
+          "volume": "2,921,791",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/INVESCO@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/soxq"
+        },
+        {
+          "name": "First Trust Nasdaq Semiconductor ETF",
+          "ticker": "FTXL",
+          "price": "$258.92",
+          "change": "-▼1.53%",
+          "three_year_return": "+285.76%",
+          "volume": "171,465",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/FIRSTTRUST@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/ftxl"
+        },
+        {
+          "name": "VanEck Semiconductor ETF",
+          "ticker": "SMH",
+          "price": "$595.50",
+          "change": "-▼1.10%",
+          "three_year_return": "+304.11%",
+          "volume": "12,383,886",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/SMH@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/smh"
+        },
+        {
+          "name": "ProShares Ultra Semiconductors",
+          "ticker": "USD",
+          "price": "$99.81",
+          "change": "-▼1.55%",
+          "three_year_return": "+938.88%",
+          "volume": "1,006,019",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/USD@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/usd"
+        },
+        {
+          "name": "Direxion Daily Semiconductor Bear 3X Shares",
+          "ticker": "SOXS",
+          "price": "$6.53",
+          "change": "▲3.82%",
+          "three_year_return": "-99.71%",
+          "volume": "614,066,156",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/SOXS@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/soxs"
+        },
+        {
+          "name": "SPDR® S&P Semiconductor ETF",
+          "ticker": "XSD",
+          "price": "$621.42",
+          "change": "-▼1.71%",
+          "three_year_return": "+196.25%",
+          "volume": "173,093",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/XSD@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/xsd"
+        },
+        {
+          "name": "Roundhill Memory ETF",
+          "ticker": "DRAM",
+          "price": "$60.73",
+          "change": "▲0.36%",
+          "three_year_return": "0.00%",
+          "volume": "43,296,594",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo3.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/dram"
+        },
+        {
+          "name": "Invesco Dynamic Semiconductors ETF",
+          "ticker": "PSI",
+          "price": "$160.10",
+          "change": "-▼0.95%",
+          "three_year_return": "+272.72%",
+          "volume": "511,715",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/PSI@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/psi"
+        },
+        {
+          "name": "Columbia Seligman Semiconductor & Technology ETF",
+          "ticker": "SEMI",
+          "price": "$38.47",
+          "change": "-▼0.20%",
+          "three_year_return": "+95.50%",
+          "volume": "74,363",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo8.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/semi"
+        },
+        {
+          "name": "Strive U.S. Semiconductor ETF",
+          "ticker": "SHOC",
+          "price": "$110.83",
+          "change": "-▼1.10%",
+          "three_year_return": "+230.75%",
+          "volume": "104,960",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/default_logo8.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/shoc"
+        },
+        {
+          "name": "Xtrackers Semiconductor Select Equity ETF",
+          "ticker": "CHPS",
+          "price": "$91.23",
+          "change": "-▼0.61%",
+          "three_year_return": "0.00%",
+          "volume": "208,974",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/us_stock/49/CHPS.png",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/chps"
+        },
+        {
+          "name": "Direxion Daily Semiconductor Bull 3X Shares",
+          "ticker": "SOXL",
+          "price": "$217.98",
+          "change": "-▼3.46%",
+          "three_year_return": "+852.71%",
+          "volume": "82,763,010",
+          "logo_url": "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/usstocks/US-STOCKS-2X/SOXL@2x.jpg",
+          "detail_url": "https://www.indmoney.com/us-stocks/etfs/etfs/soxl"
+        }
+      ]
+    }
+  ],
+  "lastScrapedAt": "2026-05-28T12:44:34.173Z"
+}

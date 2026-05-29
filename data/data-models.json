@@ -1,0 +1,45 @@
+{
+  "latency": [
+    {
+      "name": "GPT-4 Omni",
+      "avgSec": 1.2,
+      "percent": 70
+    },
+    {
+      "name": "Claude 3.5 Sonnet",
+      "avgSec": 0.8,
+      "percent": 40
+    },
+    {
+      "name": "Llama 3 70B",
+      "avgSec": 0.4,
+      "percent": 20
+    }
+  ],
+  "phases": [
+    {
+      "id": "phase_1",
+      "name": "Signals Generation",
+      "meta": "Ingestion & Anomaly Detection",
+      "allocation": "llama-3",
+      "prompt": "You are an expert financial quant analyst. Scan incoming JSON streams for RSI divergence > 15% and MACD crossovers on 5m intervals. Flag high-volatility events for downstream analysis...",
+      "tokensUsed": 142,
+      "tokensMax": 4096
+    },
+    {
+      "id": "phase_2",
+      "name": "Sentiment Analysis",
+      "meta": "Macro & Social Context",
+      "allocation": "claude-3",
+      "prompt": "Process headline data from Reuters and Bloomberg. Cross-reference with X (Twitter) sentiment flow for $BTC and $ETH. Output a normalized score between -1.0 and 1.0.",
+      "tokensUsed": 212,
+      "tokensMax": 8192
+    }
+  ],
+  "retryCount": 3,
+  "autoEmbeddings": true,
+  "systemNodeInfo": {
+    "node": "AWS-USE-1A",
+    "ip": "172.24.9.102"
+  }
+}
