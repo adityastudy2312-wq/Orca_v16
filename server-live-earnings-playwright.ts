@@ -87,6 +87,200 @@ function determinePriority(title: string): LiveEarningsCall['priority'] {
   return 'medium';
 }
 
+// IndStocks Live News Scraper
+async function scrapeIndStocksLiveNews(): Promise<LiveEarningsCall[]> {
+  const calls: LiveEarningsCall[] = [];
+  let browser: Browser | null = null;
+
+  try {
+    console.log(`[IndStocks] Launching browser...`);
+    browser = await chromium.launch({
+      headless: true,
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-web-security'
+      ]
+    });
+
+    const page = await browser.newPage();
+    await page.setViewportSize({ width: 1920, height: 1080 });
+
+    await page.setExtraHTTPHeaders({
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+      'Accept-Language': 'en-IN,en;q=0.9'
+    });
+
+    console.log(`[IndStocks] Navigating to IndStocks live news...`);
+    await page.goto('https://www.indstocks.com/app/news/live-news/nifty-50', {
+      waitUntil: 'networkidle',
+      timeout: 45000
+    });
+
+    await page.waitForTimeout(4000);
+
+    // Try multiple selectors for news items
+    const selectors = [
+      '[class*="news-item"]',
+      '[class*="newsItem"]',
+      '[class*="live-news"]',
+      '[class*="article"]',
+      '[class*="headline"]',
+      'article',
+      'li',
+      'div[role="listitem"]',
+      'div.card',
+      'div[class*="card"]',
+      'a[href*="news"]'
+    ];
+
+    for (const selector of selectors) {
+      try {
+        const elements = await page.$$(selector);
+        console.log(`[IndStocks] Found ${elements.length} elements with selector: ${selector}`);
+
+        for (const el of elements) {
+          const text = normalize(await el.textContent() || '');
+
+          if (text.length >= 15 && text.length <= 200) {
+            const lowerText = text.toLowerCase();
+
+            // Filter for earnings-related content
+            if (lowerText.includes('result') ||
+                lowerText.includes('earnings') ||
+                lowerText.includes('conference') ||
+                lowerText.includes('call') ||
+                lowerText.includes('board meet') ||
+                lowerText.includes('announc') ||
+                lowerText.includes('declares') ||
+                lowerText.includes('stock') ||
+                lowerText.includes('share') ||
+                lowerText.includes('quarterly') ||
+                lowerText.includes('q1') ||
+                lowerText.includes('q2') ||
+                lowerText.includes('q3') ||
+                lowerText.includes('q4')) {
+
+              // Skip irrelevant content
+              if (lowerText.includes('cookie') ||
+                  lowerText.includes('privacy') ||
+                  lowerText.includes('subscribe') ||
+                  lowerText.includes('sign in')) {
+                continue;
+              }
+
+              const company = extractCompanyName(text);
+              const hash = generateCallHash(text, company, 'IndStocks');
+
+              if (!DEDUPLICATION_STORE.has(hash)) {
+                // Try to get link
+                let link: string | undefined;
+                const linkEl = await el.$('a');
+                if (linkEl) {
+                  link = await linkEl.getAttribute('href') || undefined;
+                  if (link && !link.startsWith('http')) {
+                    link = `https://www.indstocks.com${link}`;
+                  }
+                }
+
+                const call: LiveEarningsCall = {
+                  id: hash,
+                  title: text,
+                  timestamp: new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' }),
+                  link,
+                  company,
+                  source: 'IndStocks',
+                  type: determineCallType(text),
+                  priority: determinePriority(text),
+                  fetched_at: new Date().toISOString()
+                };
+
+                DEDUPLICATION_STORE.set(hash, call);
+                calls.push(call);
+                console.log(`[IndStocks] Found: "${text.substring(0, 60)}..."`);
+              }
+            }
+          }
+
+          if (calls.length >= 30) break;
+        }
+      } catch (err: any) {
+        console.warn(`[IndStocks] Selector ${selector} failed: ${err.message}`);
+      }
+
+      if (calls.length >= 30) break;
+    }
+
+    // If few results, extract all text content from page
+    if (calls.length < 5) {
+      console.log(`[IndStocks] Few results, extracting all text content...`);
+      try {
+        const allText = await page.evaluate(() => {
+          const texts: string[] = [];
+          const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
+          let node;
+          while (node = walker.nextNode()) {
+            const text = node.textContent?.trim();
+            if (text && text.length > 15) {
+              texts.push(text);
+            }
+          }
+          return texts;
+        });
+
+        for (const text of allText) {
+          const title = normalize(text);
+          if (title.length >= 15 && title.length <= 200) {
+            const lowerText = title.toLowerCase();
+
+            if (lowerText.includes('result') ||
+                lowerText.includes('earnings') ||
+                lowerText.includes('announc') ||
+                lowerText.includes('declares') ||
+                lowerText.includes('stock')) {
+
+              const company = extractCompanyName(title);
+              const hash = generateCallHash(title, company, 'IndStocks');
+
+              if (!DEDUPLICATION_STORE.has(hash)) {
+                const call: LiveEarningsCall = {
+                  id: hash,
+                  title,
+                  timestamp: new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' }),
+                  company,
+                  source: 'IndStocks',
+                  type: determineCallType(title),
+                  priority: determinePriority(title),
+                  fetched_at: new Date().toISOString()
+                };
+
+                DEDUPLICATION_STORE.set(hash, call);
+                calls.push(call);
+              }
+            }
+          }
+
+          if (calls.length >= 30) break;
+        }
+      } catch (err: any) {
+        console.warn(`[IndStocks] All text extraction failed:`, err.message);
+      }
+    }
+
+  } catch (err: any) {
+    console.warn(`[IndStocks] Failed: ${err.message}`);
+  } finally {
+    if (browser) {
+      await browser.close();
+    }
+  }
+
+  console.log(`[IndStocks] Total found: ${calls.length} earnings-related items`);
+  return calls;
+}
+
 // Scrape using Playwright (better for JS-rendered pages)
 async function scrapeWithPlaywright(url: string, selectors: string[], source: string): Promise<LiveEarningsCall[]> {
   const calls: LiveEarningsCall[] = [];
@@ -256,6 +450,17 @@ export async function scrapeLiveEarningsWithPlaywright(): Promise<LiveEarningsDa
 
   const allCalls: LiveEarningsCall[] = [];
   const sourcesQueried: string[] = [];
+
+  // Source 0: IndStocks Live News (PRIMARY - most real-time source)
+  console.log(`[Live Earnings] Source 0: IndStocks Live News...`);
+  sourcesQueried.push('IndStocks');
+  try {
+    const indstocksCalls = await scrapeIndStocksLiveNews();
+    allCalls.push(...indstocksCalls);
+    console.log(`[Live Earnings] IndStocks: Found ${indstocksCalls.length} calls`);
+  } catch (err: any) {
+    console.warn(`[Live Earnings] IndStocks failed: ${err.message}`);
+  }
 
   // Source 1: Moneycontrol Earnings (most reliable for earnings calls)
   console.log(`[Live Earnings] Source 1: Moneycontrol Earnings...`);

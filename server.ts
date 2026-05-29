@@ -17,6 +17,7 @@ import { scrapeMoneycontrolEarnings as scrapeMcEarningsPlaywright, loadCachedMon
 import { scrapeMoneycontrolWorld, loadCachedMoneycontrolWorld } from "./server-moneycontrol-world";
 import { scrapeAllNSEData, loadCachedNSEData, fetchNSEQuote, fetchNSEIPOs, fetchNSEOptionChain, fetchNSECorporateActions } from "./server-nse";
 import { scrapeAllBSEData, loadCachedBSEData, fetchBSEQuote, fetchBSEResultCalendar, fetchBSEGainers, fetchBSELosers, fetchBSEAnnouncements } from "./server-bse";
+import { scrapeIndStocks, loadCachedIndStocks } from "./server-indstocks-scraper";
 
 const app = express();
 const PORT = 3000;
@@ -871,6 +872,40 @@ function startLiveEarningsPolling() {
     console.error('[Live Earnings SSE] Initial scrape error:', err.message);
   });
 }
+
+// ========== INDSTOCKS LIVE NEWS SCRAPER API ==========
+
+const PATH_INDSTOCKS = path.join(DATA_DIR, "data-indstocks-live.json");
+
+app.get("/api/indstocks-live", (req, res) => {
+  const cached = loadCachedIndStocks();
+  if (cached) {
+    res.json(cached);
+  } else {
+    res.json({
+      fetched_at: new Date().toISOString(),
+      source: "IndStocks",
+      url: "https://www.indstocks.com/app/news/live-news/nifty-50",
+      items: [],
+      total_items: 0,
+      earnings_calls: [],
+      market_updates: [],
+      corporate_actions: []
+    });
+  }
+});
+
+app.post("/api/indstocks-live/scrape", async (req, res) => {
+  try {
+    console.log("[Server] Starting IndStocks Live News Playwright scrape...");
+    const scrapedData = await scrapeIndStocks();
+    saveDB(PATH_INDSTOCKS, scrapedData);
+    res.json({ success: true, data: scrapedData });
+  } catch (err: any) {
+    console.error("IndStocks scraping failed:", err);
+    res.status(500).json({ error: err.message || "Failed to scrape IndStocks live news" });
+  }
+});
 
 // ========== MONEYCONTROL EARNINGS (PLAYWRIGHT) API ==========
 
