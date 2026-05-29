@@ -2,8 +2,7 @@ import * as cheerio from "cheerio";
 
 export const NEWS_TARGET_URLS = [
   "https://pulse.zerodha.com/",
-  "https://www.tickertape.in/us-stocks",
-  "https://www.moneycontrol.com/world/",
+  "https://ticker.finology.in/",
 ];
 
 function normalize(value: string): string {
@@ -16,47 +15,6 @@ function resolveUrl(baseUrl: string, relativeUrl: string): string {
   } catch {
     return relativeUrl;
   }
-}
-
-function parseAssetChangeTitle(title: string): { asset: string; change: number } | null {
-  const normalized = normalize(title).replace(/â–²/g, "▲").replace(/â–¼/g, "▼");
-  let asset = "";
-  let sign = 1;
-  let changeText = "";
-
-  if (normalized.includes(" ▲")) {
-    const parts = normalized.split(" ▲");
-    asset = parts[0];
-    sign = 1;
-    changeText = parts[1];
-  } else if (normalized.includes(" ▼")) {
-    const parts = normalized.split(" ▼");
-    asset = parts[0];
-    sign = -1;
-    changeText = parts[1];
-  } else if (normalized.includes("▲")) {
-    const parts = normalized.split("▲");
-    asset = parts[0];
-    sign = 1;
-    changeText = parts[1];
-  } else if (normalized.includes("▼")) {
-    const parts = normalized.split("▼");
-    asset = parts[0];
-    sign = -1;
-    changeText = parts[1];
-  } else {
-    return null;
-  }
-
-  const match = changeText.match(/[-+]?[0-9]*\.?[0-9]+/);
-  if (!match) return null;
-  const changeVal = parseFloat(match[0]);
-  if (isNaN(changeVal)) return null;
-
-  return {
-    asset: asset.trim(),
-    change: sign * changeVal
-  };
 }
 
 function collectZerodhaPulseArticles(html: string): any[] {
@@ -131,94 +89,59 @@ function collectZerodhaPulseArticles(html: string): any[] {
   return articles;
 }
 
-function collectMoneycontrolWorldArticles(html: string, baseUrl: string): any[] {
+function collectFinologyTickerNews(html: string): any[] {
   const $ = cheerio.load(html);
   const articles: any[] = [];
   const seen = new Set<string>();
 
-  $("li.clearfix").each((_, item) => {
-    const anchor = $(item).find("a").first();
-    if (anchor.length === 0) return;
+  // Parse news items from Finology Ticker homepage
+  $("a.newslink").each((_, item) => {
+    const title = normalize($(item).find("span.h6").text());
+    const timestamp = normalize($(item).find("small").first().text());
+    const badge = $(item).find(".badge").text().trim();
+    const section = $(item).attr("data-subsecname") || "";
 
-    const href = anchor.attr("href") || "";
-    if (!href) return;
-    const articleUrl = resolveUrl(baseUrl, href);
+    if (!title || title.length < 10 || seen.has(title)) return;
+    seen.add(title);
 
-    const h2Node = $(item).find("h2");
-    let title = h2Node.length > 0 ? normalize(h2Node.text()) : normalize(anchor.text());
-
-    if (!title || title.length < 10) return;
-
-    if (seen.has(articleUrl)) return;
-    seen.add(articleUrl);
-
-    const descNode = $(item).find("p");
-    const summary = descNode.length > 0 ? normalize(descNode.text()) : undefined;
-
-    const imgNode = $(item).find("img");
-    let imageUrl = imgNode.attr("data-src") || imgNode.attr("src") || undefined;
-    if (imageUrl) {
-      imageUrl = resolveUrl(baseUrl, imageUrl);
+    // Determine the publisher from badge or section
+    let publisher = "Finology Ticker";
+    if (badge) {
+      publisher = badge;
+    } else if (section) {
+      publisher = section;
     }
 
     articles.push({
       type: "Detailed",
       title,
-      url: articleUrl,
-      summary,
-      imageUrl,
-      published_at: undefined,
-      publisher: "Moneycontrol World",
+      url: `https://ticker.finology.in/news/${$(item).attr("data-details") || ""}`,
+      summary: undefined,
+      published_at: timestamp,
+      publisher,
       article_kind: "article",
     });
   });
 
-  // General fallback of any moneycontrol news link
-  if (articles.length === 0) {
-    $("a").each((_, anchor) => {
-      const href = $(anchor).attr("href") || "";
-      if (!href) return;
-      const articleUrl = resolveUrl(baseUrl, href);
+  // Also try parsing from specific news sections
+  $("div.news_item, div.card, .news-card").each((_, item) => {
+    const title = normalize($(item).find("h3, h4, .title, .headline").first().text());
+    const summary = normalize($(item).find("p, .desc, .summary").first().text());
+    const timestamp = normalize($(item).find("time, .date").first().text());
+    const url = $(item).find("a").first().attr("href") || "";
 
-      if (articleUrl.includes("/news/") && articleUrl.endsWith(".html")) {
-        const title = normalize($(anchor).text());
-        if (title.length >= 18 && !seen.has(articleUrl)) {
-          seen.add(articleUrl);
-          articles.push({
-            type: "Detailed",
-            title,
-            url: articleUrl,
-            summary: undefined,
-            publisher: "Moneycontrol World",
-            article_kind: "article",
-          });
-        }
-      }
-    });
-  }
-
-  return articles;
-}
-
-function collectTickertapeUsStockChanges(html: string): any[] {
-  const $ = cheerio.load(html);
-  const articles: any[] = [];
-  const seen = new Set<string>();
-
-  $("a, span, div, td").each((_, elem) => {
-    const text = normalize($(elem).text());
-    const matched = parseAssetChangeTitle(text);
-    if (!matched) return;
-
-    const lowerAsset = matched.asset.toLowerCase();
-    if (seen.has(lowerAsset) || lowerAsset.length < 2 || lowerAsset.length > 50) return;
-    seen.add(lowerAsset);
-
-    articles.push({
-      type: "AssetChange",
-      asset: matched.asset,
-      change: matched.change,
-    });
+    if (title && title.length >= 10 && !seen.has(title)) {
+      seen.add(title);
+      articles.push({
+        type: "Detailed",
+        title,
+        url: url.startsWith("http") ? url : `https://ticker.finology.in${url}`,
+        summary: summary || undefined,
+        published_at: timestamp || undefined,
+        publisher: "Finology Ticker",
+        article_kind: "article",
+      });
+    }
   });
 
   return articles;
@@ -233,7 +156,7 @@ export async function scrapeNewsSource(url: string): Promise<any> {
 
   try {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 25000); // 25s timeout
+    const timeoutId = setTimeout(() => controller.abort(), 25000);
     const res = await fetch(url, { headers, signal: controller.signal });
     clearTimeout(timeoutId);
 
@@ -255,10 +178,8 @@ export async function scrapeNewsSource(url: string): Promise<any> {
     let articles: any[] = [];
     if (url.includes("zerodha.com")) {
       articles = collectZerodhaPulseArticles(html);
-    } else if (url.includes("moneycontrol.com")) {
-      articles = collectMoneycontrolWorldArticles(html, url);
-    } else if (url.includes("tickertape.in")) {
-      articles = collectTickertapeUsStockChanges(html);
+    } else if (url.includes("finology.in") || url.includes("ticker.finology")) {
+      articles = collectFinologyTickerNews(html);
     }
 
     if (articles.length === 0) {
@@ -266,13 +187,13 @@ export async function scrapeNewsSource(url: string): Promise<any> {
         error: {
           kind: "parse",
           url,
-          message: "No news articles or asset changes matches found on the webpage html output."
+          message: "No news articles found on the webpage."
         }
       };
     }
 
     return {
-      source: url.includes("zerodha") ? "zerodha_pulse" : url.includes("moneycontrol") ? "moneycontrol_world" : "tickertape_us_stocks",
+      source: url.includes("zerodha") ? "zerodha_pulse" : "finology_ticker",
       url,
       status: res.status,
       fetched_at: new Date().toISOString(),
