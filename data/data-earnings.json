@@ -1,51 +1,57 @@
 {
-  "fetched_at": "2026-05-29T05:02:04.174Z",
+  "fetched_at": "2026-05-29T07:21:26.899Z",
   "result_calendar": [
     {
-      "name": "Schneider Ele. Infra",
-      "symbol": "SCHNEIDER",
+      "name": "Lumax Industries",
+      "symbol": "LUMAXIND",
       "result_date": "29 May",
       "sector": ""
     },
     {
-      "name": "JSW Holdings",
-      "symbol": "JSWHL",
+      "name": "Deepak Fert & Petro",
+      "symbol": "DEEPAKFERT",
       "result_date": "29 May",
       "sector": ""
     },
     {
-      "name": "Technocraft Inds",
-      "symbol": "TIIL",
+      "name": "Graphite India",
+      "symbol": "GRAPHITE",
       "result_date": "29 May",
       "sector": ""
     },
     {
-      "name": "Bharat Dynamics",
-      "symbol": "BDL",
+      "name": "Ashok Leyland",
+      "symbol": "ASHOKLEY",
       "result_date": "29 May",
       "sector": ""
     },
     {
-      "name": "Apar Inds",
-      "symbol": "APARINDS",
+      "name": "Revati Media",
+      "symbol": "524504",
+      "result_date": "29 May",
+      "sector": ""
+    },
+    {
+      "name": "P&G Hygiene",
+      "symbol": "PGHH",
+      "result_date": "29 May",
+      "sector": ""
+    },
+    {
+      "name": "Praj Industries",
+      "symbol": "PRAJIND",
+      "result_date": "29 May",
+      "sector": ""
+    },
+    {
+      "name": "Algoquant Fintech",
+      "symbol": "ALGOQUANT",
       "result_date": "29 May",
       "sector": ""
     },
     {
       "name": "TBO Tek",
       "symbol": "TBOTEK",
-      "result_date": "29 May",
-      "sector": ""
-    },
-    {
-      "name": "Alkem Laboratories",
-      "symbol": "ALKEM",
-      "result_date": "29 May",
-      "sector": ""
-    },
-    {
-      "name": "Hemang Resources",
-      "symbol": "531178",
       "result_date": "29 May",
       "sector": ""
     },
@@ -70,6 +76,12 @@
     {
       "name": "View all Upcoming Calendar",
       "symbol": "VIEWALLUPC",
+      "result_date": "5/29/2026",
+      "sector": ""
+    },
+    {
+      "name": "Bharat Dynamics Q4 Results: Net profit tumbles 59%",
+      "symbol": "BHARATDYNA",
       "result_date": "5/29/2026",
       "sector": ""
     },
