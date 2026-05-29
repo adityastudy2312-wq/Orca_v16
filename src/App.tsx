@@ -1,38 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { 
-  Activity, 
-  Terminal, 
-  Newspaper, 
-  Workflow, 
-  Cpu, 
-  TrendingUp, 
-  AlertTriangle, 
-  ShieldAlert, 
-  Search, 
-  Bell, 
-  Play, 
-  History, 
-  SlidersHorizontal, 
-  Zap, 
-  RotateCw, 
-  Settings, 
-  Check, 
-  Bookmark, 
-  Share2, 
-  Info,
-  Layers,
-  Square,
-  CheckSquare,
-  Sparkles,
-  ExternalLink,
-  Sliders,
-  Database,
-  Globe,
-  Clock,
-  Compass,
-  Tag,
-  TrendingDown
-} from "lucide-react";
+import { Activity, Terminal, Newspaper, Workflow, Cpu, TrendingUp, TriangleAlert as AlertTriangle, ShieldAlert, Search, Bell, Play, History, SlidersHorizontal, Zap, RotateCw, Settings, Check, Bookmark, Share2, Info, Layers, Square, SquareCheck as CheckSquare, Sparkles, ExternalLink, FileSliders as Sliders, Database, Globe, Clock, Compass, Tag, TrendingDown, Calendar } from "lucide-react";
 import Nse500Tracker from "./components/Nse500Tracker";
 import { 
   Ticker, 
@@ -87,6 +54,12 @@ export default function App() {
   const [nse500SelectedStock, setNse500SelectedStock] = useState<any>(null);
   const [isLoadingNse500Quote, setIsLoadingNse500Quote] = useState<boolean>(false);
   const [nse500DetailedQuote, setNse500DetailedQuote] = useState<any>(null);
+
+  // Earnings Calendar States
+  const [earningsData, setEarningsData] = useState<any>(null);
+  const [isScrapingEarnings, setIsScrapingEarnings] = useState<boolean>(false);
+  const [earningsSearchQuery, setEarningsSearchQuery] = useState<string>("");
+  const [earningsSubTab, setEarningsSubTab] = useState<"updates" | "calendar" | "sectors" | "snapshots">("updates");
 
   // Conflict Tracker & GNews States
   const [conflictApiKey, setConflictApiKey] = useState<string>(() => {
@@ -148,6 +121,7 @@ export default function App() {
     fetchIndianIndices();
     fetchFiiDii();
     fetchNse500();
+    fetchEarnings();
   }, []);
 
   // Timer tracking
@@ -435,6 +409,39 @@ export default function App() {
       showToast("Network fault while fetching quote info", "error");
     } finally {
       setIsLoadingNse500Quote(false);
+    }
+  };
+
+  // Earnings Calendar API Functions
+  const fetchEarnings = async () => {
+    try {
+      const res = await fetch("/api/earnings");
+      if (res.ok) {
+        const data = await res.json();
+        setEarningsData(data);
+      }
+    } catch (err) {
+      console.error("Failed to fetch earnings data:", err);
+    }
+  };
+
+  const handleScrapeEarnings = async () => {
+    setIsScrapingEarnings(true);
+    showToast("Scraping Moneycontrol earnings calendar...", "info");
+    try {
+      const res = await fetch("/api/earnings/scrape", { method: "POST" });
+      if (res.ok) {
+        const data = await res.json();
+        setEarningsData(data.data);
+        showToast("Earnings data scraped successfully!", "success");
+      } else {
+        showToast("Failed to scrape earnings data from Moneycontrol.", "error");
+      }
+    } catch (err) {
+      console.error(err);
+      showToast("Network failure during earnings scrape.", "error");
+    } finally {
+      setIsScrapingEarnings(false);
     }
   };
 
@@ -892,17 +899,30 @@ export default function App() {
             Global ETF's
           </button>
 
-          <button 
+          <button
             id="nav-global-monitor"
             onClick={() => setActiveTab("global-monitor")}
             className={`w-full flex items-center gap-4 px-4 py-3 font-mono text-xs rounded-xl transition-all duration-200 text-left ${
-              activeTab === "global-monitor" 
-                ? "bg-white/10 text-white border border-white/20 shadow-md" 
+              activeTab === "global-monitor"
+                ? "bg-white/10 text-white border border-white/20 shadow-md"
                 : "text-on-surface-variant hover:text-white hover:bg-white/5"
             }`}
           >
             <span className="material-symbols-outlined text-xl">language</span>
             Global Monitor
+          </button>
+
+          <button
+            id="nav-earnings"
+            onClick={() => setActiveTab("earnings")}
+            className={`w-full flex items-center gap-4 px-4 py-3 font-mono text-xs rounded-xl transition-all duration-200 text-left ${
+              activeTab === "earnings"
+                ? "bg-white/10 text-white border border-white/20 shadow-md"
+                : "text-on-surface-variant hover:text-white hover:bg-white/5"
+            }`}
+          >
+            <span className="material-symbols-outlined text-xl">calendar_month</span>
+            Earnings Calendar
           </button>
 
           <div className="h-4"></div>
@@ -3813,6 +3833,328 @@ export default function App() {
                     </div>
                   </div>
 
+                </div>
+              );
+            })()}
+
+            {/* EARNINGS CALENDAR TAB */}
+            {activeTab === "earnings" && (() => {
+              const filteredUpdates = earningsData?.earnings_updates?.filter((u: any) =>
+                earningsSearchQuery
+                  ? u.company?.toLowerCase().includes(earningsSearchQuery.toLowerCase()) ||
+                    u.period?.toLowerCase().includes(earningsSearchQuery.toLowerCase())
+                  : true
+              ) || [];
+
+              const filteredCalendar = earningsData?.result_calendar?.filter((c: any) =>
+                earningsSearchQuery
+                  ? c.name?.toLowerCase().includes(earningsSearchQuery.toLowerCase()) ||
+                    c.result_date?.toLowerCase().includes(earningsSearchQuery.toLowerCase())
+                  : true
+              ) || [];
+
+              const topPerformers = earningsData?.sector_performers?.filter((s: any) => s.type === "top_performer") || [];
+              const underPerformers = earningsData?.sector_performers?.filter((s: any) => s.type === "under_performer") || [];
+
+              return (
+                <div className="flex flex-col h-full space-y-6 animate-in fade-in duration-300">
+                  {/* HEADER */}
+                  <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                    <div>
+                      <div className="flex items-center gap-3">
+                        <Calendar className="w-6 h-6 text-emerald-400" />
+                        <div>
+                          <h2 className="text-xl font-extrabold text-white uppercase tracking-tight font-mono">Earnings Calendar</h2>
+                          <p className="text-xs text-neutral-400 font-mono mt-0.5">India Inc quarterly results from Moneycontrol</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-3">
+                      <button
+                        onClick={handleScrapeEarnings}
+                        disabled={isScrapingEarnings}
+                        className="flex items-center gap-2 px-4 py-2 bg-emerald-400/20 hover:bg-emerald-400 hover:text-black border border-emerald-400/30 text-emerald-400 font-semibold text-[10px] font-mono tracking-widest rounded-lg transition-all disabled:opacity-50"
+                      >
+                        {isScrapingEarnings ? (
+                          <>
+                            <div className="w-3 h-3 border-2 border-emerald-400 border-t-transparent rounded-full animate-spin"></div>
+                            SCRAPING...
+                          </>
+                        ) : (
+                          <>
+                            <RotateCw className="w-3.5 h-3.5" />
+                            REFRESH_DATA
+                          </>
+                        )}
+                      </button>
+
+                      {earningsData?.fetched_at && (
+                        <span className="text-[9px] font-mono text-neutral-500">
+                          Last: {new Date(earningsData.fetched_at).toLocaleTimeString()}
+                        </span>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* SUB TABS */}
+                  <div className="flex gap-2 border-b border-white/5 pb-3">
+                    {[
+                      { id: "updates", label: "Earnings Updates", count: earningsData?.earnings_updates?.length || 0 },
+                      { id: "calendar", label: "Result Calendar", count: earningsData?.result_calendar?.length || 0 },
+                      { id: "sectors", label: "Sector Performance", count: earningsData?.sector_performers?.length || 0 },
+                      { id: "snapshots", label: "Market Snapshots", count: earningsData?.market_snapshots?.length || 0 }
+                    ].map(tab => (
+                      <button
+                        key={tab.id}
+                        onClick={() => setEarningsSubTab(tab.id as any)}
+                        className={`flex items-center gap-2 px-3 py-2 font-mono text-xs rounded-lg transition-all ${
+                          earningsSubTab === tab.id
+                            ? "bg-emerald-400/20 text-emerald-400 border border-emerald-400/30"
+                            : "text-neutral-400 hover:text-white hover:bg-white/5"
+                        }`}
+                      >
+                        {tab.label}
+                        {tab.count > 0 && (
+                          <span className="px-1.5 py-0.5 text-[9px] bg-white/10 rounded">
+                            {tab.count}
+                          </span>
+                        )}
+                      </button>
+                    ))}
+                  </div>
+
+                  {/* SEARCH */}
+                  <div className="relative">
+                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-500" />
+                    <input
+                      type="text"
+                      value={earningsSearchQuery}
+                      onChange={(e) => setEarningsSearchQuery(e.target.value)}
+                      placeholder="Search companies, periods..."
+                      className="w-full pl-10 pr-4 py-2.5 bg-black/40 border border-white/10 rounded-xl text-sm font-mono text-white placeholder:text-neutral-500 focus:outline-none focus:border-emerald-400/50"
+                    />
+                  </div>
+
+                  {/* EARNINGS UPDATES TAB */}
+                  {earningsSubTab === "updates" && (
+                    <div className="space-y-4">
+                      <div className="flex items-center justify-between">
+                        <h3 className="font-mono text-sm font-bold text-emerald-400 uppercase tracking-wider">
+                          Latest Earnings Updates
+                        </h3>
+                        <span className="text-[9px] font-mono text-neutral-500">{filteredUpdates.length} results</span>
+                      </div>
+
+                      {filteredUpdates.length === 0 ? (
+                        <div className="py-12 text-center text-neutral-500 border border-dashed border-white/5 bg-white/[0.01] rounded-xl">
+                          <Newspaper className="w-8 h-8 mx-auto mb-3 text-neutral-600" />
+                          <p className="text-sm font-mono">No earnings updates found.</p>
+                          <button
+                            onClick={handleScrapeEarnings}
+                            className="mt-4 px-4 py-2 bg-emerald-400/20 hover:bg-emerald-400 hover:text-black text-emerald-400 text-xs font-mono rounded-lg transition-all"
+                          >
+                            Fetch Live Data
+                          </button>
+                        </div>
+                      ) : (
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-h-[600px] overflow-y-auto pr-1">
+                          {filteredUpdates.map((update: any, idx: number) => (
+                            <div
+                              key={`earning-update-${idx}`}
+                              className="bg-black/40 border border-white/5 hover:border-emerald-400/20 rounded-xl p-4 transition-all duration-200"
+                            >
+                              <div className="flex justify-between items-start mb-2">
+                                <h4 className="font-mono text-sm font-bold text-white">{update.company}</h4>
+                                <span className="text-[9px] font-mono text-neutral-500">{update.period}</span>
+                              </div>
+                              <div className="space-y-1">
+                                <div className="flex justify-between text-xs font-mono">
+                                  <span className="text-neutral-400">Net Sales:</span>
+                                  <span className="text-white">Rs {update.net_sales} Cr</span>
+                                </div>
+                                <div className="flex justify-between text-xs font-mono">
+                                  <span className="text-neutral-400">YoY Growth:</span>
+                                  <span className={`font-bold ${parseFloat(update.yoy_growth) >= 0 ? "text-emerald-400" : "text-rose-400"}`}>
+                                    {update.yoy_growth}
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  )}
+
+                  {/* RESULT CALENDAR TAB */}
+                  {earningsSubTab === "calendar" && (
+                    <div className="space-y-4">
+                      {filteredCalendar.length === 0 ? (
+                        <div className="py-12 text-center text-neutral-500 border border-dashed border-white/5 bg-white/[0.01] rounded-xl">
+                          <Calendar className="w-8 h-8 mx-auto mb-3 text-neutral-600" />
+                          <p className="text-sm font-mono">No result calendar data available.</p>
+                        </div>
+                      ) : (
+                        <div className="overflow-x-auto">
+                          <table className="w-full text-xs font-mono">
+                            <thead>
+                              <tr className="border-b border-white/10 text-left">
+                                <th className="py-3 px-4 text-neutral-400 font-bold">Company</th>
+                                <th className="py-3 px-4 text-neutral-400 font-bold">Result Date</th>
+                                <th className="py-3 px-4 text-neutral-400 font-bold">Sector</th>
+                                <th className="py-3 px-4 text-neutral-400 font-bold">LTP</th>
+                                <th className="py-3 px-4 text-neutral-400 font-bold">Change</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {filteredCalendar.map((company: any, idx: number) => (
+                                <tr key={`cal-${idx}`} className="border-b border-white/5 hover:bg-white/[0.02] transition-colors">
+                                  <td className="py-3 px-4 text-white font-medium">{company.name}</td>
+                                  <td className="py-3 px-4 text-neutral-300">{company.result_date || "-"}</td>
+                                  <td className="py-3 px-4 text-neutral-400">{company.sector || "-"}</td>
+                                  <td className="py-3 px-4 text-white">{company.ltp ? `Rs ${company.ltp}` : "-"}</td>
+                                  <td className={`py-3 px-4 font-bold ${company.change_pct >= 0 ? "text-emerald-400" : "text-rose-400"}`}>
+                                    {company.change_pct ? `${company.change_pct >= 0 ? "+" : ""}${company.change_pct}%` : "-"}
+                                  </td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      )}
+                    </div>
+                  )}
+
+                  {/* SECTOR PERFORMANCE TAB */}
+                  {earningsSubTab === "sectors" && (
+                    <div className="space-y-6">
+                      <div>
+                        <h3 className="font-mono text-sm font-bold text-emerald-400 uppercase tracking-wider mb-4 flex items-center gap-2">
+                          <TrendingUp className="w-4 h-4" />
+                          Top Performing Sectors
+                        </h3>
+                        {topPerformers.length === 0 ? (
+                          <div className="py-6 text-center text-neutral-500 border border-dashed border-white/5 rounded-xl">
+                            <p className="text-sm font-mono">No sector data available</p>
+                          </div>
+                        ) : (
+                          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                            {topPerformers.map((sector: any, idx: number) => (
+                              <div key={`top-${idx}`} className="bg-black/40 border border-emerald-400/20 rounded-xl p-4">
+                                <h4 className="font-mono text-sm font-bold text-white mb-2">{sector.sector}</h4>
+                                <div className="text-[9px] text-neutral-500 mb-3">MCap: Rs {sector.market_cap_cr?.toLocaleString()} Cr</div>
+                                <div className="space-y-2 text-xs font-mono">
+                                  <div className="flex justify-between">
+                                    <span className="text-neutral-400">Revenue YoY</span>
+                                    <span className={sector.revenue_yoy >= 0 ? "text-emerald-400" : "text-rose-400"}>
+                                      {sector.revenue_yoy >= 0 ? "+" : ""}{sector.revenue_yoy?.toFixed(2)}%
+                                    </span>
+                                  </div>
+                                  <div className="flex justify-between">
+                                    <span className="text-neutral-400">Net Profit YoY</span>
+                                    <span className={sector.net_profit_yoy >= 0 ? "text-emerald-400" : "text-rose-400"}>
+                                      {sector.net_profit_yoy >= 0 ? "+" : ""}{sector.net_profit_yoy?.toFixed(2)}%
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+
+                      <div>
+                        <h3 className="font-mono text-sm font-bold text-rose-400 uppercase tracking-wider mb-4 flex items-center gap-2">
+                          <TrendingDown className="w-4 h-4" />
+                          Under Performing Sectors
+                        </h3>
+                        {underPerformers.length === 0 ? (
+                          <div className="py-6 text-center text-neutral-500 border border-dashed border-white/5 rounded-xl">
+                            <p className="text-sm font-mono">No sector data available</p>
+                          </div>
+                        ) : (
+                          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                            {underPerformers.map((sector: any, idx: number) => (
+                              <div key={`under-${idx}`} className="bg-black/40 border border-rose-400/20 rounded-xl p-4">
+                                <h4 className="font-mono text-sm font-bold text-white mb-2">{sector.sector}</h4>
+                                <div className="text-[9px] text-neutral-500 mb-3">MCap: Rs {sector.market_cap_cr?.toLocaleString()} Cr</div>
+                                <div className="space-y-2 text-xs font-mono">
+                                  <div className="flex justify-between">
+                                    <span className="text-neutral-400">Revenue YoY</span>
+                                    <span className={sector.revenue_yoy >= 0 ? "text-emerald-400" : "text-rose-400"}>
+                                      {sector.revenue_yoy >= 0 ? "+" : ""}{sector.revenue_yoy?.toFixed(2)}%
+                                    </span>
+                                  </div>
+                                  <div className="flex justify-between">
+                                    <span className="text-neutral-400">Net Profit YoY</span>
+                                    <span className={sector.net_profit_yoy >= 0 ? "text-emerald-400" : "text-rose-400"}>
+                                      {sector.net_profit_yoy >= 0 ? "+" : ""}{sector.net_profit_yoy?.toFixed(2)}%
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* MARKET SNAPSHOTS TAB */}
+                  {earningsSubTab === "snapshots" && (
+                    <div className="space-y-4">
+                      {earningsData?.market_snapshots?.length === 0 ? (
+                        <div className="py-12 text-center text-neutral-500 border border-dashed border-white/5 bg-white/[0.01] rounded-xl">
+                          <Activity className="w-8 h-8 mx-auto mb-3 text-neutral-600" />
+                          <p className="text-sm font-mono">No market snapshot data available.</p>
+                        </div>
+                      ) : (
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                          {earningsData?.market_snapshots?.map((snapshot: any, idx: number) => (
+                            <div key={`snapshot-${idx}`} className="bg-black/40 border border-cyan-400/20 rounded-xl p-5">
+                              <h4 className="font-mono text-sm font-bold text-cyan-400 mb-4 uppercase">{snapshot.category}</h4>
+                              <div className="space-y-3 text-xs font-mono">
+                                {snapshot.revenue && (
+                                  <div className="flex justify-between">
+                                    <span className="text-neutral-400">Revenue</span>
+                                    <div className="text-right">
+                                      <span className="text-white">{snapshot.revenue?.toLocaleString()}</span>
+                                      <span className={`ml-2 ${snapshot.revenue_yoy >= 0 ? "text-emerald-400" : "text-rose-400"}`}>
+                                        ({snapshot.revenue_yoy >= 0 ? "+" : ""}{snapshot.revenue_yoy?.toFixed(2)}%)
+                                      </span>
+                                    </div>
+                                  </div>
+                                )}
+                                {snapshot.gross_profit && (
+                                  <div className="flex justify-between">
+                                    <span className="text-neutral-400">Gross Profit</span>
+                                    <div className="text-right">
+                                      <span className="text-white">{snapshot.gross_profit?.toLocaleString()}</span>
+                                      <span className={`ml-2 ${snapshot.gross_profit_yoy >= 0 ? "text-emerald-400" : "text-rose-400"}`}>
+                                        ({snapshot.gross_profit_yoy >= 0 ? "+" : ""}{snapshot.gross_profit_yoy?.toFixed(2)}%)
+                                      </span>
+                                    </div>
+                                  </div>
+                                )}
+                                {snapshot.net_profit && (
+                                  <div className="flex justify-between">
+                                    <span className="text-neutral-400">Net Profit</span>
+                                    <div className="text-right">
+                                      <span className="text-white">{snapshot.net_profit?.toLocaleString()}</span>
+                                      <span className={`ml-2 ${snapshot.net_profit_yoy >= 0 ? "text-emerald-400" : "text-rose-400"}`}>
+                                        ({snapshot.net_profit_yoy >= 0 ? "+" : ""}{snapshot.net_profit_yoy?.toFixed(2)}%)
+                                      </span>
+                                    </div>
+                                  </div>
+                                )}
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  )}
                 </div>
               );
             })()}

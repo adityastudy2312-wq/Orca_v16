@@ -257,4 +257,54 @@ export interface Nse500Data {
   stocks: Nse500Stock[];
 }
 
+export interface EarningsCompany {
+  name: string;
+  symbol?: string;
+  result_date: string;
+  sector?: string;
+  ltp?: number;
+  change_pct?: number;
+  gain_loss_since_result?: number;
+}
+
+export interface EarningsUpdate {
+  company: string;
+  period: string;
+  net_sales: string;
+  yoy_growth: string;
+  timestamp?: string;
+}
+
+export interface SectorPerformance {
+  sector: string;
+  market_cap_cr: number;
+  revenue_qoq: number;
+  revenue_yoy: number;
+  gross_profit_qoq: number;
+  gross_profit_yoy: number;
+  net_profit_qoq: number;
+  net_profit_yoy: number;
+  type: "top_performer" | "under_performer";
+}
+
+export interface MarketSnapshot {
+  category: string;
+  count?: string;
+  revenue?: number;
+  revenue_yoy?: number;
+  gross_profit?: number;
+  gross_profit_yoy?: number;
+  net_profit?: number;
+  net_profit_yoy?: number;
+}
+
+export interface EarningsData {
+  fetched_at: string;
+  result_calendar: EarningsCompany[];
+  rapid_results: EarningsCompany[];
+  earnings_updates: EarningsUpdate[];
+  sector_performers: SectorPerformance[];
+  market_snapshots: MarketSnapshot[];
+  price_shocker: EarningsCompany[];
+}
 

@@ -10,6 +10,7 @@ import { scrapeIndianIndices } from "./server-indian-indices-scraper";
 import { scrapeFiiDiiActivity } from "./server-fii-dii-scraper";
 import { scrapeNse500, getDetailedQuote } from "./server-nse500-scraper";
 import { fetchAlphaVantageIndices } from "./server-alpha-vantage";
+import { scrapeMoneycontrolEarnings, loadCachedEarnings } from "./server-earnings-scraper";
 
 const app = express();
 const PORT = 3000;
@@ -32,6 +33,7 @@ const PATH_GLOBAL_MONITOR = path.join(DATA_DIR, "data-global-monitor.json");
 const PATH_INDIAN_INDICES = path.join(DATA_DIR, "data-indian-indices.json");
 const PATH_FII_DII = path.join(DATA_DIR, "data-fii-dii.json");
 const PATH_NSE500 = path.join(DATA_DIR, "data-nse500.json");
+const PATH_EARNINGS = path.join(DATA_DIR, "data-earnings.json");
 
 // Helper to write JSON safely
 function saveDB(filePath: string, data: any) {
@@ -700,6 +702,36 @@ app.post("/api/fii-dii/scrape", async (req, res) => {
   } catch (err: any) {
     console.error("FII/DII activity scraping failed:", err);
     res.status(500).json({ error: err.message || "Failed to scrape FII/DII flow" });
+  }
+});
+
+// ========== EARNINGS CALENDAR API ==========
+
+app.get("/api/earnings", (req, res) => {
+  const cached = loadCachedEarnings();
+  if (cached) {
+    res.json(cached);
+  } else {
+    res.json({
+      fetched_at: new Date().toISOString(),
+      result_calendar: [],
+      rapid_results: [],
+      earnings_updates: [],
+      sector_performers: [],
+      market_snapshots: [],
+      price_shocker: []
+    });
+  }
+});
+
+app.post("/api/earnings/scrape", async (req, res) => {
+  try {
+    const scrapedData = await scrapeMoneycontrolEarnings();
+    saveDB(PATH_EARNINGS, scrapedData);
+    res.json({ success: true, data: scrapedData });
+  } catch (err: any) {
+    console.error("Earnings scraping failed:", err);
+    res.status(500).json({ error: err.message || "Failed to scrape earnings data" });
   }
 });
 
