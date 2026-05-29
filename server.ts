@@ -11,6 +11,7 @@ import { scrapeFiiDiiActivity } from "./server-fii-dii-scraper";
 import { scrapeNse500, getDetailedQuote } from "./server-nse500-scraper";
 import { fetchAlphaVantageIndices } from "./server-alpha-vantage";
 import { scrapeMoneycontrolEarnings, loadCachedEarnings } from "./server-earnings-scraper";
+import { scrapeLiveEarningsCalls, loadCachedLiveEarnings } from "./server-live-earnings-scraper";
 import { scrapeMoneycontrolEarnings as scrapeMcEarningsPlaywright, loadCachedMoneycontrolEarnings } from "./server-moneycontrol-earnings";
 import { scrapeMoneycontrolWorld, loadCachedMoneycontrolWorld } from "./server-moneycontrol-world";
 import { scrapeAllNSEData, loadCachedNSEData, fetchNSEQuote, fetchNSEIPOs, fetchNSEOptionChain, fetchNSECorporateActions } from "./server-nse";
@@ -736,6 +737,30 @@ app.post("/api/earnings/scrape", async (req, res) => {
   } catch (err: any) {
     console.error("Earnings scraping failed:", err);
     res.status(500).json({ error: err.message || "Failed to scrape earnings data" });
+  }
+});
+
+// ========== LIVE EARNINGS CALLS API ==========
+
+app.get("/api/live-earnings", (req, res) => {
+  const cached = loadCachedLiveEarnings();
+  if (cached) {
+    res.json(cached);
+  } else {
+    res.json({
+      fetched_at: new Date().toISOString(),
+      live_calls: []
+    });
+  }
+});
+
+app.post("/api/live-earnings/scrape", async (req, res) => {
+  try {
+    const scrapedData = await scrapeLiveEarningsCalls();
+    res.json({ success: true, data: scrapedData });
+  } catch (err: any) {
+    console.error("Live earnings scraping failed:", err);
+    res.status(500).json({ error: err.message || "Failed to scrape live earnings data" });
   }
 });
 
