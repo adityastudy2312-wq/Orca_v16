@@ -284,572 +284,114 @@
   "worldmonitor": {
     "markets": [
       {
-        "title": "Stocks just scored a trifecta of record closes for the first time in 2026. What to expect next. - MarketWatch",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOHdjSHhCdy0wRE1OM3J5RGlFZ3dQTURvX1hQMEJBNzFZZVpJa1gtbWxZcnRHUFZQcmYxcWpxNEpScm1GN0Z4aVR1UVp2ZXVoenZJNFZRdHJjOW5fZGpGWnJ5YnlLZkdHSlc0cDRLZWYwQ2xlcVdYQ2xXYXo4blhjWU0zTE5ZZUhuUE1RNkhnZFdTbkp1SGphM0F5dnZsVjlYR0pPMlpLMlEyUlhURHduU3cxWnlmOE5VOFpxcG5DVlRXWjR2Q1VpQW5yN091dGp1OEE?oc=5",
-        "source": "MarketWatch",
-        "timestamp": "Wed, 27 May 2026 22:31:00 GMT",
-        "category": "Markets News",
-        "summary": "Stocks just scored a trifecta of record closes for the first time in 2026. What to expect next. &nbsp;&nbsp; MarketWatch"
-      },
-      {
-        "title": "This stock-market strategy is a smart way to play Micron and the memory-chip rally - MarketWatch",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUHZ5djVaV2djV3lLY0VXS3Q1dkJwa3p4NjUxWks4UmFxY1B5LVZvUlhUUl83dzRtbFhNUkpJZDdYc0JwdjFCZ2N4OWdLWVVhYmpxdF95MDh6UThvclA0dDk3WDJ3MGk3Z2FxN1lGT1dmSFJlUzFZR1o4TWYwWXJsWW5jQTM2dG0yMTdLUW84QTlGdDlHZzdoMGtMREk5elRGekFWckFSWTBIMHMzZFpzR0hxZUN2dmVpZTZ4UGZfWDY0cFk?oc=5",
-        "source": "MarketWatch",
-        "timestamp": "Wed, 27 May 2026 15:19:00 GMT",
-        "category": "Markets News",
-        "summary": "This stock-market strategy is a smart way to play Micron and the memory-chip rally &nbsp;&nbsp; MarketWatch"
-      },
-      {
-        "title": "Investors are rushing to buy TIPS ETFs to beat inflation. They could end up losing. - MarketWatch",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSktXNTVNV1JRM09DSGtaRWl3d0ljTFJDT0dGaVd5UVlxMWdyZ05qZy1VWXBDMlJsUXJ6X3JTd2hUX0hZUllNUWF2bFByRzJPUXYxNWsyZkVjbGlSV1p3RExjZHBaamF6UUdXWjdlLUhzMXVoaVhYSGl1RXpybTM4SFl4WjloRFdLWnZTbDBveUlZeVVOUXVra2FmdUUwdHpwa0ZxOFBidEc0bVo1NFQtRjdRdDItaFBSZmxVbmxNTUdZQQ?oc=5",
-        "source": "MarketWatch",
-        "timestamp": "Wed, 27 May 2026 19:29:00 GMT",
-        "category": "Markets News",
-        "summary": "Investors are rushing to buy TIPS ETFs to beat inflation. They could end up losing. &nbsp;&nbsp; MarketWatch"
-      },
-      {
-        "title": "Investors betting the Iran war is ending are buying up travel stocks - MarketWatch",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQXzFJSU5jd1BCQlREOGpMQXQ3cTJaVFV1RmRpUk9XRFZvaWZibHBtd2E4V3c0am5aMmdYWlZMbVQzbnFsaGcwMzVROXBDS2ZLOHd1ZkpvWGtrX0xqWFlMOGE4S25VUGtLWlBpbHRVYkxNUnZtWUdiUVBaZzVybnpEWU1lTkh0NmgzVjhiRGZ6M1IwZHl1RGJRLXhyX3hPcHFJTnBQN3RZUXRrckFZUFFkSg?oc=5",
-        "source": "MarketWatch",
-        "timestamp": "Wed, 27 May 2026 17:31:00 GMT",
-        "category": "Markets News",
-        "summary": "Investors betting the Iran war is ending are buying up travel stocks &nbsp;&nbsp; MarketWatch"
-      },
-      {
-        "title": "CL.1 | Crude Oil WTI (NYM $/bbl) Front Month Overview - MarketWatch",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA1ckJSN2x6UEphU3R5by1COVVUbmxTNDhrNmpaSG4ycUxkR05QcU9YOTdGR0VwX0dSUkJNb0VYNm5WZTR1THV1NXJLM1BBZ3ZfUFZhQXdfMEJQYW1hY2c?oc=5",
-        "source": "MarketWatch",
-        "timestamp": "Thu, 09 May 2019 22:03:52 GMT",
-        "category": "Markets News",
-        "summary": "CL.1 | Crude Oil WTI (NYM $/bbl) Front Month Overview &nbsp;&nbsp; MarketWatch"
-      },
-      {
-        "title": "Marvell’s stock has soared ahead of earnings. Why analysts say it’s still ‘underestimated.’ - MarketWatch",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZGtlNkplb1FueEduZGVzZ1doWlNnY2thay1IQzlUdkxLWlB0NUotTFZHMG5OSTB6RndSV3dhd0Q2U3NLSGhMamV5alJwRWFUbkRmc0JxaVVVbjg5dkIzb0Jsb0cxS2JVNGJwVF9OeVJHRmRvVHVwS2RiOVd0WUpEWUdObEtxMjNZalotdU8yb201UzFaRFd3NGVmQXVXQmdhTDl4OW9MY0VrMzd3NE9DQlpyTjd5RWQ1SVhOSUNXXzJCQzFpWUlV?oc=5",
-        "source": "MarketWatch",
-        "timestamp": "Wed, 27 May 2026 14:17:00 GMT",
-        "category": "Markets News",
-        "summary": "Marvell’s stock has soared ahead of earnings. Why analysts say it’s still ‘underestimated.’ &nbsp;&nbsp; MarketWatch"
-      },
-      {
-        "title": "Opinion: As Big Tech’s power demand surges, data centers plug utilities into a huge new profit center - MarketWatch",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYkwtLVEwV0RmWm8tTWRWVFZrNG5hNUczSVh0bW5odVVWdGt0MzdrdWRhT1dMbTJtX05VRjUwdkwtNUhuQTF5c1lMTkdRV1dPc1N3QWFIMFd4b01JTDRGaWpUOWdkcmNwdzgweWxqX0UxN0FGaUFVR0NkLWZFSUprV1EtOG94Zjc4TDFPcDNyZ2RaODROZlJOUnRHR0l5dUNydG5SaFVLZkt4d2VnaUtyTXJZZy0tS2JaT2hYRTYzNy1vWFlzM1A4UzF3?oc=5",
-        "source": "MarketWatch",
-        "timestamp": "Wed, 27 May 2026 14:57:00 GMT",
-        "category": "Markets News",
-        "summary": "Opinion: As Big Tech’s power demand surges, data centers plug utilities into a huge new profit center &nbsp;&nbsp; MarketWatch"
-      },
-      {
-        "title": "Opinion: This mutual fund lets you buy SpaceX stock before the IPO — but what are you actually getting? - MarketWatch",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQM0pCNHFUZ2FpOTd2bGpsOHpsVkFnbjBBUEtsclpxemRiOHBZWTQtOUtJVVVaeW9FTGtnSFRwRk5YdF9RWHVBR1ZDNmlKYzdsemU3Y2tvTUVNc0kwdXpsNmxuZmNYMlF2YVNXa0Zpc2VBMFk3STRlNUpFMnIydjFaXzZaanhpVlRTejNNVnk4Y0lCN2tocWFLbzBlQVg5LXE1WTJ0YlhoZUxhV0ZScmRyQ2tXbEw5enRoYkNvTW12SGp4cG40Z2pIb25vSzNOb0E?oc=5",
-        "source": "MarketWatch",
-        "timestamp": "Wed, 27 May 2026 15:20:00 GMT",
-        "category": "Markets News",
-        "summary": "Opinion: This mutual fund lets you buy SpaceX stock before the IPO — but what are you actually getting? &nbsp;&nbsp; MarketWatch"
-      },
-      {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq futures drop following US strikes in Hormuz",
-        "url": "https://finance.yahoo.com/economy/live/stock-market-today-dow-sp-500-nasdaq-futures-drop-following-us-strikes-in-hormuz-231358131.html",
-        "source": "Yahoo Finance",
-        "timestamp": "2026-05-27T23:13:58Z",
+        "title": "Ferrari's First-Ever EV Is Here, But RACE Stock Declines Pre-Market As Investors Question The Electric Pivot",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ferraris-first-ever-ev-race-153113912.html",
+        "source": "Benzinga",
+        "timestamp": "2026-05-27T15:31:13Z",
         "category": "Markets News"
       },
       {
-        "title": "US PCE inflation firmer in April",
-        "url": "https://finance.yahoo.com/economy/policy/articles/us-pce-inflation-firmer-april-124040442.html",
-        "source": "Reuters",
-        "timestamp": "2026-05-28T12:47:33Z",
+        "title": "Axon Enterprise Stock: Analyst Estimates & Ratings",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/axon-enterprise-stock-analyst-estimates-153237096.html",
+        "source": "Barchart",
+        "timestamp": "2026-05-27T15:32:37Z",
         "category": "Markets News"
       },
       {
-        "title": "Nebius shares jump more than 10% as former OpenAI employee's fund buys stake",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-shares-jump-more-10-124508091.html",
-        "source": "Reuters",
-        "timestamp": "2026-05-28T12:45:08Z",
+        "title": "UP refutes new AG claims, says it provided all answers in merger paperwork",
+        "url": "https://finance.yahoo.com/economy/policy/articles/refutes-ag-claims-says-provided-153331816.html",
+        "source": "FreightWaves",
+        "timestamp": "2026-05-27T15:33:31Z",
         "category": "Markets News"
       },
       {
-        "title": "UnitedHealth (UNH) Gets Higher Price Target from Bernstein Amid EPS Recovery Outlook",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/unitedhealth-unh-gets-higher-price-124317564.html",
-        "source": "Insider Monkey",
-        "timestamp": "2026-05-28T12:43:17Z",
+        "title": "Tesla Has a SpaceX Stake and $890 Million in Related Revenue. The Upcoming SpaceX IPO Could Be a Major Win for TSLA Stock.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-stake-890-million-153501261.html",
+        "source": "Barchart",
+        "timestamp": "2026-05-27T15:35:01Z",
         "category": "Markets News"
       },
       {
-        "title": "Bit Digital originates $100M loan facility for WhiteFiber, adds $20M in Ethereum",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/bit-digital-originates-100m-loan-124300188.html",
-        "source": "Proactive",
-        "timestamp": "2026-05-28T12:43:00Z",
+        "title": "As Micron Heeds Trump’s Call for Domestic DRAM Manufacturing, MU Stock Is Still Undervalued",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/micron-heeds-trump-call-domestic-153421887.html",
+        "source": "Barchart",
+        "timestamp": "2026-05-27T15:34:21Z",
         "category": "Markets News"
       },
       {
-        "title": "Cisco (CSCO) Gets Higher Price Target From BofA Following Q3 Results",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/cisco-csco-gets-higher-price-124123273.html",
-        "source": "Insider Monkey",
-        "timestamp": "2026-05-28T12:41:23Z",
+        "title": "Hims Insider Makes First Stock Purchase Since 2021 Amid Weight-Loss Drug Pivot",
+        "url": "https://www.barrons.com/articles/hims-stock-insider-weight-loss-glp1-drug-0388a2a7?siteid=yhoof2&yptr=yahoo",
+        "source": "Barrons.com",
+        "timestamp": "2026-05-27T15:32:00Z",
         "category": "Markets News"
       },
       {
-        "title": "Fed's inflation gauge heated up in April, cementing that interest rates will remain steady for now",
-        "url": "https://finance.yahoo.com/economy/policy/article/feds-inflation-gauge-heated-up-in-april-cementing-that-interest-rates-will-remain-steady-for-now-123520559.html",
-        "source": "Yahoo Finance",
-        "timestamp": "2026-05-28T12:35:20Z",
+        "title": "Why Amazon’s AI Game Looks Completely Different Than Every Other Tech Giant",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/why-amazon-ai-game-looks-154143821.html",
+        "source": "Barchart",
+        "timestamp": "2026-05-27T15:41:43Z",
         "category": "Markets News"
       },
       {
-        "title": "CNN files suit against Perplexity alleging unlawful content distribution",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/cnn-files-suit-against-perplexity-123846507.html",
-        "source": "Reuters",
-        "timestamp": "2026-05-28T12:38:46Z",
+        "title": "Oil Prices Fall, Despite Iran's 14-Point 'Fabrication'; Airline Stocks Fly",
+        "url": "https://www.investors.com/news/oil-prices-slide-us-iran-deal-framework-airline-stocks/?src=A00220&yptr=yahoo",
+        "source": "Investor's Business Daily",
+        "timestamp": "2026-05-27T15:58:09Z",
         "category": "Markets News"
       },
       {
-        "title": "Diana Shipping GAAP EPS of $0.25, revenue of $54.74M",
-        "url": "https://seekingalpha.com/news/4597876-diana-shipping-gaap-eps-of-0_25-revenue-of-54_74m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+        "title": "NetApp forecasts FY 2027 revenue of $7.325B-$7.575B supported by enterprise AI demand",
+        "url": "https://seekingalpha.com/news/4598207-netapp-forecasts-fy-2027-revenue-of-7_325b-7_575b-supported-by-enterprise-ai-demand?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
         "source": "SeekingAlpha",
-        "timestamp": "Thu, 28 May 2026 08:43:29 -0400",
+        "timestamp": "Thu, 28 May 2026 23:16:41 -0400",
         "category": "Markets News"
       },
       {
-        "title": "Heico jumps after aerospace demand drives record quarter",
-        "url": "https://seekingalpha.com/news/4597874-heico-jumps-after-aerospace-demand-drives-record-quarter?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+        "title": "Heico anticipates 22%-24% GAAP ETG margins and frames 24%-26% FSG margin range as demand stays strong",
+        "url": "https://seekingalpha.com/news/4598205-heico-anticipates-22-percentminus-24-percent-gaap-etg-margins-and-frames-24-percentminus-26?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
         "source": "SeekingAlpha",
-        "timestamp": "Thu, 28 May 2026 08:42:50 -0400",
+        "timestamp": "Thu, 28 May 2026 21:05:06 -0400",
         "category": "Markets News"
       },
       {
-        "title": "Stock index futures slip as traders assess PCE, and GDP reports",
-        "url": "https://seekingalpha.com/news/4597748-sp500-nasdaq-dow-jones-outlook-stock-market?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+        "title": "Ambarella outlines $105M-$111M Q2 revenue while Hanwha agreement targets $800M+ over 10+ years",
+        "url": "https://seekingalpha.com/news/4598204-ambarella-outlines-105m-111m-q2-revenue-while-hanwha-agreement-targets-800m-over-10-plus?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
         "source": "SeekingAlpha",
-        "timestamp": "Thu, 28 May 2026 08:40:15 -0400",
+        "timestamp": "Thu, 28 May 2026 21:04:50 -0400",
         "category": "Markets News"
       },
       {
-        "title": "Durable goods rise for the second consecutive month",
-        "url": "https://seekingalpha.com/news/4597869-durable-goods-rise-for-the-second-consecutive-month?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+        "title": "Autodesk raises FY 2027 revenue outlook to $8.155B-$8.215B while planning MaintainX acquisition",
+        "url": "https://seekingalpha.com/news/4598203-autodesk-raises-fy-2027-revenue-outlook-to-8_155b-8_215b-while-planning-maintainx-acquisition?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
         "source": "SeekingAlpha",
-        "timestamp": "Thu, 28 May 2026 08:40:00 -0400",
+        "timestamp": "Thu, 28 May 2026 20:55:00 -0400",
         "category": "Markets News"
       },
       {
-        "title": "Cameco resumes full uranium production at McArthur River, Key Lake after flood disruption",
-        "url": "https://seekingalpha.com/news/4597863-cameco-resumes-full-uranium-production-at-mcarthur-river-key-lake-after-flood-disruption?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+        "title": "U-Haul outlines $560M net equipment purchase reduction as board authorizes $350M buyback",
+        "url": "https://seekingalpha.com/news/4598202-u-haul-outlines-560m-net-equipment-purchase-reduction-as-board-authorizes-350m-buyback?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
         "source": "SeekingAlpha",
-        "timestamp": "Thu, 28 May 2026 08:38:15 -0400",
+        "timestamp": "Thu, 28 May 2026 20:24:58 -0400",
         "category": "Markets News"
       },
       {
-        "title": "Nebius jumps as AI-linked hedge fund discloses passive stake",
-        "url": "https://seekingalpha.com/news/4597858-nebius-jumps-as-ai-linked-hedge-fund-discloses-passive-stake?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+        "title": "New Era Energy & Digital surges after settling New Mexico lawsuit",
+        "url": "https://seekingalpha.com/news/4598201-new-era-energy-and-digital-surges-after-settling-new-mexico-lawsuit?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
         "source": "SeekingAlpha",
-        "timestamp": "Thu, 28 May 2026 08:33:17 -0400",
+        "timestamp": "Thu, 28 May 2026 20:12:13 -0400",
         "category": "Markets News"
       },
       {
-        "title": "ICON drops after Q4 earnings miss",
-        "url": "https://seekingalpha.com/news/4597868-icon-stock-drops-q4-earnings-miss?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+        "title": "Worthington Steel raises $1.4B for Klöeckner acquisition - Bloomberg",
+        "url": "https://seekingalpha.com/news/4598200-worthington-steel-raises-1_4b-for-kloeckner-acquisition-bloomberg?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
         "source": "SeekingAlpha",
-        "timestamp": "Thu, 28 May 2026 08:33:10 -0400",
+        "timestamp": "Thu, 28 May 2026 20:02:35 -0400",
         "category": "Markets News"
-      },
-      {
-        "title": "Iran war splits global markets into clear winners and losers - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPU3JBNm9iSW1POHNTQjJuVUFsOWFMSEU2T1ZLSEpQRHhPNkc3WWV5WEM2Z1ZBd1BTeTl3ZzVITEg4VjFsd0hGb1pzRG94N1E0STQwUTRVZnh6cDRYUGVuRUxJODAwelh4V0FJVmdBbFd1SWF4RnNSb1JaR3VvQW5JQl96bVBHLVpD?oc=5",
-        "source": "Reuters",
-        "timestamp": "Wed, 27 May 2026 14:32:23 GMT",
-        "category": "Markets News",
-        "summary": "Iran war splits global markets into clear winners and losers &nbsp;&nbsp; Reuters"
       }
     ],
-    "forex": [
-      {
-        "title": "Asian shares decline and oil prices up more than $1 after US strikes on Iran - FOX 44",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObmFZYXhoa29wWEVZRkJXcmtaWUZmTjl6cUZ3WkJMTjFib3VQbEo3U09DWXZBeUQ2N1N2bktKbFl0WXZuVWxqNDl5Z1RBM3oyRklnZjYtT1BMZmdpSldzQUNibWtCc1ZKdVk5U2JFeXdOczJ6ckxMZkRvaUE2Z1k1WUwxUXRCT0RlZV9aX1pKWnNzUjgzTmpmR1Bsa3RBWnQ4eFY5ZEItejdoUlQwQ3ItRHE4YW00aEtaR0sySWJBSFdFd9IBxwFBVV95cUxOQ3JFeVZuRVItcnBtSUZxUE1GNC1FeUJMWFJPb0trSWhPV0x5Zy10Sk8zN3VUd2VCNDhPNThtNGQyVFYwU3NLM2l2SVplVHNncWVtNXNxbGU2MXBWdG1nVGFmQ0o4M2V0LWdVamtVeWM2RjlvTXlKeHhPWXVmZ2g2WlI3Yl91cndRRklsaEtrRi1ESWdSVzgyUzB3YXJ6cHZhZnFqZi11SHpBREstd2JDVVp6MGtfdVp2MVBzSEdmWUtkakFHa3Jn?oc=5",
-        "source": "FOX 44",
-        "timestamp": "Thu, 28 May 2026 06:37:33 GMT",
-        "category": "Forex & Currencies",
-        "summary": "Asian shares decline and oil prices up more than $1 after US strikes on Iran &nbsp;&nbsp; FOX 44"
-      },
-      {
-        "title": "Official exchange rates on selected date | Bank of Russia - Центральный Банк России",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YcldQcEpOMEd0OGVlTzFTZnlKM2lYZ1JxQ2FvLUVUMDI2WnQ0bnk2SzlEV01pb2RKNW40WVJTTzNUTTdDeFJmSDFJN3pnZE5tS3QtakRR?oc=5",
-        "source": "Центральный Банк России",
-        "timestamp": "Thu, 28 May 2026 05:30:19 GMT",
-        "category": "Forex & Currencies",
-        "summary": "Official exchange rates on selected date | Bank of Russia &nbsp;&nbsp; Центральный Банк России"
-      },
-      {
-        "title": "Japan Foreign Exchange Market Size, Share and Industry Trends 2026–2034 - vocal.media",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR3hyOVU5bmRTMHFoWllSV0xxd3owRnFRUmpEa3ZWTml0SXFyMk1wN2h1N3JSVFBPR3FjX20telAwckd1cHVHUmpzaEFtenlPVWY5bjNrS2dxb0tmTEF5RTFuZkNkNzMxNlVYSjZkckR0aWxZeWNBOWtkZGg3SURpek1yb0FLazQ4UkNTSUdEc3hTc0hibnVSaQ?oc=5",
-        "source": "vocal.media",
-        "timestamp": "Thu, 28 May 2026 10:33:59 GMT",
-        "category": "Forex & Currencies",
-        "summary": "Japan Foreign Exchange Market Size, Share and Industry Trends 2026–2034 &nbsp;&nbsp; vocal.media"
-      },
-      {
-        "title": "Gold/USD - Forex Factory",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94WVp1NUNacTRuWlhtSy1scGxUUkJTQnI2WGdJeXJuUHAyTEZxcWE3Y2puNmF1YkhrMU9ITmhCRHA0U0tKMDIta1ZsMWZhUDBuS2xLRi1R?oc=5",
-        "source": "Forex Factory",
-        "timestamp": "Thu, 28 May 2026 06:05:40 GMT",
-        "category": "Forex & Currencies",
-        "summary": "Gold/USD &nbsp;&nbsp; Forex Factory"
-      },
-      {
-        "title": "Nasdaq 100 Rally Pauses, Dow Jones Looks Vulnerable to Wall Street Bears - FOREX.com",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaFNVSDJFRlRjVEg3elZaUmhrTUo5eFpWTFV5REpVSkVLal9NLU1xSEdfSkVlYWNmeHNYZDVMclN3VEtOWTFaN0dJZDh1aGVVdWtzYm95d0xMWGlsSDdNTWt6UEhaTXdNTUxYWHFsZEE4VnV0SkVBLXVQNmdUNUhDRFlYSUt4SE1tc3R0ZDNPeTZ2czlIQ1Zwb3BweGJOeHVPbTNlZjNoOWdLUEJISmhWNnFpbFNNeEQ2VEt4MERJLVhWQdIBwgFBVV95cUxQaFNVSDJFRlRjVEg3elZaUmhrTUo5eFpWTFV5REpVSkVLal9NLU1xSEdfSkVlYWNmeHNYZDVMclN3VEtOWTFaN0dJZDh1aGVVdWtzYm95d0xMWGlsSDdNTWt6UEhaTXdNTUxYWHFsZEE4VnV0SkVBLXVQNmdUNUhDRFlYSUt4SE1tc3R0ZDNPeTZ2czlIQ1Zwb3BweGJOeHVPbTNlZjNoOWdLUEJISmhWNnFpbFNNeEQ2VEt4MERJLVhWQQ?oc=5",
-        "source": "FOREX.com",
-        "timestamp": "Thu, 28 May 2026 02:45:35 GMT",
-        "category": "Forex & Currencies",
-        "summary": "Nasdaq 100 Rally Pauses, Dow Jones Looks Vulnerable to Wall Street Bears &nbsp;&nbsp; FOREX.com"
-      },
-      {
-        "title": "NRT’s ‘Foreign Currency Exchange’ kiosk pledges conversion of multiple currencies in one transaction - GGRAsia",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPN1pUUk9LckEwV2YyX1ZqbFZibmcwclMwREhER1B2ZEJic2lBUURUN2NMOU9fdHBVYkFMT25vakNSU0RybWhGQjRNeDNDSTh5MHNiV0hNeExVZzdteHRDUG5MSllLV0VuMW5IR0dSYUJhTVFwbzI4MHBDbE1nN1NFTlJFMm9PNy1JODhTY1Rob2JpVU1fUnkteEdYQzd0UEF0OGl1dWQxUHdNMVpJYkZ2YVZKeHQ4Ymhsd3J3SEhB?oc=5",
-        "source": "GGRAsia",
-        "timestamp": "Thu, 28 May 2026 09:15:59 GMT",
-        "category": "Forex & Currencies",
-        "summary": "NRT’s ‘Foreign Currency Exchange’ kiosk pledges conversion of multiple currencies in one transaction &nbsp;&nbsp; GGRAsia"
-      },
-      {
-        "title": "[FX Market – Key Developments Today] USD/JPY trades in a tight range near session highs on safe-haven demand, though intervention concerns linger (28th). - Moomoo",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQVIwVDU5WjFIcnh4dFpETkxiRVBBWmxjX0dQQmJXT2cwdUI2dDdhUlJhT09KRUJQNXJDVWJFSWMtM25HV0tjQWI3eGxNWmF6Zm9QRV82U2l0WGttVlE1XzNmdHg3aUZYelkzeVQ3ZmdBYUp4QWttbENUTlJ5WV9ubUZxa1pLUVBrV1ZnSHE2S0Z5S0s1T05SSmJB?oc=5",
-        "source": "Moomoo",
-        "timestamp": "Wed, 27 May 2026 23:04:00 GMT",
-        "category": "Forex & Currencies",
-        "summary": "[FX Market – Key Developments Today] USD/JPY trades in a tight range near session highs on safe-haven demand, though intervention concerns linger (28th). &nbsp;&nbsp; Moomoo"
-      },
-      {
-        "title": "Good or Bad? Cardano Whales Control 67.5% of the Total ADA Supply - CryptoRank",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSXlmNGFhb3VoVGE5NXk1WEd4QmRwSHdGSE5KUnVLdk0xaVRxd1JRWm9lZF9UMHRRelFudl93V1JOd25FQ1Y2TVZMRVZ4Q1Q2T2xLWnc0dEFjaEU3OGZFMmUzdjJEVzYtbUlJaUFjWUhaV3o4b2JzY0hPNXFrb3pIRlpGSjdhOE1FZWlFVm5Rb0JoTktCYnhZT3lXNEFfRUhCVlcw?oc=5",
-        "source": "CryptoRank",
-        "timestamp": "Thu, 28 May 2026 11:18:03 GMT",
-        "category": "Forex & Currencies",
-        "summary": "Good or Bad? Cardano Whales Control 67.5% of the Total ADA Supply &nbsp;&nbsp; CryptoRank"
-      },
-      {
-        "title": "Chart USD Index DXY Update: Higher in range - studies improving - Continuum Economics",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQR09WdTYxVlZuQmo1YXVZRzlWTGp0WjBpUk1BWkw0Wjk3RS03d2lTRTRBSkx3cmoxekk1N0xtVlFXV0VJT2trbUp4SjN1cWFzTFZwX3Qzd1RSbVVVYkVjMDUycDdNT2xMMm8wbXhqTkI5Q25ZbkNLQ2NzRzk5OEdYbWs1RU84U0dpVkpjVHl5MGpCYnR5N2xsakVIT0FEeGo0ZHNsZw?oc=5",
-        "source": "Continuum Economics",
-        "timestamp": "Thu, 28 May 2026 07:47:37 GMT",
-        "category": "Forex & Currencies",
-        "summary": "Chart USD Index DXY Update: Higher in range - studies improving &nbsp;&nbsp; Continuum Economics"
-      },
-      {
-        "title": "Investors expect US dollar to break higher as Fed battles inflation - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM2l1TDFYWW1pZ2hmZTY4SzVDMmhyU2haeE5qWVdQVkNIY1dqNzBHc1pybnJnTzJUc1drM0psR0RvRWp6OHJvNl9KdTljMlpuT1I1d0FwR3hHd01DVlM1UTVBUVBral82Y2RFYnpuaDJ0Tm1zOEJUTjBpN0xzV3NKRHdhYm9GTDNhM3Q5QUt1a3VscHJ2TU5jRWJtb0l5N0lMNGNDa01nVzdWR0pLSThr?oc=5",
-        "source": "Reuters",
-        "timestamp": "Wed, 27 May 2026 10:04:00 GMT",
-        "category": "Forex & Currencies",
-        "summary": "Investors expect US dollar to break higher as Fed battles inflation &nbsp;&nbsp; Reuters"
-      },
-      {
-        "title": "Dollar Index rejected again, USD/CAD higher, yields set to bounce and crypto Weakens [Video] - FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQXQtTEVHMm51anhWMmgtSUNiX1d1bGtyT1U5VFhnRTVmNUFDaUd6ZlVtcmlEMnJwa3RQUXNYZFRTWTNlQll5am8wcEJjSG5MbzZjWHMzMi1XRG1INUtnVUFvNlI5LS1BSi1Lb1BxN0dEN0Ixck1LNjNlMzQxZzNHN2Z6VF93UHhFdW5UVWU3WVZBYmVUcTJ3dm1Cb0tSY284aFowakh2QUNOWFgybUhVR2ZRamhaVEQ2ZFNzN3hmRFl6al9RYXlGUXlUMWljd3BO?oc=5",
-        "source": "FXStreet",
-        "timestamp": "Thu, 28 May 2026 07:43:18 GMT",
-        "category": "Forex & Currencies",
-        "summary": "Dollar Index rejected again, USD/CAD higher, yields set to bounce and crypto Weakens [Video] &nbsp;&nbsp; FXStreet"
-      },
-      {
-        "title": "The U.S. dollar remains elevated with continued volatility, and the USD/CAD pair extends its rebound. - Moomoo",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRGR5MktTRkJ1akE2NnFsNnJjaWdwQ0s5ZEVrTElIdlY5VHVyQkt3dVYzdDlVbEh4ai1lWEZtaUUxSWpqaHpadG1LWDhkX0hHeWxveGdYRlNzdWQzb0h4UGk5Y1lqZW1YeEo4WFdJckxZbExOOXdhbWNLRkQ2NDV3S3hMc0tBU3FmUUc5ZXUxUjl2VU1vWlctOFBrTnFFRHpuQkVrU2NiOXU1Zw?oc=5",
-        "source": "Moomoo",
-        "timestamp": "Thu, 28 May 2026 05:38:22 GMT",
-        "category": "Forex & Currencies",
-        "summary": "The U.S. dollar remains elevated with continued volatility, and the USD/CAD pair extends its rebound. &nbsp;&nbsp; Moomoo"
-      },
-      {
-        "title": "Indonesian Rupiah Slides Near Rp18,000 vs US Dollar - Gotrade",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRXkxTWJXRmd4ZzRVRjhPS2UycEx3Zmhta2dlaHNEeEZBNFIxVnlJQWpyUnZfek8wd1pJQk9xNnl1eEZhY2tkaURtYm0yM0REVzdxZUpiRmpZdndYdFE2cVZIX21TVFAwLXpad2lBOXc4RjljRG5PT3QzQnpJYTN6Qlh1QmZYMkUxbVlz?oc=5",
-        "source": "Gotrade",
-        "timestamp": "Thu, 28 May 2026 05:35:25 GMT",
-        "category": "Forex & Currencies",
-        "summary": "Indonesian Rupiah Slides Near Rp18,000 vs US Dollar &nbsp;&nbsp; Gotrade"
-      },
-      {
-        "title": "The Philippine peso closed at P61.595 against the US dollar on Thursday, May 28, 2026. - facebook.com",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZkJJZDg0VGR2dldrSkxMNkMxU0xHOXYzMzhCQWJiRVJCT1F0andiUkRhZWt2Zkl0LVRGTXpsd0M5cHlRTXVEQl9Cajh0blNFOEdnSHU5cGt0cV85UjNTVlMzNmRKVUQ3VEJVV2dLb0ZnWm1WN1ZQLUkxUU55T2hiaFgtQ2c3TGt1ODZObms1UTJUb25BQ3dReERUN2pEU0ZheHN0QktYR1BnNWpqWWNtMzBrR3pkcDU3eUlWWXRXSThYd3dKYWNNVnBIY3VLckRvTDI4OGx3Si10RXQt?oc=5",
-        "source": "facebook.com",
-        "timestamp": "Thu, 28 May 2026 08:22:23 GMT",
-        "category": "Forex & Currencies",
-        "summary": "The Philippine peso closed at P61.595 against the US dollar on Thursday, May 28, 2026. &nbsp;&nbsp; facebook.com"
-      },
-      {
-        "title": "US Dollar Directionless Amid US-Iran Uncertainty; EUR/USD Dips Below 1.160, GBP Risks Fade - IndexBox",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeU5Xbk9pTHdNcEEwMHJHMnc5Z282ZGt3Y2FkcHFvTmxGV0FUZFp4aTJqSUNmUjQwaC13VUhzWjU0YkIxdXhKN3U1V19UTDY4VjlVakdBLVAwN2pRUEVRMWpSZ0Fhc0Q0VkEzWkxVblFZU0FHeUJqLUp6dTRBdDVfbFFSa1F3dU5NLVZQd0JSbkVlOFlPVW4xSTVvYktpd2d6dVBFaEpHZl9nNlJKQ1U5aVUwREplbHc?oc=5",
-        "source": "IndexBox",
-        "timestamp": "Thu, 28 May 2026 10:31:00 GMT",
-        "category": "Forex & Currencies",
-        "summary": "US Dollar Directionless Amid US-Iran Uncertainty; EUR/USD Dips Below 1.160, GBP Risks Fade &nbsp;&nbsp; IndexBox"
-      },
-      {
-        "title": "U.S. dollar closes higher on Taipei forex market - Focus Taiwan",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9neE1jN1FLZkRkV3RQQWJjXzJ1U180R09MaDBFdVoxcGlRNklnZXUwUmlRTkFKaEVCeWxVOUVlUERucGNuZ1RyaDlOd283VkZMb3BySTJTVQ?oc=5",
-        "source": "Focus Taiwan",
-        "timestamp": "Thu, 28 May 2026 08:13:00 GMT",
-        "category": "Forex & Currencies",
-        "summary": "U.S. dollar closes higher on Taipei forex market &nbsp;&nbsp; Focus Taiwan"
-      },
-      {
-        "title": "Lagarde Says Central-Bank Credibility Is Key in New World Order - Bloomberg",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOEp2WlUzSU5wSzVjeWdfaXRMcnduekpwME5xV1VRZGNrbDFYVEU3MXlnRDlsM0ZsY1F5cXozNktuWkhGMlBKR2NEenF2a1d3V0ZxOFFDMkwydHpabkQzZjIxTE9GVGJucjJIajdUbDBDcmI3NF95aU9sdmdmOTVkaVhuWk1vNDRvWTlWcUxNRVYtVXZ0TWdwYnRzLTVLdGhfXzFsbzlCY296UU1qNVBySUtRamw?oc=5",
-        "source": "Bloomberg",
-        "timestamp": "Thu, 28 May 2026 07:10:00 GMT",
-        "category": "Forex & Currencies",
-        "summary": "Lagarde Says Central-Bank Credibility Is Key in New World Order &nbsp;&nbsp; Bloomberg"
-      },
-      {
-        "title": "Central bankers face mounting fiscal pressures - GIS Reports",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Zbk5LVFRYYXBtY0xZNkxvUlJ4OWxxV0hGY05yNmdMQlN0LUx0RGd2NWh6Vzc2eUQ3LWJ4R0RSMWc3OGVHSjBvdUZVZjVrZ3dWLUNmUW4xdWVTdHZNUXZ1eEplVXhJRk9ia0o4OU83T0lpOXp1WWcwZ0RZYw?oc=5",
-        "source": "GIS Reports",
-        "timestamp": "Thu, 28 May 2026 06:00:00 GMT",
-        "category": "Forex & Currencies",
-        "summary": "Central bankers face mounting fiscal pressures &nbsp;&nbsp; GIS Reports"
-      },
-      {
-        "title": "Market minute: ECB to raise rates in June - The Real Economy Blog",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9VaDlQZFEtZ1JUNlNsSjdoUFJCOHNaQWswZGszVmxlOGNuUDgzTnNBdU9RaG5UZlNVcktVcnNmOWsyLXJUc25ncG5aekNhS0x2SHQtSVN3R0V2dG9hOWdOd0FMdUZ3VVQ3QjFSOHNmTDNTeEVjNmpabkpqSQ?oc=5",
-        "source": "The Real Economy Blog",
-        "timestamp": "Thu, 28 May 2026 10:00:35 GMT",
-        "category": "Forex & Currencies",
-        "summary": "Market minute: ECB to raise rates in June &nbsp;&nbsp; The Real Economy Blog"
-      },
-      {
-        "title": "South African rand weakens ahead of central bank rate decision - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR05fXy12SVJhdXVnMXV3V2dlTEJlZjJseVg4ci04T05EeGpHT1AwdU1vYmNHdHMtZGdYUVZhNmxBNGdqZ0hwOFB1TUZkRUx1YVh2WllLR0tHNmpObGJhejNXbUl3Z3RpVHZnR1J5WThzSGlmM1NVZE1EYThVZWFwdFhYNVdCN3lXZG15X0FpNFBIWS1yaFRJZVhRcktGOXVYZTJZUFZCU2E5akI4?oc=5",
-        "source": "Reuters",
-        "timestamp": "Thu, 28 May 2026 05:50:00 GMT",
-        "category": "Forex & Currencies",
-        "summary": "South African rand weakens ahead of central bank rate decision &nbsp;&nbsp; Reuters"
-      },
-      {
-        "title": "Opening remarks for ‘Monetary policy and imbalances’ panel - Federal Reserve Bank of Dallas",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rY3Fhd24wbjctdmVFUnNhNEcwOTNfRkRrTEV3c3BvZDJBT09wcWdqZ2VZM1ZYeFhkdmRJSGdMVEdjTkVveUxIa05sUHdTLVA5S09QMDdIdUkxSGI3QTc3QWh0T2k3VDdGR2Vicw?oc=5",
-        "source": "Federal Reserve Bank of Dallas",
-        "timestamp": "Wed, 27 May 2026 19:17:15 GMT",
-        "category": "Forex & Currencies",
-        "summary": "Opening remarks for ‘Monetary policy and imbalances’ panel &nbsp;&nbsp; Federal Reserve Bank of Dallas"
-      },
-      {
-        "title": "Bank of Korea Stands Pat But Signals Tighter Policy Ahead - WSJ",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOEVSNTI4M2U0cjM4Z2hMV2ROVG5SNmhsVUVGbDROUVZ0TmFGOU1fbXhQZHlndlc0MktIRXRCQzgwU0lkS3dyMU40WGVjclNHTE5TcWoySXlzLWcweHVZLWYxNnIxRmtYQV8wQXdtS2VvT1VtUDZZa1VnbnZQbFpjdzZodkkteTludEFxeGYwTXBtWjZWRk9qdE5FaW5UblJjZ3V5dWNPUkVucldMOGZjb1N4blBUbVIwQ0V5aXgweTM?oc=5",
-        "source": "WSJ",
-        "timestamp": "Thu, 28 May 2026 05:35:00 GMT",
-        "category": "Forex & Currencies",
-        "summary": "Bank of Korea Stands Pat But Signals Tighter Policy Ahead &nbsp;&nbsp; WSJ"
-      },
-      {
-        "title": "Central bank leaders warn of long-term inflation impact of Iran war - Semafor",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbjlRVnNNWmtZU3NwSWJqaGdhbm1YUXE4OW8wZlNPRGY1NmlTN2YxNGlRRWxabm1URENrbnRuQ1hYZENFLXlKRnBfS2UtMG5xdFBfRUVPbzBtTzE2ZUdhUC0tY1B2OHRpQVJ4T3pZMHpneHFzSUFySnNYM1E0cDl0bk5IVHdzeVIwc1lFbm9DME5ISlYzb1VpbUxXUnlOVHdyTnRMd053?oc=5",
-        "source": "Semafor",
-        "timestamp": "Thu, 28 May 2026 10:37:00 GMT",
-        "category": "Forex & Currencies",
-        "summary": "Central bank leaders warn of long-term inflation impact of Iran war &nbsp;&nbsp; Semafor"
-      },
-      {
-        "title": "AI boom outweighs Iran war pain, Korean central bank chief says - Financial Times",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaF9SWEZUY3VERjBmOG9MejhvMzFsOE1oeGhuUVo0VjVvbmFBdlhRSGNDSUZlNmxPMk0tYnBSWmwyb08wMzcyamw5YkdPMlAyZmxOQXM5ZEdkVUE2dDlocTNfNXZIMnlNSFlxU0hXSHk1aFpScm0tZHlhdlRGbVN6M2s1Z2g?oc=5",
-        "source": "Financial Times",
-        "timestamp": "Thu, 28 May 2026 04:52:52 GMT",
-        "category": "Forex & Currencies",
-        "summary": "AI boom outweighs Iran war pain, Korean central bank chief says &nbsp;&nbsp; Financial Times"
-      }
-    ],
-    "commodities": [
-      {
-        "title": "Oil Prices Climb on Renewed Hostilities in Middle East - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3dkRJeWVEaHVQdUZ3b0hMeHN3MkM1UTh3SVNKOVpQaFRPSDU3ZVMyQVhoZUppWjB3TEEzWG5jNUdqYjh4bk1GcVJtTHYtUlRrdUlycmpRc0NQTUY3U0FvVjFPQm4tdDZvNnd2NXZ5ZXU3V2pWdXc?oc=5",
-        "source": "The New York Times",
-        "timestamp": "Thu, 28 May 2026 08:00:55 GMT",
-        "category": "Commodities News",
-        "summary": "Oil Prices Climb on Renewed Hostilities in Middle East &nbsp;&nbsp; The New York Times"
-      },
-      {
-        "title": "Oil prices jump after US launches new attacks on Iran - BBC",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1vdWpUMXVBcWRfWUNOUUFEemM1RXhmZU9zdm1yZGp4ZkpncnZyRVo3cFYtMllWdUNtTjNrMDJPZFZ6V1Rad2p2alVpN0ROSU1IcnFPX1l5RGFQdw?oc=5",
-        "source": "BBC",
-        "timestamp": "Thu, 28 May 2026 05:32:06 GMT",
-        "category": "Commodities News",
-        "summary": "Oil prices jump after US launches new attacks on Iran &nbsp;&nbsp; BBC"
-      },
-      {
-        "title": "Oil Prices Jump After Fresh U.S. Strikes on Iran - Crude Oil Prices Today | OilPrice.com",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVWVUMExueTVKd1phdndWZ3RENEhhYUtjWGpybWR0TGlQakdzTmFRaWI3NVJMeW9uMTJnTUNXeHVTTnFUc0JHQzhDa3AtdG5PSnlvbFVzeUVqTlByWWkxMGVwUmlHQ3RJZDFkWEt3dHROQ1JyeE5QczV3Z2VFcnJaanRkLVJDMEQ4a3B5Z2xPUDJuTmJOMUJ6OVdVSXlMckl6aXA4QtIBqgFBVV95cUxOZVlfTkZGUzlPN1MzVElvR01oODJoWTZlUzVzOU9HOTlCeWF4UDQyVjBqalZIc0lYNFRYdzRkdUpBRkVJVmFrbHhOVGlVQk9mQlpoWGl0TXJfQl8xOUcxalQtQk5xd0ItalplUTJlR0tFR2tLSndkUU1XMzRzX0dOTDE2WXpFYnhneU5Hc0RWbjl5MmNjTlVGeUpYeXBWcXE5cGdqdG52cnEwQQ?oc=5",
-        "source": "Crude Oil Prices Today | OilPrice.com",
-        "timestamp": "Thu, 28 May 2026 01:49:00 GMT",
-        "category": "Commodities News",
-        "summary": "Oil Prices Jump After Fresh U.S. Strikes on Iran &nbsp;&nbsp; Crude Oil Prices Today | OilPrice.com"
-      },
-      {
-        "title": "Oil Futures Fall on Hopes for U.S.-Iran Agreement - WSJ",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeElqTWczRW5XazZxek1CZ1duaE5ZUERVdEhEdlhpTmNUbnNYdEpydVVValVySm54UzdHS0lpVnliUG9IX2RIaDc2Q2duOU5MZHZDZzVaWmlYbnczaFMtS2pWZlpjOTJPZm5CRnRCa3ltTkRGSWVUV0VuMHp4anAxOFRTRzZXRVdVMlFFNjN5TmVEYXYwWFoya3lxUXZhcWxFMlRJRVhUeVZIZVpFUkp2R21mMnBhYkE?oc=5",
-        "source": "WSJ",
-        "timestamp": "Wed, 27 May 2026 19:50:00 GMT",
-        "category": "Commodities News",
-        "summary": "Oil Futures Fall on Hopes for U.S.-Iran Agreement &nbsp;&nbsp; WSJ"
-      },
-      {
-        "title": "Oil markets are betting on a swift end to the Iran war. Investors may regret it - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbkJtS3JyUGROUHFXbHJxMllldENlRTNfZU1sa3M4WmxvQ3FMSkg4UDlycVZzM1FtdG5NTzZhUVRoTklhbENfa2NJbDhlQzJCMzlod0M3U0xpX1p2RU5ZX1VPQ29SR0tTSGctT1lfNHRaN216T2dEQ3Zma3FjTHNSQnVsYnRsSGtnOXg5OWZod0tDREFMbWE4cGhwaWpjUVBaWHR4dG1KUjUzQdIBrwFBVV95cUxQYkZuRW12aWRSb011SVo4ZFE3cEE1Y0lYX0F6Y2JaRXEtbFgtZjdsYmV6aFB6czU2WElxYVZmRjhPNjhLaDBGSEdVbGRlSThtQ1VVZ2lJSXpyUXBsLU5aSlZtbnQyN0VHd19nSkREYkNEUnpDemtiaHF3VEVfakpTamlLSTFISWV0eWdtN204RnVicnN5N2FHM0M0X3ZZZzBoMVIzcXNBTlZmOVVmc3hR?oc=5",
-        "source": "CNBC",
-        "timestamp": "Thu, 28 May 2026 10:44:36 GMT",
-        "category": "Commodities News",
-        "summary": "Oil markets are betting on a swift end to the Iran war. Investors may regret it &nbsp;&nbsp; CNBC"
-      },
-      {
-        "title": "Iran war: Oil shortages threaten global energy security - dw.com",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeVo0djl3dEROZXFGWkx3OHA4eDNDZndObTlIUU81cEthOWZNa1dKaHFxTllMdnhxM20xcnVuU2x6YmlVR1AwMV9oTi1vOEhkWGxQaFZSb3Q0QzVpVmZ0eVJNZnJ1M1NMdk4ydzU0Z0VqOHRuSGR0Z1RrdEc1Q1B2Mk1XaU11ZDdvOUlmMUpQM0HSAZABQVVfeXFMUGVpajIyVXBEZWswUWx0VHMya0pNbWNyR3h0M3ZfX1pwcndEUlY1N254aGFGMmg5aGFuWkZRMkhCeVRsUDdMdlRiNC1mQW5hZ0F2TWF6bDl6R00tVktQZ2VkU1R3YlJaWWpCRmd1dGR6M29LQzBSX1pOMkJJbjFodkV4bjJCTWwtdmJaWWZ1LWYt?oc=5",
-        "source": "dw.com",
-        "timestamp": "Thu, 28 May 2026 11:44:44 GMT",
-        "category": "Commodities News",
-        "summary": "Iran war: Oil shortages threaten global energy security &nbsp;&nbsp; dw.com"
-      },
-      {
-        "title": "The long-term consequences of the Iran crisis: oil is not well that ends well - ODI: Think change",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMDFaLXJUSmJiV3NKVFhEZEhJY29BeFVkWWFHWkVlQW5XZHFadDdFdExFZ3hPamwzWkxrRnZRT2xBazlSUUxNZ3JyaTFGN3VJMGFNUWt2MG1EZkNwdDlLX2FBX0I3YjZCRGlFLXFRQUFGdlVCZzVLaG83QXc1dXVDOE1qZW90Y1kyWHNPV0ZXZG5LUmxsT1dxeXZ2VmtOVFNfNHN2TUZyQU4?oc=5",
-        "source": "ODI: Think change",
-        "timestamp": "Thu, 28 May 2026 10:29:05 GMT",
-        "category": "Commodities News",
-        "summary": "The long-term consequences of the Iran crisis: oil is not well that ends well &nbsp;&nbsp; ODI: Think change"
-      },
-      {
-        "title": "Oil prices are swinging as U.S. strikes on Iran undercut Trump's peace deal claim - qz.com",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE14MHotWWVNbWZiV24xa2E1YVJHekl4anhWZ3cwWEVlWW93eXd2WHRCeXpyM19EbGZic0w4SWIzUGpaNWZpWXlIQXVtT2FGMzRBNnN6b1V2SzFqSEdwMGZZZFQzWTY4VHI0XzE0?oc=5",
-        "source": "qz.com",
-        "timestamp": "Thu, 28 May 2026 00:29:32 GMT",
-        "category": "Commodities News",
-        "summary": "Oil prices are swinging as U.S. strikes on Iran undercut Trump's peace deal claim &nbsp;&nbsp; qz.com"
-      },
-      {
-        "title": "Silver Price Today | Silver Spot Price Charts - SD Bullion",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5hT3hFTEstRXBaRUNWQ0NITm80Q0pVS0tOaXhEZXVCWF93MGhBaFNVOVRLamxfZElqVEx0S1hKaUhkbGx6aWY0R2Ywaw?oc=5",
-        "source": "SD Bullion",
-        "timestamp": "Thu, 28 May 2026 10:32:46 GMT",
-        "category": "Commodities News",
-        "summary": "Silver Price Today | Silver Spot Price Charts &nbsp;&nbsp; SD Bullion"
-      },
-      {
-        "title": "Gold tumbles to two-month low as inflation hedge status fades - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPamMxS2k0U1ktNzBJZ3V2Z2k3WElvNUw4RFNxU05RaE8tN3FwdUJHZVlaUXFvVVNjbEE5dDlxV3dYQ0wyYW1Pa2R2SkhvYTcyVVpCcEo5Ti11VU9KVE1vZnVrTEx3c2p2QjFwZXJOdE9YMlQ0T0daLThueE9pZUt5dGI4aFdvTWVDT3U5bUxwV3cwWGpxT2RmM3Q0QXJ3bkHSAaQBQVVfeXFMTzRTQ05EVjNFUUNYc1h0dDR4U0xLZXVMd0l3RHFnNVczMW50emVjS2FsVndTZWhwaW5tdE92QkhuYUJxenFVSzlrSEN4bnRDckZXc0F5bFdXNm9FY09wbjU3QmVUUHQ5d0pCSWU0QlJid0xiYVdWR2Z4cFJON1BLTk9UaGN5dmhQUGtBUjJwOU9DLW5mT29aNGIyMjc3SU4zQ05jbHo?oc=5",
-        "source": "CNBC",
-        "timestamp": "Thu, 28 May 2026 08:51:40 GMT",
-        "category": "Commodities News",
-        "summary": "Gold tumbles to two-month low as inflation hedge status fades &nbsp;&nbsp; CNBC"
-      },
-      {
-        "title": "Gold Price Today: Gold Falls 2.90% on May 28, 2026 - USA Today",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUmNGa1EwMnhIOHpjTkF2cHQ1UGd3eF9pQW9kT1QxRUlycGl3d2dsOXI3Mm42ZGREUTVPWmttYlF1aUNWamVlNHZtM0JBc2JXY0owWEFkWk5lR1NZRDZJNW1EUXYxZjlKemNYTUZ5dVZGZWJIRWVUbDNjSGtJa0hiVVoxeWZHcVgxdGtMOEpuc3JKVGpHSlAxMEZjbFpNSmJaR3VxZQ?oc=5",
-        "source": "USA Today",
-        "timestamp": "Thu, 28 May 2026 12:20:08 GMT",
-        "category": "Commodities News",
-        "summary": "Gold Price Today: Gold Falls 2.90% on May 28, 2026 &nbsp;&nbsp; USA Today"
-      },
-      {
-        "title": "Gold (XAU/USD) Price Forecast for Today, Tomorrow, Next Week, and the Next 30 Days - LiteFinance",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ1BXeVdPR08tTmQ4MHdZMkloUzlsNjRjSE5VVmxyeVRrdDZqbDI3Tm5VVUdfYTdZM0dOYjkzVFBuMGhJUzZEM3E0RDBkc0RTUXd2VFdMdm5uenpPXzJobUNvRklvRkt0S0pfYkZ0UWRXaWRDc09MR1pBUkVDRXN2Y2FINkVmUDBlRkZHNGhzZkNyNk5LUzZrM2VUV1pVOV9N?oc=5",
-        "source": "LiteFinance",
-        "timestamp": "Thu, 28 May 2026 09:34:21 GMT",
-        "category": "Commodities News",
-        "summary": "Gold (XAU/USD) Price Forecast for Today, Tomorrow, Next Week, and the Next 30 Days &nbsp;&nbsp; LiteFinance"
-      },
-      {
-        "title": "Gold price drops from two-week high - The Northern Miner",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZUJkVGROUzE4X0FXUUtsbFllQ283a29kNVRBaXh3WUk3X3BnVzVweldFQk5fcFJpcUFIaWY4UUtNSUUxdDVvajFaN01MOUJrVmVmOUdScXIyWTk2LWk3X0dNbXRlTWJWeE9rSUhwR2YtdlJMbFZPNU9iLUlTVGJZeTc1VEJQbTVHcnc?oc=5",
-        "source": "The Northern Miner",
-        "timestamp": "Thu, 28 May 2026 09:31:20 GMT",
-        "category": "Commodities News",
-        "summary": "Gold price drops from two-week high &nbsp;&nbsp; The Northern Miner"
-      },
-      {
-        "title": "Why are gold and silver prices down sharply today and will precious metals continue to fall or rise again? - The Economic Times",
-        "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNSVRFZVI3RjhFajBWWW1wekE3cGMzTlgtWkVONnFrZVE3NmxxRG8wTzgzR2xWUXdhcDFISWEyQ2hyTFNQcXY3SDVFV2FSUXl6ODBmaFBVNmlsRTd4Um5mdlUzVWxNYmNfT1RDZ0dKZmQ1Y0NrWmE1LUR2Vk5EOEdFV2ZCdHpqcGRKNHVScDhncUp6dUM0VnVXaDJsYVNzQ1IxTGRnNW9BVnJRM25XR2s2T2xvNk9XTHBCel80eEhJX3JJeWpud0UtckJmQjlvUTZpNUExTXh6blhrazAzZ0ZSaHA3VGlJNkV6OElPSE9tMXVPSldXV3VrdjFkRFFyUWU3dUJ5OUhvOWpmUWI1YzlUUlplSnZoQkxWYk1QSHVIOTVnbmVYT1pXTVhibFlDYnRjT1VwVGk0cEx0OVh1MVUwUHhoSDQ0c0RlaDBBa0x30gHTAkFVX3lxTFBtMHcwd3FzRmdJUzd2T2VmeDNua3N0NTdHTHk0U2o5eGhKVThQRE5hWkV2MXlvUHotNnA5alN5TXMyWi1zWm9EcU5BeTdsNTJZUmhGWldPNjB4dk16ZlRqVkxkLTZuSDZhR0dnMXFxNENVZE1Qc3A5RHVRLWlCTWhWZVBocFMzMThWTDJwRnBoZXVYSXRQLUg4bGdlNTJYaHJET3J4MjhOQ1BlT3I3RWVRUUlST1pGODBQaXBsZ0FUZ2VJSnNEdkhVQThGc1lvQlZ6RnRKdlVOOS12LXVtd2l4U0hTT0pOMjY0dEhSd2toRHJfbmg0RWxEa1owa21KbG5JNFgtbzJJejlxVWJRVzJhT3R4dnNvVmJMNUFmXzFRVDhyUWpVRjVxS3dDNUItaDNVRU5pVWdwdFJkMW1yRlg0R3htMG82SlJ0S25HZVFvRmV5aw?oc=5",
-        "source": "The Economic Times",
-        "timestamp": "Wed, 27 May 2026 19:13:05 GMT",
-        "category": "Commodities News",
-        "summary": "Why are gold and silver prices down sharply today and will precious metals continue to fall or rise again? &nbsp;&nbsp; The Economic Times"
-      },
-      {
-        "title": "Gold prices today, Thursday, May 28: U.S. strikes in Iran sending gold prices lower this morning - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNendLbGQwckRuTU9hd3p5aGM0SVUyNkZNS3k4LUN6bVI3WWtZalFZY3paZHp0MERCcFRhNnp2cEJ5a2N0ODdtYmJMWGRzWGk0bWNsU1h0UWw1c0RMVE53TjhwaExFaUVLdHViMXZoNnhlX0Q1UUJrb1VoWWRQRklFaE9CWmphTkE5bUFZV1JrSDBhT0M2azMwV05Rc0VRczBXYUR1ZXJfT2dTSnFzeW9qSU0yb1YzU0xsS3lxY3NCOW5pSHB1cUx1ekV5UEtncGxqZ3E3R21SeVNXVDg2WVFlY0E3NS0tYUwxWHRhTXhHWGZmVU96U2JzcjRETQ?oc=5",
-        "source": "Yahoo Finance",
-        "timestamp": "Thu, 28 May 2026 10:49:53 GMT",
-        "category": "Commodities News",
-        "summary": "Gold prices today, Thursday, May 28: U.S. strikes in Iran sending gold prices lower this morning &nbsp;&nbsp; Yahoo Finance"
-      },
-      {
-        "title": "Gold Price Falls to $4,400 in 2nd 200 EMA Test of 2026, How Low Can Gold Go? - Finance Magnates",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVTZTM0JpcFpjeXZRRElaUTBUdl9LaW9kdzBEZncyWTJWYnlibzYtMlJLVkI1MWt4T2NaeXBMc2JGLUVZNi1oaGFsZkRhVzBCalBKRDVldWloR0tZc2ZucFd1VjItdzdNbDVERGNTMllTQzIyUzFvNWt5SXdtSU8zMHk4QXNWSXV0R1pOZkNJX0pOWFV6dHVZUWZn?oc=5",
-        "source": "Finance Magnates",
-        "timestamp": "Wed, 27 May 2026 20:47:59 GMT",
-        "category": "Commodities News",
-        "summary": "Gold Price Falls to $4,400 in 2nd 200 EMA Test of 2026, How Low Can Gold Go? &nbsp;&nbsp; Finance Magnates"
-      },
-      {
-        "title": "CME ends bitcoin weekend gaps with launch of 24/7 futures trading from Friday - CoinDesk",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeVVLcFI5YzI5WGdhV0VPM2ROYzRrVk5ySFVlajdYcVhQd0tKSEdtekZEV0hiTmk3V1o4ckpUTFo2X1Q0VzZzM1lrdUo5Z2w2UjlRdVI5OGF5YXFBREtjMU5yaE9Qb1M3Xy1XX1hsdGFuQS1kSVRfLVIwYTJ4MHVMNDhwaWdCOW1Td1ZETFZfajEtVGRwcTBqY3NlTlJjaF9NMGlTR1ZhNnFmbXJ3OU1LS2xiUThCcFdyYk5pREpFaUI?oc=5",
-        "source": "CoinDesk",
-        "timestamp": "Thu, 28 May 2026 10:47:51 GMT",
-        "category": "Commodities News",
-        "summary": "CME ends bitcoin weekend gaps with launch of 24/7 futures trading from Friday &nbsp;&nbsp; CoinDesk"
-      },
-      {
-        "title": "Architect Set to Launch US-Listed Compute Futures in Challenge to CME, NYSE-owner - Bloomberg",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb0NJOFozSS1IUlMyTUwzNE1XVHJVZVZlVzdseHh0UzZFOWc4WXVFUXFMZk81WnU5UXYydmphaXlSd0ZjTGU0d0F2c2JzZnhiM3l3VWE2SVh3OXJWLVNZZ2FCeWc4b0hTa1JnczNoWGpJOHh4VzZCZHk2VlR4MmlpRFQwSUltSEhuZlBJOU8yOEJHTkxSUDh4UVpoY0g1M3ZrRDJKYmx2M2NtdzFxRHRmQWJzd1ZWSmN6V0V4ZA?oc=5",
-        "source": "Bloomberg",
-        "timestamp": "Thu, 28 May 2026 12:00:00 GMT",
-        "category": "Commodities News",
-        "summary": "Architect Set to Launch US-Listed Compute Futures in Challenge to CME, NYSE-owner &nbsp;&nbsp; Bloomberg"
-      },
-      {
-        "title": "Hog market steadies with traders watching pork cutout - CME - The Pig Site",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVGZzQmM2UGx5Q25JSW94cUtQdFVoSl8wM3hSdkt6Wm5SSEZmOFpaT3pCelBOWGstZGMtdGgxckEwLWFhc2w4WGFCdnJCWlBTdU1mWHMzQjZLNXc1Zzl1OW1Ram5nNnBiMFhwVGlJSlBESHczMHVycDQxcWlZcnpudHQzMk1PR01TZkhWRXZOQVluRXFMZmIw?oc=5",
-        "source": "The Pig Site",
-        "timestamp": "Thu, 28 May 2026 10:38:00 GMT",
-        "category": "Commodities News",
-        "summary": "Hog market steadies with traders watching pork cutout - CME &nbsp;&nbsp; The Pig Site"
-      },
-      {
-        "title": "Exclusive: China works on AI token futures market, sources say, in race with US - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNU2htMEhYNVR5MlRObmtjRDFKMTJxelQxTklVT2c4YXIyUDBMY3FBcXRIT3lYX0RpX3dxTDlCcVJBNnRGb0MyN2luWF9RTldzNW1yWWNkdVhESHQ3d3Fwdzg3bzRGZ1paUG5LZ2N3NnpvemFRRFhaTXFocVBpYWM0OXRWWXhHNk9WR3haZGRmRVN1cXlzRDFrNklWQ2o5X2lvQkZmaUFFQ05nU3k2?oc=5",
-        "source": "Reuters",
-        "timestamp": "Thu, 28 May 2026 09:54:51 GMT",
-        "category": "Commodities News",
-        "summary": "Exclusive: China works on AI token futures market, sources say, in race with US &nbsp;&nbsp; Reuters"
-      },
-      {
-        "title": "CME Livestock Daily Options Report - StoneX",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNmJ4MFNfaURveU1pNGN0dVlkemVUUWtPT195WjA2eE5HdDF2UFhFYkF2bWwzbTRQeUlabnZNZzVUa0tlUjZKR2p0RUttUnRYTVh2MjZMUkZLbHcxU3J5cGF5dGZuVDRabjRvWW5SNzRydmlPOEFjaEpqa2oyTjdUSDhNSjItX3dz?oc=5",
-        "source": "StoneX",
-        "timestamp": "Wed, 27 May 2026 20:28:00 GMT",
-        "category": "Commodities News",
-        "summary": "CME Livestock Daily Options Report &nbsp;&nbsp; StoneX"
-      },
-      {
-        "title": "Gold Continues To See Consistent Exit Of Metal From Comex Vaults - Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOHFxaHFydzhjQksydGszTng2UTd6WHoyTkJiNU9mNUV2TTNRNkh5Rk9xM0dxYVlRU2V2cFI3cFZPUFl5dDRKb0JQVmY4UkhDYlI4eVVZM0pqTHE1N1g0S2lnTC1Fb1BrbjFlcmQ5VzgzdWRJeEZkTExQczFDOHhwd2wzb3FiSnJDV01aMFFMZ2ZXM1ZsSHdtYURn?oc=5",
-        "source": "Seeking Alpha",
-        "timestamp": "Thu, 28 May 2026 12:27:00 GMT",
-        "category": "Commodities News",
-        "summary": "Gold Continues To See Consistent Exit Of Metal From Comex Vaults &nbsp;&nbsp; Seeking Alpha"
-      },
-      {
-        "title": "CME Group Crypto Index Futures Debut Raises Fresh Valuation Questions - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb2tWZ0ZwMFdKdWZULWRON2VzTm9XS1p5X3RpN3lwWmNjSkFjZmozclFRNFBTWGl2T2JGUk1LanVRY29GcTk1ZjU1MGp0S1ZKSk9TWTUycERCd3MzT3BaLThKY2ZIZUlURGJEM3pONDU0dmF3d2RReEVEa2l2cUZJSVN5R0wwUWI1MzRWMS1fMEE5VDU4aXdIZWZrZw?oc=5",
-        "source": "Yahoo Finance",
-        "timestamp": "Wed, 27 May 2026 20:04:57 GMT",
-        "category": "Commodities News",
-        "summary": "CME Group Crypto Index Futures Debut Raises Fresh Valuation Questions &nbsp;&nbsp; Yahoo Finance"
-      },
-      {
-        "title": "China works on AI token futures market, sources say, in race with US - TradingView",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNR2pzdll0dV9fVldkZGlCX0lpR041dE5QVTRXY3h5Nms4bDFVSGgwczdrSzNjbU1mcGpjVWdUSC1xdGlmWnV3RGk4d01kWUhPUDBla19pSXhhN0xQclUzZjgyWmRBdVZSWVZOeHlBMXBlQlE5Y29PWEZkWGl0ZXA5by1INU16d19YbWFHMl9Dd3JLWi1xbE52bXlFSTE2dVRIekpwTktqVTFJZHpwdW9OX0hNVWtrRjhCWVVvb3JKd05NdmlJZ3VFeHNJbml0c3JfOUE?oc=5",
-        "source": "TradingView",
-        "timestamp": "Thu, 28 May 2026 09:07:16 GMT",
-        "category": "Commodities News",
-        "summary": "China works on AI token futures market, sources say, in race with US &nbsp;&nbsp; TradingView"
-      }
-    ],
-    "scraped_at": "2026-05-28T12:52:24.507Z"
+    "forex": [],
+    "commodities": [],
+    "scraped_at": "2026-05-29T03:37:20.880Z"
   },
   "global_indices": []
 }
