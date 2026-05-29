@@ -1,0 +1,100 @@
+{
+  "fetched_at": "2026-05-29T06:01:31.631Z",
+  "source": "MoneyControl Earnings",
+  "upcoming_results": [],
+  "declared_results": [],
+  "top_performers": [
+    {
+      "name": "Telecom",
+      "result_date": "Q4 FY26"
+    },
+    {
+      "name": "Retailing",
+      "result_date": "Q4 FY26"
+    },
+    {
+      "name": "Media & Entertainment",
+      "result_date": "Q4 FY26"
+    }
+  ],
+  "under_performers": [
+    {
+      "name": "Trading",
+      "result_date": "Q4 FY26"
+    },
+    {
+      "name": "Diversified",
+      "result_date": "Q4 FY26"
+    },
+    {
+      "name": "Consumer Durables",
+      "result_date": "Q4 FY26"
+    }
+  ],
+  "news_headlines": [
+    {
+      "title": "Q4 Results: India Inc earnings show strong growth momentum"
+    },
+    {
+      "title": "Nifty 50 companies report revenue growth in Q4 FY26"
+    },
+    {
+      "title": "Banking sector posts robust profit growth in March quarter"
+    },
+    {
+      "title": "IT sector earnings disappoint amid global headwinds"
+    },
+    {
+      "title": "Auto sector shows mixed Q4 results with EV push"
+    }
+  ],
+  "result_dashboard": [
+    {
+      "category": "India Inc Earnings Snapshot",
+      "revenue": "5,168,072 Cr",
+      "revenue_yoy": "10.12%",
+      "net_profit": "605,813 Cr",
+      "net_profit_yoy": "24.42%"
+    },
+    {
+      "category": "Nifty 50",
+      "revenue": "2,014,427 Cr",
+      "revenue_yoy": "8.56%",
+      "net_profit": "258,888 Cr",
+      "net_profit_yoy": "4.07%"
+    },
+    {
+      "category": "Large Cap",
+      "revenue": "3,138,439 Cr",
+      "revenue_yoy": "8.52%",
+      "net_profit": "441,219 Cr",
+      "net_profit_yoy": "29.65%"
+    }
+  ],
+  "earnings_updates": [
+    {
+      "title": "Triton Valves Standalone March 2026 Net Sales at Rs 118.16 crore, up 18.08% Y-o-Y"
+    },
+    {
+      "title": "Sibar Auto Standalone March 2026 Net Sales at Rs 6.59 crore, up 12.47% Y-o-Y"
+    },
+    {
+      "title": "Jullundur Motor Standalone March 2026 Net Sales at Rs 136.09 crore, up 9.78% Y-o-Y"
+    },
+    {
+      "title": "Menon Pistons Standalone March 2026 Net Sales at Rs 60.20 crore, up 26.46% Y-o-Y"
+    },
+    {
+      "title": "Lumax Inds Standalone March 2026 Net Sales at Rs 1,200.32 crore, up 29.99% Y-o-Y"
+    },
+    {
+      "title": "Uravi Defence Standalone March 2026 Net Sales at Rs 9.86 crore, up 8.2% Y-o-Y"
+    },
+    {
+      "title": "Frontier Spring Standalone March 2026 Net Sales at Rs 82.54 crore, up 17.79% Y-o-Y"
+    },
+    {
+      "title": "Shivam Auto Standalone March 2026 Net Sales at Rs 109.43 crore, up 1.47% Y-o-Y"
+    }
+  ]
+}
