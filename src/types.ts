@@ -308,3 +308,47 @@ export interface EarningsData {
   price_shocker: EarningsCompany[];
 }
 
+// MoneyControl World Article
+export interface MoneycontrolWorldArticle {
+  title: string;
+  url?: string;
+  summary?: string;
+  image_url?: string;
+  timestamp?: string;
+  category?: string;
+  source?: string;
+}
+
+// MoneyControl World Data
+export interface MoneycontrolWorldData {
+  fetched_at: string;
+  source: string;
+  url: string;
+  featured_articles: MoneycontrolWorldArticle[];
+  latest_news: MoneycontrolWorldArticle[];
+  market_updates: MoneycontrolWorldArticle[];
+}
+
+// MoneyControl Earnings Company (Playwright)
+export interface MoneycontrolEarningsCompany {
+  name: string;
+  symbol?: string;
+  result_date: string;
+  sector?: string;
+  ltp?: number;
+  change_pct?: number;
+  revenue?: string;
+  net_profit?: string;
+  yoy_growth?: string;
+}
+
+// MoneyControl Earnings Data (Playwright)
+export interface MoneycontrolEarningsData {
+  fetched_at: string;
+  source: string;
+  upcoming_results: MoneycontrolEarningsCompany[];
+  declared_results: MoneycontrolEarningsCompany[];
+  top_performers: MoneycontrolEarningsCompany[];
+  news_headlines: { title: string; url?: string; timestamp?: string }[];
+}
+
