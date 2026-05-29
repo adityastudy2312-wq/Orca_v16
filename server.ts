@@ -13,6 +13,8 @@ import { fetchAlphaVantageIndices } from "./server-alpha-vantage";
 import { scrapeMoneycontrolEarnings, loadCachedEarnings } from "./server-earnings-scraper";
 import { scrapeMoneycontrolEarnings as scrapeMcEarningsPlaywright, loadCachedMoneycontrolEarnings } from "./server-moneycontrol-earnings";
 import { scrapeMoneycontrolWorld, loadCachedMoneycontrolWorld } from "./server-moneycontrol-world";
+import { scrapeAllNSEData, loadCachedNSEData, fetchNSEQuote, fetchNSEIPOs, fetchNSEOptionChain, fetchNSECorporateActions } from "./server-nse";
+import { scrapeAllBSEData, loadCachedBSEData, fetchBSEQuote, fetchBSEResultCalendar, fetchBSEGainers, fetchBSELosers, fetchBSEAnnouncements } from "./server-bse";
 
 const app = express();
 const PORT = 3000;
@@ -797,6 +799,136 @@ app.post("/api/moneycontrol-world/scrape", async (req, res) => {
   } catch (err: any) {
     console.error("MoneyControl World scraping failed:", err);
     res.status(500).json({ error: err.message || "Failed to scrape MoneyControl World" });
+  }
+});
+
+// ========== NSE API ENDPOINTS ==========
+
+const PATH_NSE_DATA = path.join(DATA_DIR, "data-nse.json");
+const PATH_BSE_DATA = path.join(DATA_DIR, "data-bse.json");
+
+app.get("/api/nse", (req, res) => {
+  const cached = loadCachedNSEData();
+  if (cached) {
+    res.json(cached);
+  } else {
+    res.json({
+      fetched_at: new Date().toISOString(),
+      source: "NSE India",
+      market_status: null,
+      top_gainers: [],
+      top_losers: [],
+      ipos: [],
+      announcements: []
+    });
+  }
+});
+
+app.post("/api/nse/scrape", async (req, res) => {
+  try {
+    console.log("[Server] Starting NSE data fetch...");
+    const data = await scrapeAllNSEData();
+    saveDB(PATH_NSE_DATA, data);
+    res.json({ success: true, data });
+  } catch (err: any) {
+    console.error("NSE fetch failed:", err);
+    res.status(500).json({ error: err.message || "Failed to fetch NSE data" });
+  }
+});
+
+app.get("/api/nse/quote/:symbol", async (req, res) => {
+  try {
+    const symbol = req.params.symbol;
+    const quote = await fetchNSEQuote(symbol);
+    if (quote) {
+      res.json(quote);
+    } else {
+      res.status(404).json({ error: "Quote not found" });
+    }
+  } catch (err: any) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.get("/api/nse/option-chain/:symbol", async (req, res) => {
+  try {
+    const symbol = req.params.symbol || "NIFTY";
+    const chain = await fetchNSEOptionChain(symbol);
+    res.json({ symbol, data: chain });
+  } catch (err: any) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// ========== BSE API ENDPOINTS ==========
+
+app.get("/api/bse", (req, res) => {
+  const cached = loadCachedBSEData();
+  if (cached) {
+    res.json(cached);
+  } else {
+    res.json({
+      fetched_at: new Date().toISOString(),
+      source: "BSE India",
+      top_gainers: [],
+      top_losers: [],
+      result_calendar: [],
+      corporate_actions: [],
+      announcements: []
+    });
+  }
+});
+
+app.post("/api/bse/scrape", async (req, res) => {
+  try {
+    console.log("[Server] Starting BSE data fetch...");
+    const data = await scrapeAllBSEData();
+    saveDB(PATH_BSE_DATA, data);
+    res.json({ success: true, data });
+  } catch (err: any) {
+    console.error("BSE fetch failed:", err);
+    res.status(500).json({ error: err.message || "Failed to fetch BSE data" });
+  }
+});
+
+app.get("/api/bse/quote/:scripCode", async (req, res) => {
+  try {
+    const scripCode = req.params.scripCode;
+    const quote = await fetchBSEQuote(scripCode);
+    if (quote) {
+      res.json(quote);
+    } else {
+      res.status(404).json({ error: "Quote not found" });
+    }
+  } catch (err: any) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.get("/api/bse/result-calendar", async (req, res) => {
+  try {
+    const calendar = await fetchBSEResultCalendar();
+    res.json(calendar);
+  } catch (err: any) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.get("/api/bse/gainers", async (req, res) => {
+  try {
+    const gainers = await fetchBSEGainers();
+    res.json(gainers);
+  } catch (err: any) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.get("/api/bse/losers", async (req, res) => {
+  try {
+    const losers = await fetchBSELosers();
+    res.json(losers);
+  } catch (err: any) {
+    res.status(500).json({ error: err.message });
   }
 });
 

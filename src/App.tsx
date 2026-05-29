@@ -59,16 +59,23 @@ export default function App() {
   const [earningsData, setEarningsData] = useState<any>(null);
   const [isScrapingEarnings, setIsScrapingEarnings] = useState<boolean>(false);
   const [earningsSearchQuery, setEarningsSearchQuery] = useState<string>("");
-  const [earningsSubTab, setEarningsSubTab] = useState<"updates" | "calendar" | "sectors" | "snapshots" | "mc-playwright">("updates");
 
   // MoneyControl World News States
   const [mcWorldData, setMcWorldData] = useState<any>(null);
   const [isScrapingMcWorld, setIsScrapingMcWorld] = useState<boolean>(false);
   const [mcWorldSearchQuery, setMcWorldSearchQuery] = useState<string>("");
 
-  // MoneyControl Earnings (Playwright) States
-  const [mcEarningsData, setMcEarningsData] = useState<any>(null);
-  const [isScrapingMcEarnings, setIsScrapingMcEarnings] = useState<boolean>(false);
+  // NSE Data States
+  const [nseData, setNseData] = useState<any>(null);
+  const [isFetchingNSE, setIsFetchingNSE] = useState<boolean>(false);
+  const [nseQuoteSymbol, setNseQuoteSymbol] = useState<string>("RELIANCE");
+  const [nseQuote, setNseQuote] = useState<any>(null);
+
+  // BSE Data States
+  const [bseData, setBseData] = useState<any>(null);
+  const [isFetchingBSE, setIsFetchingBSE] = useState<boolean>(false);
+  const [bseQuoteCode, setBseQuoteCode] = useState<string>("500325");
+  const [bseQuote, setBseQuote] = useState<any>(null);
 
   // Conflict Tracker & GNews States
   const [conflictApiKey, setConflictApiKey] = useState<string>(() => {
@@ -132,7 +139,8 @@ export default function App() {
     fetchNse500();
     fetchEarnings();
     fetchMcWorld();
-    fetchMcEarnings();
+    fetchNSEData();
+    fetchBSEData();
   }, []);
 
   // Timer tracking
@@ -489,36 +497,95 @@ export default function App() {
     }
   };
 
-  // MoneyControl Earnings (Playwright) API Functions
-  const fetchMcEarnings = async () => {
+  // NSE Data API Functions
+  const fetchNSEData = async () => {
     try {
-      const res = await fetch("/api/moneycontrol-earnings");
+      const res = await fetch("/api/nse");
       if (res.ok) {
         const data = await res.json();
-        setMcEarningsData(data);
+        setNseData(data);
       }
     } catch (err) {
-      console.error("Failed to fetch MoneyControl Earnings data:", err);
+      console.error("Failed to fetch NSE data:", err);
     }
   };
 
-  const handleScrapeMcEarnings = async () => {
-    setIsScrapingMcEarnings(true);
-    showToast("Scraping MoneyControl Earnings (Playwright)...", "info");
+  const handleFetchNSEData = async () => {
+    setIsFetchingNSE(true);
+    showToast("Fetching NSE India data...", "info");
     try {
-      const res = await fetch("/api/moneycontrol-earnings/scrape", { method: "POST" });
+      const res = await fetch("/api/nse/scrape", { method: "POST" });
       if (res.ok) {
         const data = await res.json();
-        setMcEarningsData(data.data);
-        showToast("MoneyControl Earnings scraped successfully!", "success");
+        setNseData(data.data);
+        showToast("NSE data fetched successfully!", "success");
       } else {
-        showToast("Failed to scrape MoneyControl Earnings.", "error");
+        showToast("Failed to fetch NSE data.", "error");
       }
     } catch (err) {
       console.error(err);
-      showToast("Network failure during MoneyControl Earnings scrape.", "error");
+      showToast("Network error fetching NSE data.", "error");
     } finally {
-      setIsScrapingMcEarnings(false);
+      setIsFetchingNSE(false);
+    }
+  };
+
+  const fetchNSEQuoteData = async (symbol: string) => {
+    if (!symbol) return;
+    try {
+      const res = await fetch(`/api/nse/quote/${symbol}`);
+      if (res.ok) {
+        const data = await res.json();
+        setNseQuote(data);
+      }
+    } catch (err) {
+      console.error("Failed to fetch NSE quote:", err);
+    }
+  };
+
+  // BSE Data API Functions
+  const fetchBSEData = async () => {
+    try {
+      const res = await fetch("/api/bse");
+      if (res.ok) {
+        const data = await res.json();
+        setBseData(data);
+      }
+    } catch (err) {
+      console.error("Failed to fetch BSE data:", err);
+    }
+  };
+
+  const handleFetchBSEData = async () => {
+    setIsFetchingBSE(true);
+    showToast("Fetching BSE India data...", "info");
+    try {
+      const res = await fetch("/api/bse/scrape", { method: "POST" });
+      if (res.ok) {
+        const data = await res.json();
+        setBseData(data.data);
+        showToast("BSE data fetched successfully!", "success");
+      } else {
+        showToast("Failed to fetch BSE data.", "error");
+      }
+    } catch (err) {
+      console.error(err);
+      showToast("Network error fetching BSE data.", "error");
+    } finally {
+      setIsFetchingBSE(false);
+    }
+  };
+
+  const fetchBSEQuoteData = async (scripCode: string) => {
+    if (!scripCode) return;
+    try {
+      const res = await fetch(`/api/bse/quote/${scripCode}`);
+      if (res.ok) {
+        const data = await res.json();
+        setBseQuote(data);
+      }
+    } catch (err) {
+      console.error("Failed to fetch BSE quote:", err);
     }
   };
 
@@ -4071,514 +4138,314 @@ export default function App() {
             })()}
 
             {/* EARNINGS CALENDAR TAB */}
-            {activeTab === "earnings" && (() => {
-              const filteredUpdates = earningsData?.earnings_updates?.filter((u: any) =>
-                earningsSearchQuery
-                  ? u.company?.toLowerCase().includes(earningsSearchQuery.toLowerCase()) ||
-                    u.period?.toLowerCase().includes(earningsSearchQuery.toLowerCase())
-                  : true
-              ) || [];
-
-              const filteredCalendar = earningsData?.result_calendar?.filter((c: any) =>
-                earningsSearchQuery
-                  ? c.name?.toLowerCase().includes(earningsSearchQuery.toLowerCase()) ||
-                    c.result_date?.toLowerCase().includes(earningsSearchQuery.toLowerCase())
-                  : true
-              ) || [];
-
-              const topPerformers = earningsData?.sector_performers?.filter((s: any) => s.type === "top_performer") || [];
-              const underPerformers = earningsData?.sector_performers?.filter((s: any) => s.type === "under_performer") || [];
-
-              return (
-                <div className="flex flex-col h-full space-y-6 animate-in fade-in duration-300">
-                  {/* HEADER */}
-                  <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-                    <div>
-                      <div className="flex items-center gap-3">
-                        <Calendar className="w-6 h-6 text-emerald-400" />
-                        <div>
-                          <h2 className="text-xl font-extrabold text-white uppercase tracking-tight font-mono">Earnings Calendar</h2>
-                          <p className="text-xs text-neutral-400 font-mono mt-0.5">India Inc quarterly results from Moneycontrol</p>
-                        </div>
+            {activeTab === "earnings" && (
+              <div className="flex flex-col h-full space-y-6 animate-in fade-in duration-300">
+                {/* HEADER */}
+                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                  <div>
+                    <div className="flex items-center gap-3">
+                      <Calendar className="w-6 h-6 text-emerald-400" />
+                      <div>
+                        <h2 className="text-xl font-extrabold text-white uppercase tracking-tight font-mono">Earnings Calendar</h2>
+                        <p className="text-xs text-neutral-400 font-mono mt-0.5">India Inc quarterly results</p>
                       </div>
                     </div>
+                  </div>
 
-                    <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-3">
+                    <button
+                      onClick={handleScrapeEarnings}
+                      disabled={isScrapingEarnings}
+                      className="flex items-center gap-2 px-4 py-2 bg-emerald-400/20 hover:bg-emerald-400 hover:text-black border border-emerald-400/30 text-emerald-400 font-semibold text-[10px] font-mono tracking-widest rounded-lg transition-all disabled:opacity-50"
+                    >
+                      {isScrapingEarnings ? (
+                        <>
+                          <div className="w-3 h-3 border-2 border-emerald-400 border-t-transparent rounded-full animate-spin"></div>
+                          LOADING...
+                        </>
+                      ) : (
+                        <>
+                          <RotateCw className="w-3.5 h-3.5" />
+                          REFRESH
+                        </>
+                      )}
+                    </button>
+
+                    {earningsData?.fetched_at && (
+                      <span className="text-[9px] font-mono text-neutral-500">
+                        Last: {new Date(earningsData.fetched_at).toLocaleTimeString()}
+                      </span>
+                    )}
+                  </div>
+                </div>
+
+                {/* SEARCH */}
+                <div className="relative">
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-500" />
+                  <input
+                    type="text"
+                    value={earningsSearchQuery}
+                    onChange={(e) => setEarningsSearchQuery(e.target.value)}
+                    placeholder="Search companies..."
+                    className="w-full pl-10 pr-4 py-2 bg-black/40 border border-white/10 rounded-xl text-sm font-mono text-white placeholder:text-neutral-500 focus:outline-none focus:border-emerald-400/50"
+                  />
+                </div>
+
+                {/* RESULT CALENDAR TABLE */}
+                <div className="bg-black/20 border border-white/5 rounded-xl p-4">
+                  <h3 className="font-mono text-sm font-bold text-emerald-400 uppercase tracking-wider mb-4">
+                    Result Calendar
+                  </h3>
+
+                  {earningsData?.result_calendar?.length === 0 ? (
+                    <div className="py-12 text-center text-neutral-500 border border-dashed border-white/5 bg-white/[0.01] rounded-xl">
+                      <Calendar className="w-8 h-8 mx-auto mb-3 text-neutral-600" />
+                      <p className="text-sm font-mono">No result calendar data available.</p>
                       <button
                         onClick={handleScrapeEarnings}
-                        disabled={isScrapingEarnings}
-                        className="flex items-center gap-2 px-4 py-2 bg-emerald-400/20 hover:bg-emerald-400 hover:text-black border border-emerald-400/30 text-emerald-400 font-semibold text-[10px] font-mono tracking-widest rounded-lg transition-all disabled:opacity-50"
+                        className="mt-4 px-4 py-2 bg-emerald-400/20 hover:bg-emerald-400 hover:text-black text-emerald-400 text-xs font-mono rounded-lg transition-all"
                       >
-                        {isScrapingEarnings ? (
-                          <>
-                            <div className="w-3 h-3 border-2 border-emerald-400 border-t-transparent rounded-full animate-spin"></div>
-                            SCRAPING...
-                          </>
-                        ) : (
-                          <>
-                            <RotateCw className="w-3.5 h-3.5" />
-                            REFRESH_DATA
-                          </>
-                        )}
+                        Fetch Data
                       </button>
-
-                      {earningsData?.fetched_at && (
-                        <span className="text-[9px] font-mono text-neutral-500">
-                          Last: {new Date(earningsData.fetched_at).toLocaleTimeString()}
-                        </span>
-                      )}
                     </div>
-                  </div>
-
-                  {/* SUB TABS */}
-                  <div className="flex gap-2 border-b border-white/5 pb-3 overflow-x-auto">
-                    {[
-                      { id: "updates", label: "Earnings Updates", count: earningsData?.earnings_updates?.length || 0 },
-                      { id: "calendar", label: "Result Calendar", count: earningsData?.result_calendar?.length || 0 },
-                      { id: "sectors", label: "Sector Performance", count: earningsData?.sector_performers?.length || 0 },
-                      { id: "snapshots", label: "Market Snapshots", count: earningsData?.market_snapshots?.length || 0 },
-                      { id: "mc-playwright", label: "MC Playwright", count: (mcEarningsData?.upcoming_results?.length || 0) + (mcEarningsData?.news_headlines?.length || 0) }
-                    ].map(tab => (
-                      <button
-                        key={tab.id}
-                        onClick={() => setEarningsSubTab(tab.id as any)}
-                        className={`flex items-center gap-2 px-3 py-2 font-mono text-xs rounded-lg transition-all ${
-                          earningsSubTab === tab.id
-                            ? "bg-emerald-400/20 text-emerald-400 border border-emerald-400/30"
-                            : "text-neutral-400 hover:text-white hover:bg-white/5"
-                        }`}
-                      >
-                        {tab.label}
-                        {tab.count > 0 && (
-                          <span className="px-1.5 py-0.5 text-[9px] bg-white/10 rounded">
-                            {tab.count}
-                          </span>
-                        )}
-                      </button>
-                    ))}
-                  </div>
-
-                  {/* SEARCH */}
-                  <div className="relative">
-                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-500" />
-                    <input
-                      type="text"
-                      value={earningsSearchQuery}
-                      onChange={(e) => setEarningsSearchQuery(e.target.value)}
-                      placeholder="Search companies, periods..."
-                      className="w-full pl-10 pr-4 py-2.5 bg-black/40 border border-white/10 rounded-xl text-sm font-mono text-white placeholder:text-neutral-500 focus:outline-none focus:border-emerald-400/50"
-                    />
-                  </div>
-
-                  {/* EARNINGS UPDATES TAB */}
-                  {earningsSubTab === "updates" && (
-                    <div className="space-y-4">
-                      <div className="flex items-center justify-between">
-                        <h3 className="font-mono text-sm font-bold text-emerald-400 uppercase tracking-wider">
-                          Latest Earnings Updates
-                        </h3>
-                        <span className="text-[9px] font-mono text-neutral-500">{filteredUpdates.length} results</span>
-                      </div>
-
-                      {filteredUpdates.length === 0 ? (
-                        <div className="py-12 text-center text-neutral-500 border border-dashed border-white/5 bg-white/[0.01] rounded-xl">
-                          <Newspaper className="w-8 h-8 mx-auto mb-3 text-neutral-600" />
-                          <p className="text-sm font-mono">No earnings updates found.</p>
-                          <button
-                            onClick={handleScrapeEarnings}
-                            className="mt-4 px-4 py-2 bg-emerald-400/20 hover:bg-emerald-400 hover:text-black text-emerald-400 text-xs font-mono rounded-lg transition-all"
-                          >
-                            Fetch Live Data
-                          </button>
-                        </div>
-                      ) : (
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-h-[600px] overflow-y-auto pr-1">
-                          {filteredUpdates.map((update: any, idx: number) => (
-                            <div
-                              key={`earning-update-${idx}`}
-                              className="bg-black/40 border border-white/5 hover:border-emerald-400/20 rounded-xl p-4 transition-all duration-200"
-                            >
-                              <div className="flex justify-between items-start mb-2">
-                                <h4 className="font-mono text-sm font-bold text-white">{update.company}</h4>
-                                <span className="text-[9px] font-mono text-neutral-500">{update.period}</span>
-                              </div>
-                              <div className="space-y-1">
-                                <div className="flex justify-between text-xs font-mono">
-                                  <span className="text-neutral-400">Net Sales:</span>
-                                  <span className="text-white">Rs {update.net_sales} Cr</span>
-                                </div>
-                                <div className="flex justify-between text-xs font-mono">
-                                  <span className="text-neutral-400">YoY Growth:</span>
-                                  <span className={`font-bold ${parseFloat(update.yoy_growth) >= 0 ? "text-emerald-400" : "text-rose-400"}`}>
-                                    {update.yoy_growth}
-                                  </span>
-                                </div>
-                              </div>
-                            </div>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  )}
-
-                  {/* RESULT CALENDAR TAB */}
-                  {earningsSubTab === "calendar" && (
-                    <div className="space-y-4">
-                      {filteredCalendar.length === 0 ? (
-                        <div className="py-12 text-center text-neutral-500 border border-dashed border-white/5 bg-white/[0.01] rounded-xl">
-                          <Calendar className="w-8 h-8 mx-auto mb-3 text-neutral-600" />
-                          <p className="text-sm font-mono">No result calendar data available.</p>
-                        </div>
-                      ) : (
-                        <div className="overflow-x-auto">
-                          <table className="w-full text-xs font-mono">
-                            <thead>
-                              <tr className="border-b border-white/10 text-left">
-                                <th className="py-3 px-4 text-neutral-400 font-bold">Company</th>
-                                <th className="py-3 px-4 text-neutral-400 font-bold">Result Date</th>
-                                <th className="py-3 px-4 text-neutral-400 font-bold">Sector</th>
-                                <th className="py-3 px-4 text-neutral-400 font-bold">LTP</th>
-                                <th className="py-3 px-4 text-neutral-400 font-bold">Change</th>
+                  ) : (
+                    <div className="overflow-x-auto max-h-[500px]">
+                      <table className="w-full text-xs font-mono">
+                        <thead className="sticky top-0 bg-neutral-900">
+                          <tr className="border-b border-white/10 text-left">
+                            <th className="py-3 px-4 text-neutral-400 font-bold">Company</th>
+                            <th className="py-3 px-4 text-neutral-400 font-bold">Result Date</th>
+                            <th className="py-3 px-4 text-neutral-400 font-bold">Sector</th>
+                            <th className="py-3 px-4 text-neutral-400 font-bold">LTP</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {(earningsData?.result_calendar || [])
+                            .filter((company: any) =>
+                              earningsSearchQuery
+                                ? company.name?.toLowerCase().includes(earningsSearchQuery.toLowerCase())
+                                : true
+                            )
+                            .map((company: any, idx: number) => (
+                              <tr key={`cal-${idx}`} className="border-b border-white/5 hover:bg-white/[0.02] transition-colors">
+                                <td className="py-3 px-4 text-white font-medium">{company.name}</td>
+                                <td className="py-3 px-4 text-neutral-300">{company.result_date || "-"}</td>
+                                <td className="py-3 px-4 text-neutral-400">{company.sector || "-"}</td>
+                                <td className="py-3 px-4 text-white">{company.ltp ? `Rs ${company.ltp}` : "-"}</td>
                               </tr>
-                            </thead>
-                            <tbody>
-                              {filteredCalendar.map((company: any, idx: number) => (
-                                <tr key={`cal-${idx}`} className="border-b border-white/5 hover:bg-white/[0.02] transition-colors">
-                                  <td className="py-3 px-4 text-white font-medium">{company.name}</td>
-                                  <td className="py-3 px-4 text-neutral-300">{company.result_date || "-"}</td>
-                                  <td className="py-3 px-4 text-neutral-400">{company.sector || "-"}</td>
-                                  <td className="py-3 px-4 text-white">{company.ltp ? `Rs ${company.ltp}` : "-"}</td>
-                                  <td className={`py-3 px-4 font-bold ${company.change_pct >= 0 ? "text-emerald-400" : "text-rose-400"}`}>
-                                    {company.change_pct ? `${company.change_pct >= 0 ? "+" : ""}${company.change_pct}%` : "-"}
-                                  </td>
-                                </tr>
-                              ))}
-                            </tbody>
-                          </table>
-                        </div>
-                      )}
-                    </div>
-                  )}
-
-                  {/* SECTOR PERFORMANCE TAB */}
-                  {earningsSubTab === "sectors" && (
-                    <div className="space-y-6">
-                      <div>
-                        <h3 className="font-mono text-sm font-bold text-emerald-400 uppercase tracking-wider mb-4 flex items-center gap-2">
-                          <TrendingUp className="w-4 h-4" />
-                          Top Performing Sectors
-                        </h3>
-                        {topPerformers.length === 0 ? (
-                          <div className="py-6 text-center text-neutral-500 border border-dashed border-white/5 rounded-xl">
-                            <p className="text-sm font-mono">No sector data available</p>
-                          </div>
-                        ) : (
-                          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                            {topPerformers.map((sector: any, idx: number) => (
-                              <div key={`top-${idx}`} className="bg-black/40 border border-emerald-400/20 rounded-xl p-4">
-                                <h4 className="font-mono text-sm font-bold text-white mb-2">{sector.sector}</h4>
-                                <div className="text-[9px] text-neutral-500 mb-3">MCap: Rs {sector.market_cap_cr?.toLocaleString()} Cr</div>
-                                <div className="space-y-2 text-xs font-mono">
-                                  <div className="flex justify-between">
-                                    <span className="text-neutral-400">Revenue YoY</span>
-                                    <span className={sector.revenue_yoy >= 0 ? "text-emerald-400" : "text-rose-400"}>
-                                      {sector.revenue_yoy >= 0 ? "+" : ""}{sector.revenue_yoy?.toFixed(2)}%
-                                    </span>
-                                  </div>
-                                  <div className="flex justify-between">
-                                    <span className="text-neutral-400">Net Profit YoY</span>
-                                    <span className={sector.net_profit_yoy >= 0 ? "text-emerald-400" : "text-rose-400"}>
-                                      {sector.net_profit_yoy >= 0 ? "+" : ""}{sector.net_profit_yoy?.toFixed(2)}%
-                                    </span>
-                                  </div>
-                                </div>
-                              </div>
                             ))}
-                          </div>
-                        )}
-                      </div>
-
-                      <div>
-                        <h3 className="font-mono text-sm font-bold text-rose-400 uppercase tracking-wider mb-4 flex items-center gap-2">
-                          <TrendingDown className="w-4 h-4" />
-                          Under Performing Sectors
-                        </h3>
-                        {underPerformers.length === 0 ? (
-                          <div className="py-6 text-center text-neutral-500 border border-dashed border-white/5 rounded-xl">
-                            <p className="text-sm font-mono">No sector data available</p>
-                          </div>
-                        ) : (
-                          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                            {underPerformers.map((sector: any, idx: number) => (
-                              <div key={`under-${idx}`} className="bg-black/40 border border-rose-400/20 rounded-xl p-4">
-                                <h4 className="font-mono text-sm font-bold text-white mb-2">{sector.sector}</h4>
-                                <div className="text-[9px] text-neutral-500 mb-3">MCap: Rs {sector.market_cap_cr?.toLocaleString()} Cr</div>
-                                <div className="space-y-2 text-xs font-mono">
-                                  <div className="flex justify-between">
-                                    <span className="text-neutral-400">Revenue YoY</span>
-                                    <span className={sector.revenue_yoy >= 0 ? "text-emerald-400" : "text-rose-400"}>
-                                      {sector.revenue_yoy >= 0 ? "+" : ""}{sector.revenue_yoy?.toFixed(2)}%
-                                    </span>
-                                  </div>
-                                  <div className="flex justify-between">
-                                    <span className="text-neutral-400">Net Profit YoY</span>
-                                    <span className={sector.net_profit_yoy >= 0 ? "text-emerald-400" : "text-rose-400"}>
-                                      {sector.net_profit_yoy >= 0 ? "+" : ""}{sector.net_profit_yoy?.toFixed(2)}%
-                                    </span>
-                                  </div>
-                                </div>
-                              </div>
-                            ))}
-                          </div>
-                        )}
-                      </div>
-                    </div>
-                  )}
-
-                  {/* MARKET SNAPSHOTS TAB */}
-                  {earningsSubTab === "snapshots" && (
-                    <div className="space-y-4">
-                      {earningsData?.market_snapshots?.length === 0 ? (
-                        <div className="py-12 text-center text-neutral-500 border border-dashed border-white/5 bg-white/[0.01] rounded-xl">
-                          <Activity className="w-8 h-8 mx-auto mb-3 text-neutral-600" />
-                          <p className="text-sm font-mono">No market snapshot data available.</p>
-                        </div>
-                      ) : (
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                          {earningsData?.market_snapshots?.map((snapshot: any, idx: number) => (
-                            <div key={`snapshot-${idx}`} className="bg-black/40 border border-cyan-400/20 rounded-xl p-5">
-                              <h4 className="font-mono text-sm font-bold text-cyan-400 mb-4 uppercase">{snapshot.category}</h4>
-                              <div className="space-y-3 text-xs font-mono">
-                                {snapshot.revenue && (
-                                  <div className="flex justify-between">
-                                    <span className="text-neutral-400">Revenue</span>
-                                    <div className="text-right">
-                                      <span className="text-white">{snapshot.revenue?.toLocaleString()}</span>
-                                      <span className={`ml-2 ${snapshot.revenue_yoy >= 0 ? "text-emerald-400" : "text-rose-400"}`}>
-                                        ({snapshot.revenue_yoy >= 0 ? "+" : ""}{snapshot.revenue_yoy?.toFixed(2)}%)
-                                      </span>
-                                    </div>
-                                  </div>
-                                )}
-                                {snapshot.gross_profit && (
-                                  <div className="flex justify-between">
-                                    <span className="text-neutral-400">Gross Profit</span>
-                                    <div className="text-right">
-                                      <span className="text-white">{snapshot.gross_profit?.toLocaleString()}</span>
-                                      <span className={`ml-2 ${snapshot.gross_profit_yoy >= 0 ? "text-emerald-400" : "text-rose-400"}`}>
-                                        ({snapshot.gross_profit_yoy >= 0 ? "+" : ""}{snapshot.gross_profit_yoy?.toFixed(2)}%)
-                                      </span>
-                                    </div>
-                                  </div>
-                                )}
-                                {snapshot.net_profit && (
-                                  <div className="flex justify-between">
-                                    <span className="text-neutral-400">Net Profit</span>
-                                    <div className="text-right">
-                                      <span className="text-white">{snapshot.net_profit?.toLocaleString()}</span>
-                                      <span className={`ml-2 ${snapshot.net_profit_yoy >= 0 ? "text-emerald-400" : "text-rose-400"}`}>
-                                        ({snapshot.net_profit_yoy >= 0 ? "+" : ""}{snapshot.net_profit_yoy?.toFixed(2)}%)
-                                      </span>
-                                    </div>
-                                  </div>
-                                )}
-                              </div>
-                            </div>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  )}
-
-                  {/* MONEYCONTROL PLAYWRIGHT EARNINGS TAB */}
-                  {earningsSubTab === "mc-playwright" && (
-                    <div className="space-y-6">
-                      <div className="flex items-center justify-between">
-                        <div>
-                          <h3 className="font-mono text-sm font-bold text-amber-400 uppercase tracking-wider flex items-center gap-2">
-                            <Zap className="w-4 h-4" />
-                            MoneyControl Earnings (Playwright)
-                          </h3>
-                          <p className="text-[9px] text-neutral-500 font-mono mt-1">
-                            Full JavaScript-rendered data from MoneyControl Markets/Earnings page
-                          </p>
-                        </div>
-                        <div className="flex items-center gap-3">
-                          <button
-                            onClick={handleScrapeMcEarnings}
-                            disabled={isScrapingMcEarnings}
-                            className="flex items-center gap-2 px-4 py-2 bg-amber-400/20 hover:bg-amber-400 hover:text-black border border-amber-400/30 text-amber-400 font-semibold text-[10px] font-mono tracking-widest rounded-lg transition-all disabled:opacity-50"
-                          >
-                            {isScrapingMcEarnings ? (
-                              <>
-                                <div className="w-3 h-3 border-2 border-amber-400 border-t-transparent rounded-full animate-spin"></div>
-                                LOADING...
-                              </>
-                            ) : (
-                              <>
-                                <RotateCw className="w-3.5 h-3.5" />
-                                SCRAPE LIVE
-                              </>
-                            )}
-                          </button>
-                          {mcEarningsData?.fetched_at && (
-                            <span className="text-[9px] font-mono text-neutral-500">
-                              Last: {new Date(mcEarningsData.fetched_at).toLocaleTimeString()}
-                            </span>
-                          )}
-                        </div>
-                      </div>
-
-                      {/* Upcoming Results */}
-                      {mcEarningsData?.upcoming_results?.length > 0 && (
-                        <div>
-                          <h4 className="font-mono text-xs uppercase font-bold text-emerald-400 tracking-wider mb-3 flex items-center gap-2">
-                            <Calendar className="w-3.5 h-3.5" />
-                            Upcoming Results ({mcEarningsData.upcoming_results.length})
-                          </h4>
-                          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 max-h-[400px] overflow-y-auto pr-1">
-                            {mcEarningsData.upcoming_results.map((item: any, idx: number) => (
-                              <div key={`mc-earn-up-${idx}`} className="bg-black/40 border border-emerald-400/20 hover:border-emerald-400/40 rounded-xl p-3 transition-all">
-                                <div className="flex justify-between items-start mb-2">
-                                  <h5 className="text-xs font-bold text-white line-clamp-1">{item.name}</h5>
-                                  {item.sector && (
-                                    <span className="text-[8px] px-1.5 py-0.5 bg-black/40 rounded text-neutral-400 font-mono uppercase">
-                                      {item.sector}
-                                    </span>
-                                  )}
-                                </div>
-                                <div className="space-y-1">
-                                  <div className="flex justify-between text-[10px] font-mono">
-                                    <span className="text-neutral-400">Result Date</span>
-                                    <span className="text-emerald-400 font-bold">{item.result_date}</span>
-                                  </div>
-                                  {item.ltp && (
-                                    <div className="flex justify-between text-[10px] font-mono">
-                                      <span className="text-neutral-400">LTP</span>
-                                      <span className="text-white">₹{item.ltp}</span>
-                                    </div>
-                                  )}
-                                </div>
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-                      )}
-
-                      {/* Declared Results */}
-                      {mcEarningsData?.declared_results?.length > 0 && (
-                        <div>
-                          <h4 className="font-mono text-xs uppercase font-bold text-cyan-400 tracking-wider mb-3 flex items-center gap-2">
-                            <CheckSquare className="w-3.5 h-3.5" />
-                            Declared Results ({mcEarningsData.declared_results.length})
-                          </h4>
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-h-[400px] overflow-y-auto pr-1">
-                            {mcEarningsData.declared_results.map((item: any, idx: number) => (
-                              <div key={`mc-earn-dec-${idx}`} className="bg-black/40 border border-cyan-400/20 hover:border-cyan-400/40 rounded-xl p-3 transition-all">
-                                <h5 className="text-xs font-bold text-white mb-2 line-clamp-1">{item.name}</h5>
-                                <div className="space-y-1">
-                                  {item.result_date && (
-                                    <div className="flex justify-between text-[10px] font-mono">
-                                      <span className="text-neutral-400">Period</span>
-                                      <span className="text-cyan-400 font-bold">{item.result_date}</span>
-                                    </div>
-                                  )}
-                                  {item.revenue && (
-                                    <div className="flex justify-between text-[10px] font-mono">
-                                      <span className="text-neutral-400">Revenue</span>
-                                      <span className="text-white">{item.revenue}</span>
-                                    </div>
-                                  )}
-                                  {item.net_profit && (
-                                    <div className="flex justify-between text-[10px] font-mono">
-                                      <span className="text-neutral-400">Net Profit</span>
-                                      <span className="text-white">{item.net_profit}</span>
-                                    </div>
-                                  )}
-                                </div>
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-                      )}
-
-                      {/* Top Performers */}
-                      {mcEarningsData?.top_performers?.length > 0 && (
-                        <div>
-                          <h4 className="font-mono text-xs uppercase font-bold text-amber-400 tracking-wider mb-3 flex items-center gap-2">
-                            <TrendingUp className="w-3.5 h-3.5" />
-                            Top Performers ({mcEarningsData.top_performers.length})
-                          </h4>
-                          <div className="space-y-2 max-h-[300px] overflow-y-auto pr-1">
-                            {mcEarningsData.top_performers.map((item: any, idx: number) => (
-                              <div key={`mc-earn-perf-${idx}`} className="bg-black/40 border border-amber-400/20 hover:border-amber-400/40 rounded-xl p-3 transition-all flex justify-between items-center">
-                                <span className="text-xs font-bold text-white">{item.name}</span>
-                                <div className="flex items-center gap-3">
-                                  {item.ltp && (
-                                    <span className="text-xs font-mono text-white">₹{item.ltp}</span>
-                                  )}
-                                  {item.change_pct !== undefined && (
-                                    <span className={`text-xs font-bold font-mono px-2 py-1 rounded ${item.change_pct >= 0 ? "bg-emerald-950/50 text-emerald-400" : "bg-rose-950/50 text-rose-400"}`}>
-                                      {item.change_pct >= 0 ? "+" : ""}{item.change_pct.toFixed(2)}%
-                                    </span>
-                                  )}
-                                </div>
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-                      )}
-
-                      {/* News Headlines */}
-                      {mcEarningsData?.news_headlines?.length > 0 && (
-                        <div>
-                          <h4 className="font-mono text-xs uppercase font-bold text-purple-400 tracking-wider mb-3 flex items-center gap-2">
-                            <Newspaper className="w-3.5 h-3.5" />
-                            Earnings News Headlines ({mcEarningsData.news_headlines.length})
-                          </h4>
-                          <div className="space-y-2 max-h-[500px] overflow-y-auto pr-1">
-                            {mcEarningsData.news_headlines.map((item: any, idx: number) => (
-                              <div key={`mc-earn-news-${idx}`} className="group bg-black/40 border border-purple-400/10 hover:border-purple-400/30 rounded-xl p-3 transition-all">
-                                <h5 className="text-xs font-bold text-white leading-snug group-hover:text-purple-400 transition-colors">
-                                  {item.url ? (
-                                    <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:underline inline-flex items-start gap-1">
-                                      {item.title}
-                                      <ExternalLink className="w-2.5 h-2.5 mt-0.5 opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" />
-                                    </a>
-                                  ) : (
-                                    item.title
-                                  )}
-                                </h5>
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-                      )}
-
-                      {/* Empty State */}
-                      {!mcEarningsData || (
-                        !mcEarningsData.upcoming_results?.length &&
-                        !mcEarningsData.declared_results?.length &&
-                        !mcEarningsData.top_performers?.length &&
-                        !mcEarningsData.news_headlines?.length
-                      ) ? (
-                        <div className="py-12 text-center text-neutral-500 border border-dashed border-white/5 bg-white/[0.01] rounded-xl">
-                          <Calendar className="w-8 h-8 mx-auto mb-3 text-neutral-600" />
-                          <p className="text-sm font-mono mb-4">No MoneyControl Playwright earnings data available.</p>
-                          <button
-                            onClick={handleScrapeMcEarnings}
-                            disabled={isScrapingMcEarnings}
-                            className="px-6 py-2.5 bg-amber-400/20 hover:bg-amber-400 hover:text-black border border-amber-400/30 text-amber-400 text-xs font-mono font-semibold rounded-lg transition-all disabled:opacity-50"
-                          >
-                            {isScrapingMcEarnings ? "Loading..." : "Scrape MoneyControl Earnings"}
-                          </button>
-                        </div>
-                      ) : null}
+                        </tbody>
+                      </table>
                     </div>
                   )}
                 </div>
-              );
-            })()}
+
+                {/* NSE & BSE DATA CARDS */}
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                  {/* NSE Card */}
+                  <div className="bg-black/40 border border-cyan-400/20 rounded-xl p-5">
+                    <div className="flex justify-between items-center mb-4">
+                      <div className="flex items-center gap-2">
+                        <TrendingUp className="w-5 h-5 text-cyan-400" />
+                        <h3 className="font-mono text-sm font-bold text-cyan-400 uppercase">NSE India</h3>
+                      </div>
+                      <button
+                        onClick={handleFetchNSEData}
+                        disabled={isFetchingNSE}
+                        className="px-3 py-1.5 bg-cyan-400/20 hover:bg-cyan-400 hover:text-black border border-cyan-400/30 text-cyan-400 text-[10px] font-mono rounded transition-all disabled:opacity-50"
+                      >
+                        {isFetchingNSE ? "Loading..." : "Fetch"}
+                      </button>
+                    </div>
+
+                    {/* Market Status */}
+                    {nseData?.market_status && (
+                      <div className="mb-4 p-3 bg-black/40 rounded-lg border border-cyan-400/10">
+                        <div className="text-[10px] text-neutral-400 font-mono">Market Status</div>
+                        <div className="text-sm text-white font-mono mt-1">
+                          {nseData.market_status.status}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Top Gainers */}
+                    {nseData?.top_gainers?.length > 0 && (
+                      <div className="mb-3">
+                        <div className="text-[10px] font-mono text-emerald-400 mb-2 uppercase">Top Gainers</div>
+                        <div className="space-y-2 max-h-[150px] overflow-y-auto">
+                          {nseData.top_gainers.slice(0, 5).map((g: any, i: number) => (
+                            <div key={`nse-g-${i}`} className="flex justify-between text-xs font-mono p-2 bg-black/30 rounded">
+                              <span className="text-white">{g.symbol}</span>
+                              <span className="text-emerald-400">+{g.changePercent?.toFixed(2)}%</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* IPOs */}
+                    {nseData?.ipos?.length > 0 && (
+                      <div>
+                        <div className="text-[10px] font-mono text-amber-400 mb-2 uppercase">Current IPOs</div>
+                        <div className="space-y-2 max-h-[120px] overflow-y-auto">
+                          {nseData.ipos.slice(0, 4).map((ipo: any, i: number) => (
+                            <div key={`nse-ipo-${i}`} className="text-xs font-mono p-2 bg-black/30 rounded">
+                              <div className="text-white truncate">{ipo.name}</div>
+                              <div className="text-[10px] text-neutral-400">{ipo.status}</div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Quote Lookup */}
+                    <div className="mt-4 pt-4 border-t border-white/5">
+                      <div className="flex gap-2">
+                        <input
+                          type="text"
+                          value={nseQuoteSymbol}
+                          onChange={(e) => setNseQuoteSymbol(e.target.value.toUpperCase())}
+                          placeholder="Symbol (e.g. RELIANCE)"
+                          className="flex-1 px-3 py-1.5 bg-black/40 border border-white/10 rounded text-xs font-mono text-white"
+                        />
+                        <button
+                          onClick={() => fetchNSEQuoteData(nseQuoteSymbol)}
+                          className="px-3 py-1.5 bg-white/10 text-white text-xs font-mono rounded hover:bg-white/20"
+                        >
+                          Get Quote
+                        </button>
+                      </div>
+                      {nseQuote && (
+                        <div className="mt-3 p-3 bg-black/40 rounded-lg text-xs font-mono">
+                          <div className="font-bold text-cyan-400">{nseQuote.symbol}</div>
+                          <div className="text-white text-lg mt-1">Rs {nseQuote.price}</div>
+                          <div className={nseQuote.change >= 0 ? "text-emerald-400" : "text-rose-400"}>
+                            {nseQuote.change >= 0 ? "+" : ""}{nseQuote.change} ({nseQuote.changePercent}%)
+                          </div>
+                        </div>
+                      )}
+                    </div>
+
+                    {nseData?.fetched_at && (
+                      <div className="text-[9px] text-neutral-500 font-mono mt-3 text-right">
+                        Last: {new Date(nseData.fetched_at).toLocaleTimeString()}
+                      </div>
+                    )}
+                  </div>
+
+                  {/* BSE Card */}
+                  <div className="bg-black/40 border border-amber-400/20 rounded-xl p-5">
+                    <div className="flex justify-between items-center mb-4">
+                      <div className="flex items-center gap-2">
+                        <TrendingUp className="w-5 h-5 text-amber-400" />
+                        <h3 className="font-mono text-sm font-bold text-amber-400 uppercase">BSE India</h3>
+                      </div>
+                      <button
+                        onClick={handleFetchBSEData}
+                        disabled={isFetchingBSE}
+                        className="px-3 py-1.5 bg-amber-400/20 hover:bg-amber-400 hover:text-black border border-amber-400/30 text-amber-400 text-[10px] font-mono rounded transition-all disabled:opacity-50"
+                      >
+                        {isFetchingBSE ? "Loading..." : "Fetch"}
+                      </button>
+                    </div>
+
+                    {/* Top Gainers */}
+                    {bseData?.top_gainers?.length > 0 && (
+                      <div className="mb-3">
+                        <div className="text-[10px] font-mono text-emerald-400 mb-2 uppercase">Top Gainers</div>
+                        <div className="space-y-2 max-h-[120px] overflow-y-auto">
+                          {bseData.top_gainers.slice(0, 5).map((g: any, i: number) => (
+                            <div key={`bse-g-${i}`} className="flex justify-between text-xs font-mono p-2 bg-black/30 rounded">
+                              <span className="text-white truncate">{g.company}</span>
+                              <span className="text-emerald-400">+{g.changePercent?.toFixed(2)}%</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Top Losers */}
+                    {bseData?.top_losers?.length > 0 && (
+                      <div className="mb-3">
+                        <div className="text-[10px] font-mono text-rose-400 mb-2 uppercase">Top Losers</div>
+                        <div className="space-y-2 max-h-[120px] overflow-y-auto">
+                          {bseData.top_losers.slice(0, 5).map((l: any, i: number) => (
+                            <div key={`bse-l-${i}`} className="flex justify-between text-xs font-mono p-2 bg-black/30 rounded">
+                              <span className="text-white truncate">{l.company}</span>
+                              <span className="text-rose-400">{l.changePercent?.toFixed(2)}%</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Result Calendar */}
+                    {bseData?.result_calendar?.length > 0 && (
+                      <div className="mb-3">
+                        <div className="text-[10px] font-mono text-cyan-400 mb-2 uppercase">Result Calendar</div>
+                        <div className="space-y-2 max-h-[100px] overflow-y-auto">
+                          {bseData.result_calendar.slice(0, 4).map((r: any, i: number) => (
+                            <div key={`bse-res-${i}`} className="text-xs font-mono p-2 bg-black/30 rounded">
+                              <div className="text-white truncate">{r.company}</div>
+                              <div className="text-[10px] text-neutral-400">{r.boardMeetingDate}</div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Corporate Actions */}
+                    {bseData?.corporate_actions?.length > 0 && (
+                      <div>
+                        <div className="text-[10px] font-mono text-purple-400 mb-2 uppercase">Corporate Actions</div>
+                        <div className="space-y-2 max-h-[100px] overflow-y-auto">
+                          {bseData.corporate_actions.slice(0, 4).map((a: any, i: number) => (
+                            <div key={`bse-act-${i}`} className="text-xs font-mono p-2 bg-black/30 rounded">
+                              <div className="text-white truncate">{a.company}</div>
+                              <div className="text-[10px] text-neutral-400">{a.type} - {a.exDate}</div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Quote Lookup */}
+                    <div className="mt-4 pt-4 border-t border-white/5">
+                      <div className="flex gap-2">
+                        <input
+                          type="text"
+                          value={bseQuoteCode}
+                          onChange={(e) => setBseQuoteCode(e.target.value)}
+                          placeholder="Scrip Code (e.g. 500325)"
+                          className="flex-1 px-3 py-1.5 bg-black/40 border border-white/10 rounded text-xs font-mono text-white"
+                        />
+                        <button
+                          onClick={() => fetchBSEQuoteData(bseQuoteCode)}
+                          className="px-3 py-1.5 bg-white/10 text-white text-xs font-mono rounded hover:bg-white/20"
+                        >
+                          Get Quote
+                        </button>
+                      </div>
+                      {bseQuote && (
+                        <div className="mt-3 p-3 bg-black/40 rounded-lg text-xs font-mono">
+                          <div className="font-bold text-amber-400">{bseQuote.company}</div>
+                          <div className="text-white text-lg mt-1">Rs {bseQuote.price}</div>
+                          <div className={bseQuote.change >= 0 ? "text-emerald-400" : "text-rose-400"}>
+                            {bseQuote.change >= 0 ? "+" : ""}{bseQuote.change} ({bseQuote.changePercent}%)
+                          </div>
+                        </div>
+                      )}
+                    </div>
+
+                    {bseData?.fetched_at && (
+                      <div className="text-[9px] text-neutral-500 font-mono mt-3 text-right">
+                        Last: {new Date(bseData.fetched_at).toLocaleTimeString()}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            )}
 
             {/* RESOLVE HEATMAP MODAL COMPONENT */}
             {showResolveModal && (
@@ -4592,18 +4459,18 @@ export default function App() {
                       </h4>
                       <p className="text-xs text-on-surface-variant font-mono">NODE SEGMENT: ORCA-16-MAIN-INF</p>
                     </div>
-                    <button 
+                    <button
                       onClick={() => setShowResolveModal(false)}
                       className="text-on-surface-variant hover:text-white font-mono text-xs bg-white/5 border border-white/10 px-3 py-1 rounded"
                     >
                       CLOSE
                     </button>
                   </div>
-                  
+
                   <div className="h-64 bg-black/40 border border-white/10 rounded-xl overflow-hidden flex items-center justify-center p-2 relative">
-                    <img 
-                      alt="Resolved visual" 
-                      className="absolute inset-0 w-full h-full object-cover opacity-80 select-none animate-pulse" 
+                    <img
+                      alt="Resolved visual"
+                      className="absolute inset-0 w-full h-full object-cover opacity-80 select-none animate-pulse"
                       src="https://lh3.googleusercontent.com/aida-public/AB6AXuDa_ZuEEyryU-z8UrLFBuG8UrfdiCzuuk6yddQbdxCPBqoo93b5EufdWJryvoFNxP29LUp9u1csC_MBe5-xcNlS8bsMFcw6NwZmzBpr54A2nm17uHjAE9qJ5vuSLsGsTLo2hXRVeu5aQPGUlOMPmlmV6HC-88lKb0SSt3_HJhihSTPhlvk7HLIKrNHGkYrQexFfaO2_PkgIssx0LN9IpDNZuKfL-BKV7x6Y5JLl4lFsw9wylvIit31NNQ_d5JlEAqdXWeZ8yjTqqAe8"
                     />
                     <div className="absolute inset-0 bg-cyan-950/40 backdrop-blur-[2px] pointer-events-none"></div>
@@ -4625,7 +4492,7 @@ export default function App() {
         </div>
 
       </main>
-      
+
       {/* BACKGROUND FLOATING EFFECTS FOR KINETIC TERMINAL REAL-TIME FLICKERS */}
       <div className="fixed inset-0 pointer-events-none -z-10 overflow-hidden">
         <div className="absolute inset-0 opacity-[0.12]" style={{ backgroundImage: "radial-gradient(rgba(255, 255, 255, 0.20) 1.5px, transparent 1.5px)", backgroundSize: "60px 60px" }}></div>
