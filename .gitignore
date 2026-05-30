@@ -7,3 +7,6 @@ coverage/
 .env*
 !.env.example
 .env
+data/
+*.json
+temp_nse_downloads/
