@@ -1,6 +1,0 @@
-{
-  "name": "ORCA_v16 Alpha Terminal",
-  "description": "High-performance institutional active alpha terminal with stock scoring analytics, recalibration engine, market news feeds, and execution pipeline metrics.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
