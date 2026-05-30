@@ -1,124 +1,64 @@
 {
-  "fetched_at": "2026-05-29T11:09:20.557Z",
+  "fetched_at": "2026-05-30T04:00:45.475Z",
   "result_calendar": [
     {
-      "name": "Upcoming Results",
-      "symbol": "UPCOMINGRE",
-      "result_date": "29/5/2026",
+      "name": "Inox Wind",
+      "symbol": "INOXWIND",
+      "result_date": "30 May",
       "sector": ""
     },
     {
-      "name": "Declared Results",
-      "symbol": "DECLAREDRE",
-      "result_date": "29/5/2026",
+      "name": "Fert Chem Travancore",
+      "symbol": "FACT",
+      "result_date": "30 May",
       "sector": ""
     },
     {
-      "name": "Sector Aggregates",
-      "symbol": "SECTORAGGR",
-      "result_date": "29/5/2026",
+      "name": "Jyoti CNC Automation",
+      "symbol": "JYOTICNC",
+      "result_date": "30 May",
       "sector": ""
     },
     {
-      "name": "View all Upcoming Calendar",
-      "symbol": "VIEWALLUPC",
-      "result_date": "29/5/2026",
+      "name": "Triveni Engg. & Inds",
+      "symbol": "TRIVENI",
+      "result_date": "30 May",
       "sector": ""
     },
     {
-      "name": "Asian Paints' board announces Rs 23/share dividend",
-      "symbol": "ASIANPAINT",
-      "result_date": "5/29/2026",
+      "name": "Interglobe Aviation",
+      "symbol": "INDIGO",
+      "result_date": "30 May",
       "sector": ""
     },
     {
-      "name": "Asian Paints Q4 Results: Net profit surges 69% YoY",
-      "symbol": "ASIANPAINT",
-      "result_date": "5/29/2026",
+      "name": "Mishra Dhatu Nigam",
+      "symbol": "MIDHANI",
+      "result_date": "30 May",
       "sector": ""
     },
     {
-      "name": "Bharat Dynamics Q4 Results: Net profit tumbles 59%",
-      "symbol": "BHARATDYNA",
-      "result_date": "29/5/2026",
+      "name": "Ipca Laboratories",
+      "symbol": "IPCALAB",
+      "result_date": "30 May",
       "sector": ""
     },
     {
-      "name": "GP Petroleums Q4 profit rises 8%",
-      "symbol": "GPPETROLEU",
-      "result_date": "29/5/2026",
+      "name": "Tega Industries",
+      "symbol": "TEGA",
+      "result_date": "30 May",
       "sector": ""
     },
     {
-      "name": "Timex Group India posts Rs 800 crore revenue for F",
-      "symbol": "TIMEXGROUP",
-      "result_date": "29/5/2026",
+      "name": "Concord Biotech",
+      "symbol": "CONCORDBIO",
+      "result_date": "30 May",
       "sector": ""
     },
     {
-      "name": "Senco Gold Q4 Results: Profit skyrockets 151% to R",
-      "symbol": "SENCOGOLDQ",
-      "result_date": "29/5/2026",
-      "sector": ""
-    },
-    {
-      "name": "Contract manufacturer Aequs posts 33% growth in re",
-      "symbol": "CONTRACTMA",
-      "result_date": "29/5/2026",
-      "sector": ""
-    },
-    {
-      "name": "JK Tyre Q4 Results: Profit soars 80% to Rs 178 cro",
-      "symbol": "JKTYREQ4",
-      "result_date": "29/5/2026",
-      "sector": ""
-    },
-    {
-      "name": "View all sales gainers Results",
-      "symbol": "VIEWALLSAL",
-      "result_date": "29/5/2026",
-      "sector": ""
-    },
-    {
-      "name": "Telecommunications",
-      "symbol": "TELECOMMUN",
-      "result_date": "29/5/2026",
-      "sector": ""
-    },
-    {
-      "name": "Metals - Ferrous",
-      "symbol": "METALS-FER",
-      "result_date": "29/5/2026",
-      "sector": ""
-    },
-    {
-      "name": "Learning & Education",
-      "symbol": "LEARNING&E",
-      "result_date": "29/5/2026",
-      "sector": ""
-    },
-    {
-      "name": "Agriculture/Horticulture/Livestock",
-      "symbol": "AGRICULTUR",
-      "result_date": "29/5/2026",
-      "sector": ""
-    },
-    {
-      "name": "Gems and Jewellery",
-      "symbol": "GEMSANDJEW",
-      "result_date": "29/5/2026",
-      "sector": ""
-    },
-    {
-      "name": "View all Top Performing Sectors",
-      "symbol": "VIEWALLTOP",
-      "result_date": "29/5/2026",
-      "sector": ""
-    },
-    {
-      "name": "Stellar Earnings GrowthList of stocks which have g",
-      "symbol": "STELLAREAR",
-      "result_date": "29/5/2026",
+      "name": "Natco Pharma",
+      "symbol": "NATCOPHARM",
+      "result_date": "30 May",
       "sector": ""
     }
   ],
